@@ -12,3 +12,4 @@ global_params_PRODUCTION_IGNORE.inc
 # Misc stuff
 tnrs_db_4.0_todo.txt
 bak/
+backups/
