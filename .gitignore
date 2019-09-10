@@ -1,0 +1,14 @@
+# Ignore production data directories
+import_gcc/data/
+import_ncbi/data/
+import_tpl/data/
+import_tropicos/data/
+import_usda/data/
+load_core_db/data
+
+# Ignore production params file
+global_params_PRODUCTION_IGNORE.inc
+
+# Misc stuff
+tnrs_db_4.0_todo.txt
+bak/

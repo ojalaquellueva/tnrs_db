@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `fuzzyMatch`;
+DROP TABLE IF EXISTS `name_lexicalGroup`;
+DROP TABLE IF EXISTS `lexicalGroup`;
+DROP TABLE IF EXISTS `synonym`;
+DROP TABLE IF EXISTS `classification`;
+DROP TABLE IF EXISTS `name_source`;
+DROP TABLE IF EXISTS `name`;
+DROP TABLE IF EXISTS `source`;
+DROP TABLE IF EXISTS `reference`;

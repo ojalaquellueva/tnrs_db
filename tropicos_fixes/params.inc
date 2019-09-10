@@ -1,0 +1,11 @@
+<?php
+
+//////////////////////////////////////////////////
+// Name and location of input file required
+// for noOpNames fix
+//////////////////////////////////////////////////
+
+$dataDir = "data/";
+$noOpNamesFile="noOpNamesResults.txt";
+
+?>
