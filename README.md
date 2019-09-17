@@ -1,22 +1,24 @@
 # TNRS DATABASE LOADING SCRIPTS
 
-Purpose: Creates, populates and indexes the TNRS database
-See: http://tnrs.iplantcollaborative.org/
-Author: Brad Boyle (ojalaquellueva@gmail.com)
-Latest update: 27 March 2019
-Version: 4.1
-Compatible with new TNRSbatch application and TNRSapi
+**Purpose:** Creates, populates and indexes the TNRS database  
+**Author:** Brad Boyle (ojalaquellueva@gmail.com)  
+**Dependent applications:**  
+* TNRS web application: `http://tnrs.iplantcollaborative.org/`  
+* TNRS batch application: `https://github.com/ojalaquellueva/TNRSbatch`  
+* TNRS api: `https://github.com/ojalaquellueva/TNRSapi`  
+* TNRS R package: `https://github.com/EnquistLab/RTNRS`
 
-#### NOTE: This README not yet fully coverted the Git Markdown, some formatting may be wonky
+## IMPORTANT!
+* This repository is a fork of the now-deprecated sub-repository `https://github.com/iPlantCollaborativeOpenSource/TNRS/tree/master/tnrs3_db_scripts`, which it replaces
 
 ## CONTENTS
-INTRODUCTION  
+[INTRODUCTION](#introduction)  
 VERSION  
 REQUIREMENTS  
   SOFTWARE  
   COMPATIBILITY  
   SOURCE DATA   
-INSTRUCTIONS  
+[INSTRUCTIONS](#instructions)  
   TEST BUILD  
   BUILD OF CURRENT TNRS PRODUCTION DATABASE  
   BUILD OF TNRS DATABASE USING REFRESHED DATA FOR EXISTING SOURCES  
