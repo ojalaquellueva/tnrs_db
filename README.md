@@ -20,12 +20,12 @@
   * [SOURCE DATA](#source-data)   
 * [OVERVIEW OF TNRS DATABASE CONSTRUCTION](#overview-of-tnrs-database-construction)  
 * [INSTRUCTIONS](#instructions)  
-  * [TEST DB BUILD](#test-db-build)  
-  * [BUILD CURRENT TNRS PRODUCTION DATABASE](#build-current-tnrs-production-database)  
+  * [TEST DB](#test-db)  
+  * [CURRENT TNRS PRODUCTION DATABASE](#current-tnrs-production-database)  
   * [REFRESH DATA FOR EXISTING SOURCES](#refresh-data-for-existing-sources)  
-  * [ADD NEW SOURCE - TNRS SIMPLE DARWIN CORE](#addi-new-source---tnrs-simple-darwin-core)  
+  * [ADD NEW SOURCE - TNRS SIMPLE DARWIN CORE](#add-new-source---tnrs-simple-darwin-core)  
   * [ADD NEW SOURCE - OTHER FORMATS](#add-new-source---other-formats)  
-[CHANGE LOG](#change-log)  
+* [CHANGE LOG](#change-log)  
 
 ## INTRODUCTION
 
@@ -128,7 +128,7 @@ script calls all others. Prior to running this script:
 3. Set source-specific parameters in the params.inc file for that source (also 
    in import directory).
 
-### TEST DB BUILD
+### TEST DB
 
 For a preliminary test build (recommended) of the TNRS database using small 
 extracts of a subset of data sources, do the following.
@@ -158,7 +158,7 @@ php load_tnrs.php
 
 Example database build should complete in under a minute.
 
-### CURRENT TNRS PRODUCTION DATABASE BUILD
+### CURRENT TNRS PRODUCTION DATABASE
 
 For a complete build of the current TNRS database (ver. 4.0) using all 
 existing data sources, do the following.
