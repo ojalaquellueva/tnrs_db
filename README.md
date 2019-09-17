@@ -29,9 +29,7 @@
 
 ## INTRODUCTION
 
-Files in this directory and subdirectories contains all scripts and data needed to build the current (as of 13 Jan. 2016) reference database for the iPlant 
-Taxonomic Name Resolution Service or TNRS (http://tnrs.iplantcollaborative.org). You should also use these scripts to update existing data sources or add new  data sources. 
-
+Files in this repository contains all scripts needed to build the current (v4.0) reference database for the iPlant Taxonomic Name Resolution Service or TNRS (http://tnrs.iplantcollaborative.org). You can also use these scripts to build a custom TNRS database using your own taxonomic sources, and to add new  data sources to an existing TNRS database.
 
 ## VERSION
 
@@ -83,7 +81,9 @@ This section provides an over of the major steps performed by the TNRS DB
 loading files. Files performing a set of related operations are group into a 
 single directory, where they are called by a single master scripts bearing the
 same base name as the containing directory. The master script (extension .php) 
-calls all others (extensions .inc). The main steps are as follows:
+calls all others (extensions .inc). 
+
+The main steps are as follows:
 
 1. `create_tnrs_core.php` (in create\_tnrs\_core/)
    * Creates empty tnrs database
