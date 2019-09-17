@@ -20,12 +20,11 @@
   [SOURCE DATA](#source-data)   
 [INSTRUCTIONS](#instructions)  
   [TEST BUILD](#test-build)  
-  [BUILD CURRENT TNRS PRODUCTION DATABASE](#  build-current-tnrs-production-database)
+  [BUILD CURRENT TNRS PRODUCTION DATABASE](#build-current-tnrs-production-database)  
   [REFRESH DATA FOR EXISTING SOURCES](#refresh-data-for-existing-sources)  
   [ADDING NEW SOURCES - SIMPLIFIED DARWIN CORE](#adding-new-sources---simplified-darwin-core)  
   [ADDING NEW SOURCES - OTHER FORMATS](#adding-new-sources---other-formats)    
 [CHANGE LOG](#change-log)  
-[AUTHOR & CONTACT INFORMATION](#author-&-contact-information)  
 
 ## INTRODUCTION
 
@@ -329,7 +328,3 @@ Version 4.1 (27 March 2019)
 
 1. Updated PHP code  to php7.2
 2. Updated main README and README for dwcExample
-
-## AUTHOR & CONTACT INFORMATION
-Brad Boyle  
-bboyle@email.arizona.edu  
