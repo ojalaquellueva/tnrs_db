@@ -13,19 +13,19 @@
 
 ## CONTENTS
 [INTRODUCTION](#introduction)  
-VERSION  
-REQUIREMENTS  
-  SOFTWARE  
-  COMPATIBILITY  
-  SOURCE DATA   
+[VERSION](#version)  
+[REQUIREMENTS](#requirements)  
+  [SOFTWARE](#software)  
+  [COMPATIBILITY](#compatibility)  
+  [SOURCE DATA](#source-data)   
 [INSTRUCTIONS](#instructions)  
-  TEST BUILD  
-  BUILD OF CURRENT TNRS PRODUCTION DATABASE  
-  BUILD OF TNRS DATABASE USING REFRESHED DATA FOR EXISTING SOURCES  
-  ADDING NEW SOURCES - SIMPLIFIED DARWIN CORE  
-  ADDING NEW SOURCES - NOT SIMPLIFIED DARWIN CORE    
-CHANGE LOG  
-AUTHOR & CONTACT INFORMATION  
+  [TEST BUILD](#test-build)  
+  [BUILD CURRENT TNRS PRODUCTION DATABASE](#  build-current-tnrs-production-database)
+  [REFRESH DATA FOR EXISTING SOURCES](#refresh-data-for-existing-sources)  
+  [ADDING NEW SOURCES - SIMPLIFIED DARWIN CORE](#adding-new-sources---simplified-darwin-core)  
+  [ADDING NEW SOURCES - OTHER FORMATS](#adding-new-sources---other-formats)    
+[CHANGE LOG](#change-log)  
+[AUTHOR & CONTACT INFORMATION](#author-&-contact-information)  
 
 ## INTRODUCTION
 
@@ -155,13 +155,11 @@ terminal screen. To avoid tying up a terminal or accidentally aborting due to a
 lost connection, I recommend running the process remotely using the unix 
 "screen" utility.
 
-### BUILD OF TNRS DATABASE USING REFRESHED DATA FOR EXISTING SOURCES
+### REFRESH DATA FOR EXISTING SOURCES
 
 The procedure to refresh one or more data sources, keeping all remaining data 
 sources unchanged, is identical to the procedure above. The only difference is
-that you must first replace the old raw data file for the source to be refreshed
-with the new (refreshed) data file, and update any source-specific parameters
-as needed.
+that you must first replace the old raw data file for the source to be refreshed with the new (refreshed) data file, and update any source-specific parameters as needed.
 
 For example, if you are refreshing ONLY the data for Tropicos, do the following:
 
