@@ -12,18 +12,19 @@
 * This repository is a fork of the now-deprecated sub-repository `https://github.com/iPlantCollaborativeOpenSource/TNRS/tree/master/tnrs3_db_scripts`, which it replaces
 
 ## CONTENTS
-[INTRODUCTION](#introduction)  
-[VERSION](#version)  
-[REQUIREMENTS](#requirements)  
-  [SOFTWARE](#software)  
-  [COMPATIBILITY](#compatibility)  
-  [SOURCE DATA](#source-data)   
-[INSTRUCTIONS](#instructions)  
-  [TEST BUILD](#test-build)  
-  [BUILD CURRENT TNRS PRODUCTION DATABASE](#build-current-tnrs-production-database)  
-  [REFRESH DATA FOR EXISTING SOURCES](#refresh-data-for-existing-sources)  
-  [ADDING NEW SOURCES - SIMPLIFIED DARWIN CORE](#adding-new-sources---simplified-darwin-core)  
-  [ADDING NEW SOURCES - OTHER FORMATS](#adding-new-sources---other-formats)    
+* [INTRODUCTION](#introduction)  
+* [VERSION](#version)  
+* [REQUIREMENTS](#requirements)
+  * [SOFTWARE](#software)  
+  * [TNRS COMPATIBILITY](#tnrs-compatibility)  
+  * [SOURCE DATA](#source-data)   
+* [OVERVIEW OF TNRS DATABASE CONSTRUCTION](#overview-of-tnrs-database-construction)  
+* [INSTRUCTIONS](#instructions)  
+  * [TEST DB BUILD](#test-db-build)  
+  * [BUILD CURRENT TNRS PRODUCTION DATABASE](#build-current-tnrs-production-database)  
+  * [REFRESH DATA FOR EXISTING SOURCES](#refresh-data-for-existing-sources)  
+  * [ADD NEW SOURCE - TNRS SIMPLE DARWIN CORE](#addi-new-source---tnrs-simple-darwin-core)  
+  * [ADD NEW SOURCE - OTHER FORMATS](#add-new-source---other-formats)  
 [CHANGE LOG](#change-log)  
 
 ## INTRODUCTION
@@ -76,6 +77,45 @@ in the respective import directories.
   handle these changes.
 
 
+## OVERVIEW OF TNRS DATABASE CONSTRUCTION
+
+This section provides an over of the major steps performed by the TNRS DB 
+loading files. Files performing a set of related operations are group into a 
+single directory, where they are called by a single master scripts bearing the
+same base name as the containing directory. The master script (extension .php) 
+calls all others (extensions .inc). The main steps are as follows:
+
+1. `create_tnrs_core.php` (in create\_tnrs\_core/)
+   * Creates empty tnrs database
+2. `import.php` (in import\_[sourceName]/) 
+   * Imports raw data for an individual taxonomic source into MySQL and 
+   performs initial loading to the staging table (nameStaging)
+   * Steps specific to an individual source are in this directory
+3. `prepare_staging.php` (in prepare\_staging/)
+   * Finishes structuring and populating staging table (nameStaging)
+   * These operations are universal, not source-specific
+4. `load_core_db.php` (in load\_core\_db/)
+   * Normalizes the contents of the staging table to the core database
+5. `make_genus_family_lookups.php` (in genus\_family\_lookups/)
+   * Builds lookup tables of current and historic genus-in-family 
+   classifications, based on GRIN taxonomy website
+6. `taxamatch_tables.php` (in taxamatch\_tables/)
+   * Denormalizes names in core database into lookup tables used by TaxaMatch 
+   fuzzy matching application
+7. `build_classifications.php` (in build\_classifications/)
+   * Builds table 'higherClassification', which classifies all names from all 
+     sources according to any source for which isHigherClassification=1 (set in 
+     params.inc for that source)
+
+For a build from multiple sources, step 1 is run ONCE. Steps 2-4 are run for EACH source. Finally, steps 5-7 are run ONCE.
+
+The entire process is sequenced by the master script load\_tnrs.php, which calls all others. Before running this script, you MUST set global parameters (in global\_params.inc) and source-specific parameters (in params.inc in the 
+import directory for each source). See instructions in load\_tnrs.php, 
+global\_params.inc. For details on setting source-specific parameters, see the 
+readme file in import\_dwcExample/.
+
+An individual source can be refreshed without rebuilding the entire database by loading source only and setting $replace\_db=false (in global\_params.inc). This will run steps 2-7 above, replacing only names linked uniquely to the source in question. For a faster replace, set $replace=false in params.inc for the source being refreshed. Only entirely new names from that source will be added. Existing names (and metadata such as source urls and date of access) will not be changed. WARNING: Reloading of individual sources not recommended until this option has been updated.
+
 ## INSTRUCTIONS
 
 The file "load\_tnrs.php" runs a complete build of the TNRS database. This 
@@ -88,7 +128,7 @@ script calls all others. Prior to running this script:
 3. Set source-specific parameters in the params.inc file for that source (also 
    in import directory).
 
-### TEST BUILD
+### TEST DB BUILD
 
 For a preliminary test build (recommended) of the TNRS database using small 
 extracts of a subset of data sources, do the following.
@@ -118,7 +158,7 @@ php load_tnrs.php
 
 Example database build should complete in under a minute.
 
-### BUILD OF CURRENT TNRS PRODUCTION DATABASE
+### CURRENT TNRS PRODUCTION DATABASE BUILD
 
 For a complete build of the current TNRS database (ver. 4.0) using all 
 existing data sources, do the following.
@@ -148,10 +188,7 @@ $src_array=array(
 php load_tnrs.php
 ```
 
-Database build should take several hours to a full day, depending
-on system resources. Each step, including any errors detected, will echo to the
-terminal screen. To avoid tying up a terminal or accidentally aborting due to a
-lost connection, I recommend running the process remotely using the unix 
+Database build should take several hours to a full day, depending on system resources. Each step, including any errors detected, will echo to the terminal screen. To avoid tying up a terminal or accidentally aborting due to a lost connection, I recommend running the process remotely using the unix 
 "screen" utility.
 
 ### REFRESH DATA FOR EXISTING SOURCES
@@ -180,13 +217,9 @@ diagnose how the new data dump differs from the previous source, and either (a) 
 
 Note that refreshing one or more sources requires rebuilding the entire 
 database. Although the global parameters file (global\_params.inc) contains a 
-parameter that in theory allows you to refresh only an individual source within
-an existing database (this is done by setting "$replace\_db = false;"), I do NOT
-recommend you use this option. This option has not been tested since several
-major changes were made to the database scripts, and may introduce anomalies if
-used.
+parameter that in theory allows you to refresh only an individual source within an existing database (this is done by setting "$replace\_db = false;"), I do NOT recommend you use this option. This option has not been tested since several major changes were made to the database scripts, and may introduce anomalies if used.  
 
-### ADDING NEW SOURCES - TNRS SIMPLE DARWIN CORE
+### ADD NEW SOURCE - TNRS SIMPLE DARWIN CORE
 
 This simplest way to build a custom TNRS database which includes one or more 
 new data sources this is to ensure that the data extract for each source 
@@ -229,7 +262,7 @@ Once each new source has been test-loaded separately, you may then perform a
 complete build by modifying $src\_array to include the codes for all data 
 sources.
 
-### ADDING NEW SOURCES - OTHER FORMATS
+### ADD NEW SOURCE - OTHER FORMATS
 
 If for some reason you cannot restructure the new data to conform to the
 TNRS Simplified Darwin Core Schema, you will need to write a new set
@@ -249,46 +282,6 @@ of custom import scripts. As a general approach to learn how to write a custom i
    the new database and example the contents of the staging table. If you can
    import your data into this table and ensure that it satisfied all key 
    valdations, then it will import successfully to the final database.
-
-
-## OVERVIEW OF THE STEPS IN BUILDING THE TNRS DATABASE
-
-This section provides an over of the major steps performed by the TNRS DB 
-loading files. Files performing a set of related operations are group into a 
-single directory, where they are called by a single master scripts bearing the
-same base name as the containing directory. The master script (extension .php) 
-calls all others (extensions .inc). The main steps are as follows:
-
-1. `create_tnrs_core.php` (in create\_tnrs\_core/)
-   * Creates empty tnrs database
-2. `import.php` (in import\_[sourceName]/) 
-   * Imports raw data for an individual taxonomic source into MySQL and 
-   performs initial loading to the staging table (nameStaging)
-   * Steps specific to an individual source are in this directory
-3. `prepare_staging.php` (in prepare\_staging/)
-   * Finishes structuring and populating staging table (nameStaging)
-   * These operations are universal, not source-specific
-4. `load_core_db.php` (in load\_core\_db/)
-   * Normalizes the contents of the staging table to the core database
-5. `make_genus_family_lookups.php` (in genus\_family\_lookups/)
-   * Builds lookup tables of current and historic genus-in-family 
-   classifications, based on GRIN taxonomy website
-6. `taxamatch_tables.php` (in taxamatch\_tables/)
-   * Denormalizes names in core database into lookup tables used by TaxaMatch 
-   fuzzy matching application
-7. `build_classifications.php` (in build\_classifications/)
-   * Builds table 'higherClassification', which classifies all names from all 
-     sources according to any source for which isHigherClassification=1 (set in 
-     params.inc for that source)
-
-For a build from multiple sources, step 1 is run ONCE. Steps 2-4 are run for EACH source. Finally, steps 5-7 are run ONCE.
-
-The entire process is sequenced by the master script load\_tnrs.php, which calls all others. Before running this script, you MUST set global parameters (in global\_params.inc) and source-specific parameters (in params.inc in the 
-import directory for each source). See instructions in load\_tnrs.php, 
-global\_params.inc. For details on setting source-specific parameters, see the 
-readme file in import\_dwcExample/.
-
-An individual source can be refreshed without rebuilding the entire database by loading source only and setting $replace\_db=false (in global\_params.inc). This will run steps 2-7 above, replacing only names linked uniquely to the source in question. For a faster replace, set $replace=false in params.inc for the source being refreshed. Only entirely new names from that source will be added. Existing names (and metadata such as source urls and date of access) will not be changed. WARNING: Reloading of individual sources not recommended until this option has been updated.
 
 ## CHANGE LOG
 
