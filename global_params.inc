@@ -59,17 +59,13 @@
 // in the online menu of sources
 $src_array=array(
 	"tpl",
-	"gcc",
-	"ildis",
 	"tropicos",
-	"usda",
-	"ncbi"
+	"usda"
 );
 
 // Un-comment the following for a test build using example data
 $src_array=array(
 	"dwcExample",
-	"gccExample",
 	"usdaExample"
 );
 
@@ -181,7 +177,7 @@ $backup_staging=true;
 $backup_by_source = true;
 
 // directory, relative to this script, for saving database backups
-$BACKUP_DIR = "backups/";
+$BACKUP_DIR = "../backups/";
 
 //////////////////////////////////////////////////
 // Error-reporting & runtime behavior
