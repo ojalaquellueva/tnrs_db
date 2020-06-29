@@ -29,7 +29,7 @@
 
 ## INTRODUCTION
 
-Files in this repository contains all scripts needed to build the current (v4.0) reference database for the iPlant Taxonomic Name Resolution Service or TNRS (http://tnrs.iplantcollaborative.org). You can also use these scripts to build a custom TNRS database using your own taxonomic sources, and to add new  data sources to an existing TNRS database.
+Files in this repository contains all scripts needed to build the current (v4.0) reference database for the Taxonomic Name Resolution Service or TNRS (http://tnrs.iplantcollaborative.org). You can also use these scripts to build a custom TNRS database using your own taxonomic sources, and to add new  data sources to an existing TNRS database.
 
 ## VERSION
 
