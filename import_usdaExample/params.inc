@@ -30,7 +30,7 @@ $dateAccessed="2012-03-15";
 // Use as default classification for building taxamatch tables
 // If you set this to true, all other sources will be
 // set to false
-$is_default=false;	
+$is_default=true;	
 
 // Set to 1 if there are any issues/warnings associated with this database
 // For now the further details of the warning are handled by the ui; may

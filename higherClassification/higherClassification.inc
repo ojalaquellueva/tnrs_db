@@ -12,6 +12,9 @@
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 
+// Default name for unknown families
+$family_unknown="[Family_unknown]";
+
 //////////////////////////////////////////////////
 // Main script
 //////////////////////////////////////////////////
@@ -69,6 +72,29 @@ If ($num_rows=0) die("No higher classification sources in database.\r\n");
 $src_no=1;
 
 //////////////////////////////////////////////////
+// Insert dummy uknown family
+// Keeps from failing is no family found in 
+// classification source
+//////////////////////////////////////////////////
+echo "Inserting dummy record for unknow family to table name:\r\n";
+$sql="
+	INSERT INTO name (
+	scientificName, 
+	nameRank, 
+	scientificNameWithAuthor, 
+	isHybrid
+	) 
+	values (
+	'$family_unknown',
+	'family',
+	'$family_unknown',
+	0
+	);
+";
+$msg_error="Failed to insert dummy family to table name!\r\n";
+sql_execute($dbh, $sql,TRUE,$echo_on,'',$msg_error);
+
+//////////////////////////////////////////////////
 // Do for each higher classification source
 //////////////////////////////////////////////////
 while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
@@ -109,8 +135,21 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 		FROM `classification`
 		WHERE sourceID=$classificationSourceID;
 	";
-	$msg_error="Failed insert records!\r\n";
+	$msg_error="Failed to insert records!\r\n";
 	sql_execute($dbh, $sql,TRUE,$echo_on,'',$msg_error);
+
+	// Update nameID for family
+	$sql="
+		UPDATE name n JOIN name_source ns
+		ON n.nameID=ns.nameID
+		JOIN higherClassificationTemp h 
+		ON n.scientificName=h.family
+		SET h.familyNameID=n.nameID
+		WHERE ns.sourceID=$classificationSourceID
+		;
+	";
+	$msg_error="Failed to update familyNameID!\r\n";
+	sql_execute($dbh, $sql,TRUE,$echo_on,'',$msg_error);	
 	
 	// Update details
 	$sql="
@@ -141,6 +180,24 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 		WHERE h.nameParts>2 AND n.nameParts>2
 	";
 	$msg_error="Failed to update name & rank in table newClassification!\r\n";
+	sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
+
+	//////////////////////////////////////////////////
+	// Insert dummy unknown family if missing
+	//////////////////////////////////////////////////
+
+	echo "  Populating NULL families (if applicable)...";
+	$sql ="
+		UPDATE higherClassificationTemp h 
+		SET 
+		family='$family_unknown',
+		familyNameID=(
+		SELECT nameID FROM name WHERE scientificName='$family_unknown'
+		)
+		WHERE family IS NULL OR familyNameID IS NULL
+		;
+	";
+	$msg_error="Failed to update NULL families!\r\n";
 	sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
 
 	//////////////////////////////////////////////////

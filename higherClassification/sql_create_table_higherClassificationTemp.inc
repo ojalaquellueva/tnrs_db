@@ -5,6 +5,9 @@
 // in each classification source, plus all names at level of 
 // species and below from all other sources. Populates field
 // family according to that source.
+// Note that familyNameID can be NULL, unlike table 
+//  higherClassification. This is because familyNameID in the
+// temp table is populated *after* adding the record.
 ////////////////////////////////////////////////////////////////
 
 $sql_create_tables="
@@ -19,7 +22,7 @@ CREATE TABLE higherClassificationTemp (
   canonicalName VARCHAR(250) DEFAULT NULL ,
   nameRank VARCHAR(25) DEFAULT NULL,
   nameParts INTEGER(1) DEFAULT NULL,
-  familyNameID INTEGER UNSIGNED NOT NULL,
+  familyNameID INTEGER UNSIGNED DEFAULT NULL,
   family VARCHAR(100) DEFAULT NULL,
   joinMethod VARCHAR(50) DEFAULT NULL,
   INDEX higherClassificationTemp_classificationSourceID(classificationSourceID),

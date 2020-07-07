@@ -82,13 +82,25 @@ $local_utilities_path="functions/";
 $global_utilities_path="global_utilities/";
 
 //////////////////////////////////////////////////
-// Db connection info
+// Path and name of database configuration file
+// Absolute path or relative to this file
+// Should be outide this repository!
 //////////////////////////////////////////////////
 
-$HOST = "localhost";	// Server name; 'localhost' if this machine
-$USER = "";				// MySQL user name, must have full permissions
-$PWD = "";				// MySQL password
-$DB = "tnrs";			// Name of MySQL database to be created or modified
+$DB_CONFIG_FILE="../config/db_config.php";
+
+//////////////////////////////////////////////////
+// Data directory
+// Set this parameter if keep taxonomic source
+// data outside main application source code
+// directory & repo (recommended). 
+// Data for each source should be inside this 
+// directory, in its own directory with the same 
+// unique $src code, as in $src_array, above.
+// Omit trailing slash
+//////////////////////////////////////////////////
+
+$DATA_DIR="../data/db";
 
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
@@ -146,6 +158,9 @@ require_once $local_utilities_path."class.normalize.php";
 //////////////////////////////////////////////////
 // Backup options
 //////////////////////////////////////////////////
+
+// Load database parameters first
+include $DB_CONFIG_FILE;
 
 // Save intermediate tables to separate backup database?
 // This will save copies of raw data tables

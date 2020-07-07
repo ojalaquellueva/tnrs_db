@@ -62,10 +62,13 @@ $remove_raw_tables=true;
 // Names of files you will be importing
 // Include path to file in name if not in same directory as this script
 
-$filepath = $src_dir."data/";
+$filepath = $src_dir."data/";	// old version; data inside app/repo directory
+$filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 $path = $filepath;	// Keeping this for backward compatibility
-$namesfile = "mbg_name_20141219.csv";
-//$namesfile = "mbg_name_20130324.csv";
+//$namesfile = "mbg_name_20141219.csv";
+$namesfile = "tropicos_names_20200530.csv";
+$namesfile = "tropicos_api_pinaceae_example.csv";
+$namesfile = "tropicos_names_20200530_sample.csv";
 $namesfileandpath = $path.$namesfile;
 
 // names of destination mysql table

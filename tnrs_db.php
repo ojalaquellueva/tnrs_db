@@ -15,6 +15,7 @@
 // Latest revision date: 17 September 2012
 //////////////////////////////////////////////////////////////////
 
+// Load all parameters, including database configuration
 include "global_params.inc";
 
 // Make list of sources

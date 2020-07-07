@@ -153,7 +153,7 @@ $src_array=array(
 2. Run the master script:
 
 ```
-php load_tnrs.php
+php tnrs_db.php
 ```
 
 Example database build should complete in under a minute.
@@ -185,7 +185,7 @@ $src_array=array(
 2. Run the master script:
 
 ```
-php load_tnrs.php
+php tnrs_db.php
 ```
 
 Database build should take several hours to a full day, depending on system resources. Each step, including any errors detected, will echo to the terminal screen. To avoid tying up a terminal or accidentally aborting due to a lost connection, I recommend running the process remotely using the unix 

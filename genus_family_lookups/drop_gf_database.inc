@@ -9,7 +9,7 @@
 
 echo "Dropping database '$DB_NEW'...";
 $sql = "DROP DATABASE IF EXISTS `$DB_NEW`";
-$retval = mysqli_query($dbh,  $sql, $dbh );
+$retval = mysqli_query($dbh,  $sql );
 if($retval) {
 	echo $msg_success;
 }else{

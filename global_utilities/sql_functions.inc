@@ -116,7 +116,7 @@ function db_connect($host,$user,$pwd,$db,$echo_on) {
 	}
 
 	// connect to db
-	if (!mysqli_select_db($db_con, $db,$db_con)) {
+	if (!mysqli_select_db($db_con, $db)) {
 		if ($echo_on) echo "\r\nCould not connect to '$db' database.\r\n";
 		return FALSE;
 	}

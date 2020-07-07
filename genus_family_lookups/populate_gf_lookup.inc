@@ -20,7 +20,7 @@ $query="
 	FROM genus;
 ";
 $result=mysqli_query($dbh, $query);
-$num_rows=mysql_numrows($result);
+$num_rows=mysqli_num_rows($result);
 $curr_row=0;
 
 // Loop through records, adding one at at time to destination table
