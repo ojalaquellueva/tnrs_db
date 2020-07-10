@@ -861,6 +861,37 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 		sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);			
 
 		//////////////////////////////////////////////////
+		// Insert dummy unknown family if missing
+		//////////////////////////////////////////////////
+
+		echo "  Populating NULL families (if applicable)...";
+		$sql ="
+			UPDATE sourceNames h 
+			SET 
+			family='$family_unknown',
+			family_id=(
+			SELECT nameID FROM name WHERE scientificName='$family_unknown'
+			)
+			WHERE family IS NULL OR family_id IS NULL
+			;
+		";
+		$msg_error="Failed to update NULL families!\r\n";
+		sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
+	
+		echo "  Populating NULL newFAmily (if applicable)...";
+		$sql ="
+			UPDATE sourceNames h 
+			SET 
+			newFamily='$family_unknown',
+			newFamilyID=(
+			SELECT nameID FROM name WHERE scientificName='$family_unknown'
+			)
+			WHERE newFamily IS NULL OR newFamilyID IS NULL
+			;
+		";
+		$msg_error="Failed to update NULL families!\r\n";
+		sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
+ 		//////////////////////////////////////////////////
 		// Save results for this source
 		//////////////////////////////////////////////////
 	

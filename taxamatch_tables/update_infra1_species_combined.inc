@@ -8,8 +8,8 @@ $sql_select="SELECT * FROM $src_tbl";
 $outfile=$src_tbl;
 $infile=$desc_tbl;
 
-sql_select_file_from_host($HOST, $USER, $PWD, $DB, $sql_select, $outfile, false);
-
+//sql_select_file_from_host($HOST, $USER, $PWD, $DB, $sql_select, $outfile, false);
+sql_select_file_from_host_nopwd($HOST, $LOGINPATH, $DB, $sql_select, $outfile, false);
 
 $outh = fopen($outfile, "r");
 $inh = fopen($infile, "w");

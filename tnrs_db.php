@@ -78,8 +78,22 @@ include_once "check_dependencies.inc";
 // Start timer and connect to mysql
 echo "\r\nBegin operation\r\n";
 include $timer_on;
-$dbh = mysqli_connect($HOST,$USER,$PWD,FALSE,128);
+
+// Note: no $PWD parameter supplied
+// Credentials MUST be set for this user for the system using the 
+// MySQL Configuration Utility (mysql_config_editor)
+// See: https://dev.mysql.com/doc/refman/5.6/en/mysql-config-editor.html
+// Also: https://stackoverflow.com/a/20854048/2757825
+$dbh = mysqli_connect($HOST, $USER, $PWD, FALSE, 128);
 if (!$dbh) die("\r\nCould not connect to database!\r\n");
+
+
+
+
+//$dbh_nodb = mysqli_connect('localhost', $USER, $PWD);
+//if (!$dbh_nodb) die("\r\nCould not connect to database!\r\n");
+
+
 
 ////////////////////////////////////////////////////////////
 // Generate new empty database
@@ -99,6 +113,12 @@ if ($replace_db) {
 	sql_execute_multiple($dbh, $sql_create_db);
 	echo "done\r\n";
 	
+// 	mysqli_close($dbh_nodb);
+// 	$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
+// 	if (!$dbh) die("\r\nCould not connect to database!\r\n");
+// 
+
+	
 	// Replace core tables
 	// If for some reason you want to keep non-core tables from
 	// a previous database build (for example, fg_lookup)
@@ -108,8 +128,11 @@ if ($replace_db) {
 }
 
 // Re-connect to database, in case previous step skipped
-$sql="USE `".$DB."`;";
-sql_execute_multiple($dbh, $sql);
+//$sql="USE `".$DB."`;";
+//sql_execute_multiple($dbh, $sql);
+mysqli_close($dbh);
+$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
+if (!$dbh) die("\r\nCould not connect to database!\r\n");
 	
 // Check that required functions present in target db
 // Install them if missing
@@ -164,9 +187,10 @@ foreach ($src_array as $src) {
 		$backup_pathfile = $BACKUP_DIR.$backup_file;
 		$tarfile = $backup_pathfile.".tar.gz";
 		echo "\nBacking up db to $backup_pathfile...";
-		$cmd="mysqldump --opt -u $USER --password=$PWD -B $DB > $backup_pathfile";
+		//$cmd="mysqldump --opt -u $USER --password=$PWD -B $DB > $backup_pathfile";
+		$cmd="mysqldump --login-path=local --opt -B $DB > $backup_pathfile";
 		system($cmd);
-		$cmd = "tar -czf $tarfile $backup_pathfile";
+		$cmd = "tar -czf $tarfile $backup_pathfile 2> /dev/null";
 		system($cmd);
 		$cmd = "rm $backup_pathfile";
 		system($cmd);
@@ -193,9 +217,15 @@ include_once "cleanup/tnrs_core_cleanup.inc";
 // based on GRIN genus-family taxonomy
 ////////////////////////////////////////////////////////////
 
+
+
+//exit("\n\nStopping at 'genus-in-family lookup tables'...\n\n");
+
+
+
+
 include $timer_off;
 $resettime = $endtime;
-
 echo "\r\n#############################################\r\n";
 include_once "genus_family_lookups/make_genus_family_lookups.php";
 
@@ -268,7 +298,7 @@ include_once "cleanup/autocleanup.php";
 // Close connection and report total time elapsed 
 //////////////////////////////////////////////////////////////////
 
-mysqli_close($dbh, $dbh);
+mysqli_close($dbh);
 include $timer_off;
 $msg = "\r\nTotal time elapsed: " . $tsecs . " seconds.\r\n"; 
 $msg = $msg . "********* Operation completed " . $curr_time . " *********";

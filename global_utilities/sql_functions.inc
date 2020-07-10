@@ -15,7 +15,23 @@ function sql_select_file_from_host($host, $user, $pwd, $db,  $sql_select, $outfi
 	}
 
 }
- 
+
+function sql_select_file_from_host_nopwd($host, $loginpath, $db,  $sql_select, $outfile, $echo_on) {
+	// runs select statement on remote $host and dumps result to text file
+	// $outfile can be just file name (write to working directory) or contain path as well
+		
+	$command = "mysql --login-path=$loginpath --database=$db --host=$host -e \"$sql_select\"  > $outfile";
+	if ($echo_on) echo $command."\r\n";
+	$result = system($command);
+
+	if ($result=="fail") {
+		return FALSE;
+	} else {
+		return TRUE;
+	}
+
+}
+
 function sql_append_from_file ($host, $user, $pwd, $db, $columns, $infile, $echo_on) {
 	// appends records to table in database $db on $host from local text file $infile
 	// Appends to table with same name as text file, minus the extension
@@ -1049,6 +1065,27 @@ function sql_execute_multiple($db_con, $sqlmultiple) {
 		}
 	}
 }
+
+function sql_execute_multiple2($db_con2, $sqlmultiple) {
+	// executes one or more sql queries by exploding on ";"
+	// if any query fails, dies and reports error
+	// Note that there no need to wrap this in an error handler; it 
+	// automatically dies and report error when any query fails
+	$queries = explode(';', $sqlmultiple);
+	foreach($queries as $sql){
+		$sql=trim($sql).";";
+		
+		if (trim($sql<>";")) {
+			$result = mysqli_query($db_con2, $sql);
+			if (!$result) {
+				$msg = 'Invalid query: ' . mysqli_error($db_con2) . "\n";
+				$msg .= 'Offending SQL: ' . $sql;
+				die($msg);
+			} 
+		}
+	}
+}
+
 
 function sql_check_import_errors($db_con, $src_file,$src_path,$dest_tbl) {
 	/////////////////////////////////////////////////////
