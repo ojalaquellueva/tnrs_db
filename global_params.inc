@@ -4,8 +4,6 @@
 //////////////////////////////////////////////////
 // Loading scripts for TNRS core database
 //
-// DB version: 4.0
-// Last DB scripts revision date: 11 August 2015
 // By: Brad Boyle
 // Contact: bboyle@email.arizona.edu
 // TNRS website: http://tnrs.iplantcollaborative.org/
@@ -33,6 +31,10 @@
 // all main subdirectories!
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
+
+// Database version
+// Required! Added to table meta, along with today's date
+$DB_VERSION="4.1";
 
 //////////////////////////////////////////////////
 // Taxonomy sources
@@ -66,7 +68,8 @@ $src_array=array(
 // Un-comment the following for a test build using example data
 $src_array=array(
 	"dwcExample",
-	"usdaExample"
+	"usdaExample",
+	"tropicos"
 );
 
 //////////////////////////////////////////////////

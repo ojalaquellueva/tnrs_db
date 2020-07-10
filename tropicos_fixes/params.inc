@@ -5,7 +5,8 @@
 // for noOpNames fix
 //////////////////////////////////////////////////
 
-$dataDir = "data/";
+//$dataDir = "data/";
+$dataDir = $DATA_DIR . "/" . "tropicosFixes";
 $noOpNamesFile="noOpNamesResults.txt";
 
 ?>

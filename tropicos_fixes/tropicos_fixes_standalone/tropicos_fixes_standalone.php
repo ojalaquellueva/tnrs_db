@@ -3,8 +3,8 @@
 ////////////////////////////////////////////////////////
 // Apply Tropicos-specific fixes to completed database
 //
-// This is a stand-alone version. Uses options set in
-// params_standalone.inc
+// This is a stand-alone version. Nop art of pipeline.
+// Uses options set params_standalone.inc
 ////////////////////////////////////////////////////////
 
 // Parameters

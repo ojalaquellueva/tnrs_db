@@ -79,27 +79,15 @@ include_once "check_dependencies.inc";
 echo "\r\nBegin operation\r\n";
 include $timer_on;
 
-// Note: no $PWD parameter supplied
-// Credentials MUST be set for this user for the system using the 
-// MySQL Configuration Utility (mysql_config_editor)
-// See: https://dev.mysql.com/doc/refman/5.6/en/mysql-config-editor.html
-// Also: https://stackoverflow.com/a/20854048/2757825
-$dbh = mysqli_connect($HOST, $USER, $PWD, FALSE, 128);
-if (!$dbh) die("\r\nCould not connect to database!\r\n");
-
-
-
-
-//$dbh_nodb = mysqli_connect('localhost', $USER, $PWD);
-//if (!$dbh_nodb) die("\r\nCould not connect to database!\r\n");
-
-
-
 ////////////////////////////////////////////////////////////
 // Generate new empty database
 ////////////////////////////////////////////////////////////
 
 if ($replace_db) {
+	// Open generic connection to MySQL (no database)
+	$dbh = mysqli_connect($HOST, $USER, $PWD, FALSE, 128);
+	if (!$dbh) die("\r\nCould not connect to MySQL!\r\n");
+
 	echo "\r\n#############################################\r\n";
 	echo "Creating new database:\r\n\r\n";	
 	
@@ -112,12 +100,11 @@ if ($replace_db) {
 	";
 	sql_execute_multiple($dbh, $sql_create_db);
 	echo "done\r\n";
-	
-// 	mysqli_close($dbh_nodb);
-// 	$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
-// 	if (!$dbh) die("\r\nCould not connect to database!\r\n");
-// 
 
+	// Close and re-connect to the new database
+	mysqli_close($dbh);
+	$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
+	if (!$dbh) die("\r\nCould not connect to database!\r\n");
 	
 	// Replace core tables
 	// If for some reason you want to keep non-core tables from
@@ -125,14 +112,14 @@ if ($replace_db) {
 	// while replacing the core tables, comment out the
 	// preceding 'sql_execute_multiple' statement
 	include_once "create_tnrs_core/create_tnrs_core.php";
+} else {
+	// Connect to database
+	//$sql="USE `".$DB."`;";
+	//sql_execute_multiple($dbh, $sql);
+	//mysqli_close($dbh);
+	$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
+	if (!$dbh) die("\r\nCould not connect to database!\r\n");
 }
-
-// Re-connect to database, in case previous step skipped
-//$sql="USE `".$DB."`;";
-//sql_execute_multiple($dbh, $sql);
-mysqli_close($dbh);
-$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
-if (!$dbh) die("\r\nCould not connect to database!\r\n");
 	
 // Check that required functions present in target db
 // Install them if missing
@@ -197,6 +184,9 @@ foreach ($src_array as $src) {
 		echo "done\r\n";
 	} 
 	
+	# Rename error tables
+	include "rename_error_tables.inc";
+	
 	$src_no++;	
 	// report time for this source
 	include $timer_off;
@@ -216,13 +206,6 @@ include_once "cleanup/tnrs_core_cleanup.inc";
 // Produce new genus-in-family lookup tables
 // based on GRIN genus-family taxonomy
 ////////////////////////////////////////////////////////////
-
-
-
-//exit("\n\nStopping at 'genus-in-family lookup tables'...\n\n");
-
-
-
 
 include $timer_off;
 $resettime = $endtime;
@@ -277,14 +260,22 @@ if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) 
 
 	echo "\r\n#############################################\r\n";
 	
-	echo "WARNING: Skipping tropicos fixes!\r\n\r\n";
-	//include_once "tropicos_fixes/tropicos_fixes.php";
+	//echo "WARNING: Skipping tropicos fixes!\r\n\r\n";
+	include_once "tropicos_fixes/tropicos_fixes.php";
 
 	include $timer_off;
 	$elapsedtime = $endtime - $resettime;
 	$tsecs = round($elapsedtime,2);	
 	echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
 }
+
+//////////////////////////////////////////////////////////////////
+// Add DB build version and data to table meta
+//////////////////////////////////////////////////////////////////
+
+//echo "\r\n#############################################\r\n";
+//include_once "meta.inc";
+
 
 //////////////////////////////////////////////////////////////////
 // Remove any remaining temporary tables and copy raw data tables

@@ -11,6 +11,7 @@
 
 if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) {
 	include "params.inc";
+	include_once "check_required_files.inc";
 	echo "Applying Tropicos-specific fixes:\r\n";
 	
 	// Retrieve sourceID for tropicos
@@ -47,7 +48,6 @@ if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) 
 	////////////////////////////////////////////////////////
 	if ($apply_tropicos_fix_link_to_acceptedNames) {
 		echo "  Correcting taxonomic status of species linked to invalid genera:\r\n";
-		include_once "check_required_files.inc";
 		include_once "link_to_acceptedNames.inc";
 	}
 }

@@ -16,6 +16,7 @@ $sourceName="tropicos";
 // Can have spaces; not used in any scripts
 // after adding to table `source`
 $sourceNameFull="Missouri Botanical Gardens Tropicos database";
+$sourceNameFull="Tropicos ***SAMPLE ONLY***";
 
 // Primary url for this source (optional)
 $sourceUrl="http://services.tropicos.org/";	
@@ -69,6 +70,7 @@ $path = $filepath;	// Keeping this for backward compatibility
 $namesfile = "tropicos_names_20200530.csv";
 $namesfile = "tropicos_api_pinaceae_example.csv";
 $namesfile = "tropicos_names_20200530_sample.csv";
+//$namesfile = "tropicos_names_20200530_sample_small.csv";
 $namesfileandpath = $path.$namesfile;
 
 // names of destination mysql table

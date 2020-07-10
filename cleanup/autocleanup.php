@@ -55,11 +55,26 @@ if ($use_db_backup && isset($DB_BACKUP)) {
 				";
 				sql_execute_multiple($dbh, $sql);					
 			}
+			
+			# Move error tables to backup db
+			$err_tbls=array(
+				"error_table",
+				"duplicateNames",
+				"orphanSpecies"
+			);
 
+			foreach ($err_tbls as $err_tbl) {
+				$err_tbl_src = $err_tbl . "_" . $src;
+				if ( exists_table($dbh, $err_tbl_src) ) {
+					$sql = "
+						ALTER TABLE $DB.$err_tbl_src 
+						RENAME $DB_BACKUP.$err_tbl_src
+					";
+					sql_execute_multiple($dbh, $sql);
+				}
+			}
 		}
-		
 	}
-	
 } else {
 	// Just drop them
 	

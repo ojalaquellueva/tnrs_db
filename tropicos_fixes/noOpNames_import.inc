@@ -19,8 +19,9 @@ sql_execute_multiple($dbh, $sql);
 echo $done;
 
 echo "    Importing file of 'No Opinion' names...";
+$noOpNamesPathAndFile = $dataDir . "/" . $noOpNamesFile;
 $sql="
-LOAD DATA LOCAL INFILE '/home/boyle/tnrs_data/tropicos/noOpinionNamesTake2/results/noOpNamesResults.txt'
+LOAD DATA LOCAL INFILE '$noOpNamesPathAndFile'
 INTO TABLE noOpNames
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\r\n'

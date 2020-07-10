@@ -30,7 +30,7 @@ $dateAccessed="2012-03-15";
 // Use as default classification for building taxamatch tables
 // If you set this to true, all other sources will be
 // set to false
-$is_default=true;	
+$is_default=false;	
 
 // Set to 1 if there are any issues/warnings associated with this database
 // For now the further details of the warning are handled by the ui; may
@@ -42,7 +42,7 @@ $source_warning=0;
 // to higher taxonomic categories (genus and above) for this source
 // Core database can hold multiple higher classifications;
 // therefore will not affect existing classification systems.
-$is_higher_classification=true;
+$is_higher_classification=false;
 
 // Replace previous records for this source?
 // VERY IMPORTANT

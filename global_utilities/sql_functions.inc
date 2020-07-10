@@ -1066,27 +1066,6 @@ function sql_execute_multiple($db_con, $sqlmultiple) {
 	}
 }
 
-function sql_execute_multiple2($db_con2, $sqlmultiple) {
-	// executes one or more sql queries by exploding on ";"
-	// if any query fails, dies and reports error
-	// Note that there no need to wrap this in an error handler; it 
-	// automatically dies and report error when any query fails
-	$queries = explode(';', $sqlmultiple);
-	foreach($queries as $sql){
-		$sql=trim($sql).";";
-		
-		if (trim($sql<>";")) {
-			$result = mysqli_query($db_con2, $sql);
-			if (!$result) {
-				$msg = 'Invalid query: ' . mysqli_error($db_con2) . "\n";
-				$msg .= 'Offending SQL: ' . $sql;
-				die($msg);
-			} 
-		}
-	}
-}
-
-
 function sql_check_import_errors($db_con, $src_file,$src_path,$dest_tbl) {
 	/////////////////////////////////////////////////////
 	// Compares the number of lines in source file and 
