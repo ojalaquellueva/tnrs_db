@@ -23,7 +23,18 @@ $sourceNameFull="USDA Plants";
 $sourceUrl="http://plants.usda.gov/adv_search.html";
 
 // date of access of raw data
+// MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2020-07-03";
+
+// Version for this data source, as assigned by original data provider
+// Set to empty string ("") if unavailable or not applicable
+$sourceVersion="";
+
+// Version release date
+// Date of release of this source by the original provider
+// MUST by MySQL format date: yyyy-mm-dd
+// Set to empty string ("") if unavailable or not applicable
+$sourceReleaseDate="";
 
 // NOT LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
@@ -63,9 +74,9 @@ $remove_raw_tables=true;
 // Recommend you use subdirectory data/ in this directory
 /////////////////////////////////////////////////////////////////////////////
 
-// Path to data file
-$filepath = $src_dir."data/";
-$path = $filepath;		// for backwards compatibility
+$filepath = $src_dir."data/";	// old version; data inside app/repo directory
+$filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
+$path = $filepath;	// Keeping this for backward compatibility
 
 // Names of files you will be importing
 //$namesfile = "usda_plants_taxonomy_20150117.csv";

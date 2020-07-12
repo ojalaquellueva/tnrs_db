@@ -36,7 +36,19 @@ $base_url_gen_fam = "http://www.theplantlist.org/1.1/browse/";
 $base_url_general_search = "http://www.theplantlist.org/tpl1.1/search?q=";
 
 // date of access of raw data
+// MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2014-03-12";	
+$dateAccessed="2020-06-25";	
+
+// Version for this data source, as assigned by original data provider
+// Set to empty string ("") if unavailable or not applicable
+$sourceVersion="1.1";
+
+// Version release date
+// Date of release of this source by the original provider
+// MUST by MySQL format date: yyyy-mm-dd
+// Set to empty string ("") if unavailable or not applicable
+$sourceReleaseDate="2013-09-01";
 
 // NOT LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB

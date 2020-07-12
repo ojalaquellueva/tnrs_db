@@ -22,7 +22,19 @@ $sourceNameFull="Tropicos ***SAMPLE ONLY***";
 $sourceUrl="http://services.tropicos.org/";	
 
 // date of access of raw data
+// MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2014-12-19";
+$dateAccessed="2020-05-30";
+
+// Version for this data source, as assigned by original data provider
+// Set to empty string ("") if unavailable or not applicable
+$sourceVersion="";
+
+// Version release date
+// Date of release of this source by the original provider
+// MUST by MySQL format date: yyyy-mm-dd
+// Set to empty string ("") if unavailable or not applicable
+$sourceReleaseDate="";
 
 // NOT LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
@@ -66,6 +78,7 @@ $remove_raw_tables=true;
 $filepath = $src_dir."data/";	// old version; data inside app/repo directory
 $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 $path = $filepath;	// Keeping this for backward compatibility
+
 //$namesfile = "mbg_name_20141219.csv";
 $namesfile = "tropicos_names_20200530.csv";
 $namesfile = "tropicos_api_pinaceae_example.csv";

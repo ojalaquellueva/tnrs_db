@@ -36,7 +36,18 @@ $url_genus = "http://www.ildis.org/LegumeWeb?version~10.01&genus~";
 $url_specific = "&species~";
 
 // date of access of raw data
+// MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2012-02-11";	
+
+// Version for this data source, as assigned by original data provider
+// Set to empty string ("") if unavailable or not applicable
+$sourceVersion="";
+
+// Version release date
+// Date of release of this source by the original provider
+// MUST by MySQL format date: yyyy-mm-dd
+// Set to empty string ("") if unavailable or not applicable
+$sourceReleaseDate="";
 
 // NOT LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
