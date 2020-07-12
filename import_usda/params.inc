@@ -23,7 +23,7 @@ $sourceNameFull="USDA Plants";
 $sourceUrl="http://plants.usda.gov/adv_search.html";
 
 // date of access of raw data
-$dateAccessed="2015-01-17";
+$dateAccessed="2020-07-03";
 
 // NOT LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
@@ -68,8 +68,10 @@ $filepath = $src_dir."data/";
 $path = $filepath;		// for backwards compatibility
 
 // Names of files you will be importing
-$namesfile = "usda_plants_taxonomy_20150117.csv";
-//$namesfile = "usdaExample.csv";
+//$namesfile = "usda_plants_taxonomy_20150117.csv";
+$namesfile = "USDA_plants_20200703_sample_small.csv";
+//$namesfile = "USDA_plants_20200703_sample.csv";
+//$namesfile = "USDA_plants_20200703.csv";
 
 $namesfileandpath = $filepath.$namesfile;
 

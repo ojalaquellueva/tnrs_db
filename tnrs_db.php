@@ -273,9 +273,8 @@ if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) 
 // Add DB build version and data to table meta
 //////////////////////////////////////////////////////////////////
 
-//echo "\r\n#############################################\r\n";
-//include_once "meta.inc";
-
+echo "\r\n#############################################\r\n";
+include_once "meta/meta.php";
 
 //////////////////////////////////////////////////////////////////
 // Remove any remaining temporary tables and copy raw data tables
