@@ -13,15 +13,15 @@ include "fix_nulls_raw.inc";
 // import text files to raw data tables
 include "import.inc";
 
+// Source-specific corrections best done on the raw data
+include "correct_raw.inc";
+
 // Transfer contents of original raw data table to
 // simplified DwC table ([sourcename]_dwc), add 
 // "_verbatim" suffix to original table 
 // ([sourcename]_raw_verbatim) and rename DwC 
 // table to [sourcename]_raw.
 include "load_dwc.inc";
-
-// Insert the raw data into simplified DwC table
-include "correct_raw.inc";
 
 // add fields to raw names table to support
 // integer nameID, parentNameID and acceptedNameID

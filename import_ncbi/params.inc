@@ -81,9 +81,13 @@ $default_nomenclaturalCode="ICBN";
 
 $ext=".dmp";			// All dump files should have same extension
 $tbl_prefix=$sourceName."_";		// add this to base name for mysql tables
-$filepath = $src_dir."data/";			// path to dump files
-$path="import_".$sourceName."/data/";	// path to dump files, 
-										// keeping for backward compatibility
+// $filepath = $src_dir."data/";			// path to dump files
+// $path="import_".$sourceName."/data/";	// path to dump files, 
+// 										// keeping for backward compatibility
+$filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
+$path = $filepath;	// Keeping this for backward compatibility
+
+
 $remove_raw_tables=true;	// set true to delete the raw data tables when finished
 
 // Base names for files and raw data tables
@@ -133,7 +137,7 @@ $tbls = array(
 // Recommend placing in same directory as the raw ncbi data, but
 // place it where you wish.
 // Both raw ncbi data and names_parsed file must be ready to load ncbi
-$names_parsed_file='ncbi_names_parsed.txt';  	// Name of the file
+$names_parsed_file='ncbi_names_parsed_reformatted.txt';  // Name of the file
 $names_parsed_path=$path; 			// Path to file
 $names_parsed="names_parsed";			// Name of the mysql table
 
@@ -159,12 +163,12 @@ $ignore_lines = " ";	// Ignore header line?
 //////////////////////////////////////////////////
 
 $np_local = " LOCAL ";	// LOCAL keyword
-$np_fields_terminated_by = " FIELDS TERMINATED BY ',' ";
-// $np_fields_terminated_by = " FIELDS TERMINATED BY '\t' ";
-$np_optionally_enclosed_by = " OPTIONALLY ENCLOSED BY '\"' ";  // use if text surrounded by quotes
-//$np_optionally_enclosed_by = "";
+//$np_fields_terminated_by = " FIELDS TERMINATED BY ',' ";
+$np_fields_terminated_by = " FIELDS TERMINATED BY '\t' ";
+//$np_optionally_enclosed_by = " OPTIONALLY ENCLOSED BY '\"' ";  // use if text surrounded by quotes
+$np_optionally_enclosed_by = " ";
 $np_lines_terminated_by = " LINES TERMINATED BY '\n' ";
 //$np_ignore_lines = " ";	// Ignore header line?
-$np_ignore_lines = " IGNORE 2 LINES ";	// Ignore header line?
+$np_ignore_lines = " IGNORE 1 LINES ";	// Ignore header line?
 
 ?>

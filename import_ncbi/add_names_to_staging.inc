@@ -19,7 +19,7 @@ $sql="
 	`$name_fld`,
 	`$author_fld`,
 	`$rank_fld`,
-	`$fld_id_orig`,
+	nameID_orig,
 	`$source_url_fld`,
 	`$is_hybrid`,
 	`$genus_fld`,

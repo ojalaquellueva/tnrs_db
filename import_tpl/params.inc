@@ -21,7 +21,7 @@ $sourceName=$src;
 // Longer, more descriptive name for source
 // Can have spaces; not used in any scripts
 // after adding to table `source`
-$sourceNameFull="The Plant List (ver. 1.1), minus Asteraceae & Fabaceae";
+$sourceNameFull="The Plant List (ver. 1.1)";
 
 // Primary url for this source (optional)
 $sourceUrl="http://www.theplantlist.org/";	
@@ -110,10 +110,14 @@ $remove_raw_tables=true;
 /////////////////////////////////////////////////////////////////////////////
 
 // Path to data file
-$filepath = $src_dir."data/";
+$filepath = $src_dir."data/";	// old version; data inside app/repo directory
+$filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 
 // Name of raw data files you will be importing
-$namesfile = "tpl2_without_gcc_ildisis.csv";
+//$namesfile = "tpl2_without_gcc_ildisis.csv";
+//$namesfile = "tpl_1.1_sample_small.txt";
+$namesfile = "tpl_1.1_sample.txt";
+//$namesfile = "tpl_1.1.txt";
 
 // path + file
 $namesfileandpath = $filepath.$namesfile;
@@ -148,5 +152,6 @@ $lines_terminated_by = " LINES TERMINATED BY '\n' ";		// unix
 
 // Set to ignore header line if present
 $ignore_lines = " IGNORE 1 LINES ";	// Ignore header line?
+$ignore_lines = " ";	// Ignore header line?
 
 ?>

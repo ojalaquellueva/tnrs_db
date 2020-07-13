@@ -67,9 +67,9 @@ $src_array=array(
 
 // Un-comment the following for a test build using example data
 $src_array=array(
-	"dwcExample",
-	"usda",
-	"tropicos"
+	"tropicos",
+	"ncbi",
+	"usda"
 );
 
 //////////////////////////////////////////////////

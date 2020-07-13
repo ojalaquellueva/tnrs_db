@@ -1,12 +1,8 @@
 Imports data dump of The Plant List (TPL) to the TNRS database
 
-TNRS version 3.2, database version 4.0
-Created: 14 August 2015
-By: Brad Boyle (bboyle@email.arizona.edu)
-
 Raw data format
 
-Data was received as two zip file, split due to size.
+Data was received as single zip file
 
 Instructions
 

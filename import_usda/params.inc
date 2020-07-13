@@ -80,8 +80,8 @@ $path = $filepath;	// Keeping this for backward compatibility
 
 // Names of files you will be importing
 //$namesfile = "usda_plants_taxonomy_20150117.csv";
-$namesfile = "USDA_plants_20200703_sample_small.csv";
-//$namesfile = "USDA_plants_20200703_sample.csv";
+//$namesfile = "USDA_plants_20200703_sample_small.csv";
+$namesfile = "USDA_plants_20200703_sample.csv";
 //$namesfile = "USDA_plants_20200703.csv";
 
 $namesfileandpath = $filepath.$namesfile;

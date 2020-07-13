@@ -16,7 +16,6 @@ $sourceName="tropicos";
 // Can have spaces; not used in any scripts
 // after adding to table `source`
 $sourceNameFull="Missouri Botanical Gardens Tropicos database";
-$sourceNameFull="Tropicos ***SAMPLE ONLY***";
 
 // Primary url for this source (optional)
 $sourceUrl="http://services.tropicos.org/";	
