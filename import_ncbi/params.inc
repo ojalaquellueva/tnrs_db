@@ -25,6 +25,7 @@ $sourceUrl="http://www.ncbi.nlm.nih.gov/taxonomy";
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2011-10-25";	
+$dateAccessed="2020-07-10";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable

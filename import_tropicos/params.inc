@@ -80,10 +80,10 @@ $path = $filepath;	// Keeping this for backward compatibility
 
 //$namesfile = "mbg_name_20141219.csv";
 $namesfile = "tropicos_names_20200530.csv";
-$namesfile = "tropicos_api_pinaceae_example.csv";
-$namesfile = "tropicos_names_20200530_sample.csv";
+//$namesfile = "tropicos_api_pinaceae_example.csv";
+//$namesfile = "tropicos_names_20200530_sample.csv";
 //$namesfile = "tropicos_names_20200530_sample_small.csv";
-$namesfileandpath = $path.$namesfile;
+//$namesfileandpath = $path.$namesfile;
 
 // names of destination mysql table
 $tbl_names_raw=$sourceName."_raw";

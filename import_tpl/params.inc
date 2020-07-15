@@ -116,8 +116,8 @@ $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 // Name of raw data files you will be importing
 //$namesfile = "tpl2_without_gcc_ildisis.csv";
 //$namesfile = "tpl_1.1_sample_small.txt";
-$namesfile = "tpl_1.1_sample.txt";
-//$namesfile = "tpl_1.1.txt";
+//$namesfile = "tpl_1.1_sample.txt";
+$namesfile = "tpl_1.1.txt";
 
 // path + file
 $namesfileandpath = $filepath.$namesfile;

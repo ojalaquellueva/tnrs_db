@@ -68,8 +68,9 @@ $src_array=array(
 // Un-comment the following for a test build using example data
 $src_array=array(
 	"tropicos",
-	"ncbi",
-	"usda"
+	"tpl",
+	"usda",
+	"ncbi"
 );
 
 //////////////////////////////////////////////////
