@@ -76,6 +76,11 @@ $source_base_url="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=I
 // process, based on classification
 $default_nomenclaturalCode="ICBN";
 
+// Delete duplicated names from table names_parsed?
+// Added this option to remove useless duplicated names
+// mysteriouly sticking and around and throwing fatal errorss
+$ncbi_remove_dupes = true;
+
 //////////////////////////////////////////////////
 // Names and location of raw data files
 /////////////////////////////////////////////////
@@ -139,6 +144,7 @@ $tbls = array(
 // place it where you wish.
 // Both raw ncbi data and names_parsed file must be ready to load ncbi
 $names_parsed_file='ncbi_names_parsed_reformatted.txt';  // Name of the file
+//$names_parsed_file='ncbi_names_parsed_reformatted_sample.txt';  // Name of the file
 $names_parsed_path=$path; 			// Path to file
 $names_parsed="names_parsed";			// Name of the mysql table
 

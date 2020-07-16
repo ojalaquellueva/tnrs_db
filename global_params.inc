@@ -60,17 +60,9 @@ $DB_VERSION="4.1";
 // List sources in the order you want them to appear
 // in the online menu of sources
 $src_array=array(
-	"tpl",
 	"tropicos",
+	"tpl",
 	"usda"
-);
-
-// Un-comment the following for a test build using example data
-$src_array=array(
-	"tropicos",
-	"tpl",
-	"usda",
-	"ncbi"
 );
 
 //////////////////////////////////////////////////

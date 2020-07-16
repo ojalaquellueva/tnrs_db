@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS higherClassification;
 CREATE TABLE higherClassification (
   classificationSourceID INTEGER UNSIGNED NOT NULL,
   nameID INTEGER UNSIGNED NOT NULL,
-  familyNameID INTEGER UNSIGNED NOT NULL,
+  familyNameID INTEGER UNSIGNED DEFAULT NULL,
   family VARCHAR(100) DEFAULT NULL,
   joinMethod VARCHAR(50) DEFAULT NULL,
   INDEX higherClassification_classificationSourceID(classificationSourceID),

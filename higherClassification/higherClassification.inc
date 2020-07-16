@@ -58,24 +58,11 @@ include "sql_create_table_higherClassification.inc";
 sql_execute_multiple($dbh, $sql_create_tables);
 
 //////////////////////////////////////////////////
-// Get ID and name of higher classification sources
-//////////////////////////////////////////////////
-$sql="
-	SELECT sourceID, sourceName 
-	FROM source
-	WHERE isHigherClassification=1;	
-";
-$rows = mysqli_query($dbh, $sql);
-$num_rows = mysqli_num_rows($rows);
-If ($num_rows=0) die("No higher classification sources in database.\r\n");
-
-$src_no=1;
-
-//////////////////////////////////////////////////
 // Insert dummy uknown family
 // Keeps from failing is no family found in 
 // classification source
 //////////////////////////////////////////////////
+/*
 echo "Inserting dummy record for unknow family to table name:\r\n";
 $sql="
 	INSERT INTO name (
@@ -93,6 +80,20 @@ $sql="
 ";
 $msg_error="Failed to insert dummy family to table name!\r\n";
 sql_execute($dbh, $sql,TRUE,$echo_on,'',$msg_error);
+*/
+//////////////////////////////////////////////////
+// Get ID and name of higher classification sources
+//////////////////////////////////////////////////
+$sql="
+	SELECT sourceID, sourceName 
+	FROM source
+	WHERE isHigherClassification=1;	
+";
+$rows = mysqli_query($dbh, $sql);
+$num_rows = mysqli_num_rows($rows);
+If ($num_rows=0) die("No higher classification sources in database.\r\n");
+
+$src_no=1;
 
 //////////////////////////////////////////////////
 // Do for each higher classification source
@@ -185,7 +186,7 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 	//////////////////////////////////////////////////
 	// Insert dummy unknown family if missing
 	//////////////////////////////////////////////////
-
+/*
 	echo "  Populating NULL families (if applicable)...";
 	$sql ="
 		UPDATE higherClassificationTemp h 
@@ -194,12 +195,12 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 		familyNameID=(
 		SELECT nameID FROM name WHERE scientificName='$family_unknown'
 		)
-		WHERE family IS NULL OR familyNameID IS NULL
+		WHERE family IS NULL
 		;
 	";
 	$msg_error="Failed to update NULL families!\r\n";
 	sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
-
+*/
 	//////////////////////////////////////////////////
 	// Save classification source names to final table
 	//////////////////////////////////////////////////
@@ -864,6 +865,7 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 		// Insert dummy unknown family if missing
 		//////////////////////////////////////////////////
 
+		/*
 		echo "  Populating NULL families (if applicable)...";
 		$sql ="
 			UPDATE sourceNames h 
@@ -877,8 +879,9 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 		";
 		$msg_error="Failed to update NULL families!\r\n";
 		sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
+		*/
 	
-		echo "  Populating NULL newFAmily (if applicable)...";
+/*		echo "  Populating NULL newFAmily (if applicable)...";
 		$sql ="
 			UPDATE sourceNames h 
 			SET 
@@ -886,11 +889,12 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 			newFamilyID=(
 			SELECT nameID FROM name WHERE scientificName='$family_unknown'
 			)
-			WHERE newFamily IS NULL OR newFamilyID IS NULL
+			WHERE newFamily IS NULL
 			;
 		";
 		$msg_error="Failed to update NULL families!\r\n";
 		sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error);	
+*/
  		//////////////////////////////////////////////////
 		// Save results for this source
 		//////////////////////////////////////////////////

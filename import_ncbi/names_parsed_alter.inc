@@ -3,6 +3,17 @@
 
 // Check name field is unique
 Echo "Checking integrity of table $names_parsed:\r\n";
+
+if ( $ncbi_remove_dupes ) {
+	echo "Deleting duplicated names from table `$names_parsed`...";
+	$sql="
+	DELETE FROM `$names_parsed`
+	WHERE ScientificName_submitted IN (	SELECT name FROM ( SELECT ScientificName_submitted AS name, count(*) as tot from names_parsed group by ScientificName_submitted having tot>1 ) AS a );
+	";
+	$msg_error="failed to delete duplicated names from table `$names_parsed`!\r\n";
+	if (sql_execute($dbh,$sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
+}
+
 Echo "  Checking duplication in name field...";
 $sql="
 	select count(*) as total

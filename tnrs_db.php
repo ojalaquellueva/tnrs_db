@@ -15,6 +15,24 @@
 // Latest revision date: 17 September 2012
 //////////////////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////////
+// Get & validate command line options, if any
+////////////////////////////////////////////////////////////
+
+$options = getopt("m:");
+$email=isset($options["m"]) ? $options["m"] : "";
+
+# check valid email address
+if ( isset( $options["m"]) ) {
+	if ( !filter_var($email, FILTER_VALIDATE_EMAIL) ) {
+		die("ERROR: Invalid email!\n");
+	}
+}
+
+////////////////////////////////////////////////////////////
+// Load parameters & functions
+////////////////////////////////////////////////////////////
+
 // Load all parameters, including database configuration
 include "global_params.inc";
 
@@ -26,7 +44,7 @@ foreach ($src_array as $src) {
 $sources = substr_replace($sources, '', strlen($sources)-2,-1);
 
 ////////////////////////////////////////////////////////////
-// Run preliminary checks and confirm operations
+// Confirm operation & run preliminary checks
 // All checks are made at beginning to avoid interrupting
 // execution later on.
 ////////////////////////////////////////////////////////////
@@ -79,6 +97,16 @@ include_once "check_dependencies.inc";
 echo "\r\nBegin operation\r\n";
 include $timer_on;
 
+// Send start notification if requested
+if (isset( $options["m"]) ) {
+	$now = date("Y-m-d h:i:sa");
+	$process = "Build TNRS database";
+	$to = $email;
+	$subject = "Process '$process' started";
+	$message = "Process '$process' started at $now";
+	mail($to,$subject,$message);
+}
+	
 ////////////////////////////////////////////////////////////
 // Generate new empty database
 ////////////////////////////////////////////////////////////
@@ -287,6 +315,16 @@ include_once "cleanup/autocleanup.php";
 //////////////////////////////////////////////////////////////////
 // Close connection and report total time elapsed 
 //////////////////////////////////////////////////////////////////
+
+// Send completion notification if requested
+if (isset( $options["m"]) ) {
+	$now = date("Y-m-d h:i:sa");
+	$process = "Build TNRS database";
+	$to = $email;
+	$subject = "Process '$process' completed";
+	$message = "Process '$process' completed at $now";
+	mail($to,$subject,$message);
+}
 
 mysqli_close($dbh);
 include $timer_off;
