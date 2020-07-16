@@ -145,6 +145,9 @@ $sql="
 if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail));
 
 // Parse unparsed trinomials
+// Note length limit on strSplit(scientificName,' ',3)
+// Prevents accidentally parsing random components of informal
+// names (such as species groups) as rank indicators of trinomials
 echo "   Parsing trinomials...";
 $sql="
 	UPDATE $tbl_staging 
@@ -156,11 +159,16 @@ $sql="
 	WHERE $rank_fld<>'species' 
 	AND `$name_fld` LIKE '% % % %' AND `$name_fld` NOT LIKE '% % % % % %' 
 	AND (`$genus_fld` IS NULL OR `$specific_epithet_fld` IS NULL OR `$infraepithet_fld` IS NULL)
-	AND ($is_hybrid=0 OR $is_hybrid IS NULL);
+	AND ($is_hybrid=0 OR $is_hybrid IS NULL)
+	AND LENGTH(strSplit(scientificName,' ',3))<=12
+	;
 ";
 if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail));
 
 // Parse unparsed quadrinomials
+// Note length limit on strSplit(scientificName,' ',3)
+// Prevents accidentally parsing random components of informal
+// names (such as species groups) as rank indicators of trinomials
 echo "   Parsing quadrinomials...";
 $sql="
 	UPDATE $tbl_staging 
@@ -175,7 +183,9 @@ $sql="
 	AND `$name_fld` LIKE '% % % % % %' 
 	AND (`$genus_fld` IS NULL OR `$specific_epithet_fld` IS NULL OR `$infraepithet_fld` IS NULL
 		OR `$infraepithet_fld2` IS NULL)
-	AND ($is_hybrid=0 OR $is_hybrid IS NULL);
+	AND ($is_hybrid=0 OR $is_hybrid IS NULL)
+	AND LENGTH(strSplit(scientificName,' ',3))<=12
+	;
 ";
 if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail));
 
