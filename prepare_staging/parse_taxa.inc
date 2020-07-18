@@ -148,6 +148,9 @@ if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail));
 // Note length limit on strSplit(scientificName,' ',3)
 // Prevents accidentally parsing random components of informal
 // names (such as species groups) as rank indicators of trinomials
+// Better approach would be to validate the parsed value against
+// a lookup of all posible rank indicators, spelling variants and 
+// abbreviations. To do...
 echo "   Parsing trinomials...";
 $sql="
 	UPDATE $tbl_staging 
@@ -166,9 +169,13 @@ $sql="
 if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail));
 
 // Parse unparsed quadrinomials
-// Note length limit on strSplit(scientificName,' ',3)
-// Prevents accidentally parsing random components of informal
-// names (such as species groups) as rank indicators of trinomials
+// Note length limit on strSplit(scientificName,' ',3) and
+// strSplit(scientificName,' ',5). Prevents accidentally parsing random 
+// components of informal names (such as species groups) as rank indicators
+// of trinomials or quadrinomials
+// Better approach would be to validate the parsed value against
+// a lookup of all posible rank indicators, spelling variants and 
+// abbreviations. To do...
 echo "   Parsing quadrinomials...";
 $sql="
 	UPDATE $tbl_staging 
@@ -185,6 +192,7 @@ $sql="
 		OR `$infraepithet_fld2` IS NULL)
 	AND ($is_hybrid=0 OR $is_hybrid IS NULL)
 	AND LENGTH(strSplit(scientificName,' ',3))<=12
+	AND LENGTH(strSplit(scientificName,' ',5))<=12
 	;
 ";
 if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail));
