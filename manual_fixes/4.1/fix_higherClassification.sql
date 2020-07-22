@@ -189,9 +189,6 @@ DROP TABLE higherClassification_bak;
 SET @familysourceid:=NULL;
 
 
-
-
-
 -- ------------------------------------------------------------
 -- Populate missing familyNameID
 -- ------------------------------------------------------------
@@ -322,5 +319,289 @@ DROP TABLE temp_hc_update_familyNameID;
 DROP TABLE higherClassification_bak;
 SET @familysourceid:=NULL;
 
+-- ------------------------------------------------------------
+-- Populate missing families using raw tropicos table
+-- 
+-- Run after above as this is allows some errors
+-- ------------------------------------------------------------
+
+-- Backup table higherClassification
+DROP TABLE IF EXISTS higherClassification_bak;
+CREATE TABLE higherClassification_bak LIKE higherClassification;
+INSERT INTO higherClassification_bak SELECT * FROM higherClassification;
+
+-- Set parameter familysourceid
+SET @familysourceid:=1;
+
+-- Get initial count of missing families
+SELECT COUNT(*) AS missing_families
+FROM (
+-- List fields in case want to use subquery for manual inspection
+SELECT DISTINCT n.nameID, n.scientificName, n.scientificNameAuthorship
+FROM name n JOIN higherClassification h
+ON n.nameID=h.nameID
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+) AS a
+;
+
+
+--
+-- Populate text family field first
+--
+
+-- Join by name + author
+UPDATE higherClassification h JOIN name n
+ON n.nameID=h.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON n.scientificName=t.scientificName
+AND n.scientificNameAuthorship=t.scientificNameAuthorship
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+;
+ 
+-- Add new column to table name indicating name has homonyms
+-- Don't count canonical names (no author)
+ALTER TABLE name
+ADD COLUMN has_homonyms INT(1) DEFAULT NULL
+;
+
+-- Create temp table of homonym-bearing names by source
+-- Source group essential to avoid counting spelling variants
+-- of the same author as different names
+DROP TABLE IF EXISTS temp_homonym_names;
+CREATE TABLE temp_homonym_names AS
+SELECT sourceName, s.sourceID, scientificName, COUNT(*)-1 AS homonyms
+FROM name n JOIN name_source ns
+ON n.nameID=ns.nameID
+JOIN source s
+ON ns.sourceID=s.sourceID
+WHERE scientificNameAuthorship IS NOT NULL
+GROUP BY sourceName, s.sourceID, scientificName
+HAVING homonyms>0
+;
+
+-- Flag homonym-bearing names in table name
+-- Note how only names with authors are flagged
+ALTER TABLE temp_homonym_names
+ADD INDEX(sourceName),
+ADD INDEX(sourceID),
+ADD INDEX(scientificName)
+;
+UPDATE name n JOIN name_source ns
+ON n.nameID=ns.nameID
+JOIN temp_homonym_names t
+ON n.scientificName=t.scientificName
+AND ns.sourceID=t.sourceID
+SET has_homonyms=1
+WHERE n.scientificNameAuthorship IS NOT NULL
+;
+
+-- Flag non-homonym names
+UPDATE name 
+SET has_homonyms=0
+WHERE has_homonyms IS NULL
+AND scientificNameAuthorship IS NOT NULL
+;
+
+-- Check counts of homonyms names
+SELECT has_homonyms, COUNT(*) AS names
+FROM name
+WHERE scientificNameAuthorship IS NOT NULL
+GROUP BY has_homonyms
+;
+
+-- Join by name only, updating just non-homonym names
+UPDATE higherClassification h JOIN name n
+ON n.nameID=h.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON n.scientificName=t.scientificName
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+AND n.has_homonyms=0
+;
+ 
+--
+-- Update remainder, joining by name only,
+-- but for accepted names only
+--
+
+-- strict version
+UPDATE higherClassification h JOIN name n
+ON n.nameID=h.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON n.scientificName=t.scientificName
+JOIN name_source ns
+ON n.nameID=ns.nameID
+JOIN synonym s
+ON n.nameID=s.nameID AND ns.sourceID=s.sourceID
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+AND s.acceptance='Accepted'
+AND t.acceptance='Accepted'
+;
+
+-- Less strict
+UPDATE higherClassification h JOIN name n
+ON n.nameID=h.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON n.scientificName=t.scientificName
+JOIN synonym s
+ON n.nameID=s.nameID
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+AND s.acceptance='Accepted'
+AND t.acceptance='Accepted'
+;
+
+-- Less strict still
+UPDATE higherClassification h JOIN name n
+ON n.nameID=h.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON n.scientificName=t.scientificName
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+AND t.acceptance='Accepted'
+;
+
+-- Totally non-strict still
+UPDATE higherClassification h JOIN name n
+ON n.nameID=h.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON n.scientificName=t.scientificName
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+AND n.nameRank NOT IN (
+'class',
+'division',
+'ecad',
+'family',
+'order',
+'subclass',
+'subdivision',
+'subkingdom',
+'suborder',
+'superdivision',
+'superfamily',
+'superorder'
+)
+;
+
+--
+-- Direct update for names linked directly to tropicos.
+-- Run this first when incorporate into pipeline!
+--
+
+UPDATE higherClassification h 
+JOIN name_source ns
+ON h.nameID=ns.nameID
+JOIN tnrs_staging.tropicos_raw t
+ON ns.nameSourceUrl=t.nameUri
+SET h.family=t.family
+WHERE h.classificationSourceID=@familysourceid
+AND h.family IS NULL
+AND t.family IS NOT NULL
+;
+ 
+-- Clean up
+DROP TABLE IF EXISTS higherClassification_bak;
+DROP TABLE IF EXISTS temp_homonym_names;
+SET @familysourceid:=NULL;
 
 
