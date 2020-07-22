@@ -424,6 +424,7 @@ LIMIT 25;
 -- ----------------------------------------------------------------------------
 
 -- Check for duplicate names by source
+-- NOTE: use next version instead
 SELECT sourceName, COUNT(*) AS duplicateNames
 FROM 
 (
@@ -433,7 +434,39 @@ ON n.nameID=ns.nameID AND ns.sourceID=s.sourceID
 GROUP BY sourceName, nameRank, scientificName, scientificNameAuthorship
 HAVING names>1
 ) AS n
-GROUP BY sourceName;
+GROUP BY sourceName
+;
+
+-- As above, but non-null author only
+-- This is more appropriate version, as TNRS DB code 
+-- Adds canonical name (no author) for each name+author combination
+SELECT sourceName, COUNT(*) AS duplicateNames
+FROM 
+(
+SELECT sourceName, nameRank, scientificName, scientificNameAuthorship, COUNT(*) AS names
+FROM name n JOIN name_source ns JOIN source s
+ON n.nameID=ns.nameID AND ns.sourceID=s.sourceID
+WHERE scientificNameAuthorship IS NOT NULL
+GROUP BY sourceName, nameRank, scientificName, scientificNameAuthorship
+HAVING names>1
+) AS n
+GROUP BY sourceName
+;
+
+-- Single source
+-- Modify sourceID as needed
+SELECT COUNT(*) AS duplicateNames
+FROM 
+(
+SELECT scientificName, scientificNameAuthorship, COUNT(*) AS names
+FROM name n JOIN name_source ns
+ON n.nameID=ns.nameID
+WHERE ns.sourceID=2 AND scientificNameAuthorship IS NOT NULL
+GROUP BY scientificName, scientificNameAuthorship
+HAVING names>1
+) AS n
+;
+
 
 -- ----------------------------------------------------------------------------
 -- More specific checks, if errors found by the above queries:
@@ -529,12 +562,13 @@ AND nameRank NOT IN ('root','family','class','division','kingdom','order','phylu
 AND sourceName='tpl'
 LIMIT 12;
 
+-- Names without family by source and family classification source
 SELECT COUNT(*) AS namesWithoutFamilies
 FROM (
 SELECT sourceName, nameRank, n.nameID, scientificName, scientificNameAuthorship
 FROM source s JOIN name_source ns JOIN name n JOIN higherClassification h
 ON s.sourceID=ns.sourceID AND ns.nameID=n.nameID AND n.nameID=h.nameID
-WHERE h.family IS NULL AND h.classificationSourceID=4
+WHERE h.family IS NULL AND h.classificationSourceID=1
 AND nameRank IN ('variety','subspecies','forma','species')
 AND sourceName='tpl'
 ) AS a;
@@ -544,7 +578,7 @@ FROM (
 SELECT nameRank, n.nameID
 FROM source s JOIN name_source ns JOIN name n JOIN higherClassification h
 ON s.sourceID=ns.sourceID AND ns.nameID=n.nameID AND n.nameID=h.nameID
-WHERE h.family IS NULL AND h.classificationSourceID=4
+WHERE h.family IS NULL AND h.classificationSourceID=1
 AND nameRank IN ('variety','subspecies','forma','species')
 AND sourceName='tpl'
 ) AS a
@@ -557,11 +591,37 @@ FROM source s JOIN name_source ns JOIN name n JOIN higherClassification h
 ON s.sourceID=ns.sourceID AND ns.nameID=n.nameID AND n.nameID=h.nameID
 LEFT JOIN synonym sy
 ON n.nameID=sy.nameID
-WHERE h.family IS NULL AND h.classificationSourceID=4
+WHERE h.family IS NULL AND h.classificationSourceID=1
 AND nameRank IN ('variety','subspecies','forma','species')
 AND s.sourceID=1 AND sy.sourceID=1
 ) AS a
 GROUP BY acceptance;
+
+--
+-- Check resolution of Hyeronima/Hieronyma species in tropicos
+--
+
+SET @sourceid:=1;
+
+SELECT n_orig.nameID, n_orig.scientificName, n_orig.author, n_orig.acceptance, 
+n_acc.nameID AS acc_nameID, n_acc.scientificName AS acc_scientificName, 
+n_acc.scientificNameAuthorship AS acc_author
+FROM (
+SELECT n.nameID, genus, scientificName, scientificNameAuthorship AS author,
+acceptedNameID, acceptance
+FROM name n JOIN name_source ns
+ON n.nameID=ns.nameID
+JOIN synonym s
+ON n.nameID=s.nameID
+WHERE ns.sourceID=@sourceid
+AND s.sourceID=@sourceid
+AND genus IN ('Hyeronima','Hyeronyma','Hieronyma','Hieronima')
+) AS n_orig
+LEFT JOIN name n_acc
+ON n_orig.acceptedNameID=n_acc.nameID
+ORDER BY n_orig.scientificName, n_orig.author
+;
+
 
 
 
