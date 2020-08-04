@@ -117,6 +117,7 @@ CREATE TABLE `synonym` (
   nomenclaturalStatusRemarks VARCHAR(100) DEFAULT NULL,
   synonymType VARCHAR(250) DEFAULT NULL,
   synonymSourceUrl VARCHAR(250) DEFAULT NULL,
+  citation TEXT DEFAULT NULL, 
   PRIMARY KEY(synonymID),
   INDEX synonym_acceptedNameID(acceptedNameID),
   INDEX synonym_acceptance(acceptance),
@@ -132,7 +133,9 @@ ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 CREATE TABLE `meta` (
   meta_id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
   db_version VARCHAR(50) DEFAULT NULL,
+  code_version VARCHAR(50) DEFAULT NULL,
   build_date DATE NOT NULL,
+  citation TEXT DEFAULT NULL, 
   PRIMARY KEY(meta_id)
 )
 ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
