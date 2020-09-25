@@ -133,8 +133,9 @@ ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 CREATE TABLE `meta` (
   meta_id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
   db_version VARCHAR(50) DEFAULT NULL,
-  code_version VARCHAR(50) DEFAULT NULL,
   build_date DATE NOT NULL,
+  code_version VARCHAR(50) DEFAULT NULL,
+  api_version VARCHAR(50) DEFAULT NULL,
   citation TEXT DEFAULT NULL, 
   PRIMARY KEY(meta_id)
 )
