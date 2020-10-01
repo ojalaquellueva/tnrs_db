@@ -22,6 +22,17 @@ $sourceNameFull="NCBI Taxonomy";
 // url of information page on this resource
 $sourceUrl="http://www.ncbi.nlm.nih.gov/taxonomy";		
 
+// Short single paragraph description of this source, for display on 
+// TNRS website on Source page.
+$description="";
+
+// Url where data was obtained, if applicable (e.g., download or api base url)
+$dataUrl="";	
+
+// Url where logo for this source can be directly accessed
+// For display on TNRS website
+$logoUrl="";	
+
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2015-01-17";	

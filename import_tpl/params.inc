@@ -26,6 +26,17 @@ $sourceNameFull="The Plant List (ver. 1.1)";
 // Primary url for this source (optional)
 $sourceUrl="http://www.theplantlist.org/";	
 
+// Short single paragraph description of this source, for display on 
+// TNRS website on Source page.
+$description="The Plant List (TPL) was a working list of all known plant species produced by the botanical community in response to Target 1 of the 2002-2010 Global Strategy for Plant Conservation (GSPC). TPL has been static since 2013, but was used as the starting point for the Taxonomic Backbone of the World Flora Online (WFO), and updated information can be found at www.worldfloraonline.org";
+
+// Url where data was obtained, if applicable (e.g., download or api base url)
+$dataUrl="";	
+
+// Url where logo for this source can be directly accessed
+// For display on TNRS website
+$logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2020/10/tpl_logo.png";	
+
 // base url for species and infraspecies
 $base_url_species="http://www.theplantlist.org/tpl1.1/record/";
 

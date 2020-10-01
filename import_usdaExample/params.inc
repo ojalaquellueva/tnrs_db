@@ -22,6 +22,17 @@ $sourceNameFull="USDA Plants example";
 // Primary url for this source (optional)
 $sourceUrl="http://plants.usda.gov/adv_search.html";
 
+// Short single paragraph description of this source, for display on 
+// TNRS website on Source page.
+$description="The PLANTS Database provides standardized information about the vascular plants, mosses, liverworts, hornworts, and lichens of the U.S. and its territories.";
+
+// Url where data was obtained, if applicable (e.g., download or api base url)
+$dataUrl="http://plants.usda.gov/adv_search.html";	
+
+// Url where logo for this source can be directly accessed
+// For display on TNRS website
+$logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2020/10/tpl_logo.png";	
+
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2012-03-15";
