@@ -24,6 +24,8 @@ $sourceUrl="http://plants.usda.gov/adv_search.html";
 
 // Short single paragraph description of this source, for display on 
 // TNRS website on Source page.
+// No quotes! If you must include apostrophes (plain single quote) then 
+// double them up to avoid crashing the api (e.g., world''s)
 $description="The PLANTS Database provides standardized information about the vascular plants, mosses, liverworts, hornworts, and lichens of the U.S. and its territories.";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)

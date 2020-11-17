@@ -24,6 +24,8 @@ $sourceUrl="http://www.ncbi.nlm.nih.gov/taxonomy";
 
 // Short single paragraph description of this source, for display on 
 // TNRS website on Source page.
+// No quotes! If you must include apostrophes (plain single quote) then 
+// double them up to avoid crashing the api (e.g., world''s)
 $description="";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)

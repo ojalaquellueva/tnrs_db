@@ -22,7 +22,9 @@ $sourceUrl="https://www.tropicos.org/";
 
 // Short single paragraph description of this source, for display on 
 // TNRS website on Source page.
-$description="The Missouri Botanical Garden's Tropicos database links over 1.33M scientific names with over 4.87M specimens and over 685K digital images. The data includes over 150K references from over 52.6K publications offered as a free service to the world’s scientific community.";
+// No quotes! If you must include apostrophes (plain single quote) then 
+// double them up to avoid crashing the api (e.g., world''s)
+$description="The Missouri Botanical Garden's Tropicos database links over 1.33M scientific names with over 4.87M specimens and over 685K digital images. The data includes over 150K references from over 52.6K publications offered as a free service to the world''s scientific community.";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
 $dataUrl="http://services.tropicos.org/";	

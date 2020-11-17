@@ -28,6 +28,8 @@ $sourceUrl="http://www.theplantlist.org/";
 
 // Short single paragraph description of this source, for display on 
 // TNRS website on Source page.
+// No quotes! If you must include apostrophes (plain single quote) then 
+// double them up to avoid crashing the api (e.g., world''s)
 $description="The Plant List (TPL) was a working list of all known plant species produced by the botanical community in response to Target 1 of the 2002-2010 Global Strategy for Plant Conservation (GSPC). TPL has been static since 2013, but was used as the starting point for the Taxonomic Backbone of the World Flora Online (WFO), and updated information can be found at www.worldfloraonline.org";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
