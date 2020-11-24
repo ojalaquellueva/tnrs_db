@@ -1,0 +1,100 @@
+nameID,parentNameID,scientificName,scientificNameAuthorship,nameRank,nameUri,isHybrid,genus,specificEpithet,rankIndicator,otherEpithet,subclass,family,acceptance,acceptedNameID,NomenclatureStatusID,NomenclatureStatusName,Symbol
+100005,40014053,"Andrographis elongata","T. Anderson",species,http://www.tropicos.org/Name/100005,,Andrographis,elongata,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+1,40037219,"Haptanthus hazlettii","Goldberg & C. Nelson",species,http://www.tropicos.org/Name/1,,Haptanthus,hazlettii,sp.,,Magnoliidae,Buxaceae,A,,,"No opinion",
+100006,40014053,"Andrographis neesiana",Wight,species,http://www.tropicos.org/Name/100006,,Andrographis,neesiana,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100001,40030167,"Acanthus ilicifolius",L.,species,http://www.tropicos.org/Name/100001,,Acanthus,ilicifolius,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100002,40030167,"Acanthus pubescens",Engl.,species,http://www.tropicos.org/Name/100002,,Acanthus,pubescens,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100004,40014053,"Andrographis echioides","(L.) Nees",species,http://www.tropicos.org/Name/100004,,Andrographis,echioides,sp.,,Magnoliidae,Acanthaceae,S,100431167,,"No opinion",
+100009,100008,"Asystasia chelnoides var. quandrangularis","C.B. Clarke",variety,http://www.tropicos.org/Name/100009,,Asystasia,chelnoides,var.,quandrangularis,Magnoliidae,Acanthaceae,,,,"No opinion",
+100011,40021961,"Asystasia dalzelliana",Santapau,species,http://www.tropicos.org/Name/100011,,Asystasia,dalzelliana,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100007,40014053,"Andrographis paniculata","(Burm. f.) Wall.",species,http://www.tropicos.org/Name/100007,,Andrographis,paniculata,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100008,40021961,"Asystasia chelnoides",Nees,species,http://www.tropicos.org/Name/100008,,Asystasia,chelnoides,sp.,,Magnoliidae,Acanthaceae,,,3,Invalid,**
+100010,40021961,"Asystasia crispata",Benth.,species,http://www.tropicos.org/Name/100010,,Asystasia,crispata,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100012,40021961,"Asystasia gangetica","(L.) T. Anderson",species,http://www.tropicos.org/Name/100012,,Asystasia,gangetica,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100014,40024916,"Barleria buxifolia",L.,species,http://www.tropicos.org/Name/100014,,Barleria,buxifolia,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100013,40024916,"Barleria acuminata",Wight,species,http://www.tropicos.org/Name/100013,,Barleria,acuminata,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100015,40024916,"Barleria courtallica",Nees,species,http://www.tropicos.org/Name/100015,,Barleria,courtallica,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100017,40024916,"Barleria cuspidata","Heyne ex Nees",species,http://www.tropicos.org/Name/100017,,Barleria,cuspidata,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100016,40024916,"Barleria cristata",L.,species,http://www.tropicos.org/Name/100016,,Barleria,cristata,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100018,40024916,"Barleria gibsonii",Dalzell,species,http://www.tropicos.org/Name/100018,,Barleria,gibsonii,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100019,40024916,"Barleria involucrata",Nees,species,http://www.tropicos.org/Name/100019,,Barleria,involucrata,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100020,100019,"Barleria involucrata var. elata","C.B. Clarke",variety,http://www.tropicos.org/Name/100020,,Barleria,involucrata,var.,elata,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100022,40024916,"Barleria prionitis",L.,species,http://www.tropicos.org/Name/100022,,Barleria,prionitis,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100023,40024916,"Barleria strigosa",Willd.,species,http://www.tropicos.org/Name/100023,,Barleria,strigosa,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100025,40028205,"Blepharis asperrima",Nees,species,http://www.tropicos.org/Name/100025,,Blepharis,asperrima,sp.,,Magnoliidae,Acanthaceae,S,100319223,,"No opinion",
+100027,40028205,"Blepharis maderaspatensis","(L.) B. Heyne ex Roth",species,http://www.tropicos.org/Name/100027,,Blepharis,maderaspatensis,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100028,40028205,"Blepharis molluginifolia",Pers.,species,http://www.tropicos.org/Name/100028,,Blepharis,molluginifolia,sp.,,Magnoliidae,Acanthaceae,S,101980,,"No opinion",
+100029,40028205,"Blepharis repens",Roth,species,http://www.tropicos.org/Name/100029,,Blepharis,repens,sp.,,Magnoliidae,Acanthaceae,S,101980,,"No opinion",
+100030,40002057,"Carvia callosa",Bremek.,species,http://www.tropicos.org/Name/100030,,Carvia,callosa,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100031,40015697,"Crabbea velutina","S. Moore",species,http://www.tropicos.org/Name/100031,,Crabbea,velutina,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100032,40016826,"Crossandra infundibuliformis","(L.) Nees",species,http://www.tropicos.org/Name/100032,,Crossandra,infundibuliformis,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100034,40029981,"Dicliptera cuneata",Nees,species,http://www.tropicos.org/Name/100034,,Dicliptera,cuneata,sp.,,Magnoliidae,Acanthaceae,S,100322838,,"No opinion",
+100035,40029981,"Dicliptera parvibracteata",Nees,species,http://www.tropicos.org/Name/100035,,Dicliptera,parvibracteata,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100036,40029981,"Dicliptera roxburghiana",Nees,species,http://www.tropicos.org/Name/100036,,Dicliptera,roxburghiana,sp.,,Magnoliidae,Acanthaceae,S,103060,,"No opinion",
+100037,40000401,"Dyschoriste depressa",Nees,species,http://www.tropicos.org/Name/100037,,Dyschoriste,depressa,sp.,,Magnoliidae,Acanthaceae,S,100327514,,"No opinion",
+100038,40000701,"Ecbolium linneanum","(L.) Kurz",species,http://www.tropicos.org/Name/100038,,Ecbolium,linneanum,sp.,,Magnoliidae,Acanthaceae,S,100327951,,"No opinion",
+100039,40002537,"Elytraria acaulis","(L. f.) Lindau",species,http://www.tropicos.org/Name/100039,,Elytraria,acaulis,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100040,40004502,"Eranthemum montanum","(Roxb.) Roxb.",species,http://www.tropicos.org/Name/100040,,Eranthemum,montanum,sp.,,Magnoliidae,Acanthaceae,S,50062166,,"No opinion",
+100042,40013339,"Gendarussa vulgaris",Nees,species,http://www.tropicos.org/Name/100042,,Gendarussa,vulgaris,sp.,,Magnoliidae,Acanthaceae,S,100057,,"No opinion",
+100041,40004502,"Eranthemum nervosum","(Vahl) R. Br. ex Roem. & Schult.",species,http://www.tropicos.org/Name/100041,,Eranthemum,nervosum,sp.,,Magnoliidae,Acanthaceae,S,50039518,,"No opinion",
+100045,40017167,"Graptophyllum pictum","(L.) Nees ex Griff.",species,http://www.tropicos.org/Name/100045,,Graptophyllum,pictum,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100046,40023569,"Hemigraphis hirta","T. Anderson",species,http://www.tropicos.org/Name/100046,,Hemigraphis,hirta,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100043,40015811,"Goldfussia dalhousieana",Nees,species,http://www.tropicos.org/Name/100043,,Goldfussia,dalhousieana,sp.,,Magnoliidae,Acanthaceae,S,101683,,"No opinion",
+100047,40023569,"Hemigraphis latebrosa","(Roth) Nees",species,http://www.tropicos.org/Name/100047,,Hemigraphis,latebrosa,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100048,40029184,"Hygrophila angustifolia","R. Br.",species,http://www.tropicos.org/Name/100048,,Hygrophila,angustifolia,sp.,,Magnoliidae,Acanthaceae,S,50058315,,"No opinion",
+100049,40029184,"Hygrophila auriculata","(Schumach.) Heine",species,http://www.tropicos.org/Name/100049,,Hygrophila,auriculata,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100051,40029184,"Hygrophila polysperma","(Roxb.) T. Anderson",species,http://www.tropicos.org/Name/100051,,Hygrophila,polysperma,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100050,40029184,"Hygrophila balsamica","C.B. Clarke",species,http://www.tropicos.org/Name/100050,,Hygrophila,balsamica,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100052,40029184,"Hygrophila spinosa","T. Anderson",species,http://www.tropicos.org/Name/100052,,Hygrophila,spinosa,sp.,,Magnoliidae,Acanthaceae,S,100049,,"No opinion",
+100053,40029957,"Hypoestes triflora","(Forssk.) Roem. & Schult.",species,http://www.tropicos.org/Name/100053,,Hypoestes,triflora,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100054,40034127,"Justicia betonica",L.,species,http://www.tropicos.org/Name/100054,,Justicia,betonica,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100056,40034127,"Justicia exigua","S. Moore",species,http://www.tropicos.org/Name/100056,,Justicia,exigua,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100057,40034127,"Justicia gendarussa","Burm. f.",species,http://www.tropicos.org/Name/100057,,Justicia,gendarussa,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100058,40034127,"Justicia glabra","J. Koenig ex Roxb.",species,http://www.tropicos.org/Name/100058,,Justicia,glabra,sp.,,Magnoliidae,Acanthaceae,S,50200446,1,Legitimate,!
+100059,40034127,"Justicia glamea",Rottler,species,http://www.tropicos.org/Name/100059,,Justicia,glamea,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100060,40034127,"Justicia glauca",Rottler,species,http://www.tropicos.org/Name/100060,,Justicia,glauca,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100061,40034127,"Justicia latispica",Gamble,species,http://www.tropicos.org/Name/100061,,Justicia,latispica,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100063,40034127,"Justicia montana",Wall.,species,http://www.tropicos.org/Name/100063,,Justicia,montana,sp.,,Magnoliidae,Acanthaceae,,,3,Invalid,**
+100062,40034127,"Justicia micrantha",Wall.,species,http://www.tropicos.org/Name/100062,,Justicia,micrantha,sp.,,Magnoliidae,Acanthaceae,,,3,Invalid,**
+100065,100064,"Justicia procumbens var. latispica","C.B. Clarke",variety,http://www.tropicos.org/Name/100065,,Justicia,procumbens,var.,latispica,Magnoliidae,Acanthaceae,S,100372688,,"No opinion",
+100064,40034127,"Justicia procumbens",L.,species,http://www.tropicos.org/Name/100064,,Justicia,procumbens,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100066,40034127,"Justicia prostrata",Gamble,species,http://www.tropicos.org/Name/100066,,Justicia,prostrata,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100067,40034127,"Justicia pubigera",Wall.,species,http://www.tropicos.org/Name/100067,,Justicia,pubigera,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100068,40034127,"Justicia quinqueangularis",Koenig,species,http://www.tropicos.org/Name/100068,,Justicia,quinqueangularis,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100069,40034127,"Justicia simplex","D. Don",species,http://www.tropicos.org/Name/100069,,Justicia,simplex,sp.,,Magnoliidae,Acanthaceae,S,50213330,,"No opinion",
+100070,40034127,"Justicia tenella","(Nees) T. Anderson",species,http://www.tropicos.org/Name/100070,,Justicia,tenella,sp.,,Magnoliidae,Acanthaceae,S,100327949,,"No opinion",
+100072,40034127,"Justicia tranquebariensis","L. f.",species,http://www.tropicos.org/Name/100072,,Justicia,tranquebariensis,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100073,40034127,"Justicia trinervia",Vahl,species,http://www.tropicos.org/Name/100073,,Justicia,trinervia,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100074,40034127,"Justicia vahlii",Roth,species,http://www.tropicos.org/Name/100074,,Justicia,vahlii,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100075,40034127,"Justicia ventricosa","Wall. ex Hook. f.",species,http://www.tropicos.org/Name/100075,,Justicia,ventricosa,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100076,40034127,"Justicia wynaadensis","B. Heyne",species,http://www.tropicos.org/Name/100076,,Justicia,wynaadensis,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100077,40004162,"Lepidagathis cuspidata",Nees,species,http://www.tropicos.org/Name/100077,,Lepidagathis,cuspidata,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100079,40004162,"Lepidagathis hyalina",Nees,species,http://www.tropicos.org/Name/100079,,Lepidagathis,hyalina,sp.,,Magnoliidae,Acanthaceae,S,50058316,,"No opinion",
+100080,40004162,"Lepidagathis purpuricaulis",Nees,species,http://www.tropicos.org/Name/100080,,Lepidagathis,purpuricaulis,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100081,40025990,"Nelsonia campestris","R. Br.",species,http://www.tropicos.org/Name/100081,,Nelsonia,campestris,sp.,,Magnoliidae,Acanthaceae,S,101471,,"No opinion",
+100083,40004792,"Peristrophe bicalyculata","(Retz.) Nees",species,http://www.tropicos.org/Name/100083,,Peristrophe,bicalyculata,sp.,,Magnoliidae,Acanthaceae,S,50297633,,"No opinion",
+100084,100083,"Peristrophe bicalyculata var. rivinoides","Hook. f.",variety,http://www.tropicos.org/Name/100084,,Peristrophe,bicalyculata,var.,rivinoides,Magnoliidae,Acanthaceae,,,,"No opinion",
+100085,40005242,"Petalidium barlerioides","(Roth) Nees",species,http://www.tropicos.org/Name/100085,,Petalidium,barlerioides,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100088,40016975,"Pseudaechmanthera glutinosa","(Nees) Bremek.",species,http://www.tropicos.org/Name/100088,,Pseudaechmanthera,glutinosa,sp.,,Magnoliidae,Acanthaceae,S,50313257,,"No opinion",
+100086,40006953,"Phlogacanthus thyrsiflorus",Nees,species,http://www.tropicos.org/Name/100086,,Phlogacanthus,thyrsiflorus,sp.,,Magnoliidae,Acanthaceae,S,100434273,,"No opinion",
+100090,40019345,"Pteracanthus inflatus","(T. Anderson) Bremek.",species,http://www.tropicos.org/Name/100090,,Pteracanthus,inflatus,sp.,,Magnoliidae,Acanthaceae,S,100372263,,"No opinion",
+100089,40019345,"Pteracanthus alatus","(Wall. ex Nees) Bremek.",species,http://www.tropicos.org/Name/100089,,Pteracanthus,alatus,sp.,,Magnoliidae,Acanthaceae,S,100372254,,"No opinion",
+100091,40019345,"Pteracanthus urticifolius","(Wall. ex Kuntze) Bremek.",species,http://www.tropicos.org/Name/100091,,Pteracanthus,urticifolius,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100092,40024580,"Rhinacanthus communis",Nees,species,http://www.tropicos.org/Name/100092,,Rhinacanthus,communis,sp.,,Magnoliidae,Acanthaceae,S,100349755,,"No opinion",
+100093,100092,"Rhinacanthus communis var. montanus","C.B. Clarke",variety,http://www.tropicos.org/Name/100093,,Rhinacanthus,communis,var.,montanus,Magnoliidae,Acanthaceae,S,100434267,,"No opinion",
+100094,40027570,"Ruellia brittoniana",Leonard,species,http://www.tropicos.org/Name/100094,,Ruellia,brittoniana,sp.,,Magnoliidae,Acanthaceae,S,50337790,,"No opinion",
+100096,40027570,"Ruellia prostrata",Poir.,species,http://www.tropicos.org/Name/100096,,Ruellia,prostrata,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100099,40027725,"Rungia parviflora",Nees,species,http://www.tropicos.org/Name/100099,,Rungia,parviflora,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100100,40027725,"Rungia pectinata","(L.) Nees",species,http://www.tropicos.org/Name/100100,,Rungia,pectinata,sp.,,Magnoliidae,Acanthaceae,A,,1,Legitimate,!
+100101,40027725,"Rungia repens","(L.) Nees",species,http://www.tropicos.org/Name/100101,,Rungia,repens,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100102,40000897,"Siphonoglossa buchii","(Urb.) Hilsenb.",species,http://www.tropicos.org/Name/100102,,Siphonoglossa,buchii,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100103,40000897,"Siphonoglossa canbyi","(Greenm.) Hilsenb.",species,http://www.tropicos.org/Name/100103,,Siphonoglossa,canbyi,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100104,40000897,"Siphonoglossa durangensis","Henrickson & Hilsenb.",species,http://www.tropicos.org/Name/100104,,Siphonoglossa,durangensis,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100105,40000897,"Siphonoglossa greggii","Greenm. & C.H. Thomps.",species,http://www.tropicos.org/Name/100105,,Siphonoglossa,greggii,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100098,40027725,"Rungia laeta",Clarke,species,http://www.tropicos.org/Name/100098,,Rungia,laeta,sp.,,Magnoliidae,Acanthaceae,,,,"No opinion",
+100106,40000897,"Siphonoglossa incerta","(Brandegee) Hilsenb.",species,http://www.tropicos.org/Name/100106,,Siphonoglossa,incerta,sp.,,Magnoliidae,Acanthaceae,S,50227597,,"No opinion",
+100107,40000897,"Siphonoglossa longiflora","(Torr.) A. Gray",species,http://www.tropicos.org/Name/100107,,Siphonoglossa,longiflora,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100108,40000897,"Siphonoglossa pilosella","(Nees) Torr.",species,http://www.tropicos.org/Name/100108,,Siphonoglossa,pilosella,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100109,40000897,"Siphonoglossa ramosa",Oerst.,species,http://www.tropicos.org/Name/100109,,Siphonoglossa,ramosa,sp.,,Magnoliidae,Acanthaceae,S,50078853,,"No opinion",
+100110,40000897,"Siphonoglossa sessilis","(Jacq.) D.N. Gibson",species,http://www.tropicos.org/Name/100110,,Siphonoglossa,sessilis,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",
+100111,40007068,"Strobilanthes atropurpureus",Nees,species,http://www.tropicos.org/Name/100111,,Strobilanthes,atropurpureus,sp.,,Magnoliidae,Acanthaceae,A,,,"No opinion",

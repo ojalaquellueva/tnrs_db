@@ -1,0 +1,1000 @@
+﻿Accepted Symbol,Synonym Symbol,Scientific Name,Hybrid Genus Indicator,Genus,Hybrid Species Indicator,Species,Subspecies Prefix,Hybrid Subspecies Indicator,Subspecies,Variety Prefix,Hybrid Variety Indicator,Variety,Subvariety Prefix,Subvariety,Forma Prefix,Forma,Genera/Binomial Author,Trinomial Author,Quadranomial Author,Questionable Taxon Indicator,Parents,Genus,Family,Family Symbol,Kingdom
+ABELI,,Abelia,,Abelia,,,,,,,,,,,,,R. Br.,,,,,Abelia,Caprifoliaceae,CAPRIF,Plantae
+ABGR4,,Abelia ×grandiflora,,Abelia,×,grandiflora,,,,,,,,,,,(Rovelli ex André) Rehder,,,,chinensis × uniflora,Abelia,Caprifoliaceae,CAPRIF,Plantae
+ABELM,,Abelmoschus,,Abelmoschus,,,,,,,,,,,,,Medik.,,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABES,,Abelmoschus esculentus,,Abelmoschus,,esculentus,,,,,,,,,,,(L.) Moench,,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABES,HIES,Hibiscus esculentus,,Hibiscus,,esculentus,,,,,,,,,,,L.,,,,,Hibiscus,,,
+ABMA9,,Abelmoschus manihot,,Abelmoschus,,manihot,,,,,,,,,,,(L.) Medik. [excluded],,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABMA9,HIMA9,Hibiscus manihot,,Hibiscus,,manihot,,,,,,,,,,,L.,,,,,Hibiscus,,,
+ABMO,,Abelmoschus moschatus,,Abelmoschus,,moschatus,,,,,,,,,,,Medik.,,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABMO,HIAB,Hibiscus abelmoschus,,Hibiscus,,abelmoschus,,,,,,,,,,,L.,,,,,Hibiscus,,,
+ABIES,,Abies,,Abies,,,,,,,,,,,,,Mill.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABAL3,,Abies alba,,Abies,,alba,,,,,,,,,,,Mill.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABAM,,Abies amabilis,,Abies,,amabilis,,,,,,,,,,,(Douglas ex Loudon) Douglas ex Forbes,,,,,Abies,Pinaceae,PINACE,Plantae
+ABBA,,Abies balsamea,,Abies,,balsamea,,,,,,,,,,,(L.) Mill.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABBAB,,Abies balsamea var. balsamea,,Abies,,balsamea,,,,var.,,balsamea,,,,,(L.) Mill.,(L.) Mill.,,,,Abies,Pinaceae,PINACE,Plantae
+ABBAB,PIBA3,Pinus balsamea,,Pinus,,balsamea,,,,,,,,,,,L.,,,,,Pinus,,,
+ABBAP,,Abies balsamea var. phanerolepis,,Abies,,balsamea,,,,var.,,phanerolepis,,,,,(L.) Mill.,Fernald,,,,Abies,Pinaceae,PINACE,Plantae
+ABBAP,ABPH,Abies ×phanerolepis,,Abies,×,phanerolepis,,,,,,,,,,,(Fernald) Liu,,,,,Abies,,,
+ABBR,,Abies bracteata,,Abies,,bracteata,,,,,,,,,,,(D. Don) D. Don ex Poit.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABBR,ABVE,Abies venusta,,Abies,,venusta,,,,,,,,,,,(Douglas) K. Koch,,,,,Abies,,,
+ABCO,,Abies concolor,,Abies,,concolor,,,,,,,,,,,(Gord. & Glend.) Lindl. ex Hildebr.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABCO,ABCOC,Abies concolor var. concolor,,Abies,,concolor,,,,var.,,concolor,,,,,(Gord. & Glend.) Lindl. ex Hildebr.,(Gord. & Glend.) Lindl. ex Hildebr.,,,,Abies,,,
+ABFI,,Abies firma,,Abies,,firma,,,,,,,,,,,Siebold & Zucc.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABFR,,Abies fraseri,,Abies,,fraseri,,,,,,,,,,,(Pursh) Poir.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABFR,PIFR,Pinus fraseri,,Pinus,,fraseri,,,,,,,,,,,Pursh,,,,,Pinus,,,
+ABGR,,Abies grandis,,Abies,,grandis,,,,,,,,,,,(Douglas ex D. Don) Lindl.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABGR,ABGRG,Abies grandis var. grandis,,Abies,,grandis,,,,var.,,grandis,,,,,(Douglas ex D. Don) Lindl.,,,,,Abies,,,
+ABGR,ABGRI,Abies grandis var. idahoensis,,Abies,,grandis,,,,var.,,idahoensis,,,,,(Douglas ex D. Don) Lindl.,Silba,,,,Abies,,,
+ABGR,ABGRI2,Abies grandis ssp. idahoensis,,Abies,,grandis,ssp.,,idahoensis,,,,,,,,(Douglas ex D. Don) Lindl.,(Silba) Silba,,,,Abies,,,
+ABGR,ABGRJ,Abies grandis f. johnsonii,,Abies,,grandis,,,,,,,,,f.,johnsonii,(Douglas ex D. Don) Lindl.,O.V. Matthews,,,,Abies,,,
+ABGU,,Abies guatemalensis,,Abies,,guatemalensis,,,,,,,,,,,Rehder,,,,,Abies,Pinaceae,PINACE,Plantae
+ABHO,,Abies homolepis,,Abies,,homolepis,,,,,,,,,,,Siebold & Zucc.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABLA,,Abies lasiocarpa,,Abies,,lasiocarpa,,,,,,,,,,,(Hook.) Nutt.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABLAA,,Abies lasiocarpa var. arizonica,,Abies,,lasiocarpa,,,,var.,,arizonica,,,,,(Hook.) Nutt.,(Merriam) Lemmon,,,,Abies,Pinaceae,PINACE,Plantae
+ABLAA,ABAR2,Abies arizonica,,Abies,,arizonica,,,,,,,,,,,Merriam,,,,,Abies,,,
+ABLAL,,Abies lasiocarpa var. lasiocarpa,,Abies,,lasiocarpa,,,,var.,,lasiocarpa,,,,,(Hook.) Nutt.,(Hook.) Nutt.,,,,Abies,Pinaceae,PINACE,Plantae
+ABLAL,ABBAF,Abies balsamea var. fallax,,Abies,,balsamea,,,,var.,,fallax,,,,,(L.) Mill.,(Engelm.) B. Boivin,,,,Abies,,,
+ABLAL,ABBAL,Abies balsamea ssp. lasiocarpa,,Abies,,balsamea,ssp.,,lasiocarpa,,,,,,,,(L.) Mill.,(Hook.) B. Boivin,,,,Abies,,,
+ABLAL,ABBI3,Abies bifolia,,Abies,,bifolia,,,,,,,,,,,A. Murray bis,,,,,Abies,,,
+ABLAL,ABLAB,Abies lasiocarpa ssp. bifolia,,Abies,,lasiocarpa,ssp.,,bifolia,,,,,,,,(Hook.) Nutt.,(A. Murray bis) Silba,,,,Abies,,,
+ABLAL,ABLAB2,Abies lasiocarpa var. bifolia,,Abies,,lasiocarpa,,,,var.,,bifolia,,,,,(Hook.) Nutt.,(A. Murray bis) Eckenw.,,,,Abies,,,
+ABLAL,ABSU,Abies subalpina,,Abies,,subalpina,,,,,,,,,,,Engelmann,,,,,Abies,,,
+ABLO,,Abies lowiana,,Abies,,lowiana,,,,,,,,,,,(Gordon & Glend.) A. Murray bis,,,,,Abies,Pinaceae,PINACE,Plantae
+ABLO,ABCOL,Abies concolor var. lowiana,,Abies,,concolor,,,,var.,,lowiana,,,,,(Gord. & Glend.) Lindl. ex Hildebr.,(Gord. & Glend.) Lemmon,,,,Abies,,,
+ABMA,,Abies magnifica,,Abies,,magnifica,,,,,,,,,,,A. Murray bis,,,,,Abies,Pinaceae,PINACE,Plantae
+ABMAM,,Abies magnifica var. magnifica,,Abies,,magnifica,,,,var.,,magnifica,,,,,A. Murray bis,,,,,Abies,Pinaceae,PINACE,Plantae
+ABMAS,,Abies magnifica var. shastensis,,Abies,,magnifica,,,,var.,,shastensis,,,,,A. Murray bis,Lemmon,,,,Abies,Pinaceae,PINACE,Plantae
+ABMAS,ABMAC,Abies magnifica var. critchfieldii,,Abies,,magnifica,,,,var.,,critchfieldii,,,,,A. Murray bis,Lanner,,,,Abies,,,
+ABMAS,ABMAS2,Abies magnifica ssp. shastensis,,Abies,,magnifica,ssp.,,shastensis,,,,,,,,A. Murray bis,(Lemmon) Silba,,,,Abies,,,
+ABMAS,ABSH,Abies ×shastensis,,Abies,×,shastensis,,,,,,,,,,,(Lemmon) Lemmon,,,,,Abies,,,
+ABPR,,Abies procera,,Abies,,procera,,,,,,,,,,,Rehder,,,,,Abies,Pinaceae,PINACE,Plantae
+ABPR,ABNO,Abies nobilis,,Abies,,nobilis,,,,,,,,,,,(Douglas ex D. Don) Lindl.,,,,,Abies,,,
+ABVE2,,Abies veitchii,,Abies,,veitchii,,,,,,,,,,,Lindl.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABIET,,Abietinella,,Abietinella,,,,,,,,,,,,,Müll. Hal.,,,,,Abietinella,Thuidiaceae,THUIDI,Plantae
+ABAB70,,Abietinella abietina,,Abietinella,,abietina,,,,,,,,,,,(Hedw.) Fleisch.,,,,,Abietinella,Thuidiaceae,THUIDI,Plantae
+ABAB70,HYAB,Hypnum abietinum,,Hypnum,,abietinum,,,,,,,,,,,Hedw.,,,,,Hypnum,,,
+ABAB70,THAB70,Thuidium abietinum,,Thuidium,,abietinum,,,,,,,,,,,(Hedw.) Schimp.,,,,,Thuidium,,,
+ABILD,,Abildgaardia,,Abildgaardia,,,,,,,,,,,,,Vahl,,,,,Abildgaardia,Cyperaceae,CYPERA,Plantae
+ABOV,,Abildgaardia ovata,,Abildgaardia,,ovata,,,,,,,,,,,(Burm. f.) Kral,,,,,Abildgaardia,Cyperaceae,CYPERA,Plantae
+ABOV,ABMO4,Abildgaardia monostachya,,Abildgaardia,,monostachya,,,,,,,,,,,(L.) Vahl,,,,,Abildgaardia,,,
+ABOV,CYMO10,Cyperus monostachyos,,Cyperus,,monostachyos,,,,,,,,,,,L.,,,,,Cyperus,,,
+ABOV,FIMO2,Fimbristylis monostachya,,Fimbristylis,,monostachya,,,,,,,,,,,(L.) Hassk.,,,,,Fimbristylis,,,
+ABOV,FIOV,Fimbristylis ovata,,Fimbristylis,,ovata,,,,,,,,,,,(Burm. f.) J. Kern,,,,,Fimbristylis,,,
+ABROM,,Abroma,,Abroma,,,,,,,,,,,,,Jacq.,,,,,Abroma,Sterculiaceae,STERCU,Plantae
+ABROM,AMBRO2,Ambroma,,Ambroma,,,,,,,,,,,,,"L. f., orth. var.",,,,,Ambroma,,,
+ABAU3,,Abroma augustum,,Abroma,,augustum,,,,,,,,,,,(L.) L. f.,,,,,Abroma,Sterculiaceae,STERCU,Plantae
+ABAU3,ABAU2,Abroma augusta,,Abroma,,augusta,,,,,,,,,,,"(L.) L. f., orth. var.",,,,,Abroma,,,
+ABAU3,AMAU4,Ambroma augusta,,Ambroma,,augusta,,,,,,,,,,,"(L.) L. f., orth. var.",,,,,Ambroma,,,
+ABAU3,AMAU5,Ambroma augustum,,Ambroma,,augustum,,,,,,,,,,,"(L.) L. f., orth. var.",,,,,Ambroma,,,
+ABRON,,Abronia,,Abronia,,,,,,,,,,,,,Juss.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAL,,Abronia alpina,,Abronia,,alpina,,,,,,,,,,,Brandegee,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAM2,,Abronia ameliae,,Abronia,,ameliae,,,,,,,,,,,Lundell,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAM3,,Abronia ammophila,,Abronia,,ammophila,,,,,,,,,,,Greene,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAM3,ABFE,Abronia fendleri,,Abronia,,fendleri,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABAN,,Abronia angustifolia,,Abronia,,angustifolia,,,,,,,,,,,Greene,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAN,ABANA,Abronia angustifolia var. arizonica,,Abronia,,angustifolia,,,,var.,,arizonica,,,,,Greene,(Standl.) Kearney & Peebles,,,,Abronia,,,
+ABAN,ABTO,Abronia torreyi,,Abronia,,torreyi,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABAR,,Abronia argillosa,,Abronia,,argillosa,,,,,,,,,,,S.L. Welsh & Goodrich,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABBI,,Abronia bigelovii,,Abronia,,bigelovii,,,,,,,,,,,Heimerl,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABBO,,Abronia bolackii,,Abronia,,bolackii,,,,,,,,,,,"N.D. Atwood, S.L. Welsh & K.D. Heil",,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABCA,,Abronia carletonii,,Abronia,,carletonii,,,,,,,,,,,J.M. Coult. & Fisher,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABEL,,Abronia elliptica,,Abronia,,elliptica,,,,,,,,,,,A. Nelson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABEL,ABFRE2,Abronia fragrans var. elliptica,,Abronia,,fragrans,,,,var.,,elliptica,,,,,Nutt. ex Hook.,(A. Nelson) M.E. Jones,,,,Abronia,,,
+ABEL,ABPU2,Abronia pumila,,Abronia,,pumila,,,,,,,,,,,Rydb.,,,,,Abronia,,,
+ABEL,ABRA,Abronia ramosa,,Abronia,,ramosa,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABEL,ABSA3,Abronia salsa,,Abronia,,salsa,,,,,,,,,,,Rydb.,,,,,Abronia,,,
+ABFR2,,Abronia fragrans,,Abronia,,fragrans,,,,,,,,,,,Nutt. ex Hook.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABFR2,ABFRG2,Abronia fragrans var. glaucescens,,Abronia,,fragrans,,,,var.,,glaucescens,,,,,Nutt. ex Hook.,A. Nelson,,,,Abronia,,,
+ABGR2,,Abronia gracilis,,Abronia,,gracilis,,,,,,,,,,,Benth.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABIN2,,Abronia insularis,,Abronia,,insularis,,,,,,,,,,,Standl.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABLA2,,Abronia latifolia,,Abronia,,latifolia,,,,,,,,,,,Eschsch.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABMA5,,Abronia macrocarpa,,Abronia,,macrocarpa,,,,,,,,,,,L.A. Galloway,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABMA2,,Abronia maritima,,Abronia,,maritima,,,,,,,,,,,Nutt. ex S. Watson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABME,,Abronia mellifera,,Abronia,,mellifera,,,,,,,,,,,Douglas ex Hook.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABMI2,,Abronia minor,,Abronia,,minor,,,,,,,,,,,Standl.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNA,,Abronia nana,,Abronia,,nana,,,,,,,,,,,S. Watson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAC,,Abronia nana var. covillei,,Abronia,,nana,,,,var.,,covillei,,,,,S. Watson,(Heimerl) Munz,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAC,ABNAC2,Abronia nana ssp. covillei,,Abronia,,nana,ssp.,,covillei,,,,,,,,S. Watson,(Heimerl) Munz,,,,Abronia,,,
+ABNAH,,Abronia nana var. harrisii,,Abronia,,nana,,,,var.,,harrisii,,,,,S. Watson,S.L. Welsh,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAN,,Abronia nana var. nana,,Abronia,,nana,,,,var.,,nana,,,,,S. Watson,S. Watson,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAN,ABNAL,Abronia nana var. lanciformis,,Abronia,,nana,,,,var.,,lanciformis,,,,,S. Watson,M.E. Jones,,,,Abronia,,,
+ABNE,,Abronia neurophylla,,Abronia,,neurophylla,,,,,,,,,,,Standl.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABPO,,Abronia pogonantha,,Abronia,,pogonantha,,,,,,,,,,,Heimerl,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABTU,,Abronia turbinata,,Abronia,,turbinata,,,,,,,,,,,Torr. ex S. Watson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABTU,ABEX,Abronia exalata,,Abronia,,exalata,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABTU,ABOR2,Abronia orbiculata,,Abronia,,orbiculata,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABUM,,Abronia umbellata,,Abronia,,umbellata,,,,,,,,,,,Lam.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABUMB,,Abronia umbellata ssp. breviflora,,Abronia,,umbellata,ssp.,,breviflora,,,,,,,,Lam.,(Standl.) Munz,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABUMB,ABAC,Abronia acutalata,,Abronia,,acutalata,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABUMB,ABBR2,Abronia breviflora,,Abronia,,breviflora,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABUMB,ABUMA2,Abronia umbellata ssp. acutalata,,Abronia,,umbellata,ssp.,,acutalata,,,,,,,,Lam.,(Standl.) Tillett,,,,Abronia,,,
+ABUMB,ABUMA3,Abronia umbellata var. acutalata,,Abronia,,umbellata,,,,var.,,acutalata,,,,,Lam.,(Standl.) C.L. Hitchc.,,,,Abronia,,,
+ABUMU,,Abronia umbellata ssp. umbellata,,Abronia,,umbellata,ssp.,,umbellata,,,,,,,,Lam.,Lam.,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABUMU,ABAL2,Abronia alba,,Abronia,,alba,,,,,,,,,,,Eastw.,,,,,Abronia,,,
+ABUMU,ABPL,Abronia platyphylla,,Abronia,,platyphylla,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABUMU,ABUMA4,Abronia umbellata ssp. alba,,Abronia,,umbellata,ssp.,,alba,,,,,,,,Lam.,(Eastw.) Munz,,,,Abronia,,,
+ABUMU,ABUMP,Abronia umbellata ssp. platyphylla,,Abronia,,umbellata,ssp.,,platyphylla,,,,,,,,Lam.,(Standl.) Munz,,,,Abronia,,,
+ABUMU,ABUMV,Abronia umbellata ssp. variabilis,,Abronia,,umbellata,ssp.,,variabilis,,,,,,,,Lam.,(Standl.) Munz,,,,Abronia,,,
+ABUMU,ABVA,Abronia variabilis,,Abronia,,variabilis,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABVI,,Abronia villosa,,Abronia,,villosa,,,,,,,,,,,S. Watson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABVIA,,Abronia villosa var. aurita,,Abronia,,villosa,,,,var.,,aurita,,,,,S. Watson,(Abrams) Jeps.,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABVIA,ABPI2,Abronia pinetorum,,Abronia,,pinetorum,,,,,,,,,,,Abrams,,,,,Abronia,,,
+ABVIV,,Abronia villosa var. villosa,,Abronia,,villosa,,,,var.,,villosa,,,,,S. Watson,S. Watson,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABROT,,Abrothallus,,Abrothallus,,,,,,,,,,,,,De Not.,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABBE2,,Abrothallus bertianus,,Abrothallus,,bertianus,,,,,,,,,,,De Not.,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABBR3,,Abrothallus bryoriarum,,Abrothallus,,bryoriarum,,,,,,,,,,,Hafellner,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABCE,,Abrothallus cetrariae,,Abrothallus,,cetrariae,,,,,,,,,,,Kotte,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABCL,,Abrothallus cladoniae,,Abrothallus,,cladoniae,,,,,,,,,,,R. Sant. & D. Hawksw.,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABPA5,,Abrothallus parmeliarum,,Abrothallus,,parmeliarum,,,,,,,,,,,(Sommerf.) Arnold,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABPA5,BUPA8,Buelliella parmeliarum,,Buelliella,,parmeliarum,,,,,,,,,,,(Sommerf.) Fink,,,,,Buelliella,,,
+ABPE2,,Abrothallus peyritschii,,Abrothallus,,peyritschii,,,,,,,,,,,(Stein) Kotte,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABPR5,,Abrothallus prodiens,,Abrothallus,,prodiens,,,,,,,,,,,(Harm.) Diederich & Hafellner,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABWE,,Abrothallus welwitschii,,Abrothallus,,welwitschii,,,,,,,,,,,Tul.,,,,,Abrothallus,Uncertain Ascomycota Family,UNCERTA,Fungi
+ABRUS,,Abrus,,Abrus,,,,,,,,,,,,,Adans.,,,,,Abrus,Fabaceae,FABACE,Plantae
+ABPR3,,Abrus precatorius,,Abrus,,precatorius,,,,,,,,,,,L.,,,,,Abrus,Fabaceae,FABACE,Plantae
+ABPR3,ABAB2,Abrus abrus,,Abrus,,abrus,,,,,,,,,,,"(L.) W. Wight, nom. inval.",,,,,Abrus,,,
+ABSCO,,Absconditella,,Absconditella,,,,,,,,,,,,,Vezda,,,,,Absconditella,Stictidaceae,STICTI,Fungi
+ABSP,,Absconditella sphagnorum,,Absconditella,,sphagnorum,,,,,,,,,,,Vezda & Poelt,,,,,Absconditella,Stictidaceae,STICTI,Fungi
+ABTR3,,Absconditella trivialis,,Absconditella,,trivialis,,,,,,,,,,,(Willey ex Tuck.) Vezda,,,,,Absconditella,Stictidaceae,STICTI,Fungi
+ABUTI,,Abutilon,,Abutilon,,,,,,,,,,,,,Mill.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABAB,,Abutilon abutiloides,,Abutilon,,abutiloides,,,,,,,,,,,(Jacq.) Garcke ex Hochr.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABAB,ABAM5,Abutilon americanum,,Abutilon,,americanum,,,,,,,,,,,(L.) Sweet,,,,,Abutilon,,,
+ABAB,ABJA,Abutilon jacquinii,,Abutilon,,jacquinii,,,,,,,,,,,G. Don,,,,,Abutilon,,,
+ABAB,ABLI,Abutilon lignosum,,Abutilon,,lignosum,,,,,,,,,,,(Cav.) G. Don,,,,,Abutilon,,,
+ABAU,,Abutilon auritum,,Abutilon,,auritum,,,,,,,,,,,(Wall. ex Link) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABBE,,Abutilon berlandieri,,Abutilon,,berlandieri,,,,,,,,,,,A. Gray ex S. Watson,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABBE,ABCA2,Abutilon californicum,,Abutilon,,californicum,,,,,,,,,,,auct. non Benth.,,,,,Abutilon,,,
+ABER,,Abutilon eremitopetalum,,Abutilon,,eremitopetalum,,,,,,,,,,,Caum,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABFR3,,Abutilon fruticosum,,Abutilon,,fruticosum,,,,,,,,,,,Guill. & Perr.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABFR3,ABTE,Abutilon texense,,Abutilon,,texense,,,,,,,,,,,Torr. & A. Gray,,,,,Abutilon,,,
+ABGL,,Abutilon glabriflorum,,Abutilon,,glabriflorum,,,,,,,,,,,Hochr. [excluded],,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABGR3,,Abutilon grandifolium,,Abutilon,,grandifolium,,,,,,,,,,,(Willd.) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABHI,,Abutilon hirtum,,Abutilon,,hirtum,,,,,,,,,,,(Lam.) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABHU,,Abutilon hulseanum,,Abutilon,,hulseanum,,,,,,,,,,,(Torr. & A. Gray) Torr. ex A. Gray,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABHU,ABCO2,Abutilon commutatum,,Abutilon,,commutatum,,,,,,,,,,,auct. non K. Schum.,,,,,Abutilon,,,
+ABHU,ABPA4,Abutilon pauciflorum,,Abutilon,,pauciflorum,,,,,,,,,,,Sweet,,,,,Abutilon,,,
+ABHY,,Abutilon hypoleucum,,Abutilon,,hypoleucum,,,,,,,,,,,A. Gray,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABIN,,Abutilon incanum,,Abutilon,,incanum,,,,,,,,,,,(Link) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABIN,ABINI,Abutilon incanum ssp. incanum,,Abutilon,,incanum,ssp.,,incanum,,,,,,,,(Link) Sweet,(Link) Sweet,,,,Abutilon,,,
+ABIN,ABINP,Abutilon incanum ssp. pringlei,,Abutilon,,incanum,ssp.,,pringlei,,,,,,,,(Link) Sweet,(Hochr.) Felger & Lowe,,,,Abutilon,,,
+ABIN,ABPR4,Abutilon pringlei,,Abutilon,,pringlei,,,,,,,,,,,Hochr.,,,,,Abutilon,,,
+ABIN3,,Abutilon indicum,,Abutilon,,indicum,,,,,,,,,,,(L.) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABINA,,Abutilon indicum ssp. albescens,,Abutilon,,indicum,ssp.,,albescens,,,,,,,,(L.) Sweet,(Miq.) Borss. Waalk.,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABINA,ABASA,Abutilon asiaticum var. albescens,,Abutilon,,asiaticum,,,,var.,,albescens,,,,,(L.) Sweet,(Miq.) Fosberg,,,,Abutilon,,,
+ABMA3,,Abutilon malacum,,Abutilon,,malacum,,,,,,,,,,,S. Watson,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABMA8,,Abutilon mauritianum,,Abutilon,,mauritianum,,,,,,,,,,,(Jacq.) Medik.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABME3,,Abutilon megapotamicum,,Abutilon,,megapotamicum,,,,,,,,,,,(A. Spreng.) A. St.-Hil. & Naudin,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABME2,,Abutilon menziesii,,Abutilon,,menziesii,,,,,,,,,,,Seem.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABMO2,,Abutilon mollicomum,,Abutilon,,mollicomum,,,,,,,,,,,(Willd.) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABMO2,ABSO,Abutilon sonorae,,Abutilon,,sonorae,,,,,,,,,,,A. Gray,,,,,Abutilon,,,
+ABPA,,Abutilon palmeri,,Abutilon,,palmeri,,,,,,,,,,,A. Gray,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABPA2,,Abutilon parishii,,Abutilon,,parishii,,,,,,,,,,,S. Watson,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABPA3,,Abutilon parvulum,,Abutilon,,parvulum,,,,,,,,,,,A. Gray,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABPE,,Abutilon permolle,,Abutilon,,permolle,,,,,,,,,,,(Willd.) Sweet,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABRE,,Abutilon reventum,,Abutilon,,reventum,,,,,,,,,,,S. Watson,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABSA2,,Abutilon sandwicense,,Abutilon,,sandwicense,,,,,,,,,,,(O. Deg.) Christoph.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABSA2,ABSA4,Abortopetalum sandwicense,,Abortopetalum,,sandwicense,,,,,,,,,,,O. Deg.,,,,,Abortopetalum,,,
+ABSA2,ABSAW,Abutilon sandwicense var. welchii,,Abutilon,,sandwicense,,,,var.,,welchii,,,,,(O. Deg.) Christoph.,Christoph.,,,,Abutilon,,,
+ABTH,,Abutilon theophrasti,,Abutilon,,theophrasti,,,,,,,,,,,Medik.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABTH,ABAB3,Abutilon abutilon,,Abutilon,,abutilon,,,,,,,,,,,"(L.) Rusby, nom. inval.",,,,,Abutilon,,,
+ABTH,ABAV,Abutilon avicennae,,Abutilon,,avicennae,,,,,,,,,,,Gaertn.,,,,,Abutilon,,,
+ABTH2,,Abutilon thurberi,,Abutilon,,thurberi,,,,,,,,,,,A. Gray,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABTR,,Abutilon trisulcatum,,Abutilon,,trisulcatum,,,,,,,,,,,(Jacq.) Urb.,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ABTR,ABTR2,Abutilon triquetrum,,Abutilon,,triquetrum,,,,,,,,,,,(L.) Sweet,,,,,Abutilon,,,
+ABWR,,Abutilon wrightii,,Abutilon,,wrightii,,,,,,,,,,,A. Gray,,,,,Abutilon,Malvaceae,MALVAC,Plantae
+ACACI,,Acacia,,Acacia,,,,,,,,,,,,,Mill.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACEM,,Acacia ×emoryana,,Acacia,×,emoryana,,,,,,,,,,,Benth. (pro sp.),,,,[berlandieri × greggii],Acacia,Fabaceae,FABACE,Plantae
+ACAB2,,Acacia abyssinica,,Acacia,,abyssinica,,,,,,,,,,,Hochst. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACABC2,,Acacia abyssinica ssp. calophylla,,Acacia,,abyssinica,ssp.,,calophylla,,,,,,,,Hochst. ex Benth.,Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAC7,,Acacia acinacea,,Acacia,,acinacea,,,,,,,,,,,Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAC7,ACCY3,Acacia cyclophylla,,Acacia,,cyclophylla,,,,,,,,,,,Schltdl.,,,,,Acacia,,,
+ACAC8,,Acacia aciphylla,,Acacia,,aciphylla,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAC9,,Acacia aculeatissima,,Acacia,,aculeatissima,,,,,,,,,,,J.F. Macbr.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAC10,,Acacia acuminata,,Acacia,,acuminata,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAD,,Acacia adunca,,Acacia,,adunca,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAD,ACAC6,Acacia accola,,Acacia,,accola,,,,,,,,,,,Maiden & Betche,,,,,Acacia,,,
+ACAL16,,Acacia alata,,Acacia,,alata,,,,,,,,,,,R. Br.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAM9,,Acacia ampliceps,,Acacia,,ampliceps,,,,,,,,,,,Maslin,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAN4,,Acacia anegadensis,,Acacia,,anegadensis,,,,,,,,,,,Britton [excluded],,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAN10,,Acacia aneura,,Acacia,,aneura,,,,,,,,,,,F. Muell. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAN,,Acacia angustissima,,Acacia,,angustissima,,,,,,,,,,,(Mill.) Kuntze,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACANC,,Acacia angustissima var. chisosiana,,Acacia,,angustissima,,,,var.,,chisosiana,,,,,(Mill.) Kuntze,Isely,,,,Acacia,Fabaceae,FABACE,Plantae
+ACANH,,Acacia angustissima var. hirta,,Acacia,,angustissima,,,,var.,,hirta,,,,,(Mill.) Kuntze,(Nutt.) B.L. Rob.,,,,Acacia,Fabaceae,FABACE,Plantae
+ACANL,,Acacia angustissima var. leucothrix,,Acacia,,angustissima,,,,var.,,leucothrix,,,,,(Mill.) Kuntze,(Standl.) B.L. Turner,,,,Acacia,Fabaceae,FABACE,Plantae
+ACANS,,Acacia angustissima var. shrevei,,Acacia,,angustissima,,,,var.,,shrevei,,,,,(Mill.) Kuntze,(Britton & Rose) Isely,,,,Acacia,Fabaceae,FABACE,Plantae
+ACANS2,,Acacia angustissima var. suffrutescens,,Acacia,,angustissima,,,,var.,,suffrutescens,,,,,(Mill.) Kuntze,(Rose) Isely,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAR12,,Acacia arenaria,,Acacia,,arenaria,,,,,,,,,,,Schinz,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACAU,,Acacia auriculiformis,,Acacia,,auriculiformis,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBA,,Acacia baileyana,,Acacia,,baileyana,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBE6,,Acacia beckleri,,Acacia,,beckleri,,,,,,,,,,,Tindale,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBE,,Acacia berlandieri,,Acacia,,berlandieri,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBI5,,Acacia binervata,,Acacia,,binervata,,,,,,,,,,,DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBO4,,Acacia boomanii,,Acacia,,boormanii,,,,,,,,,,,Maiden,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBR3,,Acacia brachybotrya,,Acacia,,brachybotrya,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACBU3,,Acacia buxifolia,,Acacia,,buxifolia,,,,,,,,,,,A. Cunn.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCA23,,Acacia caesiella,,Acacia,,caesiella,,,,,,,,,,,Maiden & Blakely,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCA24,,Acacia calamifolia,,Acacia,,calamifolia,,,,,,,,,,,Sweet ex Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCA25,,Acacia cambagei,,Acacia,,cambagei,,,,,,,,,,,R.T. Baker,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCA27,,Acacia cardiophylla,,Acacia,,cardiophylla,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCA21,,Acacia catechu,,Acacia,,catechu,,,,,,,,,,,(L. f.) Willd. [excluded],,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCA35,,Acacia caven,,Acacia,,caven,,,,,,,,,,,(Molina) Molina,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCH8,,Acacia chinchillensis,,Acacia,,chinchillensis,,,,,,,,,,,Tindale,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCH8,ACCH7,Acacia chinchellensis,,Acacia,,chinchellensis,,,,,,,,,,,"Tindale, orth. var.",,,,,Acacia,,,
+ACCH,,Acacia choriophylla,,Acacia,,choriophylla,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCI6,,Acacia cibaria,,Acacia,,cibaria,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCI6,ACBR4,Acacia brachystachya,,Acacia,,brachystachya,,,,,,,,,,,auct.,,,,,Acacia,,,
+ACCO15,,Acacia cognata,,Acacia,,cognata,,,,,,,,,,,Domin,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO16,,Acacia colletioides,,Acacia,,colletioides,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO24,,Acacia collinsii,,Acacia,,collinsii,,,,,,,,,,,Saff.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO,,Acacia confusa,,Acacia,,confusa,,,,,,,,,,,Merr.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO17,,Acacia conspersa,,Acacia,,conspersa,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO2,,Acacia constricta,,Acacia,,constricta,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCOC,,Acacia constricta var. constricta,,Acacia,,constricta,,,,var.,,constricta,,,,,Benth.,Benth.,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCOP9,,Acacia constricta var. paucispina,,Acacia,,constricta,,,,var.,,paucispina,,,,,Benth.,Wooton & Standl.,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO18,,Acacia continua,,Acacia,,continua,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCO5,,Acacia cornigera,,Acacia,,cornigera,,,,,,,,,,,(L.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCR2,,Acacia craspedocarpa,,Acacia,,craspedocarpa,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCU4,,Acacia cultriformis,,Acacia,,cultriformis,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCU5,,Acacia cupularis,,Acacia,,cupularis,,,,,,,,,,,Domin,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACCY2,,Acacia cyclops,,Acacia,,cyclops,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDA5,,Acacia davyi,,Acacia,,davyi,,,,,,,,,,,N.E. Br.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDE3,,Acacia dealbata,,Acacia,,dealbata,,,,,,,,,,,Link,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDE3,ACDED,Acacia decurrens var. dealbata,,Acacia,,decurrens,,,,var.,,dealbata,,,,,(Wendl. f.) Willd.,(Link) F. Muell.,,,,Acacia,,,
+ACDE11,,Acacia deanei,,Acacia,,deanei,,,,,,,,,,,"(R.T. Baker) R.T. Baker ex M.B. Welch, Coombs & McGlymn",,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDEP2,,Acacia deanei ssp. paucijuga,,Acacia,,deanei,ssp.,,paucijuga,,,,,,,,"(R.T. Baker) R.T. Baker ex M.B. Welch, Coombs & McGlymn",(Wakef.) Tindale,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDEP2,ACPA10,Acacia paucijuga,,Acacia,,paucijuga,,,,,,,,,,,Wakef.,,,,,Acacia,,,
+ACDE12,,Acacia decora,,Acacia,,decora,,,,,,,,,,,Rchb.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDE,,Acacia decurrens,,Acacia,,decurrens,,,,,,,,,,,(Wendl. f.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDE,MIDE17,Mimosa decurrens,,Mimosa,,decurrens,,,,,,,,,,,Wendl. f.,,,,,Mimosa,,,
+ACDI7,,Acacia dietrichiana,,Acacia,,dietrichiana,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDI8,,Acacia difformis,,Acacia,,difformis,,,,,,,,,,,R.T. Baker,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDO2,,Acacia doratoxylon,,Acacia,,doratoxylon,,,,,,,,,,,A. Cunn.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDR2,,Acacia drummondii,,Acacia,,drummondii,,,,,,,,,,,Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACDU3,,Acacia dunnii,,Acacia,,dunnii,,,,,,,,,,,Turrill,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACEB2,,Acacia eburnea,,Acacia,,eburnea,,,,,,,,,,,(L. f.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACEL,,Acacia elata,,Acacia,,elata,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACER4,,Acacia erioloba,,Acacia,,erioloba,,,,,,,,,,,E. Mey.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACER5,,Acacia erubescens,,Acacia,,erubescens,,,,,,,,,,,Welw. ex Oliv.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACES2,,Acacia estrophiolata,,Acacia,,estrophiolata,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACEX3,,Acacia extensa,,Acacia,,extensa,,,,,,,,,,,Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACFA,,Acacia farnesiana,,Acacia,,farnesiana,,,,,,,,,,,(L.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACFI4,,Acacia fimbriata,,Acacia,,fimbriata,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACFL6,,Acacia floribunda,,Acacia,,floribunda,,,,,,,,,,,(Vent.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGA3,,Acacia galpinii,,Acacia,,galpinii,,,,,,,,,,,Burtt Davy,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGE8,,Acacia genistifolia,,Acacia,,genistifolia,,,,,,,,,,,Link,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGE8,ACDI9,Acacia diffusa,,Acacia,,diffusa,,,,,,,,,,,Lindl.,,,,,Acacia,,,
+ACGE7,,Acacia gerrardii,,Acacia,,gerrardii,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGL5,,Acacia gladiiformis,,Acacia,,gladiiformis,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGL6,,Acacia glandulicarpa,,Acacia,,glandulicarpa,,,,,,,,,,,Reader,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGL4,,Acacia glauca,,Acacia,,glauca,,,,,,,,,,,(L.) Moench,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGO2,,Acacia goetzei,,Acacia,,goetzei,,,,,,,,,,,Harms,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGR9,,Acacia gracilifolia,,Acacia,,gracilifolia,,,,,,,,,,,Maiden & Blakely,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGR,,Acacia greggii,,Acacia,,greggii,,,,,,,,,,,A. Gray,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGRG3,,Acacia greggii var. greggii,,Acacia,,greggii,,,,var.,,greggii,,,,,A. Gray,A. Gray,,,,Acacia,Fabaceae,FABACE,Plantae
+ACGRW,,Acacia greggii var. wrightii,,Acacia,,greggii,,,,var.,,wrightii,,,,,A. Gray,(Benth.) Isely,,,,Acacia,Fabaceae,FABACE,Plantae
+ACHA4,,Acacia hakeoides,,Acacia,,hakeoides,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACHE8,,Acacia hebeclada,,Acacia,,hebeclada,,,,,,,,,,,DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACHE12,,Acacia hemiteles,,Acacia,,hemiteles,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACHE12,ACGR10,Acacia graffiana,,Acacia,,graffiana,,,,,,,,,,,F. Muell.,,,,,Acacia,,,
+ACHO2,,Acacia holosericea,,Acacia,,holosericea,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACHO4,,Acacia horrida,,Acacia,,horrida,,,,,,,,,,,(L.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACHO5,,Acacia howittii,,Acacia,,howittii,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACIM4,,Acacia imbricata,,Acacia,,imbricata,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACIM5,,Acacia implexa,,Acacia,,implexa,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACIR,,Acacia irrorata,,Acacia,,irrorata,,,,,,,,,,,Sieber ex Spreng.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACIT2,,Acacia iteaphylla,,Acacia,,iteaphylla,,,,,,,,,,,F. Muell. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACIX2,,Acacia ixiophylla,,Acacia,,ixiophylla,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACJI,,Acacia jibberdingensis,,Acacia,,jibberdingensis,,,,,,,,,,,Maiden & Blakely,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACJO2,,Acacia jonesii,,Acacia,,jonesii,,,,,,,,,,,F. Muell. & Maiden,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACKA2,,Acacia karroo,,Acacia,,karroo,,,,,,,,,,,Hayne,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACKO,,Acacia koa,,Acacia,,koa,,,,,,,,,,,A. Gray,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACKO,ACKA,Acacia kauaiensis,,Acacia,,kauaiensis,,,,,,,,,,,Hillebr.,,,,,Acacia,,,
+ACKO,ACKOH,Acacia koa var. hawaiiensis,,Acacia,,koa,,,,var.,,hawaiiensis,,,,,A. Gray,Rock,,,,Acacia,,,
+ACKO,ACKOL,Acacia koa var. lanaiensis,,Acacia,,koa,,,,var.,,lanaiensis,,,,,A. Gray,Rock,,,,Acacia,,,
+ACKO,ACKOW,Acacia koa var. waimeae,,Acacia,,koa,,,,var.,,waimeae,,,,,A. Gray,Hochr.,,,,Acacia,,,
+ACKO2,,Acacia koaia,,Acacia,,koaia,,,,,,,,,,,Hillebr.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLA10,,Acacia lanuginophylla,,Acacia,,lanuginophylla,,,,,,,,,,,R.S. Cowan & Maslin,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLA10,ACLA11,Acacia lanuginosa,,Acacia,,lanuginosa,,,,,,,,,,,"C.A. Gardner, nom. illeg.",,,,,Acacia,,,
+ACLA6,,Acacia lasiocalyx,,Acacia,,lasiocalyx,,,,,,,,,,,C.R.P. Andrews,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLE7,,Acacia leiophylla,,Acacia,,leiophylla,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLI8,,Acacia ligulata,,Acacia,,ligulata,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLI5,,Acacia lineata,,Acacia,,lineata,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLO,,Acacia longifolia,,Acacia,,longifolia,,,,,,,,,,,(Andrews) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLO,ACLA,Acacia latifolia,,Acacia,,latifolia,,,,,,,,,,,hort.,,,,,Acacia,,,
+ACLOS3,,Acacia longifolia ssp. sophorae,,Acacia,,longifolia,ssp.,,sophorae,,,,,,,,(Andrews) Willd.,(Labill.) Court,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLOS3,ACLOS2,Acacia longifolia var. sophorae,,Acacia,,longifolia,,,,var.,,sophorae,,,,,(Andrews) Willd.,(Labill.) F. Muell. ex Benth.,,,,Acacia,,,
+ACLO8,,Acacia longissima,,Acacia,,longissima,,,,,,,,,,,H.L. Wendl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACLO8,ACLI4,Acacia linearis,,Acacia,,linearis,,,,,,,,,,,Sims,,,,,Acacia,,,
+ACMA,,Acacia macracantha,,Acacia,,macracantha,,,,,,,,,,,Humb. & Bonpl. ex Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMA11,,Acacia maidenii,,Acacia,,maidenii,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMA12,,Acacia mangium,,Acacia,,mangium,,,,,,,,,,,Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACME80,,Acacia mearnsii,,Acacia,,mearnsii,,,,,,,,,,,De Wild.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACME80,ACDEM,Acacia decurrens var. mollis,,Acacia,,decurrens,,,,var.,,mollis,,,,,(Wendl. f.) Willd.,Lindl.,,,,Acacia,,,
+ACME,,Acacia melanoxylon,,Acacia,,melanoxylon,,,,,,,,,,,R. Br.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACME8,,Acacia mellifera,,Acacia,,mellifera,,,,,,,,,,,(Vahl) Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMED,,Acacia mellifera ssp. detinens,,Acacia,,mellifera,ssp.,,detinens,,,,,,,,(Vahl) Benth.,(Burch.) Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACME6,,Acacia merrallii,,Acacia,,merrallii,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMI5,,Acacia microbotrya,,Acacia,,microbotrya,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMI6,,Acacia microcarpa,,Acacia,,microcarpa,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMI,,Acacia millefolia,,Acacia,,millefolia,,,,,,,,,,,S. Watson,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMO9,,Acacia montana,,Acacia,,montana,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMU6,,Acacia mucronata,,Acacia,,mucronata,,,,,,,,,,,Willd. ex H.L. Wendl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMU7,,Acacia multispicata,,Acacia,,multispicata,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMU,,Acacia muricata,,Acacia,,muricata,,,,,,,,,,,(L.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACMY2,,Acacia myrtifolia,,Acacia,,myrtifolia,,,,,,,,,,,(Sm.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNE4,,Acacia neovernicosa,,Acacia,,neovernicosa,,,,,,,,,,,Isely,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNE8,,Acacia neriifolia,,Acacia,,neriifolia,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNI8,,Acacia nigrescens,,Acacia,,nigrescens,,,,,,,,,,,Oliv.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNI2,,Acacia nilotica,,Acacia,,nilotica,,,,,,,,,,,(L.) Willd. ex Delile,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNIA3,,Acacia nilotica ssp. adstringens,,Acacia,,nilotica,ssp.,,adstringens,,,,,,,,(L.) Willd. ex Delile,(Schumach. & Thonn.) Roberty,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNIK2,,Acacia nilotica ssp. kraussiana,,Acacia,,nilotica,ssp.,,kraussiana,,,,,,,,(L.) Willd. ex Delile,(Benth.) Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACNO5,,Acacia notabilis,,Acacia,,notabilis,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACOM,,Acacia omalophylla,,Acacia,,omalophylla,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACOM,ACHO3,Acacia homalophylla,,Acacia,,homalophylla,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,,,
+ACOS2,,Acacia oswaldii,,Acacia,,oswaldii,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACOX3,,Acacia oxycedrus,,Acacia,,oxycedrus,,,,,,,,,,,Sieber ex DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPA15,,Acacia pachyceras,,Acacia,,pachyceras,,,,,,,,,,,Sw.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPAN,,Acacia pachyceras var. najdensis,,Acacia,,pachyceras,,,,var.,,najdensis,,,,,Sw.,(Chaudhary) Boulos,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPA16,,Acacia papyrocarpa,,Acacia,,papyrocarpa,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPA16,ACSO3,Acacia sowdenii,,Acacia,,sowdenii,,,,,,,,,,,Maiden,,,,,Acacia,,,
+ACPA8,,Acacia paradoxa,,Acacia,,paradoxa,,,,,,,,,,,DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPA8,ACAR15,Acacia armata,,Acacia,,armata,,,,,,,,,,,R. Br.,,,,,Acacia,,,
+ACPA81,,Acacia parramattensis,,Acacia,,parramattensis,,,,,,,,,,,Tindale,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPA9,,Acacia parvipinnula,,Acacia,,parvipinnula,,,,,,,,,,,Tindale,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPE8,,Acacia pendula,,Acacia,,pendula,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPE9,,Acacia pennatula,,Acacia,,pennatula,,,,,,,,,,,(Schltdl. & Cham.) Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPE10,,Acacia penninervis,,Acacia,,penninervis,,,,,,,,,,,Sieber ex DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPE11,,Acacia pentagona,,Acacia,,pentagona,,,,,,,,,,,(Schumach. & Thonn.) Hook. f.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPI,,Acacia pinetorum,,Acacia,,pinetorum,,,,,,,,,,,F.J. Herm.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPO2,,Acacia podalyriifolia,,Acacia,,podalyriifolia,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPO3,,Acacia polyacantha,,Acacia,,polyacantha,,,,,,,,,,,Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPOC2,,Acacia polyacantha ssp. campylacantha,,Acacia,,polyacantha,ssp.,,campylacantha,,,,,,,,Willd.,(Hochst. ex A. Rich.) Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPR6,,Acacia pravissima,,Acacia,,pravissima,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPR3,,Acacia prominens,,Acacia,,prominens,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPR4,,Acacia pruinosa,,Acacia,,pruinosa,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPU3,,Acacia pulchella,,Acacia,,pulchella,,,,,,,,,,,R. Br.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPY3,,Acacia pycnantha,,Acacia,,pycnantha,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACPY4,,Acacia pyrifolia,,Acacia,,pyrifolia,,,,,,,,,,,DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACQU2,,Acacia quornensis,,Acacia,,quornensis,,,,,,,,,,,J.M. Black,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRA5,,Acacia ramulosa,,Acacia,,ramulosa,,,,,,,,,,,W. Fitzg.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRE9,,Acacia redolens,,Acacia,,redolens,,,,,,,,,,,Maslin,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRE8,,Acacia rehmanniana,,Acacia,,rehmanniana,,,,,,,,,,,Schinz,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRE2,,Acacia retinodes,,Acacia,,retinodes,,,,,,,,,,,Schltdl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRE4,,Acacia retusa,,Acacia,,retusa,,,,,,,,,,,(Jacq.) Howard,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRI10,,Acacia richii,,Acacia,,richii,,,,,,,,,,,A. Gray [excluded],,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRI6,,Acacia rigens,,Acacia,,rigens,,,,,,,,,,,A. Cunn. ex G. Don,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRI,,Acacia rigidula,,Acacia,,rigidula,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRI7,,Acacia rivalis,,Acacia,,rivalis,,,,,,,,,,,J.M. Black,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRO5,,Acacia robusta,,Acacia,,robusta,,,,,,,,,,,Burch.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRO,,Acacia roemeriana,,Acacia,,roemeriana,,,,,,,,,,,Scheele,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRO6,,Acacia rossei,,Acacia,,rossei,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRU11,,Acacia rubida,,Acacia,,rubida,,,,,,,,,,,A. Cunn.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACRU12,,Acacia rupicola,,Acacia,,rupicola,,,,,,,,,,,F. Muell. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSA9,,Acacia saliciformis,,Acacia,,saliciformis,,,,,,,,,,,Tindale,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSA10,,Acacia salicina,,Acacia,,salicina,,,,,,,,,,,Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSA,,Acacia saligna,,Acacia,,saligna,,,,,,,,,,,(Labill.) Wendl. f.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSA,ACCY,Acacia cyanophylla,,Acacia,,cyanophylla,,,,,,,,,,,Lindl.,,,,,Acacia,,,
+ACSC2,,Acacia schaffneri,,Acacia,,schaffneri,,,,,,,,,,,(S. Watson) F.J. Herm.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSCB,,Acacia schaffneri var. bravoensis,,Acacia,,schaffneri,,,,var.,,bravoensis,,,,,(S. Watson) F.J. Herm.,Isely,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSCS2,,Acacia schaffneri var. schaffneri,,Acacia,,schaffneri,,,,var.,,schaffneri,,,,,(S. Watson) F.J. Herm.,(S. Watson) F.J. Herm. [excluded],,,,Acacia,Fabaceae,FABACE,Plantae
+ACSC,,Acacia schottii,,Acacia,,schottii,,,,,,,,,,,Torr.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSC9,,Acacia schweinfurthii,,Acacia,,schweinfurthii,,,,,,,,,,,Brenan & Exell,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSC10,,Acacia sclerosperma,,Acacia,,sclerosperma,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSC12,,Acacia scleroxyla,,Acacia,,scleroxyla,,,,,,,,,,,Tussac [excluded],,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSE6,,Acacia senegal,,Acacia,,senegal,,,,,,,,,,,(L.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSER2,,Acacia senegal var. rostrata,,Acacia,,senegal,,,,var.,,rostrata,,,,,(L.) Willd.,Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSE7,,Acacia seyal,,Acacia,,seyal,,,,,,,,,,,Delile,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSI7,,Acacia sieberiana,,Acacia,,sieberiana,,,,,,,,,,,DC.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSIW2,,Acacia sieberiana var. woodii,,Acacia,,sieberiana,,,,var.,,woodii,,,,,DC.,(Burtt Davy) Keay & Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSI5,,Acacia silvestris,,Acacia,,silvestris,,,,,,,,,,,Tindale,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSO4,,Acacia sophorae,,Acacia,,sophorae,,,,,,,,,,,(Labill.) R. Br.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSP9,,Acacia spectabilis,,Acacia,,spectabilis,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSP4,,Acacia sphaerocephala,,Acacia,,sphaerocephala,,,,,,,,,,,Schltdl. & Cham.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACST5,,Acacia stenophylla,,Acacia,,stenophylla,,,,,,,,,,,A. Cunn. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACST8,,Acacia stowardii,,Acacia,,stowardii,,,,,,,,,,,Maiden,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACST8,ACCL2,Acacia clivicola,,Acacia,,clivicola,,,,,,,,,,,Pedley,,,,,Acacia,,,
+ACST6,,Acacia stricta,,Acacia,,stricta,,,,,,,,,,,(Andrews) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSU9,,Acacia suaveolens,,Acacia,,suaveolens,,,,,,,,,,,(Sm.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSU11,,Acacia sublanata,,Acacia,,sublanata,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSU11,ACLU2 ,Acacia luehmannii,,Acacia,,luehmannii,,,,,,,,,,,F. Muell.,,,,,Acacia,,,
+ACSU10,,Acacia subulata,,Acacia,,subulata,,,,,,,,,,,Bonpl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACSW2,,Acacia swazica,,Acacia,,swazica,,,,,,,,,,,Burtt Davy,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTE9,,Acacia terminalis,,Acacia,,terminalis,,,,,,,,,,,(Salisb.) J.F. Macbr. [excluded],,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTE8,,Acacia tetragonophylla,,Acacia,,tetragonophylla,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTO6,,Acacia tortilis,,Acacia,,tortilis,,,,,,,,,,,(Forssk.) Hayne,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTOH2,,Acacia tortilis ssp. heteracantha,,Acacia,,tortilis,ssp.,,heteracantha,,,,,,,,(Forssk.) Hayne,(Burch.) Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTOS2,,Acacia tortilis ssp. spirocarpa,,Acacia,,tortilis,ssp.,,spirocarpa,,,,,,,,(Forssk.) Hayne,(Hochst. ex A. Rich.) Brenan,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTO,,Acacia tortuosa,,Acacia,,tortuosa,,,,,,,,,,,(L.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACTR6,,Acacia trineura,,Acacia,,trineura,,,,,,,,,,,F. Muell.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACUL2,,Acacia ulicifolia,,Acacia,,ulicifolia,,,,,,,,,,,(Salisb.) Court,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACUL2,ACJU2,Acacia juniperina,,Acacia,,juniperina,,,,,,,,,,,(Vent.) Willd.,,,,,Acacia,,,
+ACUN2,,Acacia uncinata,,Acacia,,uncinata,,,,,,,,,,,Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACUN3,,Acacia undulifolia,,Acacia,,undulifolia,,,,,,,,,,,G. Lodd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACUR2,,Acacia urophylla,,Acacia,,urophylla,,,,,,,,,,,Benth. ex Lindl.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACVE5,,Acacia verniciflua,,Acacia,,verniciflua,,,,,,,,,,,A. Cunn.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACVE2,,Acacia verticillata,,Acacia,,verticillata,,,,,,,,,,,(L'Hér.) Willd.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACVI7,,Acacia victoriae,,Acacia,,victoriae,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACVI7,ACSE9,Acacia sentis,,Acacia,,sentis,,,,,,,,,,,"F. Muell. ex Benth., nom. illeg.",,,,,Acacia,,,
+ACVI9,,Acacia viscidula,,Acacia,,viscidula,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACVI10,,Acacia visco,,Acacia,,visco,,,,,,,,,,,Lorentz ex Griseb.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACVO,,Acacia vogeliana,,Acacia,,vogeliana,,,,,,,,,,,Steud.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACWA3,,Acacia wattsiana,,Acacia,,wattsiana,,,,,,,,,,,F. Muell. ex Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACWI2,,Acacia willardiana,,Acacia,,willardiana,,,,,,,,,,,Rose,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACXA3,,Acacia xanthophloea,,Acacia,,xanthophloea,,,,,,,,,,,Benth.,,,,,Acacia,Fabaceae,FABACE,Plantae
+ACACI2,,Acaciella,,Acaciella,,,,,,,,,,,,,Britton & Rose,,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACAN11,,Acaciella angustissima,,Acaciella,,angustissima,,,,,,,,,,,(Mill.) Britton & Rose,,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACAN11,ACAN,Acacia angustissima,,Acacia,,angustissima,,,,,,,,,,,(Mill.) Kuntze,,,,,Acacia,,,
+ACANC3,,Acaciella angustissima var. chisosiana,,Acaciella,,angustissima,,,,var.,,chisosiana,,,,,(Mill.) Britton & Rose,(Isely) B.L. Turner,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACANC3,ACANC,Acacia angustissima var. chisosiana,,Acacia,,angustissima,,,,var.,,chisosiana,,,,,(Mill.) Kuntze,Isely,,,,Acacia,,,
+ACANH2,,Acaciella angustissima var. hirta,,Acaciella,,angustissima,,,,var.,,hirta,,,,,(Mill.) Britton & Rose,(Nutt.) B.L. Turner,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACANH2,ACANC2,Acacia angustissima var. cuspidata,,Acacia,,angustissima,,,,var.,,cuspidata,,,,,(Mill.) Kuntze,(Schltdl.) L.D. Benson,,,,Acacia,,,
+ACANH2,ACANH,Acacia angustissima var. hirta,,Acacia,,angustissima,,,,var.,,hirta,,,,,(Mill.) Kuntze,(Nutt.) B.L. Rob.,,,,Acacia,,,
+ACANH2,ACANT4,Acacia angustissima var. texensis,,Acacia,,angustissima,,,,var.,,texensis,,,,,(Mill.) Kuntze,(Torr. & A. Gray) Isely,,,,Acacia,,,
+ACANH2,ACANT5,Acaciella angustissima var. texensis,,Acaciella,,angustissima,,,,var.,,texensis,,,,,(Mill.) Britton & Rose,(Torr. & A. Gray) L. Rico,,,,Acaciella,,,
+ACANH2,ACCU,Acacia cuspidata,,Acacia,,cuspidata,,,,,,,,,,,Schltdl.,,,,,Acacia,,,
+ACANH2,ACHI3,Acacia hirta,,Acacia,,hirta,,,,,,,,,,,Nutt.,,,,,Acacia,,,
+ACANH2,ACHI4,Acaciella hirta,,Acaciella,,hirta,,,,,,,,,,,(Nutt.) Britton & Rose,,,,,Acaciella,,,
+ACANH2,ACTE2,Acacia texensis,,Acacia,,texensis,,,,,,,,,,,Torr. & A. Gray,,,,,Acacia,,,
+ACGL7,,Acaciella glauca,,Acaciella,,glauca,,,,,,,,,,,(L.) L. Rico,,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACGL7,ACGL4,Acacia glauca,,Acacia,,glauca,,,,,,,,,,,(L.) Moench,,,,,Acacia,,,
+ACGL7,ACVI8,Acacia villosa,,Acacia,,villosa,,,,,,,,,,,(Sw.) Willd.,,,,,Acacia,,,
+ACLE10,,Acaciella leucothrix,,Acaciella,,leucothrix,,,,,,,,,,,(Standl.) Britton & Rose,,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACLE10,ACANL,Acacia angustissima var. leucothrix,,Acacia,,angustissima,,,,var.,,leucothrix,,,,,(Mill.) Kuntze,(Standl.) B.L. Turner,,,,Acacia,,,
+ACSH2,,Acaciella shrevei,,Acaciella,,shrevei,,,,,,,,,,,Britton & Rose,,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACSH2,ACANS,Acacia angustissima var. shrevei,,Acacia,,angustissima,,,,var.,,shrevei,,,,,(Mill.) Kuntze,(Britton & Rose) Isely,,,,Acacia,,,
+ACSH2,ACHIL2,Acacia hirta ssp. lemmonii,,Acacia,,hirta,ssp.,,lemmonii,,,,,,,,Nutt.,(Rose) Wiggins,,,,Acacia,,,
+ACSH2,ACLE3,Acacia lemmonii,,Acacia,,lemmonii,,,,,,,,,,,Rose,,,,,Acacia,,,
+ACSU12,,Acaciella suffrutescens,,Acaciella,,suffrutescens,,,,,,,,,,,Britton & Rose,,,,,Acaciella,Fabaceae,FABACE,Plantae
+ACSU12,ACANS2,Acacia angustissima var. suffrutescens,,Acacia,,angustissima,,,,var.,,suffrutescens,,,,,(Mill.) Kuntze,(Rose) Isely,,,,Acacia,,,
+ACAEN,,Acaena,,Acaena,,,,,,,,,,,,,Mutis ex L.,,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACEX,,Acaena exigua,,Acaena,,exigua,,,,,,,,,,,A. Gray,,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACEX,ACEXG,Acaena exigua var. glaberrima,,Acaena,,exigua,,,,var.,,glaberrima,,,,,A. Gray,Bitter,,,,Acaena,,,
+ACEX,ACEXG2,Acaena exigua var. glabriuscula,,Acaena,,exigua,,,,var.,,glabriuscula,,,,,A. Gray,Bitter,,,,Acaena,,,
+ACEX,ACEXS,Acaena exigua var. subtusstrigulosa,,Acaena,,exigua,,,,var.,,subtusstrigulosa,,,,,A. Gray,Bitter,,,,Acaena,,,
+ACMY3,,Acaena myriophylla,,Acaena,,myriophylla,,,,,,,,,,,Lindl.,,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACNO7,,Acaena novae-zelandiae,,Acaena,,novae-zelandiae,,,,,,,,,,,Kirk,,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACNO7,ACAN3,Acaena anserinifolia,,Acaena,,anserinifolia,,,,,,,,,,,auct. non (J.R. Forst. & G. Forst.) Druce,,,,,Acaena,,,
+ACNO7,ACNO4,Acaena novae-zelandica,,Acaena,,novae-zelandica,,,,,,,,,,,"Kirk, orth. var.",,,,,Acaena,,,
+ACNO7,ACSA4,Acaena sanguisorbae,,Acaena,,sanguisorbae,,,,,,,,,,,auct. non (L. f.) Vahl,,,,,Acaena,,,
+ACPA14,,Acaena pallida,,Acaena,,pallida,,,,,,,,,,,(Kirk) Allen,,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACPI3,,Acaena pinnatifida,,Acaena,,pinnatifida,,,,,,,,,,,Ruiz & Pav.,,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACPIC2,,Acaena pinnatifida var. californica,,Acaena,,pinnatifida,,,,var.,,californica,,,,,Ruiz & Pav.,(Bitter) Jeps.,,,,Acaena,Rosaceae,ROSACE,Plantae
+ACPIC2,ACCA2,Acaena californica,,Acaena,,californica,,,,,,,,,,,Bitter,,,,,Acaena,,,
+ACALY,,Acalypha,,Acalypha,,,,,,,,,,,,,L.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAL2,,Acalypha alopecuroidea,,Acalypha,,alopecuroidea,,,,,,,,,,,Jacq.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAL2,ACAR17,Acalypha aristata,,Acalypha,,aristata,,,,,,,,,,,Kunth,,,,,Acalypha,,,
+ACAM2,,Acalypha amentacea,,Acalypha,,amentacea,,,,,,,,,,,Roxb.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAMW,,Acalypha amentacea ssp. wilkesiana,,Acalypha,,amentacea,ssp.,,wilkesiana,,,,,,,,Roxb.,(Müll. Arg.) Fosberg,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAMH,,Acalypha amentacea var. heterotricha,,Acalypha,,amentacea,,,,var.,,heterotricha,,,,,Roxb.,Fosberg,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAMP2,,Acalypha amentacea var. palauensis,,Acalypha,,amentacea,,,,var.,,palauensis,,,,,Roxb.,Fosberg,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAR16,,Acalypha arvensis,,Acalypha,,arvensis,,,,,,,,,,,Poepp.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACAR16,ACAR19,Acalypha aristata,,Acalypha,,aristata,,,,,,,,,,,auct. non Kunth,,,,,Acalypha,,,
+ACAU6,,Acalypha australis,,Acalypha,,australis,,,,,,,,,,,L.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACBE2,,Acalypha berteriana,,Acalypha,,berteriana,,,,,,,,,,,Müll. Arg.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACBI3,,Acalypha bisetosa,,Acalypha,,bisetosa,,,,,,,,,,,Bertol. ex Spreng.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACCA3,,Acalypha californica,,Acalypha,,californica,,,,,,,,,,,Benth.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACCA3,ACPR,Acalypha pringlei,,Acalypha,,pringlei,,,,,,,,,,,S. Watson,,,,,Acalypha,,,
+ACCH2,,Acalypha chamaedryfolia,,Acalypha,,chamaedryfolia,,,,,,,,,,,(Lam.) Müll. Arg.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACDE4,,Acalypha deamii,,Acalypha,,deamii,,,,,,,,,,,(Weath.) H.E. Ahles,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACDE4,ACRHD,Acalypha rhomboidea var. deamii,,Acalypha,,rhomboidea,,,,var.,,deamii,,,,,Raf.,(Weath.) Weath.,,,,Acalypha,,,
+ACDE4,ACVID,Acalypha virginica var. deamii,,Acalypha,,virginica,,,,var.,,deamii,,,,,L.,Weath.,,,,Acalypha,,,
+ACGR2,,Acalypha gracilens,,Acalypha,,gracilens,,,,,,,,,,,A. Gray,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACGR2,ACGRD,Acalypha gracilens var. delzii,,Acalypha,,gracilens,,,,var.,,delzii,,,,,A. Gray,L. Mill.,,,,Acalypha,,,
+ACGR2,ACGRF,Acalypha gracilens var. fraseri,,Acalypha,,gracilens,,,,var.,,fraseri,,,,,A. Gray,(Müll. Arg.) Weath.,,,,Acalypha,,,
+ACGR2,ACVIG,Acalypha virginica var. gracilens,,Acalypha,,virginica,,,,var.,,gracilens,,,,,L.,(A. Gray) Müll. Arg.,,,,Acalypha,,,
+ACHI2,,Acalypha hispida,,Acalypha,,hispida,,,,,,,,,,,Burm. f.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACIN12,,Acalypha indica,,Acalypha,,indica,,,,,,,,,,,L.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACLA9,,Acalypha lanceolata,,Acalypha,,lanceolata,,,,,,,,,,,Willd.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACME7,,Acalypha mexicana,,Acalypha,,mexicana,,,,,,,,,,,Müll. Arg.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACME7,ACINM,Acalypha indica var. mexicana,,Acalypha,,indica,,,,var.,,mexicana,,,,,L.,(Müll. Arg.) Pax & K. Hoffm.,,,,Acalypha,,,
+ACMO4,,Acalypha monococca,,Acalypha,,monococca,,,,,,,,,,,(Engelm. ex A. Gray) Lill. W. Mill. & Gandhi,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACMO4,ACGRM,Acalypha gracilens var. monococca,,Acalypha,,gracilens,,,,var.,,monococca,,,,,A. Gray,Engelm. ex A. Gray,,,,Acalypha,,,
+ACMO4,ACGRM2,Acalypha gracilens ssp. monococca,,Acalypha,,gracilens,ssp.,,monococca,,,,,,,,A. Gray,(Engelm. ex A. Gray) G.L. Webster,,,,Acalypha,,,
+ACMO4,ACVIM,Acalypha virginica var. monococca,,Acalypha,,virginica,,,,var.,,monococca,,,,,L.,(Engelm. ex A. Gray) Müll. Arg.,,,,Acalypha,,,
+ACMO,,Acalypha monostachya,,Acalypha,,monostachya,,,,,,,,,,,Cav.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACMO,ACHE,Acalypha hederacea,,Acalypha,,hederacea,,,,,,,,,,,Torr.,,,,,Acalypha,,,
+ACNE,,Acalypha neomexicana,,Acalypha,,neomexicana,,,,,,,,,,,Müll. Arg.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACOS,,Acalypha ostryifolia,,Acalypha,,ostryifolia,,,,,,,,,,,Riddell,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACOS,ACCA8,Acalypha caroliniana,,Acalypha,,caroliniana,,,,,,,,,,,Elliott,,,,,Acalypha,,,
+ACPH3,,Acalypha phleoides,,Acalypha,,phleoides,,,,,,,,,,,Cav.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACPH3,ACLI,Acalypha lindheimeri,,Acalypha,,lindheimeri,,,,,,,,,,,Müll. Arg.,,,,,Acalypha,,,
+ACPH3,ACLIM,Acalypha lindheimeri var. major,,Acalypha,,lindheimeri,,,,var.,,major,,,,,Müll. Arg.,Pax & K. Hoffm.,,,,Acalypha,,,
+ACPO,,Acalypha poiretii,,Acalypha,,poiretii,,,,,,,,,,,Spreng.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACPO,ACIN,Acalypha indica,,Acalypha,,indica,,,,,,,,,,,"Vell., non L.",,,,,Acalypha,,,
+ACPO4,,Acalypha portoricensis,,Acalypha,,portoricensis,,,,,,,,,,,Müll. Arg.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACRA,,Acalypha radians,,Acalypha,,radians,,,,,,,,,,,Torr.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACRH,,Acalypha rhomboidea,,Acalypha,,rhomboidea,,,,,,,,,,,Raf.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACRH,ACVIR,Acalypha virginica var. rhomboidea,,Acalypha,,virginica,,,,var.,,rhomboidea,,,,,L.,(Raf.) Cooperr.,,,,Acalypha,,,
+ACSE,,Acalypha setosa,,Acalypha,,setosa,,,,,,,,,,,A. Rich.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACVI,,Acalypha virginica,,Acalypha,,virginica,,,,,,,,,,,L.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACWI,,Acalypha wilkesiana,,Acalypha,,wilkesiana,,,,,,,,,,,Müll. Arg.,,,,,Acalypha,Euphorbiaceae,EUPHOR,Plantae
+ACWI,ACAMW,Acalypha amentacea ssp. wilkesiana,,Acalypha,,amentacea,ssp.,,wilkesiana,,,,,,,,Roxb.,(Müll. Arg.) Fosberg,,,,Acalypha,,,
+ACAMP,,Acamptopappus,,Acamptopappus,,,,,,,,,,,,,(A. Gray) A. Gray,,,,,Acamptopappus,Asteraceae,ASTERA,Plantae
+ACSH,,Acamptopappus shockleyi,,Acamptopappus,,shockleyi,,,,,,,,,,,A. Gray,,,,,Acamptopappus,Asteraceae,ASTERA,Plantae
+ACSP,,Acamptopappus sphaerocephalus,,Acamptopappus,,sphaerocephalus,,,,,,,,,,,(Harv. & A. Gray ex A. Gray) A. Gray,,,,,Acamptopappus,Asteraceae,ASTERA,Plantae
+ACSPH,,Acamptopappus sphaerocephalus var. hirtellus,,Acamptopappus,,sphaerocephalus,,,,var.,,hirtellus,,,,,(Harv. & A. Gray ex A. Gray) A. Gray,S.F. Blake,,,,Acamptopappus,Asteraceae,ASTERA,Plantae
+ACSPS2,,Acamptopappus sphaerocephalus var. sphaerocephalus,,Acamptopappus,,sphaerocephalus,,,,var.,,sphaerocephalus,,,,,(Harv. & A. Gray ex A. Gray) A. Gray,(Harv. & A. Gray ex A. Gray) A. Gray,,,,Acamptopappus,Asteraceae,ASTERA,Plantae
+ACSPS2,APSP2,Aplopappus sphaerocephalus,,Aplopappus,,sphaerocephalus,,,,,,,,,,,Harv. & A. Gray ex A. Gray,,,,,Aplopappus,,,
+ACANT6,,Acanthocereus,,Acanthocereus,,,,,,,,,,,,,(Engelm. ex A. Berger) Britton & Rose,,,,,Acanthocereus,Cactaceae,CACTAC,Plantae
+ACTE4,,Acanthocereus tetragonus,,Acanthocereus,,tetragonus,,,,,,,,,,,(L.) Humm.,,,,,Acanthocereus,Cactaceae,CACTAC,Plantae
+ACTE4,ACFL3,Acanthocereus floridanus,,Acanthocereus,,floridanus,,,,,,,,,,,Small ex Britton & Rose,,,,,Acanthocereus,,,
+ACTE4,ACPE5,Acanthocereus pentagonus,,Acanthocereus,,pentagonus,,,,,,,,,,,(L.) Britton & Rose,,,,,Acanthocereus,,,
+ACTE4,CATE30,Cactus tetragonus,,Cactus,,tetragonus,,,,,,,,,,,L.,,,,,Cactus,,,
+ACTE4,CEPE4,Cereus pentagonus,,Cereus,,pentagonus,,,,,,,,,,,(L.) Haw.,,,,,Cereus,,,
+ACANT2,,Acanthomintha,,Acanthomintha,,,,,,,,,,,,,(A. Gray) A. Gray,,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACDU2,,Acanthomintha duttonii,,Acanthomintha,,duttonii,,,,,,,,,,,(Abrams) Jokerst,,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACDU2,ACOBD,Acanthomintha obovata ssp. duttonii,,Acanthomintha,,obovata,ssp.,,duttonii,,,,,,,,Jeps.,Abrams,,,,Acanthomintha,,,
+ACIL,,Acanthomintha ilicifolia,,Acanthomintha,,ilicifolia,,,,,,,,,,,(A. Gray) A. Gray,,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACLA2,,Acanthomintha lanceolata,,Acanthomintha,,lanceolata,,,,,,,,,,,Curran,,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACOB,,Acanthomintha obovata,,Acanthomintha,,obovata,,,,,,,,,,,Jeps.,,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACOBC,,Acanthomintha obovata ssp. cordata,,Acanthomintha,,obovata,ssp.,,cordata,,,,,,,,Jeps.,Jokerst,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACOBO,,Acanthomintha obovata ssp. obovata,,Acanthomintha,,obovata,ssp.,,obovata,,,,,,,,Jeps.,Jeps.,,,,Acanthomintha,Lamiaceae,LAMIAC,Plantae
+ACANT3,,Acanthospermum,,Acanthospermum,,,,,,,,,,,,,Schrank,,,,,Acanthospermum,Asteraceae,ASTERA,Plantae
+ACAU2,,Acanthospermum australe,,Acanthospermum,,australe,,,,,,,,,,,(Loefl.) Kuntze,,,,,Acanthospermum,Asteraceae,ASTERA,Plantae
+ACAU2,ACXA,Acanthospermum xanthioides,,Acanthospermum,,xanthioides,,,,,,,,,,,DC.,,,,,Acanthospermum,,,
+ACAU2,MEAU,Melampodium australe,,Melampodium,,australe,,,,,,,,,,,Loefl.,,,,,Melampodium,,,
+ACHI,,Acanthospermum hispidum,,Acanthospermum,,hispidum,,,,,,,,,,,DC.,,,,,Acanthospermum,Asteraceae,ASTERA,Plantae
+ACHU,,Acanthospermum humile,,Acanthospermum,,humile,,,,,,,,,,,(Sw.) DC.,,,,,Acanthospermum,Asteraceae,ASTERA,Plantae
+ACHU,MEHU5,Melampodium humile,,Melampodium,,humile,,,,,,,,,,,Sw.,,,,,Melampodium,,,
+ACANT7,,Acanthus,,Acanthus,,,,,,,,,,,,,L.,,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACEB3,,Acanthus ebracteatus,,Acanthus,,ebracteatus,,,,,,,,,,,Vahl,,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACEB3,ACILE,Acanthus ilicifolius var. ebracteatus,,Acanthus,,ilicifolius,,,,var.,,ebracteatus,,,,,L.,(Vahl) Benoist,,,,Acanthus,,,
+ACMO8,,Acanthus mollis,,Acanthus,,mollis,,,,,,,,,,,L.,,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACPO10,,Acanthus polystachyus,,Acanthus,,polystachyus,,,,,,,,,,,Delile,,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACPOP,,Acanthus polystachyus var. pseudopubescens,,Acanthus,,polystachyus,,,,var.,,pseudopubescens,,,,,Delile,Cufod.,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACPOP,ACPU4,Acanthus pubescens,,Acanthus,,pubescens,,,,,,,,,,,Engl.,,,,,Acanthus,,,
+ACSP7,,Acanthus spinosus,,Acanthus,,spinosus,,,,,,,,,,,L.,,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACSY,,Acanthus syriacus,,Acanthus,,syriacus,,,,,,,,,,,Boiss.,,,,,Acanthus,Acanthaceae,ACANTH,Plantae
+ACARO2,,Acarospora,,Acarospora,,,,,,,,,,,,,A. Massal.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAE,,Acarospora aeruginosa,,Acarospora,,aeruginosa,,,,,,,,,,,Hasse,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAL13,,Acarospora albomarginata,,Acarospora,,albomarginata,,,,,,,,,,,(Herre) Salisb.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAL13,THAL6,Thelocarpon albomarginatum,,Thelocarpon,,albomarginatum,,,,,,,,,,,Herre,,,,,Thelocarpon,,,
+ACAM5,,Acarospora americana,,Acarospora,,americana,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAM7,,Acarospora amphibola,,Acarospora,,amphibola,,,,,,,,,,,Wedd.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAP,,Acarospora applanata,,Acarospora,,applanata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAR8,,Acarospora arenacea,,Acarospora,,arenacea,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAR9,,Acarospora arenosa,,Acarospora,,arenosa,,,,,,,,,,,Herre,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAS3,,Acarospora asahinae,,Acarospora,,asahinae,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAS4,,Acarospora asperata,,Acarospora,,asperata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACBA4,,Acarospora badiofusca,,Acarospora,,badiofusca,,,,,,,,,,,(Nyl.) Th. Fr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACBA4,ACBO2,Acarospora boulderensis,,Acarospora,,boulderensis,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACBU2,,Acarospora bullata,,Acarospora,,bullata,,,,,,,,,,,Anzi,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCA14,,Acarospora caesiofusca,,Acarospora,,caesiofusca,,,,,,,,,,,(Müll. Arg.) H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCA15,,Acarospora californica,,Acarospora,,californica,,,,,,,,,,,Zahlbr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCA16,,Acarospora canadensis,,Acarospora,,canadensis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCA17,,Acarospora carnegiei,,Acarospora,,carnegiei,,,,,,,,,,,Zahlbr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCE,,Acarospora cervina,,Acarospora,,cervina,,,,,,,,,,,A. Massal.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCI2,,Acarospora cinereoalba,,Acarospora,,cinereoalba,,,,,,,,,,,(Fink) H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCI4,,Acarospora citrina,,Acarospora,,citrina,,,,,,,,,,,(Taylor) Zahlbr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCL6,,Acarospora clauzadeana,,Acarospora,,clauzadeana,,,,,,,,,,,(Llimona) Casares & Hafellner,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCL6,BICL2,Biatorella clauzadeana,,Biatorella,,clauzadeana,,,,,,,,,,,Llimona,,,,,Biatorella,,,
+ACCO10,,Acarospora coloradiana,,Acarospora,,coloradiana,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCO11,,Acarospora complanata,,Acarospora,,complanata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACCO11,ACOB6,Acarospora obscura,,Acarospora,,obscura,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACDE9,,Acarospora desolata,,Acarospora,,desolata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACDI4,,Acarospora dispersa,,Acarospora,,dispersa,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACEL2,,Acarospora elevata,,Acarospora,,elevata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACFU2,,Acarospora fuscata,,Acarospora,,fuscata,,,,,,,,,,,(Schrad.) Arnold,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACFU2,ACCA19,Acarospora cartilaginea,,Acarospora,,cartilaginea,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACFU2,ACSQ2,Acarospora squamulosa,,Acarospora,,squamulosa,,,,,,,,,,,(Schrad.) Trevis.,,,,,Acarospora,,,
+ACFU3,,Acarospora fuscescens,,Acarospora,,fuscescens,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACGA2,,Acarospora gallica,,Acarospora,,gallica,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACGE4,,Acarospora geogena,,Acarospora,,geogena,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACGE4,ACGE6,Acarospora geophila,,Acarospora,,geophila,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACGL2,,Acarospora glaucocarpa,,Acarospora,,glaucocarpa,,,,,,,,,,,(Ach.) Körb.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACHA3,,Acarospora hassei,,Acarospora,,hassei,,,,,,,,,,,Herre,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACHE6,,Acarospora heppii,,Acarospora,,heppii,,,,,,,,,,,(Nageli ex Hepp) Nageli ex Körb.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACHE7,,Acarospora heufleriana,,Acarospora,,heufleriana,,,,,,,,,,,Körb.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACHI6,,Acarospora hilaris,,Acarospora,,hilaris,,,,,,,,,,,(Dufour) Hue,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACIM2,,Acarospora immersa,,Acarospora,,immersa,,,,,,,,,,,Fink,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACIM3,,Acarospora impressula,,Acarospora,,impressula,,,,,,,,,,,Th. Fr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACIN5,,Acarospora instrata,,Acarospora,,instrata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACIN6,,Acarospora interjecta,,Acarospora,,interjecta,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACIN7,,Acarospora interposita,,Acarospora,,interposita,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACIN8,,Acarospora interspersa,,Acarospora,,interspersa,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACMA10,,Acarospora macrospora,,Acarospora,,macrospora,,,,,,,,,,,(Hepp) Bagl.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACMA10,ACSQ,Acarospora squamulosa,,Acarospora,,squamulosa,,,,,,,,,,,sensu Th. Fr.,,,,,Acarospora,,,
+ACMO6,,Acarospora molybdina,,Acarospora,,molybdina,,,,,,,,,,,(Wahlenb.) Trevis.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACNE7,,Acarospora nevadensis,,Acarospora,,nevadensis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACNI6,,Acarospora nigromarginata,,Acarospora,,nigromarginata,,,,,,,,,,,de Lesd.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACNI7,,Acarospora nitida,,Acarospora,,nitida,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACNO6,,Acarospora nodulosa,,Acarospora,,nodulosa,,,,,,,,,,,(Dufour) Hue,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACNON,,Acarospora nodulosa var. nodulosa,,Acarospora,,nodulosa,,,,var.,,nodulosa,,,,,(Dufour) Hue,(Dufour) Hue,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACOB4,,Acarospora obnubila,,Acarospora,,obnubila,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACOB5,,Acarospora obpallens,,Acarospora,,obpallens,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACOL,,Acarospora oligospora,,Acarospora,,oligospora,,,,,,,,,,,(Nyl.) Arnold,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACOL,ACGL3,Acarospora glebosa,,Acarospora,,glebosa,,,,,,,,,,,(Flotow) Körb.,,,,,Acarospora,,,
+ACPA7,,Acarospora particularis,,Acarospora,,particularis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACPE6,,Acarospora peliscypha,,Acarospora,,peliscypha,,,,,,,,,,,Th. Fr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACPE7,,Acarospora peltastica,,Acarospora,,peltastica,,,,,,,,,,,Zahlbr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACPY2,,Acarospora pyrenopsoides,,Acarospora,,pyrenopsoides,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACRA4,,Acarospora radicata,,Acarospora,,radicata,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACRE7,,Acarospora reagens,,Acarospora,,reagens,,,,,,,,,,,Zahlbr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACRE7,ACNOR,Acarospora nodulosa var. reagens,,Acarospora,,nodulosa,,,,var.,,reagens,,,,,(Dufour) Hue,(Zahlbr.) Clauzade & Cl. Roux,,,,Acarospora,,,
+ACRU5,,Acarospora rugulosa,,Acarospora,,rugulosa,,,,,,,,,,,Körb.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACRU5,ACMO7,Acarospora montana,,Acarospora,,montana,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSA6,,Acarospora saepincola,,Acarospora,,saepincola,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSC4,,Acarospora scabrida,,Acarospora,,scabrida,,,,,,,,,,,Hedl. ex H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSC5,,Acarospora schleicheri,,Acarospora,,schleicheri,,,,,,,,,,,(Ach.) A. Massal.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSC5,ACAL14,Acarospora albida,,Acarospora,,albida,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACAM6,Acarospora amabilis,,Acarospora,,amabilis,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACBE5,Acarospora bella,,Acarospora,,bella,,,,,,,,,,,(Nyl.) Jatta,,,,,Acarospora,,,
+ACSC5,ACCH4,Acarospora chrysops,,Acarospora,,chrysops,,,,,,,,,,,(Tuck.) H. Magn.,,,,,Acarospora,,,
+ACSC5,ACCO13,Acarospora contigua,,Acarospora,,contigua,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACDI5,Acarospora dissipata,,Acarospora,,dissipata,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACEP,Acarospora epilutescens,,Acarospora,,epilutescens,,,,,,,,,,,Zahlbr.,,,,,Acarospora,,,
+ACSC5,ACEV,Acarospora evoluta,,Acarospora,,evoluta,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACIN10,Acarospora intercedens,,Acarospora,,intercedens,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACOC2,Acarospora ocellata,,Acarospora,,ocellata,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACRH2,Acarospora rhabarbarina,,Acarospora,,rhabarbarina,,,,,,,,,,,Hue,,,,,Acarospora,,,
+ACSC5,ACRI5,Acarospora rimulosa,,Acarospora,,rimulosa,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACRU6,Acarospora rubicunda,,Acarospora,,rubicunda,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACSU7,Acarospora subalbida,,Acarospora,,subalbida,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACSU8,Acarospora subcontigua,,Acarospora,,subcontigua,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACSC5,ACXA2,Acarospora xanthophana,,Acarospora,,xanthophana,,,,,,,,,,,(Nyl.) Jatta,,,,,Acarospora,,,
+ACSC6,,Acarospora scotica,,Acarospora,,scotica,,,,,,,,,,,Hue,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSI4,,Acarospora sinopica,,Acarospora,,sinopica,,,,,,,,,,,(Wahlenb.) Körb.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSM2,,Acarospora smaragdula,,Acarospora,,smaragdula,,,,,,,,,,,(Wahlenb.) A. Massal.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSM2,ACRU7,Acarospora rufescens,,Acarospora,,rufescens,,,,,,,,,,,(Ach.) Bausch,,,,,Acarospora,,,
+ACSO2,,Acarospora socialis,,Acarospora,,socialis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSP6,,Acarospora sparsa,,Acarospora,,sparsa,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACST2,,Acarospora stapfiana,,Acarospora,,stapfiana,,,,,,,,,,,(Müll. Arg.) Hue,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACST3,,Acarospora strigata,,Acarospora,,strigata,,,,,,,,,,,(Nyl.) Jatta,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSU5,,Acarospora succedens,,Acarospora,,succedens,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACSU6,,Acarospora superfusa,,Acarospora,,superfusa,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTE5,,Acarospora tenebrica,,Acarospora,,tenebrica,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTE6,,Acarospora terricola,,Acarospora,,terricola,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTH4,,Acarospora thamnina,,Acarospora,,thamnina,,,,,,,,,,,(Tuck.) Herre,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTH5,,Acarospora thelococcoides,,Acarospora,,thelococcoides,,,,,,,,,,,(Nyl.) Zahlbr.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTH6,,Acarospora thermophila,,Acarospora,,thermophila,,,,,,,,,,,Herre,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTO4,,Acarospora tongleti,,Acarospora,,tongleti,,,,,,,,,,,Hue,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACTO4,ACVA3,Acarospora variegata,,Acarospora,,variegata,,,,,,,,,,,H. Magn.,,,,,Acarospora,,,
+ACTU2,,Acarospora tucsonensis,,Acarospora,,tucsonensis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACUT,,Acarospora utahensis,,Acarospora,,utahensis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACVE4,,Acarospora veronensis,,Acarospora,,veronensis,,,,,,,,,,,A. Massal.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACWA2,,Acarospora washingtonensis,,Acarospora,,washingtonensis,,,,,,,,,,,H. Magn.,,,,,Acarospora,Acarosporaceae,ACAROS,Fungi
+ACAUL,,Acaulon,,Acaulon,,,,,,,,,,,,,Müll. Hal.,,,,,Acaulon,Pottiaceae,POTTIA,Plantae
+ACMU5,,Acaulon muticum,,Acaulon,,muticum,,,,,,,,,,,(Hedw.) Müll. Hal.,,,,,Acaulon,Pottiaceae,POTTIA,Plantae
+ACMUM,,Acaulon muticum var. muticum,,Acaulon,,muticum,,,,var.,,muticum,,,,,(Hedw.) Müll. Hal.,(Hedw.) Müll. Hal.,,,,Acaulon,Pottiaceae,POTTIA,Plantae
+ACMUM,ACRU8,Acaulon rubrum,,Acaulon,,rubrum,,,,,,,,,,,Grout,,,,,Acaulon,,,
+ACMUR,,Acaulon muticum var. rufescens,,Acaulon,,muticum,,,,var.,,rufescens,,,,,(Hedw.) Müll. Hal.,(A. Jaeger) H.A. Crum,,,,Acaulon,Pottiaceae,POTTIA,Plantae
+ACMUR,ACRU9,Acaulon rufescens,,Acaulon,,rufescens,,,,,,,,,,,A. Jaeger,,,,,Acaulon,,,
+ACSC8,,Acaulon schimperianum,,Acaulon,,schimperianum,,,,,,,,,,,(Sull.) Sull.,,,,,Acaulon,Pottiaceae,POTTIA,Plantae
+ACTR4,,Acaulon triquetrum,,Acaulon,,triquetrum,,,,,,,,,,,(Spruce) Müll. Hal.,,,,,Acaulon,Pottiaceae,POTTIA,Plantae
+ACER,,Acer,,Acer,,,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACFR,,Acer ×freemanii,,Acer,×,freemanii,,,,,,,,,,,A.E. Murray,,,,rubrum × saccharinum,Acer,Aceraceae,ACERAC,Plantae
+ACBU4,,Acer buergerianum,,Acer,,buergerianum,,,,,,,,,,,Miq.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACCA5,,Acer campestre,,Acer,,campestre,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACCI,,Acer circinatum,,Acer,,circinatum,,,,,,,,,,,Pursh,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACCI5,,Acer cissifolium,,Acer,,cissifolium,,,,,,,,,,,(Siebold & Zucc.) K. Koch,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACDI12,,Acer diabolicum,,Acer,,diabolicum,,,,,,,,,,,Blume ex K. Koch [excluded],,,,,Acer,Aceraceae,ACERAC,Plantae
+ACFL,,Acer floridanum,,Acer,,floridanum,,,,,,,,,,,(Chapm.) Pax,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACFL,ACBA3,Acer barbatum,,Acer,,barbatum,,,,,,,,,,,Michx. p.p.,,,,,Acer,,,
+ACFL,ACBAL,Acer barbatum var. longii,,Acer,,barbatum,,,,var.,,longii,,,,,Michx.,(Fernald) Fernald,,,,Acer,,,
+ACFL,ACBAV,Acer barbatum var. villipes,,Acer,,barbatum,,,,var.,,villipes,,,,,Michx.,(Rehder) Ashe,,,,Acer,,,
+ACFL,ACFLL,Acer floridanum var. longii,,Acer,,floridanum,,,,var.,,longii,,,,,(Chapm.) Pax,Fernald,,,,Acer,,,
+ACFL,ACFLV,Acer floridanum var. villipes,,Acer,,floridanum,,,,var.,,villipes,,,,,(Chapm.) Pax,Rehder,,,,Acer,,,
+ACFL,ACNIF,Acer nigrum var. floridanum,,Acer,,nigrum,,,,var.,,floridanum,,,,,Michx. f.,(Chapm.) Fosberg,,,,Acer,,,
+ACFL,ACSAF,Acer saccharum ssp. floridanum,,Acer,,saccharum,ssp.,,floridanum,,,,,,,,Marshall,(Chapm.) Desmarais,,,,Acer,,,
+ACFL,ACSAF2,Acer saccharinum var. floridanum,,Acer,,saccharinum,,,,var.,,floridanum,,,,,L.,Chapm.,,,,Acer,,,
+ACFL,ACSAF3,Acer saccharum var. floridanum,,Acer,,saccharum,,,,var.,,floridanum,,,,,Marshall,(Chapm.) Small & A. Heller,,,,Acer,,,
+ACFL,SABA13,Saccharodendron barbatum,,Saccharodendron,,barbatum,,,,,,,,,,,(Michx.) Nieuwl.,,,,,Saccharodendron,,,
+ACFL,SAFL8,Saccharodendron floridanum,,Saccharodendron,,floridanum,,,,,,,,,,,(Chapm.) Nieuwl.,,,,,Saccharodendron,,,
+ACGI,,Acer ginnala,,Acer,,ginnala,,,,,,,,,,,Maxim.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGI,ACTAG,Acer tataricum ssp. ginnala,,Acer,,tataricum,ssp.,,ginnala,,,,,,,,L.,(Maxim.) Wesmael,,,,Acer,,,
+ACGL,,Acer glabrum,,Acer,,glabrum,,,,,,,,,,,Torr.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLD3,,Acer glabrum var. diffusum,,Acer,,glabrum,,,,var.,,diffusum,,,,,Torr.,(Greene) Smiley,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLD3,ACDI,Acer diffusum,,Acer,,diffusum,,,,,,,,,,,Greene,,,,,Acer,,,
+ACGLD3,ACGLD,Acer glabrum ssp. diffusum,,Acer,,glabrum,ssp.,,diffusum,,,,,,,,Torr.,(Greene) A.E. Murray,,,,Acer,,,
+ACGLD4,,Acer glabrum var. douglasii,,Acer,,glabrum,,,,var.,,douglasii,,,,,Torr.,(Hook.) Dippel,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLD4,ACDO,Acer douglasii,,Acer,,douglasii,,,,,,,,,,,Hook.,,,,,Acer,,,
+ACGLD4,ACGLD2,Acer glabrum ssp. douglasii,,Acer,,glabrum,ssp.,,douglasii,,,,,,,,Torr.,(Hook.) Wesmael,,,,Acer,,,
+ACGLG2,,Acer glabrum var. glabrum,,Acer,,glabrum,,,,var.,,glabrum,,,,,Torr.,Torr.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLG2,ACGLT3,Acer glabrum var. tripartitum,,Acer,,glabrum,,,,var.,,tripartitum,,,,,Torr.,(Nutt. ex Torr. & A. Gray) Pax,,,,Acer,,,
+ACGLG2,ACGLT4,Acer glabrum var. typicum,,Acer,,glabrum,,,,var.,,typicum,,,,,Torr.,(Wesmael) Keller,,,,Acer,,,
+ACGLG2,ACTR3,Acer tripartitum,,Acer,,tripartitum,,,,,,,,,,,Nutt. ex Torr. & A. Gray,,,,,Acer,,,
+ACGLG,,Acer glabrum var. greenei,,Acer,,glabrum,,,,var.,,greenei,,,,,Torr.,Keller,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLN2,,Acer glabrum var. neomexicanum,,Acer,,glabrum,,,,var.,,neomexicanum,,,,,Torr.,(Greene) Kearney & Peebles,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLN2,ACGLN,Acer glabrum ssp. neomexicanum,,Acer,,glabrum,ssp.,,neomexicanum,,,,,,,,Torr.,(Greene) A.E. Murray,,,,Acer,,,
+ACGLN2,ACGLP,Acer glabrum var. parviflorum,,Acer,,glabrum,,,,var.,,parviflorum,,,,,Torr.,A.E. Murray,,,,Acer,,,
+ACGLN2,ACNE6,Acer neomexicanum,,Acer,,neomexicanum,,,,,,,,,,,Greene,,,,,Acer,,,
+ACGLT2,,Acer glabrum var. torreyi,,Acer,,glabrum,,,,var.,,torreyi,,,,,Torr.,(Greene) Smiley,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGLT2,ACGLT,Acer glabrum ssp. torreyi,,Acer,,glabrum,ssp.,,torreyi,,,,,,,,Torr.,(Greene) A.E. Murray,,,,Acer,,,
+ACGLT2,ACTO2,Acer torreyi,,Acer,,torreyi,,,,,,,,,,,Greene,,,,,Acer,,,
+ACGR3,,Acer grandidentatum,,Acer,,grandidentatum,,,,,,,,,,,Nutt.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGRG,,Acer grandidentatum var. grandidentatum,,Acer,,grandidentatum,,,,var.,,grandidentatum,,,,,Nutt.,Nutt.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGRG,ACSAG2,Acer saccharum ssp. grandidentatum,,Acer,,saccharum,ssp.,,grandidentatum,,,,,,,,Marshall,(Nutt.) Desmarais,,,,Acer,,,
+ACGRG,ACSAG3,Acer saccharum var. grandidentatum,,Acer,,saccharum,,,,var.,,grandidentatum,,,,,Marshall,(Nutt.) Sudw.,,,,Acer,,,
+ACGRG,SAGR17,Saccharodendron grandidentatum,,Saccharodendron,,grandidentatum,,,,,,,,,,,(Nutt.) Nieuwl.,,,,,Saccharodendron,,,
+ACGRS,,Acer grandidentatum var. sinuosum,,Acer,,grandidentatum,,,,var.,,sinuosum,,,,,Nutt.,(Rehder) Little,,,,Acer,Aceraceae,ACERAC,Plantae
+ACGRS,ACBR,Acer brachypterum,,Acer,,brachypterum,,,,,,,,,,,Wooton & Standl.,,,,,Acer,,,
+ACGRS,ACGRB,Acer grandidentatum var. brachypterum,,Acer,,grandidentatum,,,,var.,,brachypterum,,,,,Nutt.,(Wooton & Standl.) Palmer,,,,Acer,,,
+ACGRS,ACSAB,Acer saccharum ssp. brachypterum,,Acer,,saccharum,ssp.,,brachypterum,,,,,,,,Marshall,(Wooton & Standl.) A.E. Murray,,,,Acer,,,
+ACGRS,ACSAS3,Acer saccharum var. sinuosum,,Acer,,saccharum,,,,var.,,sinuosum,,,,,Marshall,(Rehder) Sarg.,,,,Acer,,,
+ACGRS,ACSI3,Acer sinuosum,,Acer,,sinuosum,,,,,,,,,,,Rehder,,,,,Acer,,,
+ACGR14,,Acer griseum,,Acer,,griseum,,,,,,,,,,,(Franch.) Pax,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACJA2,,Acer japonicum,,Acer,,japonicum,,,,,,,,,,,Thurb.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACLE,,Acer leucoderme,,Acer,,leucoderme,,,,,,,,,,,Small,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACLE,ACNIL,Acer nigrum var. leucoderme,,Acer,,nigrum,,,,var.,,leucoderme,,,,,Michx. f.,(Small) Fosberg,,,,Acer,,,
+ACLE,ACSAL,Acer saccharum ssp. leucoderme,,Acer,,saccharum,ssp.,,leucoderme,,,,,,,,Marshall,(Small) Desmarais,,,,Acer,,,
+ACLE,ACSAL2,Acer saccharum var. leucoderme,,Acer,,saccharum,,,,var.,,leucoderme,,,,,Marshall,(Small) Rehder,,,,Acer,,,
+ACLE,SALE8,Saccharodendron leucoderme,,Saccharodendron,,leucoderme,,,,,,,,,,,(Small) Nieuwl.,,,,,Saccharodendron,,,
+ACLE2,,Acer leucoderme × saccharum,,Acer,,leucoderme × saccharum,,,,,,,,,,,[unnamed hybrid],,,,,Acer,Aceraceae,ACERAC,Plantae
+ACLE2,ACSE12,Acer ×senecaense,,Acer,×,senecaense,,,,,,,,,,,"Slavin, nom. inval.",,,,,Acer,,,
+ACMA3,,Acer macrophyllum,,Acer,,macrophyllum,,,,,,,,,,,Pursh,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNE2,,Acer negundo,,Acer,,negundo,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNEA,,Acer negundo var. arizonicum,,Acer,,negundo,,,,var.,,arizonicum,,,,,L.,Sarg.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNEC2,,Acer negundo var. californicum,,Acer,,negundo,,,,var.,,californicum,,,,,L.,(Torr. & A. Gray) Sarg.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNEC2,ACNEC,Acer negundo ssp. californicum,,Acer,,negundo,ssp.,,californicum,,,,,,,,L.,(Torr. & A. Gray) Wesmael,,,,Acer,,,
+ACNEC2,NECA6,Negundo californicum,,Negundo,,californicum,,,,,,,,,,,Torr. & A. Gray,,,,,Negundo,,,
+ACNEI2,,Acer negundo var. interius,,Acer,,negundo,,,,var.,,interius,,,,,L.,(Britton) Sarg.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNEI2,ACIN3,Acer interius,,Acer,,interius,,,,,,,,,,,Britton,,,,,Acer,,,
+ACNEI2,ACNEI,Acer negundo ssp. interius,,Acer,,negundo,ssp.,,interius,,,,,,,,L.,(Britton) Á. Löve & D. Löve,,,,Acer,,,
+ACNEI2,NEACI,Negundo aceroides ssp. interius,,Negundo,,aceroides,ssp.,,interius,,,,,,,,(L.) Moench,(Britton) Á. Löve & D. Löve,,,,Negundo,,,
+ACNEI2,NEIN3,Negundo interius,,Negundo,,interius,,,,,,,,,,,(Britton) Rydb.,,,,,Negundo,,,
+ACNEN,,Acer negundo var. negundo,,Acer,,negundo,,,,var.,,negundo,,,,,L.,L.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNEN,ACNEV2,Acer negundo var. variegatum,,Acer,,negundo,,,,var.,,variegatum,,,,,L.,Jacques,,,,Acer,,,
+ACNEN,NEAC,Negundo aceroides,,Negundo,,aceroides,,,,,,,,,,,(L.) Moench,,,,,Negundo,,,
+ACNEN,NENE,Negundo negundo,,Negundo,,negundo,,,,,,,,,,,"(L.) Karst., nom. inval.",,,,,Negundo,,,
+ACNET,,Acer negundo var. texanum,,Acer,,negundo,,,,var.,,texanum,,,,,L.,Pax,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNET,ACNEL,Acer negundo ssp. latifolium,,Acer,,negundo,ssp.,,latifolium,,,,,,,,L.,(Pax) Schwerin,,,,Acer,,,
+ACNEV,,Acer negundo var. violaceum,,Acer,,negundo,,,,var.,,violaceum,,,,,L.,(G. Kirchn.) H. Jaeger,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNEV,NEACV,Negundo aceroides ssp. violaceum,,Negundo,,aceroides,ssp.,,violaceum,,,,,,,,(L.) Moench,(G. Kirchn.) W.A. Weber,,,,Negundo,,,
+ACNI5,,Acer nigrum,,Acer,,nigrum,,,,,,,,,,,Michx. f.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACNI5,ACNIP,Acer nigrum var. palmeri,,Acer,,nigrum,,,,var.,,palmeri,,,,,Michx. f.,Sarg.,,,,Acer,,,
+ACNI5,ACSAN,Acer saccharum ssp. nigrum,,Acer,,saccharum,ssp.,,nigrum,,,,,,,,Marshall,(Michx. f.) Desmarais,,,,Acer,,,
+ACNI5,ACSAN2,Acer saccharum var. nigrum,,Acer,,saccharum,,,,var.,,nigrum,,,,,Marshall,(Michx. f.) Britton,,,,Acer,,,
+ACNI5,ACSAV,Acer saccharum var. viride,,Acer,,saccharum,,,,var.,,viride,,,,,Marshall,(Schmidt) A.E. Murray,,,,Acer,,,
+ACNI5,SANI9,Saccharodendron nigrum,,Saccharodendron,,nigrum,,,,,,,,,,,(Michx. f.) Small,,,,,Saccharodendron,,,
+ACOP3,,Acer opalus,,Acer,,opalus,,,,,,,,,,,Mill.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACOPO,,Acer opalus ssp. obtusatum,,Acer,,opalus,ssp.,,obtusatum,,,,,,,,Mill.,(Waldst. & Kit. ex Willd.) Gams,,,,Acer,Aceraceae,ACERAC,Plantae
+ACOPO,ACOB7,Acer obtusatum,,Acer,,obtusatum,,,,,,,,,,,Waldst. & Kit. ex Willd.,,,,,Acer,,,
+ACPA2,,Acer palmatum,,Acer,,palmatum,,,,,,,,,,,Thunb.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACPE,,Acer pensylvanicum,,Acer,,pensylvanicum,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACPL,,Acer platanoides,,Acer,,platanoides,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACPL,ACPLS,Acer platanoides var. schwedleri,,Acer,,platanoides,,,,var.,,schwedleri,,,,,L.,G. Nicholson,,,,Acer,,,
+ACPS,,Acer pseudoplatanus,,Acer,,pseudoplatanus,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACRU,,Acer rubrum,,Acer,,rubrum,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACRU,ACBA2,Acer barbatum,,Acer,,barbatum,,,,,,,,,,,Michx. p.p.,,,,,Acer,,,
+ACRUD,,Acer rubrum var. drummondii,,Acer,,rubrum,,,,var.,,drummondii,,,,,L.,(Hook. & Arn. ex Nutt.) Sarg.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACRUD,ACDR,Acer drummondii,,Acer,,drummondii,,,,,,,,,,,Hook. & Arn. ex Nutt.,,,,,Acer,,,
+ACRUD,ACRUD2,Acer rubrum ssp. drummondii,,Acer,,rubrum,ssp.,,drummondii,,,,,,,,L.,(Hook. & Arn. ex Nutt.) A.E. Murray,,,,Acer,,,
+ACRUD,RUDR3,Rufacer drummondii,,Rufacer,,drummondii,,,,,,,,,,,(Hook. & Arn. ex Nutt.) Small,,,,,Rufacer,,,
+ACRUR,,Acer rubrum var. rubrum,,Acer,,rubrum,,,,var.,,rubrum,,,,,L.,L.,,,,Acer,Aceraceae,ACERAC,Plantae
+ACRUR,ACRUT2,Acer rubrum var. tomentosum,,Acer,,rubrum,,,,var.,,tomentosum,,,,,L.,Tausch,,,,Acer,,,
+ACRUR,ACST,Acer stenocarpum,,Acer,,stenocarpum,,,,,,,,,,,Britton,,,,,Acer,,,
+ACRUR,RURU5,Rufacer rubrum,,Rufacer,,rubrum,,,,,,,,,,,(L.) Small,,,,,Rufacer,,,
+ACRUT,,Acer rubrum var. trilobum,,Acer,,rubrum,,,,var.,,trilobum,,,,,L.,Torr. & A. Gray ex K. Koch,,,,Acer,Aceraceae,ACERAC,Plantae
+ACRUT,ACCA9,Acer carolinianum,,Acer,,carolinianum,,,,,,,,,,,Walter,,,,,Acer,,,
+ACRUT,ACRUT3,Acer rubrum var. tridens,,Acer,,rubrum,,,,var.,,tridens,,,,,L.,Alph. Wood,,,,Acer,,,
+ACRUT,RUCA7,Rufacer carolinianum,,Rufacer,,carolinianum,,,,,,,,,,,(Walter) Small,,,,,Rufacer,,,
+ACSA2,,Acer saccharinum,,Acer,,saccharinum,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACSA2,ACDA2,Acer dasycarpum,,Acer,,dasycarpum,,,,,,,,,,,Ehrh.,,,,,Acer,,,
+ACSA2,ACSAL3,Acer saccharinum var. laciniatum,,Acer,,saccharinum,,,,var.,,laciniatum,,,,,L.,Pax,,,,Acer,,,
+ACSA2,ACSAW,Acer saccharinum var. wieri,,Acer,,saccharinum,,,,var.,,wieri,,,,,L.,Rehder,,,,Acer,,,
+ACSA2,ARSA9,Argentacer saccharinum,,Argentacer,,saccharinum,,,,,,,,,,,(L.) Small,,,,,Argentacer,,,
+ACSA3,,Acer saccharum,,Acer,,saccharum,,,,,,,,,,,Marshall,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACSAS,,Acer saccharum var. saccharum,,Acer,,saccharum,,,,var.,,saccharum,,,,,Marshall,Marshall,,,,Acer,Aceraceae,ACERAC,Plantae
+ACSAS,ACNIG,Acer nigrum var. glaucum,,Acer,,nigrum,,,,var.,,glaucum,,,,,Michx. f.,(F. Schmidt) Fosberg,,,,Acer,,,
+ACSAS,ACNIS2,Acer nigrum var. saccharophorum,,Acer,,nigrum,,,,var.,,saccharophorum,,,,,Michx. f.,(K. Koch) R.T. Clausen,,,,Acer,,,
+ACSAS,ACSAG,Acer saccharum var. glaucum,,Acer,,saccharum,,,,var.,,glaucum,,,,,Marshall,(F. Schmidt) Sarg.,,,,Acer,,,
+ACSAS,ACSAR,Acer saccharum var. rugellii,,Acer,,saccharum,,,,var.,,rugellii,,,,,Marshall,(Pax) Rehder,,,,Acer,,,
+ACSAS,SASA18,Saccharodendron saccharum,,Saccharodendron,,saccharum,,,,,,,,,,,(Marshall) Moldenke,,,,,Saccharodendron,,,
+ACSAS2,,Acer saccharum var. schneckii,,Acer,,saccharum,,,,var.,,schneckii,,,,,Marshall,Rehder,,,,Acer,Aceraceae,ACERAC,Plantae
+ACSAS2,ACSAO,Acer saccharum ssp. ozarkense,,Acer,,saccharum,ssp.,,ozarkense,,,,,,,,Marshall,A.E. Murray,,,,Acer,,,
+ACSAS2,ACSAS4,Acer saccharum ssp. schneckii,,Acer,,saccharum,ssp.,,schneckii,,,,,,,,Marshall,(Rehder) Desmarais,,,,Acer,,,
+ACSP2,,Acer spicatum,,Acer,,spicatum,,,,,,,,,,,Lam.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACTA80,,Acer tataricum,,Acer,,tataricum,,,,,,,,,,,L.,,,,,Acer,Aceraceae,ACERAC,Plantae
+ACTAT2,,Acer tataricum var. torminaloides,,Acer,,tataricum,,,,var.,,torminaloides,,,,,L.,Pax,,,,Acer,Aceraceae,ACERAC,Plantae
+ACHIL,,Achillea,,Achillea,,,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACAE2,,Achillea aegyptiaca,,Achillea,,aegyptiaca,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACAE2,ACTA3,Achillea taygetea,,Achillea,,taygetea,,,,,,,,,,,Boiss. & Heldr.,,,,,Achillea,,,
+ACAG,,Achillea ageratifolia,,Achillea,,ageratifolia,,,,,,,,,,,(Sm.) Boiss.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACAG3,,Achillea ageratum,,Achillea,,ageratum,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACAL17,,Achillea alpina,,Achillea,,alpina,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACBI6,,Achillea biserrata,,Achillea,,biserrata,,,,,,,,,,,M. Bieb.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCA29,,Achillea cartilaginea,,Achillea,,cartilaginea,,,,,,,,,,,Ledeb. ex Rchb.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCH6,,Achillea chrysocoma,,Achillea,,chrysocoma,,,,,,,,,,,Friv.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCL3,,Achillea clavennae,,Achillea,,clavennae,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCL4,,Achillea clusiana,,Achillea,,clusiana,,,,,,,,,,,Tausch,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCL5,,Achillea clypeolata,,Achillea,,clypeolata,,,,,,,,,,,Sm.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCO19,,Achillea collina,,Achillea,,collina,,,,,,,,,,,Becker ex Rchb.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCO20,,Achillea conferta,,Achillea,,conferta,,,,,,,,,,,DC.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACCR3,,Achillea crithmifolia,,Achillea,,crithmifolia,,,,,,,,,,,Waldst. & Kit.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACDI6,,Achillea distans,,Achillea,,distans,,,,,,,,,,,Waldst. & Kit. ex Willd.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACDI6,ACDE10,Achillea dentifera,,Achillea,,dentifera,,,,,,,,,,,DC.,,,,,Achillea,,,
+ACDIT,,Achillea distans ssp. tanacetifolia,,Achillea,,distans,ssp.,,tanacetifolia,,,,,,,,Waldst. & Kit. ex Willd.,(All.) Janch.,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACDIT,ACTA2,Achillea tanacetifolia,,Achillea,,tanacetifolia,,,,,,,,,,,All.,,,,,Achillea,,,
+ACER7,,Achillea erba-rotta,,Achillea,,erba-rotta,,,,,,,,,,,All.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACERR,,Achillea erba-rotta ssp. rupestris,,Achillea,,erba-rotta,ssp.,,rupestris,,,,,,,,All.,(Porta) I. Richardson,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACERR,ACRU13,Achillea rupestris,,Achillea,,rupestris,,,,,,,,,,,Porta,,,,,Achillea,,,
+ACFI,,Achillea filipendulina,,Achillea,,filipendulina,,,,,,,,,,,Lam.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACGR12,,Achillea grandifolia,,Achillea,,grandifolia,,,,,,,,,,,Friv.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACIM6,,Achillea impatiens,,Achillea,,impatiens,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACLI2,,Achillea ligustica,,Achillea,,ligustica,,,,,,,,,,,All.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACLI7,,Achillea lingulata,,Achillea,,lingulata,,,,,,,,,,,Waldst. & Kit.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMA15,,Achillea macrocephala,,Achillea,,macrocephala,,,,,,,,,,,Rupr.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMA15,ACPTM,Achillea ptarmica ssp. macrocephala,,Achillea,,ptarmica,ssp.,,macrocephala,,,,,,,,L.,(Rupr.) Heimerl,,,,Achillea,,,
+ACMA13,,Achillea macrophylla,,Achillea,,macrophylla,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMI2,,Achillea millefolium,,Achillea,,millefolium,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIA,,Achillea millefolium var. alpicola,,Achillea,,millefolium,,,,var.,,alpicola,,,,,L.,(Rydb.) Garrett,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIA,ACAL11,Achillea alpicola,,Achillea,,alpicola,,,,,,,,,,,(Rydb.) Rydb.,,,,,Achillea,,,
+ACMIA,ACFU,Achillea fusca,,Achillea,,fusca,,,,,,,,,,,Rydb.,,,,,Achillea,,,
+ACMIA,ACLAA,Achillea lanulosa ssp. alpicola,,Achillea,,lanulosa,ssp.,,alpicola,,,,,,,,Nutt.,(Rydb.) D.D. Keck,,,,Achillea,,,
+ACMIA,ACLAA2,Achillea lanulosa var. alpicola,,Achillea,,lanulosa,,,,var.,,alpicola,,,,,Nutt.,Rydb.,,,,Achillea,,,
+ACMIA,ACMIF,Achillea millefolium var. fusca,,Achillea,,millefolium,,,,var.,,fusca,,,,,L.,(Rydb.) G.N. Jones,,,,Achillea,,,
+ACMIA,ACSU3,Achillea subalpina,,Achillea,,subalpina,,,,,,,,,,,Greene,,,,,Achillea,,,
+ACMIA2,,Achillea millefolium var. arenicola,,Achillea,,millefolium,,,,var.,,arenicola,,,,,L.,(A. Heller) Nobs,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIA2,ACAR6,Achillea arenicola,,Achillea,,arenicola,,,,,,,,,,,A. Heller,,,,,Achillea,,,
+ACMIA2,ACBOA,Achillea borealis ssp. arenicola,,Achillea,,borealis,ssp.,,arenicola,,,,,,,,Bong.,(A. Heller) D.D. Keck,,,,Achillea,,,
+ACMIA2,ACBOA2,Achillea borealis var. arenicola,,Achillea,,borealis,,,,var.,,arenicola,,,,,Bong.,(A. Heller) J.T. Howell,,,,Achillea,,,
+ACMIA2,ACMIM4,Achillea millefolium var. maritima,,Achillea,,millefolium,,,,var.,,maritima,,,,,L.,Jeps.,,,,Achillea,,,
+ACMIB,,Achillea millefolium var. borealis,,Achillea,,millefolium,,,,var.,,borealis,,,,,L.,(Bong.) Farw.,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIB,ACBO,Achillea borealis,,Achillea,,borealis,,,,,,,,,,,Bong.,,,,,Achillea,,,
+ACMIB,ACBOT,Achillea borealis ssp. typica,,Achillea,,borealis,ssp.,,typica,,,,,,,,Bong.,D.D. Keck,,,,Achillea,,,
+ACMIB,ACMIA3,Achillea millefolium ssp. atrotegula,,Achillea,,millefolium,ssp.,,atrotegula,,,,,,,,L.,B. Boivin,,,,Achillea,,,
+ACMIB,ACMIB2,Achillea millefolium ssp. borealis,,Achillea,,millefolium,ssp.,,borealis,,,,,,,,L.,(Bong.) Breitung,,,,Achillea,,,
+ACMIB,ACMIF2,Achillea millefolium var. fulva,,Achillea,,millefolium,,,,var.,,fulva,,,,,L.,B. Boivin,,,,Achillea,,,
+ACMIB,ACMIP3,Achillea millefolium var. parviligula,,Achillea,,millefolium,,,,var.,,parviligula,,,,,L.,B. Boivin,,,,Achillea,,,
+ACMIB,ACMIP4,Achillea millefolium var. parvula,,Achillea,,millefolium,,,,var.,,parvula,,,,,L.,B. Boivin,,,,Achillea,,,
+ACMIC,,Achillea millefolium var. californica,,Achillea,,millefolium,,,,var.,,californica,,,,,L.,(Pollard) Jeps.,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIC,ACBOC,Achillea borealis ssp. californica,,Achillea,,borealis,ssp.,,californica,,,,,,,,Bong.,(Pollard) D.D. Keck,,,,Achillea,,,
+ACMIC,ACBOC2,Achillea borealis var. californica,,Achillea,,borealis,,,,var.,,californica,,,,,Bong.,(Pollard) J.T. Howell,,,,Achillea,,,
+ACMIC,ACCA7,Achillea californica,,Achillea,,californica,,,,,,,,,,,Pollard,,,,,Achillea,,,
+ACMIG,,Achillea millefolium var. gigantea,,Achillea,,millefolium,,,,var.,,gigantea,,,,,L.,(Pollard) Nobs,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIG,ACGI2,Achillea gigantea,,Achillea,,gigantea,,,,,,,,,,,Pollard,,,,,Achillea,,,
+ACMIL2,,Achillea millefolium var. litoralis,,Achillea,,millefolium,,,,var.,,litoralis,,,,,L.,Ehrend. ex Nobs,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIM5,,Achillea millefolium var. megacephala,,Achillea,,millefolium,,,,var.,,megacephala,,,,,L.,(Raup) B. Boivin,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIM2,,Achillea millefolium var. millefolium,,Achillea,,millefolium,,,,var.,,millefolium,,,,,L.,L.,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIM2,ACMA14,Achillea magna,,Achillea,,magna,,,,,,,,,,,auct.,,,,,Achillea,,,
+ACMIN,,Achillea millefolium var. nigrescens,,Achillea,,millefolium,,,,var.,,nigrescens,,,,,L.,E. Mey.,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIN,ACNI4,Achillea nigrescens,,Achillea,,nigrescens,,,,,,,,,,,(E. Mey.) Rydb.,,,,,Achillea,,,
+ACMIO,,Achillea millefolium var. occidentalis,,Achillea,,millefolium,,,,var.,,occidentalis,,,,,L.,DC.,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIO,ACAN7,Achillea angustissima,,Achillea,,angustissima,,,,,,,,,,,Rydb.,,,,,Achillea,,,
+ACMIO,ACAS2,Achillea aspleniifolia,,Achillea,,aspleniifolia,,,,,,,,,,,auct. non Vent.,,,,,Achillea,,,
+ACMIO,ACER2,Achillea eradiata,,Achillea,,eradiata,,,,,,,,,,,Piper,,,,,Achillea,,,
+ACMIO,ACGR5,Achillea gracilis,,Achillea,,gracilis,,,,,,,,,,,Raf.,,,,,Achillea,,,
+ACMIO,ACLA3,Achillea laxiflora,,Achillea,,laxiflora,,,,,,,,,,,Pollard & Cockerell,,,,,Achillea,,,
+ACMIO,ACLA5,Achillea lanulosa,,Achillea,,lanulosa,,,,,,,,,,,Nutt.,,,,,Achillea,,,
+ACMIO,ACLAA3,Achillea lanulosa var. arachnoidea,,Achillea,,lanulosa,,,,var.,,arachnoidea,,,,,Nutt.,Lunell,,,,Achillea,,,
+ACMIO,ACLAE,Achillea lanulosa var. eradiata,,Achillea,,lanulosa,,,,var.,,eradiata,,,,,Nutt.,(Piper) M. Peck,,,,Achillea,,,
+ACMIO,ACLAT,Achillea lanulosa ssp. typica,,Achillea,,lanulosa,ssp.,,typica,,,,,,,,Nutt.,D.D. Keck,,,,Achillea,,,
+ACMIO,ACMIA4,Achillea millefolium var. aspleniifolia,,Achillea,,millefolium,,,,var.,,aspleniifolia,,,,,L.,(Vent.) Farw.,,,,Achillea,,,
+ACMIO,ACMIG2,Achillea millefolium var. gracilis,,Achillea,,millefolium,,,,var.,,gracilis,,,,,L.,(Raf.) Raf. ex DC.,,,,Achillea,,,
+ACMIO,ACMIL,Achillea millefolium ssp. lanulosa,,Achillea,,millefolium,ssp.,,lanulosa,,,,,,,,L.,(Nutt.) Piper,,,,Achillea,,,
+ACMIO,ACMIL3,Achillea millefolium var. lanulosa,,Achillea,,millefolium,,,,var.,,lanulosa,,,,,L.,(Nutt.) Piper,,,,Achillea,,,
+ACMIO,ACMIO2,Achillea millefolium ssp. occidentalis,,Achillea,,millefolium,ssp.,,occidentalis,,,,,,,,L.,(DC.) Hyl.,,,,Achillea,,,
+ACMIO,ACMIP5,Achillea millefolium ssp. pallidotegula,,Achillea,,millefolium,ssp.,,pallidotegula,,,,,,,,L.,B. Boivin,,,,Achillea,,,
+ACMIO,ACMIR,Achillea millefolium var. rosea,,Achillea,,millefolium,,,,var.,,rosea,,,,,L.,(Desf.) Torr. & A. Gray,,,,Achillea,,,
+ACMIO,ACMIR2,Achillea millefolium var. russeolata,,Achillea,,millefolium,,,,var.,,russeolata,,,,,L.,B. Boivin,,,,Achillea,,,
+ACMIO,ACOC,Achillea occidentalis,,Achillea,,occidentalis,,,,,,,,,,,(DC.) Raf. ex Rydb.,,,,,Achillea,,,
+ACMIO,ACRO4,Achillea rosea,,Achillea,,rosea,,,,,,,,,,,Desf.,,,,,Achillea,,,
+ACMIO,ACTO3,Achillea tomentosa,,Achillea,,tomentosa,,,,,,,,,,,"Pursh, non L.",,,,,Achillea,,,
+ACMIP,,Achillea millefolium var. pacifica,,Achillea,,millefolium,,,,var.,,pacifica,,,,,L.,(Rydb.) G.N. Jones,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIP,ACPA5,Achillea pacifica,,Achillea,,pacifica,,,,,,,,,,,Rydb.,,,,,Achillea,,,
+ACMIP2,,Achillea millefolium var. puberula,,Achillea,,millefolium,,,,var.,,puberula,,,,,L.,(Rydb.) Nobs,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACMIP2,ACPU2,Achillea puberula,,Achillea,,puberula,,,,,,,,,,,Rydb.,,,,,Achillea,,,
+ACNO,,Achillea nobilis,,Achillea,,nobilis,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACOD2,,Achillea odorata,,Achillea,,odorata,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACPA11,,Achillea pannonica,,Achillea,,pannonica,,,,,,,,,,,Scheele,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACPT,,Achillea ptarmica,,Achillea,,ptarmica,,,,,,,,,,,L.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACPY5,,Achillea pyrenaica,,Achillea,,pyrenaica,,,,,,,,,,,Sibth. ex Godr.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACSE10,,Achillea setacea,,Achillea,,setacea,,,,,,,,,,,Waldst. & Kit.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACSI,,Achillea sibirica,,Achillea,,sibirica,,,,,,,,,,,Ledeb.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACSI,ACMU3,Achillea multiflora,,Achillea,,multiflora,,,,,,,,,,,Hook.,,,,,Achillea,,,
+ACUM,,Achillea umbellata,,Achillea,,umbellata,,,,,,,,,,,Sm.,,,,,Achillea,Asteraceae,ASTERA,Plantae
+ACHLY,,Achlys,,Achlys,,,,,,,,,,,,,DC.,,,,,Achlys,Berberidaceae,BERBER,Plantae
+ACCA6,,Achlys californica,,Achlys,,californica,,,,,,,,,,,I. Fukuda & H.G. Baker,,,,,Achlys,Berberidaceae,BERBER,Plantae
+ACTR,,Achlys triphylla,,Achlys,,triphylla,,,,,,,,,,,(Sm.) DC.,,,,,Achlys,Berberidaceae,BERBER,Plantae
+ACTR,ACTRT,Achlys triphylla ssp. triphylla,,Achlys,,triphylla,ssp.,,triphylla,,,,,,,,(Sm.) DC.,(Sm.) DC.,,,,Achlys,,,
+ACHNA,,Achnatherum,,Achnatherum,,,,,,,,,,,,,P. Beauv.,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACBL,,Achnatherum ×bloomeri,,Achnatherum,×,bloomeri,,,,,,,,,,,(Bol.) Barkworth,,,,hymenoides × occidentale,Achnatherum,Poaceae,POACEA,Plantae
+ACBL,ORBL,Oryzopsis bloomeri,,Oryzopsis,,bloomeri,,,,,,,,,,,(Bol.) Ricker,,,,,Oryzopsis,,,
+ACBL,STBL4,Stipa bloomeri,,Stipa,,bloomeri,,,,,,,,,,,Bol.,,,,,Stipa,,,
+ACBL,STBL5,Stiporyzopsis bloomeri,,Stiporyzopsis,,bloomeri,,,,,,,,,,,(Bol.) B.L. Johnson,,,,,Stiporyzopsis,,,
+ACAR14,,Achnatherum aridum,,Achnatherum,,aridum,,,,,,,,,,,(M.E. Jones) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACAR14,STAR2,Stipa arida,,Stipa,,arida,,,,,,,,,,,M.E. Jones,,,,,Stipa,,,
+ACBR5,,Achnatherum brachychaetum,,Achnatherum,,brachychaetum,,,,,,,,,,,(Godr.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACBR5,NABR2,Nassella brachychaeta,,Nassella,,brachychaeta,,,,,,,,,,,(Godr.) Barkworth,,,,,Nassella,,,
+ACBR5,STBR3,Stipa brachychaeta,,Stipa,,brachychaeta,,,,,,,,,,,Godr.,,,,,Stipa,,,
+ACBR6,,Achnatherum bromoides,,Achnatherum,,bromoides,,,,,,,,,,,(L.) P. Beauv.,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACBR6,STAR14,Stipa aristella,,Stipa,,aristella,,,,,,,,,,,L.,,,,,Stipa,,,
+ACBR6,STBR8,Stipa bromoides,,Stipa,,bromoides,,,,,,,,,,,(L.) Dorfl.,,,,,Stipa,,,
+ACCA30,,Achnatherum calamagrostis,,Achnatherum,,calamagrostis,,,,,,,,,,,(L.) P. Beauv.,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCA34,,Achnatherum capense,,Achnatherum,,capense,,,,,,,,,,,(Thunb.) P. Beauv.,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCA34,STCA25,Stipa capensis,,Stipa,,capensis,,,,,,,,,,,Thunb.,,,,,Stipa,,,
+ACCA34,STTO8,Stipa tortilis,,Stipa,,tortilis,,,,,,,,,,,Desf.,,,,,Stipa,,,
+ACCA36,,Achnatherum caragana,,Achnatherum,,caragana,,,,,,,,,,,(Trin.) Nevski,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCA36,LACA13,Lasiagrostis caragana,,Lasiagrostis,,caragana,,,,,,,,,,,(Trin.) Trin. & Rupr.,,,,,Lasiagrostis,,,
+ACCA36,STCA27,Stipa caragana,,Stipa,,caragana,,,,,,,,,,,Trin.,,,,,Stipa,,,
+ACCA31,,Achnatherum caudatum,,Achnatherum,,caudatum,,,,,,,,,,,(Trin.) S.L.W. Jacobs & J. Everett,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCA31,STLI4,Stipa littoralis,,Stipa,,littoralis,,,,,,,,,,,Phil.,,,,,Stipa,,,
+ACCL7,,Achnatherum clandestinum,,Achnatherum,,clandestinum,,,,,,,,,,,(Hack.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCL7,STCL5,Stipa clandestina,,Stipa,,clandestina,,,,,,,,,,,Hack.,,,,,Stipa,,,
+ACCO22,,Achnatherum contractum,,Achnatherum,,contractum,,,,,,,,,,,(B.L. Johnson) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCO22,ORCO3,Oryzopsis contracta,,Oryzopsis,,contracta,,,,,,,,,,,(B.L. Johnson) Schltr.,,,,,Oryzopsis,,,
+ACCO22,ORHYC,Oryzopsis hymenoides var. contracta,,Oryzopsis,,hymenoides,,,,var.,,contracta,,,,,(Roem. & Schult.) Ricker ex Piper,B.L. Johnson,,,,Oryzopsis,,,
+ACCO22,STCO11,Stipa contracta,,Stipa,,contracta,,,,,,,,,,,(B.L. Johnson) W.A. Weber,,,,,Stipa,,,
+ACCO21,,Achnatherum coronatum,,Achnatherum,,coronatum,,,,,,,,,,,(Thurb.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCO21,STCO5,Stipa coronata,,Stipa,,coronata,,,,,,,,,,,Thurb.,,,,,Stipa,,,
+ACCU6,,Achnatherum curvifolium,,Achnatherum,,curvifolium,,,,,,,,,,,(Swallen) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACCU6,STCU2,Stipa curvifolia,,Stipa,,curvifolia,,,,,,,,,,,Swallen,,,,,Stipa,,,
+ACDI10,,Achnatherum diegoense,,Achnatherum,,diegoense,,,,,,,,,,,(Swallen) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACDI10,STDI,Stipa diegoensis,,Stipa,,diegoensis,,,,,,,,,,,Swallen,,,,,Stipa,,,
+ACEM4,,Achnatherum eminens,,Achnatherum,,eminens,,,,,,,,,,,(Cav.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACEM4,STEM2,Stipa eminens,,Stipa,,eminens,,,,,,,,,,,Cav.,,,,,Stipa,,,
+ACHE10,,Achnatherum hendersonii,,Achnatherum,,hendersonii,,,,,,,,,,,(Vasey) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACHE10,ORHE,Oryzopsis hendersonii,,Oryzopsis,,hendersonii,,,,,,,,,,,Vasey,,,,,Oryzopsis,,,
+ACHE10,STHE5,Stipa hendersonii,,Stipa,,hendersonii,,,,,,,,,,,(Vasey) Muhl.,,,,,Stipa,,,
+ACHY,,Achnatherum hymenoides,,Achnatherum,,hymenoides,,,,,,,,,,,(Roem. & Schult.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACHY,ERCU9,Eriocoma cuspidata,,Eriocoma,,cuspidata,,,,,,,,,,,Nutt.,,,,,Eriocoma,,,
+ACHY,ORHY,Oryzopsis hymenoides,,Oryzopsis,,hymenoides,,,,,,,,,,,(Roem. & Schult.) Ricker ex Piper,,,,,Oryzopsis,,,
+ACHY,STHY6,Stipa hymenoides,,Stipa,,hymenoides,,,,,,,,,,,Roem. & Schult.,,,,,Stipa,,,
+ACLA8,,Achnatherum latiglume,,Achnatherum,,latiglume,,,,,,,,,,,(Swallen) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACLA8,STLA2,Stipa latiglumis,,Stipa,,latiglumis,,,,,,,,,,,Swallen,,,,,Stipa,,,
+ACLE8,,Achnatherum lemmonii,,Achnatherum,,lemmonii,,,,,,,,,,,(Vasey) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACLEL,,Achnatherum lemmonii var. lemmonii,,Achnatherum,,lemmonii,,,,var.,,lemmonii,,,,,(Vasey) Barkworth,(Vasey) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACLEL,ACLEL2,Achnatherum lemmonii ssp. lemmonii,,Achnatherum,,lemmonii,ssp.,,lemmonii,,,,,,,,(Vasey) Barkworth,(Vasey) Barkworth,,,,Achnatherum,,,
+ACLEL,STLE2,Stipa lemmonii,,Stipa,,lemmonii,,,,,,,,,,,(Vasey) Scribn.,,,,,Stipa,,,
+ACLEL,STLEJ,Stipa lemmonii var. jonesii,,Stipa,,lemmonii,,,,var.,,jonesii,,,,,(Vasey) Scribn.,Scribn.,,,,Stipa,,,
+ACLEL,STLEL,Stipa lemmonii var. lemmonii,,Stipa,,lemmonii,,,,var.,,lemmonii,,,,,(Vasey) Scribn.,(Vasey) Scribn.,,,,Stipa,,,
+ACLEP,,Achnatherum lemmonii var. pubescens,,Achnatherum,,lemmonii,,,,var.,,pubescens,,,,,(Vasey) Barkworth,(Crampton) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACLEP,ACLEP2,Achnatherum lemmonii ssp. pubescens,,Achnatherum,,lemmonii,ssp.,,pubescens,,,,,,,,(Vasey) Barkworth,(Crampton) Barkworth,,,,Achnatherum,,,
+ACLEP,STLEP,Stipa lemmonii var. pubescens,,Stipa,,lemmonii,,,,var.,,pubescens,,,,,(Vasey) Scribn.,Crampton,,,,Stipa,,,
+ACLE9,,Achnatherum lettermanii,,Achnatherum,,lettermanii,,,,,,,,,,,(Vasey) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACLE9,STLE4,Stipa lettermanii,,Stipa,,lettermanii,,,,,,,,,,,Vasey,,,,,Stipa,,,
+ACLO7,,Achnatherum lobatum,,Achnatherum,,lobatum,,,,,,,,,,,(Swallen) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACLO7,STLO3,Stipa lobata,,Stipa,,lobata,,,,,,,,,,,Swallen,,,,,Stipa,,,
+ACNE9,,Achnatherum nelsonii,,Achnatherum,,nelsonii,,,,,,,,,,,(Scribn.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACNED,,Achnatherum nelsonii ssp. dorei,,Achnatherum,,nelsonii,ssp.,,dorei,,,,,,,,(Scribn.) Barkworth,(Barkworth & Maze) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACNED,ACNED2,Achnatherum nelsonii var. dorei,,Achnatherum,,nelsonii,,,,var.,,dorei,,,,,(Scribn.) Barkworth,(Barkworth & Maze) Dorn,,,,Achnatherum,,,
+ACNED,STCO3,Stipa columbiana,,Stipa,,columbiana,,,,,,,,,,,"Macoun, nom. utique rej.",,,,,Stipa,,,
+ACNED,STMI6,Stipa minor,,Stipa,,minor,,,,,,,,,,,(Vasey) Scribn.,,,,,Stipa,,,
+ACNED,STNED,Stipa nelsonii ssp. dorei,,Stipa,,nelsonii,ssp.,,dorei,,,,,,,,Scribn.,Barkworth & Maze,,,,Stipa,,,
+ACNED,STNED2,Stipa nelsonii var. dorei,,Stipa,,nelsonii,,,,var.,,dorei,,,,,Scribn.,(Barkworth & Maze) Dorn,,,,Stipa,,,
+ACNED,STOCM,Stipa occidentalis var. minor,,Stipa,,occidentalis,,,,var.,,minor,,,,,Thurb.,"sensu C.L. Hitchc., non (Vasey) C.L. Hitchc.",,,,Stipa,,,
+ACNEN2,,Achnatherum nelsonii ssp. nelsonii,,Achnatherum,,nelsonii,ssp.,,nelsonii,,,,,,,,(Scribn.) Barkworth,(Scribn.) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACNEN2,STCON2,Stipa columbiana var. nelsonii,,Stipa,,columbiana,,,,var.,,nelsonii,,,,,Macoun,(Scribn.) H. St. John,,,,Stipa,,,
+ACNEN2,STNE3,Stipa nelsonii,,Stipa,,nelsonii,,,,,,,,,,,Scribn.,,,,,Stipa,,,
+ACNEN2,STOCN,Stipa occidentalis var. nelsonii,,Stipa,,occidentalis,,,,var.,,nelsonii,,,,,Thurb.,(Scribn.) C.L. Hitchc.,,,,Stipa,,,
+ACNEN2,STWI,Stipa williamsii,,Stipa,,williamsii,,,,,,,,,,,Scribn.,,,,,Stipa,,,
+ACNE10,,Achnatherum nevadense,,Achnatherum,,nevadense,,,,,,,,,,,(B.L. Johnson) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACNE10,STNE4,Stipa nevadensis,,Stipa,,nevadensis,,,,,,,,,,,B.L. Johnson,,,,,Stipa,,,
+ACOC3,,Achnatherum occidentale,,Achnatherum,,occidentale,,,,,,,,,,,(Thurb.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACOCC,,Achnatherum occidentale ssp. californicum,,Achnatherum,,occidentale,ssp.,,californicum,,,,,,,,(Thurb.) Barkworth,(Merr. & Burtt Davy) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACOCC,ACNEL2,Achnatherum nelsonii ssp. longiaristatum,,Achnatherum,,nelsonii,ssp.,,longiaristatum,,,,,,,,(Scribn.) Barkworth,(Barkworth & Maze) Barkworth,,,,Achnatherum,,,
+ACOCC,STCA2,Stipa californica,,Stipa,,californica,,,,,,,,,,,Merr. & Burtt Davy,,,,,Stipa,,,
+ACOCC,STNEL3,Stipa nelsonii var. longiaristata,,Stipa,,nelsonii,,,,var.,,longiaristata,,,,,Scribn.,Barkworth & Maze,,,,Stipa,,,
+ACOCC,STOCC,Stipa occidentalis var. californica,,Stipa,,occidentalis,,,,var.,,californica,,,,,Thurb.,(Merr. & Burtt Davy) C.L. Hitchc.,,,,Stipa,,,
+ACOCO,,Achnatherum occidentale ssp. occidentale,,Achnatherum,,occidentale,ssp.,,occidentale,,,,,,,,(Thurb.) Barkworth,(Thurb.) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACOCO,STOC2,Stipa occidentalis,,Stipa,,occidentalis,,,,,,,,,,,Thurb.,,,,,Stipa,,,
+ACOCP,,Achnatherum occidentale ssp. pubescens,,Achnatherum,,occidentale,ssp.,,pubescens,,,,,,,,(Thurb.) Barkworth,(Vasey) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACOCP,STEL2,Stipa elmeri,,Stipa,,elmeri,,,,,,,,,,,Piper & Brodie ex Scribn.,,,,,Stipa,,,
+ACOCP,STOCP,Stipa occidentalis var. pubescens,,Stipa,,occidentalis,,,,var.,,pubescens,,,,,Thurb.,"(Vasey) Maze, Roy L. Taylor & MacBryde",,,,Stipa,,,
+ACPA13,,Achnatherum parishii,,Achnatherum,,parishii,,,,,,,,,,,(Vasey) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACPAD,,Achnatherum parishii var. depauperatum,,Achnatherum,,parishii,,,,var.,,depauperatum,,,,,(Vasey) Barkworth,(M.E. Jones) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACPAD,STCOD,Stipa coronata var. depauperata,,Stipa,,coronata,,,,var.,,depauperata,,,,,Thurb.,(M.E. Jones) Hitchc.,,,,Stipa,,,
+ACPAP,,Achnatherum parishii var. parishii,,Achnatherum,,parishii,,,,var.,,parishii,,,,,(Vasey) Barkworth,(Vasey) Barkworth,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACPAP,STCOP2,Stipa coronata var. parishii,,Stipa,,coronata,,,,var.,,parishii,,,,,Thurb.,(Vasey) Hitchc.,,,,Stipa,,,
+ACPAP,STPA17,Stipa parishii,,Stipa,,parishii,,,,,,,,,,,Vasey,,,,,Stipa,,,
+ACPE12,,Achnatherum pekinense,,Achnatherum,,pekinense,,,,,,,,,,,(Hance) Ohwi,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACPE13,,Achnatherum perplexum,,Achnatherum,,perplexum,,,,,,,,,,,Hoge & Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACPE13,STPE10,Stipa perplexa,,Stipa,,perplexa,,,,,,,,,,,(Hoge & Barkworth) Wipff & S.D. Jones,,,,,Stipa,,,
+ACPI2,,Achnatherum pinetorum,,Achnatherum,,pinetorum,,,,,,,,,,,(M.E. Jones) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACPI2,STPI2,Stipa pinetorum,,Stipa,,pinetorum,,,,,,,,,,,M.E. Jones,,,,,Stipa,,,
+ACRI8,,Achnatherum richardsonii,,Achnatherum,,richardsonii,,,,,,,,,,,(Link) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACRI8,STRI2,Stipa richardsonii,,Stipa,,richardsonii,,,,,,,,,,,Link,,,,,Stipa,,,
+ACRO7,,Achnatherum robustum,,Achnatherum,,robustum,,,,,,,,,,,(Vasey) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACRO7,STRO3,Stipa robusta,,Stipa,,robusta,,,,,,,,,,,(Vasey) Scribn.,,,,,Stipa,,,
+ACRO7,STVA4,Stipa vaseyi,,Stipa,,vaseyi,,,,,,,,,,,Scribn.,,,,,Stipa,,,
+ACSC11,,Achnatherum scribneri,,Achnatherum,,scribneri,,,,,,,,,,,(Vasey) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACSC11,STSC2,Stipa scribneri,,Stipa,,scribneri,,,,,,,,,,,Vasey,,,,,Stipa,,,
+ACSP12,,Achnatherum speciosum,,Achnatherum,,speciosum,,,,,,,,,,,(Trin. & Rupr.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACSP12,STSP3,Stipa speciosa,,Stipa,,speciosa,,,,,,,,,,,Trin. & Rupr.,,,,,Stipa,,,
+ACSP8,,Achnatherum splendens,,Achnatherum,,splendens,,,,,,,,,,,(Trin.) Nevski,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACSP8,STSP12,Stipa splendens,,Stipa,,splendens,,,,,,,,,,,Trin.,,,,,Stipa,,,
+ACST7,,Achnatherum stillmanii,,Achnatherum,,stillmanii,,,,,,,,,,,(Bol.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACST7,STST2,Stipa stillmanii,,Stipa,,stillmanii,,,,,,,,,,,Bol.,,,,,Stipa,,,
+ACSW3,,Achnatherum swallenii,,Achnatherum,,swallenii,,,,,,,,,,,(C.L. Hitchc. & Spellenb.) Barkworth,,,,,Achnatherum,Poaceae,POACEA,Plantae
+ACSW3,ORSW,Oryzopsis swallenii,,Oryzopsis,,swallenii,,,,,,,,,,,C.L. Hitchc. & Spellenb.,,,,,Oryzopsis,,,

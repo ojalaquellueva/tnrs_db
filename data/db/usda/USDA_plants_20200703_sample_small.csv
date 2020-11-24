@@ -1,0 +1,100 @@
+﻿Accepted Symbol,Synonym Symbol,Scientific Name,Hybrid Genus Indicator,Genus,Hybrid Species Indicator,Species,Subspecies Prefix,Hybrid Subspecies Indicator,Subspecies,Variety Prefix,Hybrid Variety Indicator,Variety,Subvariety Prefix,Subvariety,Forma Prefix,Forma,Genera/Binomial Author,Trinomial Author,Quadranomial Author,Questionable Taxon Indicator,Parents,Genus,Family,Family Symbol,Kingdom
+ABELI,,Abelia,,Abelia,,,,,,,,,,,,,R. Br.,,,,,Abelia,Caprifoliaceae,CAPRIF,Plantae
+ABGR4,,Abelia ×grandiflora,,Abelia,×,grandiflora,,,,,,,,,,,(Rovelli ex André) Rehder,,,,chinensis × uniflora,Abelia,Caprifoliaceae,CAPRIF,Plantae
+ABELM,,Abelmoschus,,Abelmoschus,,,,,,,,,,,,,Medik.,,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABES,,Abelmoschus esculentus,,Abelmoschus,,esculentus,,,,,,,,,,,(L.) Moench,,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABES,HIES,Hibiscus esculentus,,Hibiscus,,esculentus,,,,,,,,,,,L.,,,,,Hibiscus,,,
+ABMA9,,Abelmoschus manihot,,Abelmoschus,,manihot,,,,,,,,,,,(L.) Medik. [excluded],,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABMA9,HIMA9,Hibiscus manihot,,Hibiscus,,manihot,,,,,,,,,,,L.,,,,,Hibiscus,,,
+ABMO,,Abelmoschus moschatus,,Abelmoschus,,moschatus,,,,,,,,,,,Medik.,,,,,Abelmoschus,Malvaceae,MALVAC,Plantae
+ABMO,HIAB,Hibiscus abelmoschus,,Hibiscus,,abelmoschus,,,,,,,,,,,L.,,,,,Hibiscus,,,
+ABIES,,Abies,,Abies,,,,,,,,,,,,,Mill.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABAL3,,Abies alba,,Abies,,alba,,,,,,,,,,,Mill.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABAM,,Abies amabilis,,Abies,,amabilis,,,,,,,,,,,(Douglas ex Loudon) Douglas ex Forbes,,,,,Abies,Pinaceae,PINACE,Plantae
+ABBA,,Abies balsamea,,Abies,,balsamea,,,,,,,,,,,(L.) Mill.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABBAB,,Abies balsamea var. balsamea,,Abies,,balsamea,,,,var.,,balsamea,,,,,(L.) Mill.,(L.) Mill.,,,,Abies,Pinaceae,PINACE,Plantae
+ABBAB,PIBA3,Pinus balsamea,,Pinus,,balsamea,,,,,,,,,,,L.,,,,,Pinus,,,
+ABBAP,,Abies balsamea var. phanerolepis,,Abies,,balsamea,,,,var.,,phanerolepis,,,,,(L.) Mill.,Fernald,,,,Abies,Pinaceae,PINACE,Plantae
+ABBAP,ABPH,Abies ×phanerolepis,,Abies,×,phanerolepis,,,,,,,,,,,(Fernald) Liu,,,,,Abies,,,
+ABBR,,Abies bracteata,,Abies,,bracteata,,,,,,,,,,,(D. Don) D. Don ex Poit.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABBR,ABVE,Abies venusta,,Abies,,venusta,,,,,,,,,,,(Douglas) K. Koch,,,,,Abies,,,
+ABCO,,Abies concolor,,Abies,,concolor,,,,,,,,,,,(Gord. & Glend.) Lindl. ex Hildebr.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABCO,ABCOC,Abies concolor var. concolor,,Abies,,concolor,,,,var.,,concolor,,,,,(Gord. & Glend.) Lindl. ex Hildebr.,(Gord. & Glend.) Lindl. ex Hildebr.,,,,Abies,,,
+ABFI,,Abies firma,,Abies,,firma,,,,,,,,,,,Siebold & Zucc.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABFR,,Abies fraseri,,Abies,,fraseri,,,,,,,,,,,(Pursh) Poir.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABFR,PIFR,Pinus fraseri,,Pinus,,fraseri,,,,,,,,,,,Pursh,,,,,Pinus,,,
+ABGR,,Abies grandis,,Abies,,grandis,,,,,,,,,,,(Douglas ex D. Don) Lindl.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABGR,ABGRG,Abies grandis var. grandis,,Abies,,grandis,,,,var.,,grandis,,,,,(Douglas ex D. Don) Lindl.,,,,,Abies,,,
+ABGR,ABGRI,Abies grandis var. idahoensis,,Abies,,grandis,,,,var.,,idahoensis,,,,,(Douglas ex D. Don) Lindl.,Silba,,,,Abies,,,
+ABGR,ABGRI2,Abies grandis ssp. idahoensis,,Abies,,grandis,ssp.,,idahoensis,,,,,,,,(Douglas ex D. Don) Lindl.,(Silba) Silba,,,,Abies,,,
+ABGR,ABGRJ,Abies grandis f. johnsonii,,Abies,,grandis,,,,,,,,,f.,johnsonii,(Douglas ex D. Don) Lindl.,O.V. Matthews,,,,Abies,,,
+ABGU,,Abies guatemalensis,,Abies,,guatemalensis,,,,,,,,,,,Rehder,,,,,Abies,Pinaceae,PINACE,Plantae
+ABHO,,Abies homolepis,,Abies,,homolepis,,,,,,,,,,,Siebold & Zucc.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABLA,,Abies lasiocarpa,,Abies,,lasiocarpa,,,,,,,,,,,(Hook.) Nutt.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABLAA,,Abies lasiocarpa var. arizonica,,Abies,,lasiocarpa,,,,var.,,arizonica,,,,,(Hook.) Nutt.,(Merriam) Lemmon,,,,Abies,Pinaceae,PINACE,Plantae
+ABLAA,ABAR2,Abies arizonica,,Abies,,arizonica,,,,,,,,,,,Merriam,,,,,Abies,,,
+ABLAL,,Abies lasiocarpa var. lasiocarpa,,Abies,,lasiocarpa,,,,var.,,lasiocarpa,,,,,(Hook.) Nutt.,(Hook.) Nutt.,,,,Abies,Pinaceae,PINACE,Plantae
+ABLAL,ABBAF,Abies balsamea var. fallax,,Abies,,balsamea,,,,var.,,fallax,,,,,(L.) Mill.,(Engelm.) B. Boivin,,,,Abies,,,
+ABLAL,ABBAL,Abies balsamea ssp. lasiocarpa,,Abies,,balsamea,ssp.,,lasiocarpa,,,,,,,,(L.) Mill.,(Hook.) B. Boivin,,,,Abies,,,
+ABLAL,ABBI3,Abies bifolia,,Abies,,bifolia,,,,,,,,,,,A. Murray bis,,,,,Abies,,,
+ABLAL,ABLAB,Abies lasiocarpa ssp. bifolia,,Abies,,lasiocarpa,ssp.,,bifolia,,,,,,,,(Hook.) Nutt.,(A. Murray bis) Silba,,,,Abies,,,
+ABLAL,ABLAB2,Abies lasiocarpa var. bifolia,,Abies,,lasiocarpa,,,,var.,,bifolia,,,,,(Hook.) Nutt.,(A. Murray bis) Eckenw.,,,,Abies,,,
+ABLAL,ABSU,Abies subalpina,,Abies,,subalpina,,,,,,,,,,,Engelmann,,,,,Abies,,,
+ABLO,,Abies lowiana,,Abies,,lowiana,,,,,,,,,,,(Gordon & Glend.) A. Murray bis,,,,,Abies,Pinaceae,PINACE,Plantae
+ABLO,ABCOL,Abies concolor var. lowiana,,Abies,,concolor,,,,var.,,lowiana,,,,,(Gord. & Glend.) Lindl. ex Hildebr.,(Gord. & Glend.) Lemmon,,,,Abies,,,
+ABMA,,Abies magnifica,,Abies,,magnifica,,,,,,,,,,,A. Murray bis,,,,,Abies,Pinaceae,PINACE,Plantae
+ABMAM,,Abies magnifica var. magnifica,,Abies,,magnifica,,,,var.,,magnifica,,,,,A. Murray bis,,,,,Abies,Pinaceae,PINACE,Plantae
+ABMAS,,Abies magnifica var. shastensis,,Abies,,magnifica,,,,var.,,shastensis,,,,,A. Murray bis,Lemmon,,,,Abies,Pinaceae,PINACE,Plantae
+ABMAS,ABMAC,Abies magnifica var. critchfieldii,,Abies,,magnifica,,,,var.,,critchfieldii,,,,,A. Murray bis,Lanner,,,,Abies,,,
+ABMAS,ABMAS2,Abies magnifica ssp. shastensis,,Abies,,magnifica,ssp.,,shastensis,,,,,,,,A. Murray bis,(Lemmon) Silba,,,,Abies,,,
+ABMAS,ABSH,Abies ×shastensis,,Abies,×,shastensis,,,,,,,,,,,(Lemmon) Lemmon,,,,,Abies,,,
+ABPR,,Abies procera,,Abies,,procera,,,,,,,,,,,Rehder,,,,,Abies,Pinaceae,PINACE,Plantae
+ABPR,ABNO,Abies nobilis,,Abies,,nobilis,,,,,,,,,,,(Douglas ex D. Don) Lindl.,,,,,Abies,,,
+ABVE2,,Abies veitchii,,Abies,,veitchii,,,,,,,,,,,Lindl.,,,,,Abies,Pinaceae,PINACE,Plantae
+ABIET,,Abietinella,,Abietinella,,,,,,,,,,,,,Müll. Hal.,,,,,Abietinella,Thuidiaceae,THUIDI,Plantae
+ABAB70,,Abietinella abietina,,Abietinella,,abietina,,,,,,,,,,,(Hedw.) Fleisch.,,,,,Abietinella,Thuidiaceae,THUIDI,Plantae
+ABAB70,HYAB,Hypnum abietinum,,Hypnum,,abietinum,,,,,,,,,,,Hedw.,,,,,Hypnum,,,
+ABAB70,THAB70,Thuidium abietinum,,Thuidium,,abietinum,,,,,,,,,,,(Hedw.) Schimp.,,,,,Thuidium,,,
+ABILD,,Abildgaardia,,Abildgaardia,,,,,,,,,,,,,Vahl,,,,,Abildgaardia,Cyperaceae,CYPERA,Plantae
+ABOV,,Abildgaardia ovata,,Abildgaardia,,ovata,,,,,,,,,,,(Burm. f.) Kral,,,,,Abildgaardia,Cyperaceae,CYPERA,Plantae
+ABOV,ABMO4,Abildgaardia monostachya,,Abildgaardia,,monostachya,,,,,,,,,,,(L.) Vahl,,,,,Abildgaardia,,,
+ABOV,CYMO10,Cyperus monostachyos,,Cyperus,,monostachyos,,,,,,,,,,,L.,,,,,Cyperus,,,
+ABOV,FIMO2,Fimbristylis monostachya,,Fimbristylis,,monostachya,,,,,,,,,,,(L.) Hassk.,,,,,Fimbristylis,,,
+ABOV,FIOV,Fimbristylis ovata,,Fimbristylis,,ovata,,,,,,,,,,,(Burm. f.) J. Kern,,,,,Fimbristylis,,,
+ABROM,,Abroma,,Abroma,,,,,,,,,,,,,Jacq.,,,,,Abroma,Sterculiaceae,STERCU,Plantae
+ABROM,AMBRO2,Ambroma,,Ambroma,,,,,,,,,,,,,"L. f., orth. var.",,,,,Ambroma,,,
+ABAU3,,Abroma augustum,,Abroma,,augustum,,,,,,,,,,,(L.) L. f.,,,,,Abroma,Sterculiaceae,STERCU,Plantae
+ABAU3,ABAU2,Abroma augusta,,Abroma,,augusta,,,,,,,,,,,"(L.) L. f., orth. var.",,,,,Abroma,,,
+ABAU3,AMAU4,Ambroma augusta,,Ambroma,,augusta,,,,,,,,,,,"(L.) L. f., orth. var.",,,,,Ambroma,,,
+ABAU3,AMAU5,Ambroma augustum,,Ambroma,,augustum,,,,,,,,,,,"(L.) L. f., orth. var.",,,,,Ambroma,,,
+ABRON,,Abronia,,Abronia,,,,,,,,,,,,,Juss.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAL,,Abronia alpina,,Abronia,,alpina,,,,,,,,,,,Brandegee,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAM2,,Abronia ameliae,,Abronia,,ameliae,,,,,,,,,,,Lundell,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAM3,,Abronia ammophila,,Abronia,,ammophila,,,,,,,,,,,Greene,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAM3,ABFE,Abronia fendleri,,Abronia,,fendleri,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABAN,,Abronia angustifolia,,Abronia,,angustifolia,,,,,,,,,,,Greene,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABAN,ABANA,Abronia angustifolia var. arizonica,,Abronia,,angustifolia,,,,var.,,arizonica,,,,,Greene,(Standl.) Kearney & Peebles,,,,Abronia,,,
+ABAN,ABTO,Abronia torreyi,,Abronia,,torreyi,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABAR,,Abronia argillosa,,Abronia,,argillosa,,,,,,,,,,,S.L. Welsh & Goodrich,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABBI,,Abronia bigelovii,,Abronia,,bigelovii,,,,,,,,,,,Heimerl,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABBO,,Abronia bolackii,,Abronia,,bolackii,,,,,,,,,,,"N.D. Atwood, S.L. Welsh & K.D. Heil",,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABCA,,Abronia carletonii,,Abronia,,carletonii,,,,,,,,,,,J.M. Coult. & Fisher,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABEL,,Abronia elliptica,,Abronia,,elliptica,,,,,,,,,,,A. Nelson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABEL,ABFRE2,Abronia fragrans var. elliptica,,Abronia,,fragrans,,,,var.,,elliptica,,,,,Nutt. ex Hook.,(A. Nelson) M.E. Jones,,,,Abronia,,,
+ABEL,ABPU2,Abronia pumila,,Abronia,,pumila,,,,,,,,,,,Rydb.,,,,,Abronia,,,
+ABEL,ABRA,Abronia ramosa,,Abronia,,ramosa,,,,,,,,,,,Standl.,,,,,Abronia,,,
+ABEL,ABSA3,Abronia salsa,,Abronia,,salsa,,,,,,,,,,,Rydb.,,,,,Abronia,,,
+ABFR2,,Abronia fragrans,,Abronia,,fragrans,,,,,,,,,,,Nutt. ex Hook.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABFR2,ABFRG2,Abronia fragrans var. glaucescens,,Abronia,,fragrans,,,,var.,,glaucescens,,,,,Nutt. ex Hook.,A. Nelson,,,,Abronia,,,
+ABGR2,,Abronia gracilis,,Abronia,,gracilis,,,,,,,,,,,Benth.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABIN2,,Abronia insularis,,Abronia,,insularis,,,,,,,,,,,Standl.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABLA2,,Abronia latifolia,,Abronia,,latifolia,,,,,,,,,,,Eschsch.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABMA5,,Abronia macrocarpa,,Abronia,,macrocarpa,,,,,,,,,,,L.A. Galloway,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABMA2,,Abronia maritima,,Abronia,,maritima,,,,,,,,,,,Nutt. ex S. Watson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABME,,Abronia mellifera,,Abronia,,mellifera,,,,,,,,,,,Douglas ex Hook.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABMI2,,Abronia minor,,Abronia,,minor,,,,,,,,,,,Standl.,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNA,,Abronia nana,,Abronia,,nana,,,,,,,,,,,S. Watson,,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAC,,Abronia nana var. covillei,,Abronia,,nana,,,,var.,,covillei,,,,,S. Watson,(Heimerl) Munz,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAC,ABNAC2,Abronia nana ssp. covillei,,Abronia,,nana,ssp.,,covillei,,,,,,,,S. Watson,(Heimerl) Munz,,,,Abronia,,,
+ABNAH,,Abronia nana var. harrisii,,Abronia,,nana,,,,var.,,harrisii,,,,,S. Watson,S.L. Welsh,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
+ABNAN,,Abronia nana var. nana,,Abronia,,nana,,,,var.,,nana,,,,,S. Watson,S. Watson,,,,Abronia,Nyctaginaceae,NYCTAG,Plantae
