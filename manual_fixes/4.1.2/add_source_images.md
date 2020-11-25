@@ -7,32 +7,39 @@
 1. Logo files exist in subdirectory data/db/images
 2. Base name of each logo file (minus extension) is IDENTICAL to sourceName
 
-## Update table schema and import data (except file blob)
-
+## Update table schema 
 **MySQL command line:**
 
 ```
 USE tnrs;
 
 ALTER TABLE source
-ADD COLUMN logo_path VARCHAR(500) DEFAULT NULL,
-ADD COLUMN logo_filename VARCHAR(100) DEFAULT NULL,
-ADD COLUMN logo  BLOB DEFAULT NULL
+ADD COLUMN logo_path VARCHAR(500) DEFAULT NULL
 ;
 
 ```
 
-## Import the image files
-* Source: https://stackoverflow.com/a/41018123/2757825  
+## Populate image file path
 
 **In shell:**  
 
 ```
-cd /home/boyle/bien/tnrs/tnrs_db/data/db/images
+cd /home/boyle/bien/tnrs/api/images
+
 for fpath in ./*; do
 	fname=${fpath##*/}
+	fname_base=${fname%".png"}
+	echo -n  "fname: ${fname}, "
+	echo "fname_base: ${fname_base}"
+done
+
+
+
+for fpath in ./*; do
+	fname=${fpath##*/}
+	fname_base=${fname%".png"}
 	echo -n  "Loading ${fname}..."
-	mysql --login-path=local  -e "update source set logo=FROM_BASE64('`base64 -i ${fname}`') where logo_filename='${fname}'" tnrs
+	mysql --login-path=local  -e "update source set logo_path=concat('image/', '${fname}') where sourceName='${fname_base}'" tnrs
 	echo "done"
 done
 ```

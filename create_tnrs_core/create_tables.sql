@@ -9,9 +9,7 @@ CREATE TABLE source (
   sourceVersion VARCHAR(100) DEFAULT NULL,
   sourceReleaseDate DATE DEFAULT NULL,
   dateAccessed DATE DEFAULT NULL,
-  logo_path VARCHAR(500) DEFAULT NULL,
-  logo_filename VARCHAR(100) DEFAULT NULL,
-  logo  BLOB DEFAULT NULL,
+  logo_url VARCHAR(500) DEFAULT NULL,
   isDefault  INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
   isHigherClassification INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
   warning INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
@@ -143,6 +141,7 @@ CREATE TABLE `meta` (
   code_version VARCHAR(50) DEFAULT NULL,
   api_version VARCHAR(50) DEFAULT NULL,
   citation TEXT DEFAULT NULL, 
+  logo_url VARCHAR(500) DEFAULT NULL,
   PRIMARY KEY(meta_id)
 )
 ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
@@ -154,9 +153,7 @@ CREATE TABLE collaborator (
   collaboratorNameFull VARCHAR(250) DEFAULT NULL,
   collaboratorUrl VARCHAR(500) DEFAULT NULL,
   description text,
-  logo_path VARCHAR(500) DEFAULT NULL,
-  logo_filename VARCHAR(100) DEFAULT NULL,
-  logo BLOB DEFAULT NULL,    
+  logo_url VARCHAR(500) DEFAULT NULL,
   PRIMARY KEY(collaboratorID),
   INDEX collaborator_collaboratorName(collaboratorName)
 )

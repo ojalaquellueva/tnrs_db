@@ -1,14 +1,14 @@
-# Create & populate new table collaborator, including logo files
+# Create & populate new table collaborator, including logo urls
 
 ## Warning: 
 **CREATE TABLE is only step in main code. Remainder not yet added to DB pipeline**
 
 ## Requirements:  
 1. File collaborators.csv exists in data directory  
-2. Logo files in subdirectory data/db/images
-3. Name of files in images directory match file names in collaborators.csv
+2. Url portion of url_logo in collaborators.csv must point to api/images
+3. File name portion of url_logo in collaborators.csv must match names of files in api/images
 
-## Create table and import data (except file blob)
+## Create table and import data 
 
 **MySQL command line:**
 
@@ -27,8 +27,6 @@ CREATE TABLE collaborator (
   collaboratorUrl VARCHAR(500) DEFAULT NULL,
   description text,
   logo_path VARCHAR(500) DEFAULT NULL,
-  logo_filename VARCHAR(100) DEFAULT NULL,
-  logo BLOB DEFAULT NULL,    
   PRIMARY KEY(collaboratorID),
   INDEX collaborator_collaboratorName(collaboratorName)
 )
@@ -63,34 +61,16 @@ collaboratorName,
 collaboratorNameFull,
 collaboratorUrl,
 description,
-logo_path,
-logo_filename
+logo_path
 )
 SELECT
 collaboratorName,
 collaboratorNameFull,
 collaboratorUrl,
 description,
-logo_path,
-logo_filename
+logo_path
 FROM collaborator_raw
 ;
 
 DROP TABLE collaborator_raw;
-
-```
-
-## Import the image files
-* Source: https://stackoverflow.com/a/41018123/2757825  
-
-**In shell:**  
-
-```
-cd /home/boyle/bien/tnrs/tnrs_db/data/db/images
-for fpath in ./*; do
-	fname=${fpath##*/}
-	echo -n  "Loading ${fname}..."
-	mysql --login-path=local  -e "update collaborator set logo=FROM_BASE64('`base64 -i ${fname}`') where logo_filename='${fname}'" tnrs
-	echo "done"
-done
 ```

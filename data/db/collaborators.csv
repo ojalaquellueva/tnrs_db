@@ -1,6 +1,6 @@
-﻿collaboratorName,collaboratorNameFull,collaboratorUrl,description,logo_path,logo_filename,logo
-NCEAS,The National Center for Ecological Analysis and Synthesis,https://www.nceas.ucsb.edu/,,/home/boyle/bien/tnrs/tnrs_db/data/db/images,nceas.png,
-BIEN,The Botanical Information and Ecology Network,https://bien.nceas.ucsb.edu/bien/,,/home/boyle/bien/tnrs/tnrs_db/data/db/images,bien.png,
-University of Arizona,The University of Arizona,https://www.arizona.edu/,,/home/boyle/bien/tnrs/tnrs_db/data/db/images,UA.png,
-MBG,The Missouri Botanical Garden,https://www.missouribotanicalgarden.org/,,/home/boyle/bien/tnrs/tnrs_db/data/db/images,mbg.png,
-NSF,The National Science Foundation,https://www.nsf.gov/,,/home/boyle/bien/tnrs/tnrs_db/data/db/images,nsf.png,
+collaboratorName,collaboratorNameFull,collaboratorUrl,description,logo_path
+NCEAS,The National Center for Ecological Analysis and Synthesis,https://www.nceas.ucsb.edu/,,images/nceas.png
+BIEN,The Botanical Information and Ecology Network,https://bien.nceas.ucsb.edu/bien/,,images/bien.png
+University of Arizona,The University of Arizona,https://www.arizona.edu/,,images/UA.png
+MBG,The Missouri Botanical Garden,https://www.missouribotanicalgarden.org/,,images/mbg.png
+NSF,The National Science Foundation,https://www.nsf.gov/,,images/nsf.png
