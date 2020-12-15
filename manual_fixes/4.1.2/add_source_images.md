@@ -33,13 +33,11 @@ for fpath in ./*; do
 	echo "fname_base: ${fname_base}"
 done
 
-
-
 for fpath in ./*; do
 	fname=${fpath##*/}
 	fname_base=${fname%".png"}
 	echo -n  "Loading ${fname}..."
-	mysql --login-path=local  -e "update source set logo_path=concat('image/', '${fname}') where sourceName='${fname_base}'" tnrs
+	mysql --login-path=local  -e "update source set logo_path=concat('images/', '${fname}') where sourceName='${fname_base}'" tnrs
 	echo "done"
 done
 ```

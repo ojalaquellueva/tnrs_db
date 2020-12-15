@@ -288,7 +288,6 @@ if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) 
 
 	echo "\r\n#############################################\r\n";
 	
-	//echo "WARNING: Skipping tropicos fixes!\r\n\r\n";
 	include_once "tropicos_fixes/tropicos_fixes.php";
 
 	include $timer_off;
