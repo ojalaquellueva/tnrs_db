@@ -4,6 +4,8 @@
 
 USE tnrs;
 
-UPDATE meta SET db_version='4.2.3'
-UPDATE meta SET citation=REPLACE(citation, 'Version 4.1.}', 'Version 5.0.1}');
+UPDATE meta SET db_version='4.1.3';
+UPDATE meta SET citation=REPLACE(citation, 'Version 4.1.}', 'Version 5.0.2}');
 UPDATE meta SET citation=REPLACE(citation, 'Accessed 15 July 2020', 'Accessed <date_of_access>');
+
+

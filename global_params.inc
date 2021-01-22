@@ -32,9 +32,46 @@
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
 
+//////////////////////////////////////////////////
+// Appliction metadata
+// Added to table meta, along with today's date
+// If not known, set to empty string ('') and update later
+// after DB build complete
+//////////////////////////////////////////////////
+
 // Database version
-// Required! Added to table meta, along with today's date
-$DB_VERSION="4.1";
+$DB_VERSION="4.1.3";
+
+// Database code git version
+$CODE_VERSION="5.0.2";
+
+// API code git version
+$API_VERSION="";
+
+// Bibtex-formatted citation of application url
+$APP_CITATION="@misc{tnrs,
+author = {Boyle, B. L. and Matasci, N. and Mozzherin, D. and Rees, T. and Barbosa, G. C. and Kumar Sajja, R. and Enquist, B. J.},
+journal = {Botanical Information and Ecology Network},
+title = {Taxonomic Name Resolution Service, version 5.0},
+year = {2021},
+url = {https://tnrs.biendata.org/},
+note = {Accessed <date_of_access>}
+}";
+
+// Bibtex-formatted citation of application publication, if any
+$APP_PUBLICATION="@article{tnrspub,
+author = {Boyle, B. and Hopkins, N. and Lu, Z. and Garay, J. A. R. and Mozzherin, D. and Rees, T. and Matasci, N. and Narro, M. L. and Piel, W. H. and McKay, S. J. and Lowry, S. and Freeland, C. and Peet, R. K. and Enquist, B. J.},
+journal = {BMC Bioinformatics},
+number = {1},
+pages = {16},
+title = {The taxonomic name resolution service: an online tool for automated standardization of plant names},
+volume = {14},
+year = {2013},
+doi = {10.1186/1471-2105-14-16}
+";
+
+// Location of main app url on filesystem, if any
+$APP_LOGO_PATH="";
 
 //////////////////////////////////////////////////
 // Taxonomy sources

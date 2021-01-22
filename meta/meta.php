@@ -17,13 +17,21 @@ echo "  Inserting verision information...";
 $sql="
 INSERT INTO meta (
 db_version,
+build_date,
 code_version,
-build_date
+api_version,
+citation,
+publication,
+logo_path
 )
 VALUES (
 '$DB_VERSION',
+CURRENT_DATE(),
 '$CODE_VERSION',
-CURRENT_DATE()
+'$API_VERSION',
+'APP_CITATION',
+'APP_PUBLICATION',
+'APP_LOGO_PATH'
 )
 ";
 $msg_error="Failed to populate table `meta`!";

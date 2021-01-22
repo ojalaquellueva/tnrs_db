@@ -141,6 +141,7 @@ CREATE TABLE `meta` (
   code_version VARCHAR(50) DEFAULT NULL,
   api_version VARCHAR(50) DEFAULT NULL,
   citation TEXT DEFAULT NULL, 
+  publication TEXT DEFAULT NULL,
   logo_url VARCHAR(500) DEFAULT NULL,
   PRIMARY KEY(meta_id)
 )
