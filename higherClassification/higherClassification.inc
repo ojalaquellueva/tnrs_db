@@ -99,8 +99,8 @@ $src_no=1;
 // Do for each higher classification source
 //////////////////////////////////////////////////
 while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
-	$classificationSourceID=$row{'sourceID'};
-	$classificationSourceName=$row{'sourceName'};
+	$classificationSourceID=$row['sourceID'];
+	$classificationSourceName=$row['sourceName'];
 
 	echo "Classification source = $classificationSourceName:\r\n";
 	echo "  Extracting names for this classification...";
@@ -455,8 +455,8 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 	//////////////////////////////////////////////////
 	
 	while ($rowNameSource=mysqli_fetch_array($rows_other_sources, MYSQLI_ASSOC)) {
-		$nameSourceID=$rowNameSource{'sourceID'};
-		$nameSourceName=$rowNameSource{'sourceName'};
+		$nameSourceID=$rowNameSource['sourceID'];
+		$nameSourceName=$rowNameSource['sourceName'];
 
 		echo "  Name source = $nameSourceName:\r\n";
 

@@ -24,9 +24,9 @@ $num_rows = mysqli_num_rows($rows);
 
 if ($num_rows>0) {
 	while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
-		$id=$row{'ID'};
-		$taxon=$row{'taxon'};
-		$child_rank=$row{'rank'};
+		$id=$row['ID'];
+		$taxon=$row['taxon'];
+		$child_rank=$row['rank'];
 		$parent='';
 		$grandparent='';
 

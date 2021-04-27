@@ -12,9 +12,8 @@ $sql = "DROP DATABASE IF EXISTS `$DB_NEW`";
 $retval = mysqli_query($dbh,  $sql );
 if($retval) {
 	echo $msg_success;
-}else{
+} else {
 	die('Could not delete database: ' . mysqli_error($dbh ));
 }
-
 
 ?>

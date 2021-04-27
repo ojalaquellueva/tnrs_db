@@ -15,7 +15,7 @@ $n=1;
 
 if ($num_rows>0) {
 	while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
-		$rank=$row{'rank'};
+		$rank=$row['rank'];
 		$rankStd=stdRankIndicator($rank);
 		echo "  \r                                                                 ";
 		echo "  \r  Standardizing trinomial rank indicators...$n of $num_rows";
@@ -49,7 +49,7 @@ $n=1;
 
 if ($num_rows>0) {
 	while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
-		$rank=$row{'rank'};
+		$rank=$row['rank'];
 		$rankStd=stdRankIndicator($rank);
 		echo "  \r                                                                 ";
 		echo "  \r  Standardizing quadrinomial rank indicators...$n of $num_rows";

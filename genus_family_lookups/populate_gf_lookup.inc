@@ -26,10 +26,10 @@ $curr_row=0;
 // Loop through records, adding one at at time to destination table
 if ($num_rows>0) {
 	while ($row=mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-		$genus=$row{'genus'};
-		$prim_family=$row{'family'};
+		$genus=$row['genus'];
+		$prim_family=$row['family'];
 		$arr_fams=array($prim_family);
-		$othfamily=$row{'othfamily'};
+		$othfamily=$row['othfamily'];
 		$arr_othfamilies=explode(";",$othfamily);	// tokenize this field
 		
 		if(trim($arr_othfamilies[0]<>'')) {

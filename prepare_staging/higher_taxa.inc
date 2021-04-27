@@ -33,9 +33,9 @@ foreach ($rank_arr as $rankstr) {
 	
 	if ($num_rows>0) {
 		while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
-			$l_ind=$row{'l_ind'};
-			$r_ind=$row{'r_ind'};
-			$higherTaxon=$row{'higherTaxon'};
+			$l_ind=$row['l_ind'];
+			$r_ind=$row['r_ind'];
+			$higherTaxon=$row['higherTaxon'];
 			$curr_row++;
 
 			echo "  \r    $ranked_fld...$curr_row of $num_rows";

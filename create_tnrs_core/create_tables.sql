@@ -142,7 +142,7 @@ CREATE TABLE `meta` (
   api_version VARCHAR(50) DEFAULT NULL,
   citation TEXT DEFAULT NULL, 
   publication TEXT DEFAULT NULL,
-  logo_url VARCHAR(500) DEFAULT NULL,
+  logo_path VARCHAR(500) DEFAULT NULL,
   PRIMARY KEY(meta_id)
 )
 ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
