@@ -52,7 +52,7 @@ $API_VERSION="";
 $APP_CITATION="@misc{tnrs,
 author = {Boyle, B. L. and Matasci, N. and Mozzherin, D. and Rees, T. and Barbosa, G. C. and Kumar Sajja, R. and Enquist, B. J.},
 journal = {Botanical Information and Ecology Network},
-title = {Taxonomic Name Resolution Service, version 5.0},
+title = {Taxonomic Name Resolution Service, version 5.1},
 year = {2021},
 url = {https://tnrs.biendata.org/},
 note = {Accessed <date_of_access>}
@@ -101,6 +101,10 @@ $src_array=array(
 	"tpl",
 	"usda"
 );
+$src_array=array(
+	"tropicos",
+	"usda"
+);
 
 //////////////////////////////////////////////////
 // Paths to required functions and utilities
@@ -120,7 +124,7 @@ $global_utilities_path="global_utilities/";
 // Should be outide this repository!
 //////////////////////////////////////////////////
 
-$DB_CONFIG_FILE="../config/db_config.php";
+$DB_CONFIG_FILE="../config/db_config_tnrs_db.php";
 
 //////////////////////////////////////////////////
 // Data directory

@@ -33,7 +33,7 @@ $dataUrl="http://plants.usda.gov/adv_search.html";
 
 // Url where logo for this source can be directly accessed
 // For display on TNRS website
-$logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2020/10/tpl_logo.png";	
+$logoUrl="";	
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
@@ -92,10 +92,9 @@ $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 $path = $filepath;	// Keeping this for backward compatibility
 
 // Names of files you will be importing
-//$namesfile = "usda_plants_taxonomy_20150117.csv";
-//$namesfile = "USDA_plants_20200703_sample_small.csv";
-//$namesfile = "USDA_plants_20200703_sample.csv";
-$namesfile = "USDA_plants_20200703.csv";
+$namesfile = "usda_plants_20210425_sample_small.csv";
+//$namesfile = "usda_plants_20210425_sample.csv";
+//$namesfile = "usda_plants_20210425.csv";
 
 $namesfileandpath = $filepath.$namesfile;
 

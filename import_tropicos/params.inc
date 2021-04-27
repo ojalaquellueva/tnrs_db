@@ -91,11 +91,10 @@ $filepath = $src_dir."data/";	// old version; data inside app/repo directory
 $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 $path = $filepath;	// Keeping this for backward compatibility
 
-//$namesfile = "mbg_name_20141219.csv";
-$namesfile = "tropicos_names_20200530.csv";
 //$namesfile = "tropicos_api_pinaceae_example.csv";
-//$namesfile = "tropicos_names_20200530_sample.csv";
-//$namesfile = "tropicos_names_20200530_sample_small.csv";
+$namesfile = "tropicos_names_20210418.csv";
+$namesfile = "tropicos_names_20210418_sample.csv";
+//$namesfile = "tropicos_names_20210418_sample_small.csv";
 
 $namesfileandpath = $path.$namesfile;
 

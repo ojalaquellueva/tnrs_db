@@ -43,6 +43,8 @@ $drop_db_on_finish=true;
 /////////////////////////////////////////////////////////////////
 
 $source_name="grin";
+// OUTDATED!!! Check https://npgsweb.ars-grin.gov/gringlobal/taxon/famgensearch for new api url
+// Message sent 9 Apr 2021 requesting  new url
 $source_url="http://www.ars-grin.gov/misc/tax/";	
 
 /////////////////////////////////////////////////////////////////
