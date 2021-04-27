@@ -19,7 +19,7 @@ $apply_tropicos_fix_link_to_acceptedNames = true;
 //////////////////////////////////////////////////
 
 $local_utilities_path="../functions/";
-$global_utilities_path="../../global_utilities/";
+$global_utilities_path="../../php_utilities/";
 
 include $global_utilities_path."functions.inc";
 include $global_utilities_path."taxon_functions.inc";

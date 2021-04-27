@@ -116,7 +116,7 @@ $src_array=array(
 //////////////////////////////////////////////////
 
 $local_utilities_path="functions/";
-$global_utilities_path="global_utilities/";
+$global_utilities_path="php_utilities/";
 
 //////////////////////////////////////////////////
 // Path and name of database configuration file
