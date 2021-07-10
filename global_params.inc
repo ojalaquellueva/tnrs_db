@@ -40,10 +40,10 @@
 //////////////////////////////////////////////////
 
 // Database version
-$DB_VERSION="4.1.3";
+$DB_VERSION="4.2";
 
 // Database code git version
-$CODE_VERSION="5.0.2";
+$CODE_VERSION="5.1";
 
 // API code git version
 $API_VERSION="";
@@ -52,7 +52,7 @@ $API_VERSION="";
 $APP_CITATION="@misc{tnrs,
 author = {Boyle, B. L. and Matasci, N. and Mozzherin, D. and Rees, T. and Barbosa, G. C. and Kumar Sajja, R. and Enquist, B. J.},
 journal = {Botanical Information and Ecology Network},
-title = {Taxonomic Name Resolution Service, version 5.1},
+title = {Taxonomic Name Resolution Service, version " . $CODE_VERSION . "},
 year = {2021},
 url = {https://tnrs.biendata.org/},
 note = {Accessed <date_of_access>}
@@ -102,8 +102,7 @@ $src_array=array(
 	"usda"
 );
 $src_array=array(
-	"tropicos",
-	"usda"
+	"wfo"
 );
 
 //////////////////////////////////////////////////
