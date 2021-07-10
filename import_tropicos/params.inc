@@ -94,7 +94,7 @@ $path = $filepath;	// Keeping this for backward compatibility
 //$namesfile = "tropicos_api_pinaceae_example.csv";
 $namesfile = "tropicos_names_20210418.csv";
 $namesfile = "tropicos_names_20210418_sample.csv";
-//$namesfile = "tropicos_names_20210418_sample_small.csv";
+$namesfile = "tropicos_names_20210418_sample_small.csv";
 
 $namesfileandpath = $path.$namesfile;
 

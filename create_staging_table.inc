@@ -2,7 +2,7 @@
 // Create statement for generic staging table
 // Called from inside import script specific to each source
 
-echo "\r\nCreating staging table `$tbl_staging`...";
+echo "Creating staging table `$tbl_staging`...";
 
 $msg_error="failed to drop previous staging table!";
 $sql_drop="DROP TABLE IF EXISTS `$tbl_staging`;";

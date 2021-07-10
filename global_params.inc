@@ -102,6 +102,7 @@ $src_array=array(
 	"usda"
 );
 $src_array=array(
+	"tropicos",
 	"wfo"
 );
 

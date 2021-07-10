@@ -97,6 +97,17 @@ $sql="
 $msg_error="Failed to correct subspecies!\r\n";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,'',$msg_error));
 
+// Convert ssp. to subsp. in full name
+// For some reason is slipping through above standardizations
+$sql="
+	UPDATE $tbl_staging 
+	SET $name_fld=REPLACE($name_fld,' ssp. ',' subsp. ')
+	WHERE $name_fld LIKE '% ssp. %'
+	;
+";
+$msg_error="Failed to correct 'ssp.'!\r\n";
+if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,'',$msg_error));
+
 // fix forma abbreviation in full name
 $sql="
 	UPDATE $tbl_staging 
@@ -114,6 +125,38 @@ $sql="
 ";
 $msg_error="Failed to standardize varieties!\r\n";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
+
+// Replace 'cv..' with 'cv.'
+// Another weird one slipping throughm, no idea...
+$sql="
+	UPDATE $tbl_staging 
+	SET $name_fld=REPLACE($name_fld,' cv.. ',' cv. ')
+	WHERE $name_fld LIKE '% cv.. %'
+	;
+";
+$msg_error="Failed to correct 'cv..' in name!\r\n";
+if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,'',$msg_error));
+$sql="
+	UPDATE $tbl_staging 
+	SET $rank_ind_fld='cv.'
+	WHERE $rank_fld='cv..'
+	;
+";
+$msg_error="Failed to correct 'cv..' in rankIndicator!\r\n";
+if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,'',$msg_error));
+
+echo "  Hard-wired fixes for erroneous rankIndicator2 values...";
+$sql="
+UPDATE $tbl_staging 
+SET rankIndicator2=NULL,
+infraspecificEpithet2=NULL,
+otherEpithet=NULL
+WHERE rankIndicator2 IN ('alfred','de','Dulce','jamasakura','Loriceum','magis','manitra','nucipersica','obtuse')
+;
+";
+sql_execute_multiple($dbh, $sql);
+echo $done;
+
 /*
 // Not sure why this is here; it only makes sense in the loop above
 // keep for now.
