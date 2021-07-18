@@ -244,6 +244,13 @@ foreach ($src_array as $src) {
 	echo "\r\nProcessing time for '$src': " .$tsecs . " seconds\r\n\r\n";
 }
 
+
+
+exit("STOPPING...");
+
+
+
+
 //////////////////////////////////////////////////////////////////
 // Final cleanup of temporary fields from core database
 //////////////////////////////////////////////////////////////////

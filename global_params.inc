@@ -106,6 +106,10 @@ $src_array=array(
 	"wcvp",
 	"wfo"
 );
+$src_array=array(
+	"tropicos",
+	"wcvp"
+);
 
 //////////////////////////////////////////////////
 // Paths to required functions and utilities

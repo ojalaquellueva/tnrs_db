@@ -8,7 +8,7 @@
 // character ID fields used in the original
 /////////////////////////////////////////////////////////////////
 
-echo "Altering raw data table...";
+echo "Altering dwc raw data table...";
 $sql="
 	ALTER TABLE `$tbl_names_raw`
 	ADD COLUMN nameID INTEGER UNSIGNED NOT NULL AUTO_INCREMENT FIRST,

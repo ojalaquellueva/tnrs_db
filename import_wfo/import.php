@@ -4,8 +4,9 @@ include "params.inc";
 
 ////////////// Import raw data file //////////////////////
 
-// create empty import table
-include "create_raw_data_tables.inc";
+// create empty import tables
+include "create_raw_data_table.inc";
+include "create_dwc_raw.inc";
 
 // replaces 'NULL' with '\N' in the raw file
 include "fix_nulls_raw.inc";

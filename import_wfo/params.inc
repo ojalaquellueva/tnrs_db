@@ -30,7 +30,7 @@ $sourceUrl="http://www.worldfloraonline.org/";
 // TNRS website on Source page.
 // No quotes! If you must include apostrophes (plain single quote) then 
 // double them up to avoid crashing the api (e.g., world''s)
-$description="The World Flora Online will be an open-access, Web-based compendium of the world’s plant species. It will be a collaborative, international project, building upon existing knowledge and published floras, checklists and revisions but will also require the collection and generation of new information on poorly know plant groups and plants in unexplored regions.";
+$description="The World Flora Online will be an open-access, Web-based compendium of the worlds plant species. It will be a collaborative, international project, building upon existing knowledge and published floras, checklists and revisions but will also require the collection and generation of new information on poorly know plant groups and plants in unexplored regions. WFO replaces The Plant List";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
 $dataUrl="http://104.198.143.165/files/WFO_Backbone/_WFOCompleteBackbone/WFO_Backbone.zip";	
