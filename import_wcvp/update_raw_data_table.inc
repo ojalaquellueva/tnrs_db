@@ -10,19 +10,21 @@ echo "Populating recursive foreign keys:\r\n";
 
 echo "  Column `acceptedNameID`...";
 $sql="
-	UPDATE `$tbl_names_raw` syn JOIN  `$tbl_names_raw` acc
-	ON syn.acceptedNameID_char=acc.nameID_char
-	SET syn.acceptedNameID=acc.nameID
-	WHERE syn.acceptedNameID_char<>syn.nameID_char;
+UPDATE `$tbl_names_raw` syn JOIN  `$tbl_names_raw` acc
+ON syn.acceptedNameID_char=acc.nameID_char
+SET syn.acceptedNameID=acc.nameID
+WHERE syn.acceptedNameID_char<>syn.nameID_char
+;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
 
 echo "  Column `parentNameID`...";
 $sql="
-	UPDATE `$tbl_names_raw` child JOIN  `$tbl_names_raw` parent
-	ON child.parentNameID_char=parent.nameID_char
-	SET child.parentNameID=parent.nameID;
+UPDATE `$tbl_names_raw` child JOIN  `$tbl_names_raw` parent
+ON child.parentNameID_char=parent.nameID_char
+SET child.parentNameID=parent.nameID
+;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
@@ -38,7 +40,7 @@ SET rank=LOWER(rank)
 sql_execute_multiple($dbh, $sql);
 echo $done;
 
-echo "  Standardizing names...";
+echo "  Standardizing rank names...";
 $sql="
 UPDATE `$tbl_names_raw` 
 SET rank=
@@ -48,9 +50,52 @@ WHEN rank='subsp.' OR rank='subsp' THEN 'subspecies'
 WHEN rank='var.' OR rank='var' THEN 'variety'
 WHEN rank='f.' OR rank='form' THEN 'forma'
 WHEN rank='subform' THEN 'subforma'
+WHEN rank='notoform' THEN 'notoforma'
+WHEN rank='infraspecificname' THEN 'other infraspecific'
 ELSE rank
 END
 ;	
+";
+sql_execute_multiple($dbh, $sql);
+echo $done;
+
+echo "Populating rank indicators for explicit ranks...";
+// ELSE not needed as rankIndicator starts our NULL
+$sql="
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank=
+CASE
+WHEN rank='species' OR rank='genus' THEN NULL
+WHEN rank='subspecies' THEN 'subsp.'
+WHEN rank='variety' THEN 'var.'
+WHEN rank='forma' THEN 'fo.'
+END
+;	
+";
+sql_execute_multiple($dbh, $sql);
+echo $done;
+
+echo "Parsing rank indicators for 'other infraspecific':\r\n";
+echo "  Hybrids...";
+// ELSE not needed as rankIndicator starts our NULL
+$sql="
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank=strSplit(scientificName, ' ', 4)
+WHERE rank='other infraspecific'
+AND scientificName like '%×%' 
+;
+";
+sql_execute_multiple($dbh, $sql);
+echo $done;
+
+echo "  Non-hybrids...";
+// ELSE not needed as rankIndicator starts our NULL
+$sql="
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank=strSplit(scientificName, ' ', 3)
+WHERE rank='other infraspecific' 
+AND infraspecificRank IS NULL
+;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
@@ -81,6 +126,11 @@ WHERE rank IN (
 'family','genus','nothospecies','order','phylum','section','species','subgenus'
 )
 ;
+UPDATE `$tbl_names_raw` 
+SET rank='nothospecies'
+WHERE infraspecificRank='nothospecies'
+;
+
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
@@ -108,6 +158,11 @@ WHERE scientificName LIKE '% subf. %'
 UPDATE `$tbl_names_raw`
 SET scientificName=REPLACE(scientificName,' cultivar. ',' cv. ')
 WHERE scientificName LIKE '% cultivar. %'
+;
+UPDATE `$tbl_names_raw` 
+SET scientificName=REPLACE(scientificName,' nothosubsp ',' nothosubsp. '),
+infraspecificRank='nothosubsp.'
+WHERE infraspecificRank='nothosubsp'
 ;
 ";
 sql_execute_multiple($dbh, $sql);

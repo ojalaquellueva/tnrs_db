@@ -3,8 +3,11 @@
 // should convert any improper characters sets  to utf-8
 // To save time, works only on the author column, which 
 // is the only field likely to contain extended characters
+// Will skip this step if characters already converted for
+// during raw data standardization (in which case, parameter
+// $fix_chars_curr_source will be TRUE).
 
-if ($fix_chars=true) {
+if ($fix_chars==true && $fix_chars_curr_source==false) {
 	echo "  Converting utf8 & ascii codes:\r\n";
  	
  	$tbl = $tbl_staging; 

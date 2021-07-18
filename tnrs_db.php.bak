@@ -112,13 +112,11 @@ if (isset( $options["m"]) ) {
 ////////////////////////////////////////////////////////////
 
 
-/*
-///// FOR TESTING ONLY
 
-// Connect to database
-$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
-if (!$dbh) die("\r\nCould not connect to database!\r\n");
 
+
+
+// FOR TESTING ONLY
 // Directory of import scripts for this source
 $src_dir = "import_wcvp/";
 
@@ -127,9 +125,10 @@ include $timer_off;
 $resettime = $endtime;
 
 include_once $src_dir."import.php";
+// END FOR TESTING ONLY
 
-///// END FOR TESTING ONLY
-*/
+/*
+
 
 
 if ($replace_db) {
@@ -345,6 +344,13 @@ if (isset( $options["m"]) ) {
 	$message = "Process '$process' completed at $now";
 	mail($to,$subject,$message);
 }
+
+
+
+*/
+
+
+
 
 mysqli_close($dbh);
 include $timer_off;
