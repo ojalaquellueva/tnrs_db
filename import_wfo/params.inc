@@ -63,7 +63,7 @@ $sourceVersion="v.2019.05";
 // Set to empty string ("") if unavailable or not applicable
 $sourceReleaseDate="2019-05-17";
 
-// NOT LONGER USED
+// NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
 // Use as default classification for building taxamatch tables
 // If you set this to true, all other sources will be
@@ -121,6 +121,35 @@ $fix_chars=true;
 
 // set true to delete raw data tables when finished
 $remove_raw_tables=false;
+
+// Set to true to convert characters to UTF-8 for this source, else false.
+// Normally this is done in staging table, but set this param to true
+// if need UTF-8 conversion to perform source-specific corrections
+// Setting this param to false will turn off conversion in staging table
+// Corrections are performed on DWC-format raw data table
+// See script 'fix_character_set.inc'
+$fix_chars_curr_source=true;
+
+// IMPORTANT!
+// Set to TRUE to infer immediate parent taxon of names with no parentID
+$infer_parent_this_source=TRUE;
+
+// IMPORTANT!
+// SQL WHERE clause for filtering out taxa for which you do NOT want to infer
+// higher taxa. If you want to infer higher taxa for all names missing a 
+// parent taxon, then set this value to empty string ("").
+// Otherwise, include values of taxonomicStatus which you wishe to exclude,
+// and begin with " AND ". For example:
+// " AND taxonomicStatus='synonym' "
+// Only used if $infer_parent_this_source=TRUE;
+$SQL_WHERE_INFER_PARENT_POLICY=" AND taxonomicStatus NOT LIKE '%ynonym%' AND taxonomicStatus<>'No opinion' ";
+// As above, but table to be updated has alias 'a'
+$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS=" AND a.taxonomicStatus NOT LIKE '%ynonym%' AND a.taxonomicStatus<>'No opinion' ";
+
+$SQL_WHERE_INFER_PARENT_POLICY="";
+// As above, but table to be updated has alias 'a'
+$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS="";
+
 
 /////////////////////////////////////////////////////////////////////////////
 // Path and name(s) of raw data file(s)

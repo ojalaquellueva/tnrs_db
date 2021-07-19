@@ -67,6 +67,7 @@ CASE
 WHEN infraspecificRank='sect.' THEN NULL
 WHEN infraspecificRank='subg.' THEN NULL
 WHEN infraspecificRank='sp.' THEN NULL
+WHEN infraspecificRank='nothosp.' THEN NULL
 WHEN infraspecificRank='var' THEN 'var.'
 WHEN infraspecificRank='f.' THEN 'fo.'
 WHEN infraspecificRank='subf.' THEN 'subfo.'
@@ -109,6 +110,29 @@ UPDATE `$tbl_names_raw`
 SET scientificName=REPLACE(scientificName,' cultivar. ',' cv. ')
 WHERE scientificName LIKE '% cultivar. %'
 ;
+";
+sql_execute_multiple($dbh, $sql);
+echo $done;
+
+echo "  Populating missing infraspecificRank...";
+$sql="
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='subsp.'
+WHERE rank='subspecies' and infraspecificRank is null
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='fo.'
+WHERE rank='forma' and infraspecificRank is null
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='var.'
+WHERE rank='variety' and infraspecificRank is null
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='subvar.'
+WHERE rank='subvariety' and infraspecificRank is null
+;
+
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;

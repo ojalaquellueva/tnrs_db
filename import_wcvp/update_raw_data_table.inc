@@ -68,7 +68,9 @@ CASE
 WHEN rank='species' OR rank='genus' THEN NULL
 WHEN rank='subspecies' THEN 'subsp.'
 WHEN rank='variety' THEN 'var.'
+WHEN rank='subvariety' THEN 'subvar.'
 WHEN rank='forma' THEN 'fo.'
+WHEN rank='subforma' THEN 'subfo.'
 END
 ;	
 ";
@@ -82,7 +84,12 @@ $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=strSplit(scientificName, ' ', 4)
 WHERE rank='other infraspecific'
-AND scientificName like '%×%' 
+AND scientificName like '%× %'
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank=strSplit(scientificName, ' ', 3)
+WHERE rank='other infraspecific'
+AND scientificName like '%×%' AND scientificName NOT LIKE '%× %'
 ;
 ";
 sql_execute_multiple($dbh, $sql);
@@ -113,24 +120,27 @@ WHEN infraspecificRank='sect.' THEN NULL
 WHEN infraspecificRank='subg.' THEN NULL
 WHEN infraspecificRank='sp.' THEN NULL
 WHEN infraspecificRank='var' THEN 'var.'
+WHEN infraspecificRank='nothosubsp' THEN 'nothosubsp.'
 WHEN infraspecificRank='f.' THEN 'fo.'
+WHEN infraspecificRank='nothof.' THEN 'nothofo.'
 WHEN infraspecificRank='subf.' THEN 'subfo.'
 WHEN infraspecificRank='cultivar.' THEN 'cv.'
 ELSE infraspecificRank
 END
 ;	
+UPDATE `$tbl_names_raw` 
+SET rank='nothospecies',
+infraspecificRank=NULL
+WHERE infraspecificRank='nothospecies'
+;
 -- Next one catches special cases such as species 'Orobanche mutelii f.'
 UPDATE `$tbl_names_raw` 
-SET infraspecificRank=NULL
+SET infraspecificRank=NULL,
+infraspecificEpithet=NULL
 WHERE rank IN (
 'family','genus','nothospecies','order','phylum','section','species','subgenus'
 )
 ;
-UPDATE `$tbl_names_raw` 
-SET rank='nothospecies'
-WHERE infraspecificRank='nothospecies'
-;
-
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
@@ -164,6 +174,29 @@ SET scientificName=REPLACE(scientificName,' nothosubsp ',' nothosubsp. '),
 infraspecificRank='nothosubsp.'
 WHERE infraspecificRank='nothosubsp'
 ;
+";
+sql_execute_multiple($dbh, $sql);
+echo $done;
+
+echo "  Populating missing infraspecificRank...";
+$sql="
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='subsp.'
+WHERE rank='subspecies' and infraspecificRank is null
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='fo.'
+WHERE rank='forma' and infraspecificRank is null
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='var.'
+WHERE rank='variety' and infraspecificRank is null
+;
+UPDATE `$tbl_names_raw` 
+SET infraspecificRank='subvar.'
+WHERE rank='subvariety' and infraspecificRank is null
+;
+
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;

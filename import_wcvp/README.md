@@ -2,7 +2,7 @@
 
 ## Overview
 
-Import latest dump of World Checklist of Vascular Plants (TNRS source: wcvp) by first transforming the raw data to TNRS Simple Darwin Core (DwC) format. 
+Import latest dump of World Checklist of Vascular Plants (TNRS source: wcvp)./ Begins by first transforming the raw data to TNRS Simple Darwin Core (sDwC) format. Hence for several steps uses generic scripts in directory `import/`.
 
 #### Info
 https://wcvp.science.kew.org/

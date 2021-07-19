@@ -150,6 +150,10 @@ $SQL_WHERE_INFER_PARENT_POLICY=" AND taxonomicStatus NOT LIKE '%Synonym%' AND ta
 // As above, but table to be updated has alias 'a'
 $SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS=" AND a.taxonomicStatus NOT LIKE '%Synonym%' AND a.taxonomicStatus<>'No opinion' ";
 
+$SQL_WHERE_INFER_PARENT_POLICY="";
+// As above, but table to be updated has alias 'a'
+$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS="";
+
 /////////////////////////////////////////////////////////////////////////////
 // Path and name(s) of raw data file(s)
 // Recommend you use subdirectory data/ in this directory

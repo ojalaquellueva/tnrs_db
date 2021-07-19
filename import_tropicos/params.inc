@@ -81,6 +81,16 @@ $fix_chars=true;
 // set true to delete the raw data tables when finished
 $remove_raw_tables=true;
 
+// Set to true to convert characters to UTF-8 for this source, else false.
+// Normally this is done in staging table, but set this param to true
+// if need UTF-8 conversion to perform source-specific corrections
+// Setting this param to false will turn off conversion in staging table
+// Corrections are performed on DWC-format raw data table
+// See script 'fix_character_set.inc'
+$fix_chars_curr_source=false;
+
+
+
 //////////////////////////////////////////////////
 // Raw data file parameters
 //////////////////////////////////////////////////

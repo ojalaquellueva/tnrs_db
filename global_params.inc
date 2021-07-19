@@ -108,6 +108,8 @@ $src_array=array(
 );
 $src_array=array(
 	"tropicos",
+	"usda",
+	"wfo",
 	"wcvp"
 );
 

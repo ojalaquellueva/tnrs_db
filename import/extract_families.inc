@@ -21,13 +21,15 @@ $sql="
 	family,
 	scientificName,
 	rank,
-	taxonomicStatus
+	taxonomicStatus,
+	name_added
 	)
 	SELECT DISTINCT
 	family,
 	family,
 	'family',
-	'Accepted'
+	'Accepted',
+	1
 	FROM `$tbl_names_raw`
 	WHERE family IS NOT NULL;
 ";

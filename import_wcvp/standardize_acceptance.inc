@@ -63,5 +63,14 @@ WHERE taxonomicStatus IS NULL
 $msg_error="failed to set NULL --> 'No opinion'!";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$done,$msg_error));
 
+echo "  'Artificial Hybrid' --> 'Accepted'...";
+$sql="
+UPDATE `$tbl_names_raw`
+SET taxonomicStatus='Accepted'
+WHERE taxonomicStatus='Artificial Hybrid'
+;
+";
+$msg_error="failed to set 'Artificial Hybrid' --> 'Accepted'!";
+if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$done,$msg_error));
 
 ?>

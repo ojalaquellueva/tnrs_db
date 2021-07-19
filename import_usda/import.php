@@ -9,7 +9,7 @@ include "params.inc";	// everything you need to set is here and in global_params
 include "create_raw_data_table.inc";
 
 // import text files to raw data tables
-include "import.inc";
+include "import/import.inc";
 
 // Alter raw names table
 // Adds additional fields:
@@ -23,7 +23,7 @@ include "add_families.inc";
 include "update_raw_data_table.inc";
 
 // Create staging table
-include "create_staging_table.inc";
+include "import/create_staging_table.inc";
 
 // Add names & synonymy to staging table
 include "add_names_to_staging.inc";

@@ -30,7 +30,7 @@ $fix_chars_fld_array=array(
 ///////////////////////////////////
 
 if ($fix_chars_curr_source==true) {
-	echo "Converting utf8 & ascii codes:\r\n";
+	echo "Converting to utf8:\r\n";
 	$tbl = $tbl_names_raw; 
 
 	foreach ($fix_chars_fld_array as $fld) {

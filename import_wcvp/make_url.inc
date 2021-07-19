@@ -9,8 +9,7 @@ $sql="
 UPDATE `$tbl_names_raw` 
 SET taxonUri=
 CONCAT('$base_url_species',IFNULL(`nameID_char`,''))
-WHERE taxonUri IS NULL
-AND nameID_char IS NOT NULL
+WHERE nameID_char IS NOT NULL
 ;
 ";
 sql_execute_multiple($dbh, $sql);

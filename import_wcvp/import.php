@@ -12,7 +12,7 @@ include "import/create_dwc_raw.inc";
 include "import/fix_nulls_raw.inc";
 
 // import text files to raw data tables
-include "import.inc";
+include "import/import.inc";
 
 // Source-specific corrections best done on the raw data
 include "correct_raw.inc";
@@ -60,8 +60,6 @@ include "import/create_staging_table.inc";
 
 // Add names & synonymy to staging table
 include "load_staging.inc";
-
-// exit("STOPPING...\r\n");
 
 //////////////////////////////////////////////////////////
 

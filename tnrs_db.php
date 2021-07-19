@@ -90,7 +90,7 @@ if ($use_db_backup) {
 
 // Check basic dependencies are present: directories, files
 // This is currently pretty basic, but can be expanded as needed
-include_once "check_dependencies.inc";
+include_once "check/check_dependencies.inc";
 
 // Checks completed
 // Start timer and connect to mysql
@@ -120,16 +120,25 @@ $dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
 if (!$dbh) die("\r\nCould not connect to database!\r\n");
 
 // Directory of import scripts for this source
-$src_dir = "import_wcvp/";
+$src = "wfo";
+$src_dir = "import_".$src."/";
+$src_suffix = "_".$src;
+$tbl_names_raw = $src . "_raw";
+$tbl_names_raw_dwc = $tbl_names_raw . "_dwc";
 
 // reset the clock for this source
 include $timer_off;
 $resettime = $endtime;
 
+
 include_once $src_dir."import.php";
+exit("STOPPING...\r\nb");
+
 
 ///// END FOR TESTING ONLY
 */
+
+
 
 
 if ($replace_db) {
@@ -173,7 +182,7 @@ if ($replace_db) {
 // Check that required functions present in target db
 // Install them if missing
 // This step is obviously essential if database has been replaced
-include_once "check_functions.inc";
+include_once "check/check_functions.inc";
 
 ////////////////////////////////////////////////////////////
 // Create/replace backup database if requested
@@ -209,7 +218,6 @@ foreach ($src_array as $src) {
 	$resettime = $endtime;
 
 	include_once $src_dir."import.php";
-		
 	include "prepare_staging/prepare_staging.php";
 	include "load_core_db/load_core_db.php";	
 			
@@ -243,13 +251,6 @@ foreach ($src_array as $src) {
 	$tsecs = round($elapsedtime,2);	
 	echo "\r\nProcessing time for '$src': " .$tsecs . " seconds\r\n\r\n";
 }
-
-
-
-exit("STOPPING...");
-
-
-
 
 //////////////////////////////////////////////////////////////////
 // Final cleanup of temporary fields from core database
