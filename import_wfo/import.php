@@ -34,11 +34,11 @@ include "import/fix_character_set.inc";
 // Populate integer parentNameID and acceptedNameID
 include "update_raw_data_table.inc";
 
-// Standardize source-specific values in column `acceptance`
-include "standardize_acceptance.inc";
-
 // Standardize hybrid 'x'
 include "import/standardize_hybrid_x.inc";
+
+// Standardize source-specific values in column `acceptance`
+include "standardize_acceptance.inc";
 
 // Extract families from lower taxa
 if ($extract_families==TRUE) {

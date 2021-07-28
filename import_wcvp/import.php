@@ -31,6 +31,10 @@ include "import/alter_dwc_raw_data_table.inc";
 // Update non-ascii characters to UTF-8
 include "import/fix_character_set.inc";
 
+// Populate hybrid symbol fields
+// This MJST come before next step
+include "flag_hybrids.inc";
+
 // Populate integer parentNameID and acceptedNameID
 include "update_raw_data_table.inc";
 

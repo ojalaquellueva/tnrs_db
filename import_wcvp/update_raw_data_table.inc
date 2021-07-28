@@ -84,19 +84,15 @@ $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=strSplit(scientificName, ' ', 4)
 WHERE rank='other infraspecific'
-AND scientificName like '%× %'
-;
-UPDATE `$tbl_names_raw` 
-SET infraspecificRank=strSplit(scientificName, ' ', 3)
-WHERE rank='other infraspecific'
-AND scientificName like '%×%' AND scientificName NOT LIKE '%× %'
+AND (
+speciesHybridMarker IS NOT NULL OR genusHybridMarker IS NOT NULL
+)
 ;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
 
 echo "  Non-hybrids...";
-// ELSE not needed as rankIndicator starts our NULL
 $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=strSplit(scientificName, ' ', 3)

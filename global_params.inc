@@ -5,29 +5,13 @@
 // Loading scripts for TNRS core database
 //
 // By: Brad Boyle
-// Contact: bboyle@email.arizona.edu
-// TNRS website: http://tnrs.iplantcollaborative.org/
-//
-// Key changes:
-// - Automated tropicos_fixes/ (added to main TNRS pipeline)
-// - Standardized rank names to non-abbreviated form 
-//		- Previous db had mix of abbreviated and full
-// 		  rank names
-//		- Standard botanical rank indicator abbreviations  
-// 		  still used to form infraspecific taxon names
-// - Added sources:
-//		- tpl (The Plant List, minus composites and legumes)
-// 		- ildis (ILDIS World Database of Legumes)
-// - Updated:
-//		- gcc (2015-05-08)
-// - Other sources update previous in db v.3.6.3:
-// 		- tropicos (2014-12-19)
-//		- usda (2015-01-17)
+// Contact: bboyle@arizona.edu
+// TNRS website: https://tnrs.biendata.org
 //  
-// Everything you need to set is here and in local
-// params.inc file in each import directory
+// Everything you need to set is here and in 
+// params.inc files in each import directory
 //
-// Read the readme files in this directory and 
+// Read the README.md files in this directory and 
 // all main subdirectories!
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
@@ -98,17 +82,6 @@ $APP_LOGO_PATH="";
 // in the online menu of sources
 $src_array=array(
 	"tropicos",
-	"tpl",
-	"usda"
-);
-$src_array=array(
-	"tropicos",
-	"wcvp",
-	"wfo"
-);
-$src_array=array(
-	"tropicos",
-	"usda",
 	"wfo",
 	"wcvp"
 );

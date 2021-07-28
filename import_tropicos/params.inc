@@ -36,7 +36,7 @@ $logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2020/10/TropicosLo
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
 $dateAccessed="2014-12-19";
-$dateAccessed="2020-05-30";
+$dateAccessed="2021-07-17";
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
@@ -87,9 +87,7 @@ $remove_raw_tables=true;
 // Setting this param to false will turn off conversion in staging table
 // Corrections are performed on DWC-format raw data table
 // See script 'fix_character_set.inc'
-$fix_chars_curr_source=false;
-
-
+$fix_chars_curr_source=true;
 
 //////////////////////////////////////////////////
 // Raw data file parameters
@@ -102,11 +100,11 @@ $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 $path = $filepath;	// Keeping this for backward compatibility
 
 //$namesfile = "tropicos_api_pinaceae_example.csv";
-$namesfile = "tropicos_names_20210418.csv";
-$namesfile = "tropicos_names_20210418_sample.csv";
-$namesfile = "tropicos_names_20210418_sample_small.csv";
+//$namesfile = "tropicos_names_20210418_sample.csv";
+$namesfile = "tropicos_names_20210717.txt";
+//$namesfile = "tropicos_names_20210717_sample.txt";
 
-$namesfileandpath = $path.$namesfile;
+$namesfileandpath = $filepath.$namesfile;
 
 // names of destination mysql table
 $tbl_names_raw=$sourceName."_raw";
