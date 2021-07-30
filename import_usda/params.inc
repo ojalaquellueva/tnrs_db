@@ -37,7 +37,7 @@ $logoUrl="";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2020-07-03";
+$dateAccessed="2020-04-25";
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
@@ -90,8 +90,6 @@ $remove_raw_tables=true;
 // See script 'fix_character_set.inc'
 $fix_chars_curr_source=false;
 
-
-
 /////////////////////////////////////////////////////////////////////////////
 // Path and name(s) of raw data file(s)
 // Recommend you use subdirectory data/ in this directory
@@ -102,9 +100,9 @@ $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 $path = $filepath;	// Keeping this for backward compatibility
 
 // Names of files you will be importing
-$namesfile = "usda_plants_20210425_sample_small.csv";
-$namesfile = "usda_plants_20210425_sample.csv";
-//$namesfile = "usda_plants_20210425.csv";
+$namesfile = "usda_plants_20210425.csv";
+//$namesfile = "usda_plants_20210425_sample_small.csv";
+//$namesfile = "usda_plants_20210425_sample.csv";
 
 $namesfileandpath = $filepath.$namesfile;
 

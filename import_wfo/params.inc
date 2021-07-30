@@ -164,6 +164,7 @@ $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 // Name of raw data files you will be importing
 $namesfile = "classification.txt";
 //$namesfile = "classification_sample.txt";
+//$namesfile = "classification_sample_big.txt";
 
 // path + file
 $namesfileandpath = $filepath.$namesfile;

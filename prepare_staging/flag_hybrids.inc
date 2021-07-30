@@ -2,6 +2,7 @@
 // flags as hybrid any taxon with space-delimited "x" in name
 // Hopefully hybrids are already flagged in source data
 // However, this will mop up the most obvious cases, if missed
+// All hybrid x must be plain ascii by this point
 
 echo "  Flagging hybrids...";
 $sql="

@@ -15,7 +15,8 @@ $sql = "INSERT INTO `splist`(
 	specificEpithet,
 	scientificNameAuthorship
 	FROM name
-	WHERE nameRank='species'
+	WHERE nameRank='species' 
+	AND `specificEpithet` IS NOT NULL
 	";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
 

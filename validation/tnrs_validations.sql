@@ -41,7 +41,8 @@ WHERE ns.nameID IS NULL
 --   sources flagged $is_higher_classification=true in source params file
 -- ----------------------------------------------------------------------------
 
--- Number of classified names by source
+-- Number of classified names by classification source
+-- Only sources also listed as classification source should appear here
 SELECT s.sourceID, s.sourceName, COUNT(h.nameID) AS names_classified
 FROM source s JOIN higherClassification h
 ON s.sourceID=h.classificationSourceID
@@ -623,6 +624,35 @@ ORDER BY n_orig.scientificName, n_orig.author
 ;
 
 
+--
+-- Check rank indicators are standardized
+--
 
+SELECT DISTINCT rankIndicator FROM name ORDER BY rankIndicator;
+SELECT DISTINCT infraspecificRank2 FROM name ORDER BY infraspecificRank2
+
+-- Check ranks are standardized 
+SELECT DISTINCT nameRank FROM name ORDER BY nameRank;
+
+-- Check for non-standard subspecies rank indicators
+-- Pass: 0
+SELECT EXISTS (
+SELECT * FROM name 
+WHERE rankIndicator IN ('ssp', 'ssp.', 'sbsp', 'sbsp.')
+) AS nonStandardSubspecies
+;
+
+--
+-- Check ranks
+--
+
+-- Check ranks all lower case
+-- Pass: 1
+SELECT NOT EXISTS (
+SELECT DISTINCT nameRank 
+FROM name 
+WHERE LOWER(nameRank)<>nameRank COLLATE utf8_bin)
+AS allRanksLower
+;
 
 

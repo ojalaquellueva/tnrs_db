@@ -13,9 +13,9 @@ $sql_create="
 CREATE TABLE `$tbl_staging` (
 `$id_fld` INTEGER(11) UNSIGNED NOT NULL,
 `$parent_id_fld` INTEGER(11) UNSIGNED DEFAULT NULL,
-`$name_fld` VARCHAR(250) NOT NULL,
-`$author_fld` VARCHAR(100) DEFAULT NULL,
-`nameWithAuthor` VARCHAR(255) DEFAULT NULL,
+`$name_fld` VARCHAR(150) NOT NULL,
+`$author_fld` VARCHAR(150) DEFAULT NULL,
+`nameWithAuthor` VARCHAR(300) DEFAULT NULL,
 `$rank_fld` VARCHAR(50) DEFAULT NULL,
 `rankGroup` VARCHAR(50) DEFAULT NULL,
 `$id_fld_orig` VARCHAR(255) DEFAULT NULL, 
@@ -68,7 +68,8 @@ INDEX `".$tbl."_$accepted_id_fld`(`$accepted_id_fld`),
 INDEX `".$tbl."_nomenclaturalStatusRemarks`(`nomenclaturalStatusRemarks`),
 INDEX `".$tbl."_parent`(`parent`),
 INDEX `".$tbl."_grandparent`(`grandparent`)
-)  ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+)
+ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ";
 if (sql_execute($dbh, $sql_create,$die_on_fail,$echo_on,$msg_success,$msg_error));
 

@@ -48,7 +48,13 @@ include "fix_errors.inc";
 include "fix_character_sets.inc";	
 	
 // Flag hybrids so can exclude in later steps
-include "fix_hybrid_x.inc";
+//include "fix_hybrid_x.inc";
+// Run from shell to bypass corruption of extended ascii 'x' by PHP
+echo "  Standardizing hybrid x...";
+$sql = "prepare_staging/fix_hybrid_x.sql";
+$command = "mysql --login-path=$LOGINPATH -D $DB < $sql";
+system($command);
+echo $msg_success;
 
 // Flag hybrids so can exclude in later steps
 include "flag_hybrids.inc";

@@ -83,7 +83,8 @@ $APP_LOGO_PATH="";
 $src_array=array(
 	"tropicos",
 	"wfo",
-	"wcvp"
+	"wcvp",
+	"usda"
 );
 
 //////////////////////////////////////////////////
