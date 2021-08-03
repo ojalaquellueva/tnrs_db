@@ -138,9 +138,15 @@ exit("STOPPING...\r\nb");
 ///// END FOR TESTING ONLY
 */
 
+////// TEMPORARY FOR RESTART ONLY!!!
+// Connect to database
+echo "WARNING: Start of script tnrs_db.php commmented out!\r\n";
+$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
+if (!$dbh) die("\r\nCould not connect to database!\r\n");
+////// END TEMPORARY FOR RESTART ONLY!!!
 
 
-
+/*
 if ($replace_db) {
 	// Open generic connection to MySQL (no database)
 	$dbh = mysqli_connect($HOST, $USER, $PWD, FALSE, 128);
@@ -289,6 +295,11 @@ include $timer_off;
 $elapsedtime = $endtime - $resettime;
 $tsecs = round($elapsedtime,2);	
 echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
+
+
+*/ 
+
+
 
 ////////////////////////////////////////////////////////////
 // For all taxonomic sources marked $isHigherClassification=1

@@ -609,7 +609,7 @@ while ($row=mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
 			SET 
 			n.family_id=gf.family_id,
 			n.family=gf.family
-			WHERE ns.sourceID=$sourceID;		
+			WHERE ns.sourceID=$nameSourceID;		
 		";
 		sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_fail);	
 
