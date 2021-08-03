@@ -1,15 +1,16 @@
 #!/bin/bash
 
 #########################################################################
-# Purpose: Validates completed development analytical database
+# Purpose: Validates completed database
 #
 # Notes:
 #	1. Parameters specifying database, schema, etc. are loaded from 
-#		parameter file params.sh. Sets of parameters relevant to a 
-#		particular database should be backed up by saving a copy of 
-#		the params file with an appropriate suffix (e.g., 
-#		"params.sh.adb_private_dev". Copy and replace the existing
-#		params.sh file with the appropriate params backup file.
+#		parameter file params.sh. 
+#	2. Sets of parameters relevant to a particular database should be
+#		be backed up by saving a copy of the params file with an 
+#		appropriate suffix (e.g., "params.sh.tnrs_dev"). Copy and 
+#		replace the main params.sh file with the appropriate database-
+#		specific params backup file.
 #  
 # Author: Brad Boyle (bboyle@email.arizona.edu)
 #########################################################################
@@ -49,6 +50,7 @@ fi
 # Sets remaining parameters and options, and issues confirmation
 # and startup messages
 source "$DIR/includes/startup_local.sh"	
+
 
 ######################################################
 # Custom confirmation message. 
