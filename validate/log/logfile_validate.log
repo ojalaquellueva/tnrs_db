@@ -1,0 +1,37 @@
+
+------ Executing process 'Validate TNRS' ------
+
+Checking existence of required tables:
+- classification...pass
+- collaborator...pass
+- family_acceptedFamily_lookup...pass
+- famlist...pass
+- genlist...pass
+- genlist_famlist_combined...pass
+- genlist_new_test...pass
+- gf_lookup...pass
+- higherClassification...pass
+- infra1list_splist_combined...pass
+- infra2list_infra1list_combined...pass
+- meta...pass
+- name...pass
+- name_source...pass
+- source...pass
+- splist_genlist_combined...pass
+- synonym...pass
+Checking existence of required columns: [nothing to check]
+Checking validation fkeys not all null:
+- name_not_empty...pass
+- bad_families...FAIL!
+- unknown_family...FAIL!
+- bad_rankIndicator...pass
+- bad_infraspecificRank2...FAIL!
+- check_acceptance...pass
+- nameRank_lower...pass
+- rankIndicator_lower...pass
+- infraspecificRank2_lower...pass
+
+Total errors found: 3
+
+------ Process 'Validate TNRS' completed in 7.17 seconds ------
+

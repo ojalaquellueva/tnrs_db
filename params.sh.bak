@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#########################################################################
+# Purpose: Globals parameter file for shell scripts
+#	* Currently required by validate/validate.sh only
+#	* Do NOT remove, even if empty
+#########################################################################
+
+db_config_path="../../"

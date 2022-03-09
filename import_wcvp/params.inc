@@ -33,6 +33,11 @@ $sourceUrl="https://wcvp.science.kew.org/";
 $description="The World Checklist of Vascular Plants aims to deliver a sustainable and curated resource. It is based on Kew’s names and taxonomic backbone which has been created by reconciling the names from the International Plant Names Index (IPNI) with the taxonomy from the World Checklist of Selected Plant Families (WCSP). This Beta version therefore only displays names that are in both IPNI and WCVP. It contains both families that have been completed and peer reviewed by both external and internal experts on the relevant families as well as families that are in the process of being edited and reviewed. Some of the original data which WCSP built upon came from our generous collaborators listed in the acknowledgements. WCVP aims to represent a global consensus view of current plant taxonomy by reflecting the latest published taxonomies while incorporating the opinions of taxonomists based around the world";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
+// Do not include filename if this is a single file, just the directory
+$dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/";	
+
+// The full data url, including fill if applicable
+// Not currently displayed
 $dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/wcvp_v5_jun_2021.zip";	
 
 // Url where logo for this source can be directly accessed
