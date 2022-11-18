@@ -33,7 +33,12 @@ $sourceUrl="http://www.worldfloraonline.org/";
 $description="The World Flora Online will be an open-access, Web-based compendium of the worlds plant species. It will be a collaborative, international project, building upon existing knowledge and published floras, checklists and revisions but will also require the collection and generation of new information on poorly know plant groups and plants in unexplored regions. WFO replaces The Plant List";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
-$dataUrl="http://104.198.143.165/files/WFO_Backbone/_WFOCompleteBackbone/WFO_Backbone.zip";	
+// Do not include filename if this is a single file, just the directory
+$dataUrl="http://104.198.143.165/files/WFO_Backbone/_WFOCompleteBackbone/";	
+
+// The full data url, including fill if applicable
+// Not currently displayed
+$dataUrlFull="http://104.198.143.165/files/WFO_Backbone/_WFOCompleteBackbone/WFO_Backbone.zip";	
 
 // Url where logo for this source can be directly accessed
 // For display on TNRS website

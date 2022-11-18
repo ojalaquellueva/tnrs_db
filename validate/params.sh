@@ -5,8 +5,16 @@
 # Check and change as needed
 ##############################################################
 
-# Db and schema to validate
+# DB to validate & connection parameters
 DB="tnrs_dev"
+HOST="localhost";	
+USER="tnrs"
+DBMS="MySQL"; # For display only
+
+# Path to config directory for confidential connection parameters
+# Set working directory $DIR in main script
+# Include config directory name & omit trailing slash
+CONFIG_PATH="$DIR/../../config"
 
 # Set process names, for notification and screen echo,
 # depending on which is being run
@@ -16,9 +24,15 @@ else
 	pname_local="$local_basename"
 fi
 
+# logfile options
+mkdir -p log	
+glogfile="log/logfile_${local_basename}.log"
+appendlog="false"
+
+
 # List of required tables
 # One table name per line, no commas or quotes
-required_tables="
+REQUIRED_TABLES="
 classification
 collaborator
 family_acceptedFamily_lookup
@@ -44,32 +58,33 @@ synonym
 # TABLE_NAME,COLUMN_NAME
 # One couplet per line, separated by comma, no comma at end, no quotes
 # To omit this test, set to empty string ("")
-required_columns=""
+REQUIRED_COLUMNS="
+name,nameID
+name_source,sourceID
+"
+REQUIRED_COLUMNS=""
 
 # Basenames of SQL files containing validation fk checks
 # See inidividual files for details
-taxonomic_checks="
-check_fk_gnrs
-check_fk_cds
-check_fk_tnrs
-check_fk_nsr
-check_fk_cods_promimity
-check_fk_cods_keyword
+CHECKS="
+name_not_empty
+bad_families
+unknown_family
+bad_rankIndicator
+bad_infraspecificRank2
+check_acceptance
+nameRank_lower
+rankIndicator_lower
+infraspecificRank2_lower
 "
 
-# Tables to check for present of validation fkeys
-validation_fkeys_check_tables="
-${vfoi}
-agg_traits
-"
+####################################
+# Notification options
+####################################
 
-# Valiation fkey columns to check
-validation_fk_cols="
-fk_tnrs_id
-fk_gnrs_id
-fk_cds_id
-nsr_id
-cods_proximity_id
-cods_keyword_id
-"
+# Custom process name for echo and emails
+# Optional. Comment out or set to "" to use main file basename
+pname="Validate TNRS"
 
+# Supply email here if using -m option
+email="bboyle@arizona.edu"

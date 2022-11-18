@@ -1,7 +1,12 @@
 -- ------------------------------------------------------------
--- Check for non-plant scrubbed families
+-- Check for unknown families
+-- Returns FAIL is family="Unknown" exists
+-- Not necessarily bad but good to know
 -- ------------------------------------------------------------
 
-SET search_path TO :sch;
-
-SELECT EXISTS (SELECT scrubbed_family FROM bien_taxonomy WHERE LOWER(scrubbed_family)='unknown') AS a;
+SELECT NOT EXISTS (
+SELECT family 
+FROM higherClassification
+ WHERE LOWER(family)='unknown'
+ LIMIT 1
+ ) AS a;

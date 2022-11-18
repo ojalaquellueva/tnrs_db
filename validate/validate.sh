@@ -37,20 +37,32 @@ if [[ ! -d "$DIR_LOCAL" ]]; then DIR_LOCAL="$PWD"; fi
 # if local data directory needed
 local=`basename "${BASH_SOURCE[0]}"`
 local_basename="${local/.sh/}"
+pname="$local_basename"
 
-# Set parent directory if running independently & suppress main message
+# Set working directory to current directory if running independently &
+# suppress main message
 if [ -z ${master+x} ]; then
-	DIR=$DIR_LOCAL"/.."
+	DIR=$DIR_LOCAL
 	suppress_main='true'
 else
 	suppress_main='false'
 fi
 
-# Load startup script for local files
-# Sets remaining parameters and options, and issues confirmation
-# and startup messages
-source "$DIR/includes/startup_local.sh"	
+# Load paramerters, function and get command line options
+source "$DIR/params.sh"
+source "$CONFIG_PATH/db_config.sh"
+source "$DIR/../includes/functions.sh"	
+source "$DIR/../includes/get_options.sh"	
 
+# Begin timer
+start=`date +%s%N`; prev=$start		# Get start time
+pid=$$								# Set process ID
+
+# Set default pname if applicab
+if [ "$pname" == "" ]; then pname="$local_basename"; fi
+
+# Send start message if mail option set
+if [[ "$m" = "true" ]]; then source "$DIR/../includes/mail_process_start.sh"; fi	
 
 ######################################################
 # Custom confirmation message. 
@@ -65,8 +77,10 @@ if [[ "$i" = "true" && -z ${master+x} ]]; then
 
 	Process '$pname' will use following parameters: 
 	
-	Database:	$db
-	Schema:		$sch
+	Database to validate: 	$DB
+	DB type: 		$DBMS
+	Host: 			$HOST
+	User: 			$USER
 	
 EOF
 	)"		
@@ -77,7 +91,9 @@ fi
 # Main
 #########################################################################
 
-echoi $e "Executing module '$local_basename'"
+echoi $e ""
+echoi $e "------ Executing process '$pname' ------"
+echoi $e ""
 
 ######################################################
 # Set error tracking parameters
@@ -90,10 +106,10 @@ errs=0
 ######################################################
 
 echoi $e "Checking existence of required tables:"
-for tbl in $required_tables; do
+for tbl in $REQUIRED_TABLES; do
 	echoi $e -n "- $tbl..."
-	exists_tbl=$(exists_table_psql -u $user -d $db -s $sch -t $tbl )
-	if [[ "$exists_tbl" == "f" ]]; then
+	sql_exists_table="SELECT EXISTS (SELECT TABLE_NAME FROM information_schema.tables WHERE table_schema = '${DB}' AND table_name = '${tbl}') AS exists_tbl"
+	if [[ $(mysql --login-path=$LOGINPATH -sse "$sql_exists_table") == 0 ]]; then
 		echoi $e "FAIL!"
 		let "errs++"
 	else
@@ -101,117 +117,40 @@ for tbl in $required_tables; do
 	fi
 done
 
-echoi $e "Checking existence of required columns:"
-for tblcol in $required_columns; do
-	tblcol2=${tblcol//,/ }	# Replace all ',' with ' ', the default IFS
-	tblcol_arr=($tblcol2)	# Split into array using IFS
-	tbl=${tblcol_arr[0]}
-	col=${tblcol_arr[1]}
-	tblcol_disp=${tblcol/,/.}	# Convert to std tbl.col format
+echoi $e -n "Checking existence of required columns:"
+if [ "$REQUIRED_COLUMNS" == "" ]; then
+	echoi $e " [nothing to check]"
+else
+	echoi $e ""
+	for tblcol in $REQUIRED_COLUMNS; do
+		tblcol2=${tblcol//,/ }	# Replace all ',' with ' ', the default IFS
+		tblcol_arr=($tblcol2)	# Split into array using IFS
+		tbl=${tblcol_arr[0]}
+		col=${tblcol_arr[1]}
+		tblcol_disp=${tblcol/,/.}	# Convert to std tbl.col format
 
-	echoi $e -n "- $tblcol_disp..."
-	exists_column=$(exists_column_psql -u $user -d $db -s $sch -t $tbl -c $col )
-	if [[ "$exists_column" == "f" ]]; then
-		echoi $e "FAIL!"
-		let "errs++"
-	else
-		echoi $e "pass"
-	fi
-done
+		echoi $e -n "- $tblcol_disp..."
+		sql_exists_col="SELECT EXISTS (SELECT COLUMN_NAME FROM information_schema.columns WHERE table_schema = '${DB}' AND table_name = '${tbl}' AND COLUMN_NAME = '${col}') AS exists_col"
+		if [[ $(mysql --login-path=$LOGINPATH -sse "$sql_exists_col") == 0 ]]; then
+			echoi $e "FAIL!"
+			let "errs++"
+		else
+			echoi $e "pass"
+		fi
+	done
+fi
 
 ######################################################
-# Check validation fkeys populated
+# Run checks from sql scripts
 ######################################################
 
 echoi $e "Checking validation fkeys not all null:"
 
-for check_tbl in $validation_fkeys_check_tables; do
-	echoi $e "- $check_tbl:"
-
-	for fk_col in $validation_fk_cols; do
-		echoi $e -n "-- fkey: $fk_col..."
-		test=`psql -U $user -d $db -qt -v sch=$sch -v check_tbl=$check_tbl -v fk_col=$fk_col -f "sql/check_fk_not_null.sql" | tr -d '[[:space:]]'`
-		if [[ "$test" == "f" ]]; then
-			echoi $e "FAIL!"
-			let "errs++"
-		else
-			echoi $e "pass"
-		fi
-	done
+for check in $CHECKS; do
+	echoi $e -n "- $check..."
+	test=$(mysql --login-path=$LOGINPATH --database="$DB" -sse "source sql/${check}.sql")
 	
-done
-
-######################################################
-# Check embargoes correctly applied
-# Public database only
-######################################################
-
-if [[ "$db" == "$db_public" ]]; then 
-	echoi $e "Embargo checks:"
-	
-	for check in $embargo_checks; do
-		echoi $e -n "- $check..."
-		test=`psql -U $user -d $db -qt -v sch=$sch -f "sql/${check}.sql" | tr -d '[[:space:]]'`
-		if [[ "$test" == "t" ]]; then
-			echoi $e "FAIL!"
-			let "errs++"
-		else
-			echoi $e "pass"
-		fi
-	done
-fi
-
-######################################################
-# Taxonomic checks
-######################################################
-
-if [[ "$db" == "$db_private" ]]; then 
-	echoi $e "Taxonomic checks:"
-
-	# Tests are in SQL files with base names in parameter $taxonomic_checks
-	for check in $taxonomic_checks; do
-		echoi $e -n "- $check..."
-		test=`psql -U $user -d $db -lqt -v sch=$sch -f "sql/${check}.sql" | tr -d '[[:space:]]'`
-		if [[ "$test" == "t" ]]; then
-			echoi $e "FAIL!"
-			let "errs++"
-		else
-			echoi $e "pass"
-		fi
-	done
-fi
-
-######################################################
-# Geovalid checks
-######################################################
-
-if [[ "$db" == "$db_private" ]]; then 
-	echoi $e "Geovalid checks:"
-
-	# Tests are in SQL files with base names in parameter $geovalid_checks
-	for check in $geovalid_checks; do
-		echoi $e -n "- $check..."
-		test=`psql -U $user -d $db -lqt -v sch=$sch -f "sql/${check}.sql" | tr -d '[[:space:]]'`
-		if [[ "$test" == "t" ]]; then
-			echoi $e "FAIL!"
-			let "errs++"
-		else
-			echoi $e "pass"
-		fi
-	done
-fi
-
-######################################################
-# Check for negative or zero plot area
-######################################################
-
-echoi $e "Negative plot area checks:"
-
-# Tests are in SQL files with base names in parameter $geovalid_checks
-for tbl in $plot_area_check_tables; do
-	echoi $e -n "- Table \"$tbl\"..."
-	test=`psql -U $user -d $db -lqt -v sch=$sch -v tbl=$tbl -f "sql/plot_areas_positive.sql" | tr -d '[[:space:]]'`
-	if [[ "$test" == "t" ]]; then
+	if [[ "$test" == 0 ]]; then
 		echoi $e "FAIL!"
 		let "errs++"
 	else
@@ -223,7 +162,7 @@ done
 # Report errors
 ######################################################
 
-echoi $e; echoi $e "------------------------------------------------"
+echoi $e
 if [ "$errs" -gt 0 ]; then 
 	echoi $e "Total errors found: $errs"
 else
@@ -231,7 +170,9 @@ else
 fi
 
 ######################################################
-# Report total elapsed time and exit if running solo
+# Report total elapsed time and exit 
 ######################################################
 
-if [ -z ${master+x} ]; then source "$DIR/includes/finish.sh"; fi
+
+#echoi $e "Process '$pname' completed in "
+source "$DIR/../includes/finish.sh"

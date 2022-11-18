@@ -111,10 +111,10 @@ $tbl_names_raw=$sourceName."_raw";
 
 // base name search url
 // Need to add the taxon symbol 
-$name_url_base="http://plants.usda.gov/java/profile?symbol=";
+$name_url_base="https://plants.sc.egov.usda.gov/home/plantProfile?symbol=";
 
 // default url supplied if no symbol for a taxon
-$name_url_bad="http://plants.usda.gov/java/nameSearch";
+$name_url_bad="https://plants.sc.egov.usda.gov/home";
 
 /////////////////////////////////////////////////////////////////////////////
 // MySQL LOAD DATA INFILE parameters
