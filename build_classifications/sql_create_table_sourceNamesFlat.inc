@@ -48,7 +48,7 @@ INDEX sourceNamesFlat_quadrinomial_id(quadrinomial_id),
 INDEX sourceNamesFlat_quadrinomial(quadrinomial),
 INDEX sourceNamesFlat_quadrinomial_norank(quadrinomial_norank),
 INDEX sourceNamesFlat_joinMethod(joinMethod)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 ";
 ?>

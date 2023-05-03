@@ -46,7 +46,7 @@ $logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2021/07/kew_logo.p
 $logoUrlFull="";
 
 // base url for species and infraspecies
-$base_url_species="https://wcvp.science.kew.org/taxon/";
+$base_url_species="https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:";
 
 // base url for families and genera with known families
 $base_url_gen_fam = "";
@@ -56,17 +56,17 @@ $base_url_general_search = "https://wcvp.science.kew.org/search?q=";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2021-07-12";	
+$dateAccessed="2022-11-17";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
-$sourceVersion="v5";
+$sourceVersion="10";
 
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2021-06-01";
+$sourceReleaseDate="2022-11-15";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
@@ -122,7 +122,7 @@ $replace=true;
 // classification.txt: UTF-8 Unicode text, with very long lines, with CRLF line terminators
 // However, accents are not being rendered correctly in MySQL UTF-8
 // tables. Investigate...
-$fix_chars=true;
+$fix_chars=false;
 
 // set true to delete raw data tables when finished
 $remove_raw_tables=true;
@@ -133,7 +133,7 @@ $remove_raw_tables=true;
 // Setting this param to false will turn off conversion in staging table
 // Corrections are performed on DWC-format raw data table
 // See script 'fix_character_set.inc'
-$fix_chars_curr_source=true;
+$fix_chars_curr_source=false;
 
 // IMPORTANT!
 // Set to TRUE to infer immediate parent taxon of names with no parentID
@@ -147,9 +147,9 @@ $infer_parent_this_source=TRUE;
 // and begin with " AND ". For example:
 // " AND taxonomicStatus='synonym' "
 // Only used if $infer_parent_this_source=TRUE;
-$SQL_WHERE_INFER_PARENT_POLICY=" AND taxonomicStatus NOT LIKE '%ynonym%' AND taxonomicStatus<>'No opinion' ";
+$SQL_WHERE_INFER_PARENT_POLICY=" AND taxonomicStatus NOT IN ('Unplaced', 'Synonym', 'Illegitimate', 'Invalid') ";
 // As above, but table to be updated has alias 'a'
-$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS=" AND a.taxonomicStatus NOT LIKE '%ynonym%' AND a.taxonomicStatus<>'No opinion' ";
+$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS=" AND a.taxonomicStatus NOT IN ('Unplaced', 'Synonym', 'Illegitimate', 'Invalid') ";
 
 $SQL_WHERE_INFER_PARENT_POLICY="";
 // As above, but table to be updated has alias 'a'
@@ -167,9 +167,8 @@ $filepath = $src_dir."data/";	// old version; data inside app/repo directory
 $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 
 // Name of raw data files you will be importing
-$namesfile = "wcvp_v5_jun_2021.txt";
-//$namesfile = "wcvp_v5_jun_2021_sample.txt";
-//$namesfile = "wcvp_v5_jun_2021_sample_big.txt";
+$namesfile = "wcvp_names.csv";
+//$namesfile = "wcvp_names_sample.csv";
 
 // path + file
 $namesfileandpath = $filepath.$namesfile;

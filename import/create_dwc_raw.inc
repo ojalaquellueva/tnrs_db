@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS `$tbl_names_raw_dwc`;
 CREATE TABLE `$tbl_names_raw_dwc` (
 nameID_char VARCHAR(250) DEFAULT NULL,
 parentNameID_char VARCHAR(250) DEFAULT NULL,
-rank VARCHAR(25) DEFAULT NULL,
+`rank` VARCHAR(25) DEFAULT NULL,
 family VARCHAR(50) DEFAULT NULL,
 scientificName VARCHAR(250) DEFAULT NULL,
 scientificNameAuthorship VARCHAR(150) DEFAULT NULL,
@@ -29,7 +29,7 @@ taxonomicStatus VARCHAR(25) DEFAULT NULL,
 acceptedNameID_char VARCHAR(250) DEFAULT NULL,
 taxonUri VARCHAR(500) DEFAULT NULL,
 lsid VARCHAR(500) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;

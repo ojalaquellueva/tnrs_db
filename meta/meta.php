@@ -29,9 +29,9 @@ VALUES (
 CURRENT_DATE(),
 '$CODE_VERSION',
 '$API_VERSION',
-'APP_CITATION',
-'APP_PUBLICATION',
-'APP_LOGO_PATH'
+'$APP_CITATION',
+'$APP_PUBLICATION',
+'$APP_LOGO_PATH'
 )
 ";
 $msg_error="Failed to populate table `meta`!";

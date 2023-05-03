@@ -1,0 +1,643 @@
+GENUS_ID	GENUS	AUTHORITY	GEN_LENGTH	NEAR_MATCH_GENUS	SEARCH_GENUS_NAME	sgn_head1	sgn_head2	sgn_head3	sgn_tail1	sgn_tail2	sgn_tail3
+1390999	Aa	Rchb.f.	2	A	AA	A	Aa	Aa	a	Aa	Aa
+1391000	Aaronsohnia	"Warb. & Eig"	11	ARANSANA	AARONSOHNIA	A	Aa	Aar	a	ia	nia
+1391001	Abacopteris	FÃ©e	11	ABACAPTIRIS	ABACOPTERIS	A	Ab	Aba	s	is	ris
+1391002	Abacosa	Alef.	7	ABACASA	ABACOSA	A	Ab	Aba	a	sa	osa
+1391003	Abarema	Pittier	7	ABARIMA	ABAREMA	A	Ab	Aba	a	ma	ema
+1391004	Abasoloa	"La Llave"	8	ABASALA	ABASOLOA	A	Ab	Aba	a	oa	loa
+1391005	Abatia	"Ruiz & Pav."	6	ABATA	ABATIA	A	Ab	Aba	a	ia	tia
+1391006	Abbevillea	O.Berg	10	ABIVILIA	ABBEVILLEA	A	Ab	Abb	a	ea	lea
+1391007	Abdominea	J.J.Sm.	9	ABDAMINIA	ABDOMINEA	A	Ab	Abd	a	ea	nea
+1391008	Abdra	Greene	5	ABDRA	ABDRA	A	Ab	Abd	a	ra	dra
+1391009	Abelia	R.Br.	6	ABILA	ABELIA	A	Ab	Abe	a	ia	lia
+1391010	Abelicea	Baill.	8	ABILICIA	ABELICEA	A	Ab	Abe	a	ea	cea
+1391011	Abeliophyllum	Nakai	13	ABILIAPILIM	ABELIOPHYLLUM	A	Ab	Abe	m	um	lum
+1391012	Abelmoschus	Medik.	11	ABILMASIS	ABELMOSCHUS	A	Ab	Abe	s	us	hus
+1391013	Aberemoa	Aubl.	8	ABIRIMA	ABEREMOA	A	Ab	Abe	a	oa	moa
+1391014	Aberia	Hochst.	6	ABIRA	ABERIA	A	Ab	Abe	a	ia	ria
+1391015	Abies	Mill.	5	ABIS	ABIES	A	Ab	Abi	s	es	ies
+1391016	Abietinella	MÃ¼ll.Hal.	11	ABITINILA	ABIETINELLA	A	Ab	Abi	a	la	lla
+1391017	Abildgaardia	Vahl	12	ABILDGARDA	ABILDGAARDIA	A	Ab	Abi	a	ia	dia
+1391018	Abobra	Naudin	6	ABABRA	ABOBRA	A	Ab	Abo	a	ra	bra
+1391019	Abolboda	Bonpl.	8	ABALBADA	ABOLBODA	A	Ab	Abo	a	da	oda
+1391020	Aboriella	Bennet	9	ABARILA	ABORIELLA	A	Ab	Abo	a	la	lla
+1391021	Abrahamia	"Randrian. & Lowry"	9	ABRAMA	ABRAHAMIA	A	Ab	Abr	a	ia	mia
+1391022	Abrodictyum	C.Presl	11	ABRADICTIM	ABRODICTYUM	A	Ab	Abr	m	um	yum
+1391023	Abroma	Jacq.	6	ABRAMA	ABROMA	A	Ab	Abr	a	ma	oma
+1391024	Abronia	Juss.	7	ABRANA	ABRONIA	A	Ab	Abr	a	ia	nia
+1391025	Abrophyllum	Hook.f.	11	ABRAPILIM	ABROPHYLLUM	A	Ab	Abr	m	um	lum
+1391026	Abrotanella	Cass.	11	ABRATANILA	ABROTANELLA	A	Ab	Abr	a	la	lla
+1391027	Abrus	Adans.	5	ABRIS	ABRUS	A	Ab	Abr	s	us	rus
+1391028	Abryanthemum	"Neck. ex Rothm."	12	ABRIANTIMIM	ABRYANTHEMUM	A	Ab	Abr	m	um	mum
+1391029	Absinthium	Mill.	10	ABSINTIM	ABSINTHIUM	A	Ab	Abs	m	um	ium
+1391030	Absolmsia	Kuntze	9	ABSALMSA	ABSOLMSIA	A	Ab	Abs	a	ia	sia
+1391031	Abuta	Aubl.	5	ABITA	ABUTA	A	Ab	Abu	a	ta	uta
+1391032	Abutilon	Mill.	8	ABITILAN	ABUTILON	A	Ab	Abu	n	on	lon
+1391033	Abutua	Lour.	6	ABITIA	ABUTUA	A	Ab	Abu	a	ua	tua
+1391034	Acacia	Mill.	6	ACACA	ACACIA	A	Ac	Aca	a	ia	cia
+1391035	Acaciella	"Britton & Rose"	9	ACACILA	ACACIELLA	A	Ac	Aca	a	la	lla
+1391036	Acaena	"Mutis ex L."	6	ACINA	ACAENA	A	Ac	Aca	a	na	ena
+1391037	Acalypha	L.	8	ACALIPA	ACALYPHA	A	Ac	Aca	a	ha	pha
+1391038	Acampe	Lindl.	6	ACAMPI	ACAMPE	A	Ac	Aca	e	pe	mpe
+1391039	Acamptopappus	A.Gray	13	ACAMPTAPAPIS	ACAMPTOPAPPUS	A	Ac	Aca	s	us	pus
+1391040	Acanthanthus	Y.ItÃ´	12	ACANTANTIS	ACANTHANTHUS	A	Ac	Aca	s	us	hus
+1391041	Acantharia	"Rojas Acosta"	10	ACANTARA	ACANTHARIA	A	Ac	Aca	a	ia	ria
+1391042	Acanthella	Hook.f.	10	ACANTILA	ACANTHELLA	A	Ac	Aca	a	la	lla
+1391043	Acanthophippium	"Blume ex Endl."	15	ACANTAPIPIM	ACANTHOPHIPPIUM	A	Ac	Aca	m	um	ium
+1391044	Acanthobotrya	"Eckl. & Zeyh."	13	ACANTABATRIA	ACANTHOBOTRYA	A	Ac	Aca	a	ya	rya
+1391045	Acanthocalycium	Backeb.	15	ACANTACALICIM	ACANTHOCALYCIUM	A	Ac	Aca	m	um	ium
+1391046	Acanthocalyx	"(DC.) M.J.Cannon"	12	ACANTACALIX	ACANTHOCALYX	A	Ac	Aca	x	yx	lyx
+1391047	Acanthocarpus	Lehm.	13	ACANTACARPIS	ACANTHOCARPUS	A	Ac	Aca	s	us	pus
+1391048	Acanthocephala	Backeb.	14	ACANTACIPALA	ACANTHOCEPHALA	A	Ac	Aca	a	la	ala
+1391049	Acanthocephalus	"Kar. & Kir."	15	ACANTACIPALIS	ACANTHOCEPHALUS	A	Ac	Aca	s	us	lus
+1391050	Acanthocereus	"(Engelm. ex A.Berger) Britton & Rose"	13	ACANTACIRIS	ACANTHOCEREUS	A	Ac	Aca	s	us	eus
+1391051	Acanthochlamys	P.C.Kao	14	ACANTACLAMIS	ACANTHOCHLAMYS	A	Ac	Aca	s	ys	mys
+1391052	Acanthocladiella	M.Fleisch.	16	ACANTACLADILA	ACANTHOCLADIELLA	A	Ac	Aca	a	la	lla
+1391053	Acanthocladium	F.Muell.	14	ACANTACLADIM	ACANTHOCLADIUM	A	Ac	Aca	m	um	ium
+1391054	Acanthocladium	NULL	14	ACANTACLADIM	ACANTHOCLADIUM	A	Ac	Aca	m	um	ium
+1391055	Acanthocladus	"Klotzsch ex Hassk."	13	ACANTACLADIS	ACANTHOCLADUS	A	Ac	Aca	s	us	dus
+1391056	Acanthococos	Barb.Rodr.	12	ACANTACACAS	ACANTHOCOCOS	A	Ac	Aca	s	os	cos
+1391057	Acanthocoleus	R.M.Schust.	13	ACANTACALIS	ACANTHOCOLEUS	A	Ac	Aca	s	us	eus
+1391058	Acanthodesmos	"C.D.Adams & duQuesnay"	13	ACANTADISMAS	ACANTHODESMOS	A	Ac	Aca	s	os	mos
+1391059	Acanthodium	Delile	11	ACANTADIM	ACANTHODIUM	A	Ac	Aca	m	um	ium
+1391060	Acanthodium	NULL	11	ACANTADIM	ACANTHODIUM	A	Ac	Aca	m	um	ium
+1391061	Acanthogilia	"A.G.Day & Moran"	12	ACANTAGILA	ACANTHOGILIA	A	Ac	Aca	a	ia	lia
+1391062	Acantholejeunea	"(R.M.Schust.) R.M.Schust."	15	ACANTALIJINIA	ACANTHOLEJEUNEA	A	Ac	Aca	a	ea	nea
+1391063	Acantholepis	Less.	12	ACANTALIPIS	ACANTHOLEPIS	A	Ac	Aca	s	is	pis
+1391064	Acantholimon	Boiss.	12	ACANTALIMAN	ACANTHOLIMON	A	Ac	Aca	n	on	mon
+1391065	Acantholippia	Griseb.	13	ACANTALIPA	ACANTHOLIPPIA	A	Ac	Aca	a	ia	pia
+1391066	Acantholobivia	Backeb.	14	ACANTALABIVA	ACANTHOLOBIVIA	A	Ac	Aca	a	ia	via
+1391067	Acanthomintha	"(A.Gray) A.Gray"	13	ACANTAMINTA	ACANTHOMINTHA	A	Ac	Aca	a	ha	tha
+1391068	Acanthonema	Hook.f.	11	ACANTANIMA	ACANTHONEMA	A	Ac	Aca	a	ma	ema
+1391069	Acanthopale	C.B.Clarke	11	ACANTAPALI	ACANTHOPALE	A	Ac	Aca	e	le	ale
+1391070	Acanthopanax	"(Decne. & Planch.) Miq."	12	ACANTAPANAX	ACANTHOPANAX	A	Ac	Aca	x	ax	nax
+1391071	Acanthopetalus	Y.ItÃ´	14	ACANTAPITALIS	ACANTHOPETALUS	A	Ac	Aca	s	us	lus
+1391072	Acanthophaca	Nevski	12	ACANTAPACA	ACANTHOPHACA	A	Ac	Aca	a	ca	aca
+1391073	Acanthophippium	Blume	15	ACANTAPIPIM	ACANTHOPHIPPIUM	A	Ac	Aca	m	um	ium
+1391074	Acanthophoenix	H.Wendl.	14	ACANTAPINIX	ACANTHOPHOENIX	A	Ac	Aca	x	ix	nix
+1391075	Acanthophyllum	C.A.Mey.	14	ACANTAPILIM	ACANTHOPHYLLUM	A	Ac	Aca	m	um	lum
+1391076	Acanthoprasium	Spenn.	14	ACANTAPRASIM	ACANTHOPRASIUM	A	Ac	Aca	m	um	ium
+1391077	Acanthopsis	Harv.	11	ACANTAPSIS	ACANTHOPSIS	A	Ac	Aca	s	is	sis
+1391078	Acanthorhipsalis	"(K.Schum.) Britton & Rose"	16	ACANTARIPSALIS	ACANTHORHIPSALIS	A	Ac	Aca	s	is	lis
+1391079	Acanthorrhinum	Rothm.	14	ACANTARINIM	ACANTHORRHINUM	A	Ac	Aca	m	um	num
+1391080	Acanthorrhiza	H.Wendl.	13	ACANTARISA	ACANTHORRHIZA	A	Ac	Aca	a	za	iza
+1391081	Acanthorrhynchium	M.Fleisch.	17	ACANTARINCIM	ACANTHORRHYNCHIUM	A	Ac	Aca	m	um	ium
+1391082	Acanthosabal	Prosch.	12	ACANTASABAL	ACANTHOSABAL	A	Ac	Aca	l	al	bal
+1391083	Acanthoscyphus	Small	14	ACANTASIPIS	ACANTHOSCYPHUS	A	Ac	Aca	s	us	hus
+1391084	Acanthosicyos	"Welw. ex Benth. & Hook.f."	13	ACANTASICIAS	ACANTHOSICYOS	A	Ac	Aca	s	os	yos
+1391085	Acanthospermum	Schrank	14	ACANTASPIRMIM	ACANTHOSPERMUM	A	Ac	Aca	m	um	mum
+1391086	Acanthosphaera	Warb.	14	ACANTASPIRA	ACANTHOSPHAERA	A	Ac	Aca	a	ra	era
+1391087	Acanthostachys	Klotzsch	14	ACANTASTACIS	ACANTHOSTACHYS	A	Ac	Aca	s	ys	hys
+1391088	Acanthostyles	"R.M.King & H.Rob."	13	ACANTASTILIS	ACANTHOSTYLES	A	Ac	Aca	s	es	les
+1391089	Acanthosyris	"(Eichler) Griseb."	12	ACANTASIRIS	ACANTHOSYRIS	A	Ac	Aca	s	is	ris
+1391090	Acanthothamnus	Brandegee	14	ACANTATAMNIS	ACANTHOTHAMNUS	A	Ac	Aca	s	us	nus
+1391091	Acanthotrichilia	"(Urb.) O.F.Cook & Collins"	16	ACANTATRICILA	ACANTHOTRICHILIA	A	Ac	Aca	a	ia	lia
+1391092	Acanthoxanthium	Fourr.	15	ACANTAXANTIM	ACANTHOXANTHIUM	A	Ac	Aca	m	um	ium
+1391093	Acanthura	Lindau	9	ACANTIRA	ACANTHURA	A	Ac	Aca	a	ra	ura
+1391094	Acanthus	L.	8	ACANTIS	ACANTHUS	A	Ac	Aca	s	us	hus
+1391095	Acanthyllis	Pomel	11	ACANTILIS	ACANTHYLLIS	A	Ac	Aca	s	is	lis
+1391096	Acareosperma	Gagnep.	12	ACARIASPIRMA	ACAREOSPERMA	A	Ac	Aca	a	ma	rma
+1391097	Acarna	All.	6	ACARNA	ACARNA	A	Ac	Aca	a	na	rna
+1391098	Acarphaea	"Harv., Gray & ex.A.Gray"	9	ACARPA	ACARPHAEA	A	Ac	Aca	a	ea	aea
+1391099	Acaulimalva	Krapov.	11	ACAILIMALVA	ACAULIMALVA	A	Ac	Aca	a	va	lva
+1391100	Acaulon	N.E.Br.	7	ACAILAN	ACAULON	A	Ac	Aca	n	on	lon
+1391101	Acaulon	MÃ¼ll.Hal.	7	ACAILAN	ACAULON	A	Ac	Aca	n	on	lon
+1391102	Acaulonopsis	"R.H.Zander & Hedd."	12	ACAILANAPSIS	ACAULONOPSIS	A	Ac	Aca	s	is	sis
+1391103	Acca	O.Berg	4	ACA	ACCA	A	Ac	Acc	a	ca	cca
+1391104	Accara	Landrum	6	ACARA	ACCARA	A	Ac	Acc	a	ra	ara
+1391105	Accorombona	Endl.	11	ACARAMBANA	ACCOROMBONA	A	Ac	Acc	a	na	ona
+1391106	Acelica	Rizzini	7	ACILICA	ACELICA	A	Ac	Ace	a	ca	ica
+1391107	Acentra	Phil.	7	ACINTRA	ACENTRA	A	Ac	Ace	a	ra	tra
+1391108	Acer	L.	4	ACIR	ACER	A	Ac	Ace	r	er	cer
+1391109	Aceras	R.Br.	6	ACIRAS	ACERAS	A	Ac	Ace	s	as	ras
+1391110	Acerates	Elliott	8	ACIRATIS	ACERATES	A	Ac	Ace	s	es	tes
+1391111	Aceratium	DC.	9	ACIRATIM	ACERATIUM	A	Ac	Ace	m	um	ium
+1391112	"x Aceratoglossum"	F.M.VÃ¡zquez	16	"Z ACIRATAGLASA"	"X ACERATOGLOSSUM"	x	"x "	"x A"	m	um	sum
+1391113	Aceriphyllum	Engl.	12	ACIRIPILIM	ACERIPHYLLUM	A	Ac	Ace	m	um	lum
+1391114	Acetosa	"Tourn. ex Mill."	7	ACITASA	ACETOSA	A	Ac	Ace	a	sa	osa
+1391115	Acetosella	Kuntze	10	ACITASILA	ACETOSELLA	A	Ac	Ace	a	la	lla
+1391116	Acetosella	"(Raf.) Fourr."	10	ACITASILA	ACETOSELLA	A	Ac	Ace	a	la	lla
+1391117	Achaetogeron	A.Gray	12	ACITAGIRAN	ACHAETOGERON	A	Ac	Ach	n	on	ron
+1391118	Achania	Sw.	7	ACANA	ACHANIA	A	Ac	Ach	a	ia	nia
+1391119	Acharagma	"(N.P.Taylor) Glass"	9	ACARAGMA	ACHARAGMA	A	Ac	Ach	a	ma	gma
+1391120	Acharia	Thunb.	7	ACARA	ACHARIA	A	Ac	Ach	a	ia	ria
+1391121	Achatocarpus	Triana	12	ACATACARPIS	ACHATOCARPUS	A	Ac	Ach	s	us	pus
+1391122	Achetaria	"Cham. & Schltdl."	9	ACITARA	ACHETARIA	A	Ac	Ach	a	ia	ria
+1391123	Achicodonia	NULL	11	ACICADANA	ACHICODONIA	A	Ac	Ach	a	ia	nia
+1391124	Achillea	L.	8	ACILIA	ACHILLEA	A	Ac	Ach	a	ea	lea
+1391125	Achimenantha	NULL	12	ACIMINANTA	ACHIMENANTHA	A	Ac	Ach	a	ha	tha
+1391126	Achimenes	P.Browne	9	ACIMINIS	ACHIMENES	A	Ac	Ach	s	es	nes
+1391127	Achiton	Corda	7	ACITAN	ACHITON	A	Ac	Ach	n	on	ton
+1391128	Achlydosa	"M.A.Clem. & D.L.Jones"	9	ACLIDASA	ACHLYDOSA	A	Ac	Ach	a	sa	osa
+1391129	Achlyphila	"Maguire & Wurdack"	10	ACLIPILA	ACHLYPHILA	A	Ac	Ach	a	la	ila
+1391130	Achlys	DC.	6	ACLIS	ACHLYS	A	Ac	Ach	s	ys	lys
+1391131	Achnatherum	P.Beauv.	11	ACNATIRIM	ACHNATHERUM	A	Ac	Ach	m	um	rum
+1391132	Achnella	NULL	8	ACNILA	ACHNELLA	A	Ac	Ach	a	la	lla
+1391133	Achneria	P.Beauv.	8	ACNIRA	ACHNERIA	A	Ac	Ach	a	ia	ria
+1391134	Achnophora	F.Muell.	10	ACNAPARA	ACHNOPHORA	A	Ac	Ach	a	ra	ora
+1391135	Achnopogon	"Maguire, Steyerm. & Wurdack"	10	ACNAPAGAN	ACHNOPOGON	A	Ac	Ach	n	on	gon
+1391136	Achomanes	Neck.	9	ACAMANIS	ACHOMANES	A	Ac	Ach	s	es	nes
+1391137	Achoriphragma	SojÃ¡k	13	ACARIPRAGMA	ACHORIPHRAGMA	A	Ac	Ach	a	ma	gma
+1391138	Achras	L.	6	ACRAS	ACHRAS	A	Ac	Ach	s	as	ras
+1391139	Achroanthes	Raf.	11	ACRANTIS	ACHROANTHES	A	Ac	Ach	s	es	hes
+1391140	Achrophyllum	"Vitt & Crosby"	12	ACRAPILIM	ACHROPHYLLUM	A	Ac	Ach	m	um	lum
+1391141	Achuaria	Gereau	8	ACIARA	ACHUARIA	A	Ac	Ach	a	ia	ria
+1391142	Achudemia	Blume	9	ACIDIMA	ACHUDEMIA	A	Ac	Ach	a	ia	mia
+1391143	Achymus	"Vahl ex Juss."	7	ACIMIS	ACHYMUS	A	Ac	Ach	s	us	mus
+1391144	Achyrachaena	Schauer	12	ACIRACINA	ACHYRACHAENA	A	Ac	Ach	a	na	ena
+1391145	Achyranthes	L.	11	ACIRANTIS	ACHYRANTHES	A	Ac	Ach	s	es	hes
+1391146	Achyrocalyx	Benoist	11	ACIRACALIX	ACHYROCALYX	A	Ac	Ach	x	yx	lyx
+1391147	Achyrocline	"(Less.) DC."	11	ACIRACLINI	ACHYROCLINE	A	Ac	Ach	e	ne	ine
+1391148	Achyronia	L.	9	ACIRANA	ACHYRONIA	A	Ac	Ach	a	ia	nia
+1391149	Achyronychia	"Torr. & A.Gray"	12	ACIRANICA	ACHYRONYCHIA	A	Ac	Ach	a	ia	hia
+1391150	Achyropappus	Kunth	12	ACIRAPAPIS	ACHYROPAPPUS	A	Ac	Ach	s	us	pus
+1391151	Achyrophorus	Adans.	12	ACIRAPARIS	ACHYROPHORUS	A	Ac	Ach	s	us	rus
+1391152	Achyrophyllum	J.Shaw	13	ACIRAPILIM	ACHYROPHYLLUM	A	Ac	Ach	m	um	lum
+1391153	Achyropsis	"Benth. & Hook.f."	10	ACIRAPSIS	ACHYROPSIS	A	Ac	Ach	s	is	sis
+1391154	Achyrospermum	Blume	13	ACIRASPIRMIM	ACHYROSPERMUM	A	Ac	Ach	m	um	mum
+1391155	Aciachne	Benth.	8	ACACNI	ACIACHNE	A	Ac	Aci	e	ne	hne
+1391156	Acianthera	Scheidw.	10	ACANTIRA	ACIANTHERA	A	Ac	Aci	a	ra	era
+1391157	Acianthus	R.Br.	9	ACANTIS	ACIANTHUS	A	Ac	Aci	s	us	hus
+1391158	Acicarpa	NULL	8	ACICARPA	ACICARPA	A	Ac	Aci	a	pa	rpa
+1391159	Acicarpha	Juss.	9	ACICARPA	ACICARPHA	A	Ac	Aci	a	ha	pha
+1391160	Acidanthera	Hochst.	11	ACIDANTIRA	ACIDANTHERA	A	Ac	Aci	a	ra	era
+1391161	Acidocroton	Griseb.	11	ACIDACRATAN	ACIDOCROTON	A	Ac	Aci	n	on	ton
+1391162	Acidodontium	SchwÃ¤gr.	12	ACIDADANTIM	ACIDODONTIUM	A	Ac	Aci	m	um	ium
+1391163	Acidonia	"L.A.S.Johnson & B.G.Briggs"	8	ACIDANA	ACIDONIA	A	Ac	Aci	a	ia	nia
+1391164	Acidosasa	"C.D.Chu & C.S.Chao ex Keng f."	9	ACIDASASA	ACIDOSASA	A	Ac	Aci	a	sa	asa
+1391165	Acidoton	Sw.	8	ACIDATAN	ACIDOTON	A	Ac	Aci	n	on	ton
+1391166	Acilepidopsis	H.Rob.	13	ACILIPIDAPSIS	ACILEPIDOPSIS	A	Ac	Aci	s	is	sis
+1391167	Acilepis	D.Don	8	ACILIPIS	ACILEPIS	A	Ac	Aci	s	is	pis
+1391168	Acineta	Lindl.	7	ACINITA	ACINETA	A	Ac	Aci	a	ta	eta
+1391169	Acinodendron	Raf.	12	ACINADINDRAN	ACINODENDRON	A	Ac	Aci	n	on	ron
+1391170	Acinolis	Raf.	8	ACINALIS	ACINOLIS	A	Ac	Aci	s	is	lis
+1391171	Acinos	Mill.	6	ACINAS	ACINOS	A	Ac	Aci	s	os	nos
+1391172	Acioa	Aubl.	5	ACIA	ACIOA	A	Ac	Aci	a	oa	ioa
+1391173	Aciotis	D.Don	7	ACIATIS	ACIOTIS	A	Ac	Aci	s	is	tis
+1391174	Acipetalum	Turcz.	10	ACIPITALIM	ACIPETALUM	A	Ac	Aci	m	um	lum
+1391175	Aciphylla	"J.R.Forst. & G.Forst."	9	ACIPILA	ACIPHYLLA	A	Ac	Aci	a	la	lla
+1391176	Acis	Salisb.	4	ACIS	ACIS	A	Ac	Aci	s	is	cis
+1391177	Acisanthera	P.Browne	11	ACISANTIRA	ACISANTHERA	A	Ac	Aci	a	ra	era
+1391178	Ackama	A.Cunn.	6	ACAMA	ACKAMA	A	Ac	Ack	a	ma	ama
+1391179	Acleisanthes	A.Gray	12	ACLISANTIS	ACLEISANTHES	A	Ac	Acl	s	es	hes
+1391180	Aclisia	E.Mey.	7	ACLISA	ACLISIA	A	Ac	Acl	a	ia	sia
+1391181	Acmadenia	"Bartl. & H.L.Wendl."	9	ACMADINA	ACMADENIA	A	Ac	Acm	a	ia	nia
+1391182	Acmanthera	Griesb.	10	ACMANTIRA	ACMANTHERA	A	Ac	Acm	a	ra	era
+1391183	Acmella	"Rich. ex Pers."	7	ACMILA	ACMELLA	A	Ac	Acm	a	la	lla
+1391184	Acmena	DC.	6	ACMINA	ACMENA	A	Ac	Acm	a	na	ena
+1391185	Acmispon	Raf.	8	ACMISPAN	ACMISPON	A	Ac	Acm	n	on	pon
+1391186	Acmopyle	Pilg.	8	ACMAPILI	ACMOPYLE	A	Ac	Acm	e	le	yle
+1391187	Acnida	L.	6	ACNIDA	ACNIDA	A	Ac	Acn	a	da	ida
+1391188	Acnistus	Schott	8	ACNISTIS	ACNISTUS	A	Ac	Acn	s	us	tus
+1391189	Acoelorraphe	H.Wendl.	12	ACILARAPI	ACOELORRAPHE	A	Ac	Aco	e	he	phe
+1391190	Acokanthera	G.Don	11	ACACANTIRA	ACOKANTHERA	A	Ac	Aco	a	ra	era
+1391191	Acolea	Corda	6	ACALIA	ACOLEA	A	Ac	Aco	a	ea	lea
+1391192	Acomastylis	Greene	11	ACAMASTILIS	ACOMASTYLIS	A	Ac	Aco	s	is	lis
+1391193	Acome	Baker	5	ACAMI	ACOME	A	Ac	Aco	e	me	ome
+1391194	Acomis	F.Muell.	6	ACAMIS	ACOMIS	A	Ac	Aco	s	is	mis
+1391195	Aconiopteris	C.Presl	12	ACANIAPTIRIS	ACONIOPTERIS	A	Ac	Aco	s	is	ris
+1391196	Aconitella	Spach	10	ACANITILA	ACONITELLA	A	Ac	Aco	a	la	lla
+1391197	Aconitum	L.	8	ACANITIM	ACONITUM	A	Ac	Aco	m	um	tum
+1391198	Aconogonon	"(Meisn.) Rchb."	10	ACANAGANAN	ACONOGONON	A	Ac	Aco	n	on	non
+1391199	Aconogonum	"(Meisn.) Rchb."	10	ACANAGANIM	ACONOGONUM	A	Ac	Aco	m	um	num
+1391200	Acontias	Schott	8	ACANTAS	ACONTIAS	A	Ac	Aco	s	as	ias
+1391201	Acophorum	"Gaudich. ex Steud."	9	ACAPARIM	ACOPHORUM	A	Ac	Aco	m	um	rum
+1391202	Acoridium	"Nees & Meyen"	9	ACARIDIM	ACORIDIUM	A	Ac	Aco	m	um	ium
+1391203	Acoroides	"Sol. ex Kite"	9	ACARADIS	ACOROIDES	A	Ac	Aco	s	es	des
+1391204	Acorus	L.	6	ACARIS	ACORUS	A	Ac	Aco	s	us	rus
+1391205	Acosmia	"Benth. ex G.Don"	7	ACASMA	ACOSMIA	A	Ac	Aco	a	ia	mia
+1391206	Acosmium	Schott	8	ACASMIM	ACOSMIUM	A	Ac	Aco	m	um	ium
+1391207	Acosmus	Desv.	7	ACASMIS	ACOSMUS	A	Ac	Aco	s	us	mus
+1391208	Acosta	DC.	6	ACASTA	ACOSTA	A	Ac	Aco	a	ta	sta
+1391209	Acosta	NULL	6	ACASTA	ACOSTA	A	Ac	Aco	a	ta	sta
+1391210	Acostia	Swallen	7	ACASTA	ACOSTIA	A	Ac	Aco	a	ia	tia
+1391211	Acostitrapa	Rauschert	11	ACASTITRAPA	ACOSTITRAPA	A	Ac	Aco	a	pa	apa
+1391212	Acourtia	D.Don	8	ACAIRTA	ACOURTIA	A	Ac	Aco	a	ia	tia
+1391213	Acrachne	"Wight & Arn. ex Lindl. & Chiov."	8	ACRACNI	ACRACHNE	A	Ac	Acr	e	ne	hne
+1391214	Acradenia	Kippist	9	ACRADINA	ACRADENIA	A	Ac	Acr	a	ia	nia
+1391215	Acranthera	"Arn. ex Meisn."	10	ACRANTIRA	ACRANTHERA	A	Ac	Acr	a	ra	era
+1391216	Acridocarpus	"Guill. & Perr."	12	ACRIDACARPIS	ACRIDOCARPUS	A	Ac	Acr	s	us	pus
+1391217	Acrilia	Griseb.	7	ACRILA	ACRILIA	A	Ac	Acr	a	ia	lia
+1391218	Acriopsis	"Reinw. ex Blume"	9	ACRIAPSIS	ACRIOPSIS	A	Ac	Acr	s	is	sis
+1391219	Acrisione	B.Nord.	9	ACRISIANI	ACRISIONE	A	Ac	Acr	e	ne	one
+1391220	Acrista	O.F.Cook	7	ACRISTA	ACRISTA	A	Ac	Acr	a	ta	sta
+1391221	Acritochaete	Pilg.	12	ACRITACITI	ACRITOCHAETE	A	Ac	Acr	e	te	ete
+1391222	Acritodon	H.Rob.	9	ACRITADAN	ACRITODON	A	Ac	Acr	n	on	don
+1391223	Acritopappus	"R.M.King & H.Rob."	12	ACRITAPAPIS	ACRITOPAPPUS	A	Ac	Acr	s	us	pus
+1391224	Acriulus	Ridl.	8	ACRILIS	ACRIULUS	A	Ac	Acr	s	us	lus
+1391225	Acroblastum	Sol.	11	ACRABLASTIM	ACROBLASTUM	A	Ac	Acr	m	um	tum
+1391226	Acrobolbus	Nees	10	ACRABALBIS	ACROBOLBUS	A	Ac	Acr	s	us	bus
+1391227	Acrobotrys	"K.Schum. & K.Krause"	10	ACRABATRIS	ACROBOTRYS	A	Ac	Acr	s	ys	rys
+1391228	Acrocarpidium	Miq.	13	ACRACARPIDIM	ACROCARPIDIUM	A	Ac	Acr	m	um	ium
+1391229	Acrocarpus	"Wight ex Arn."	10	ACRACARPIS	ACROCARPUS	A	Ac	Acr	s	us	pus
+1391230	Acrocentron	Cass.	11	ACRACINTRAN	ACROCENTRON	A	Ac	Acr	n	on	ron
+1391231	Acrocephalus	Benth.	12	ACRACIPALIS	ACROCEPHALUS	A	Ac	Acr	s	us	lus
+1391232	Acroceras	"Stapf in Prain"	9	ACRACIRAS	ACROCERAS	A	Ac	Acr	s	as	ras
+1391233	Acrochaene	Lindl.	10	ACRACINI	ACROCHAENE	A	Ac	Acr	e	ne	ene
+1391234	Acrochila	R.M.Schust.	9	ACRACILA	ACROCHILA	A	Ac	Acr	a	la	ila
+1391235	Acrocladiopsis	"(Broth.) Cardot"	14	ACRACLADIAPSIS	ACROCLADIOPSIS	A	Ac	Acr	s	is	sis
+1391236	Acrocladium	Mitt.	11	ACRACLADIM	ACROCLADIUM	A	Ac	Acr	m	um	ium
+1391237	Acroclinium	A.Gray	11	ACRACLINIM	ACROCLINIUM	A	Ac	Acr	m	um	ium
+1391238	Acrocomia	Mart.	9	ACRACAMA	ACROCOMIA	A	Ac	Acr	a	ia	mia
+1391239	Acrocoryne	Turcz.	10	ACRACARINI	ACROCORYNE	A	Ac	Acr	e	ne	yne
+1391240	Acrocryphaea	NULL	12	ACRACRIPA	ACROCRYPHAEA	A	Ac	Acr	a	ea	aea
+1391241	Acrodiclidium	Nees	13	ACRADICLIDIM	ACRODICLIDIUM	A	Ac	Acr	m	um	ium
+1391242	Acrodon	N.E.Br.	7	ACRADAN	ACRODON	A	Ac	Acr	n	on	don
+1391243	Acrodryon	Spreng.	9	ACRADRIAN	ACRODRYON	A	Ac	Acr	n	on	yon
+1391244	Acroglochin	Schrad.	11	ACRAGLACIN	ACROGLOCHIN	A	Ac	Acr	n	in	hin
+1391245	Acroglyphe	E.Mey.	10	ACRAGLIPI	ACROGLYPHE	A	Ac	Acr	e	he	phe
+1391246	Acrolasia	C.Presl	9	ACRALASA	ACROLASIA	A	Ac	Acr	a	ia	sia
+1391247	Acrolejeunea	"(Spruce) Schiffn."	12	ACRALIJINIA	ACROLEJEUNEA	A	Ac	Acr	a	ea	nea
+1391248	Acrolepidozia	R.M.Schust.	13	ACRALIPIDASA	ACROLEPIDOZIA	A	Ac	Acr	a	ia	zia
+1391249	Acrolophia	Pfitzer	10	ACRALAPA	ACROLOPHIA	A	Ac	Acr	a	ia	hia
+1391250	Acrolophozia	R.M.Schust.	12	ACRALAPASA	ACROLOPHOZIA	A	Ac	Acr	a	ia	zia
+1391251	Acromastigum	A.Evans	12	ACRAMASTIGIM	ACROMASTIGUM	A	Ac	Acr	m	um	gum
+1391252	Acronema	"Falc. ex Edgew."	8	ACRANIMA	ACRONEMA	A	Ac	Acr	a	ma	ema
+1391253	Acronia	C.Presl	7	ACRANA	ACRONIA	A	Ac	Acr	a	ia	nia
+1391254	Acronychia	"J.R.Forst. & G.Forst."	10	ACRANICA	ACRONYCHIA	A	Ac	Acr	a	ia	hia
+1391255	Acropelta	Nakai	9	ACRAPILTA	ACROPELTA	A	Ac	Acr	a	ta	lta
+1391256	Acrophorus	C.Presl	10	ACRAPARIS	ACROPHORUS	A	Ac	Acr	s	us	rus
+1391257	Acrophyllum	Benth.	11	ACRAPILIM	ACROPHYLLUM	A	Ac	Acr	m	um	lum
+1391258	Acropodium	Desv.	10	ACRAPADIM	ACROPODIUM	A	Ac	Acr	m	um	ium
+1391259	Acropogon	Schltr.	9	ACRAPAGAN	ACROPOGON	A	Ac	Acr	n	on	gon
+1391260	Acroporium	Mitt.	10	ACRAPARIM	ACROPORIUM	A	Ac	Acr	m	um	ium
+1391261	Acropteris	Link	10	ACRAPTIRIS	ACROPTERIS	A	Ac	Acr	s	is	ris
+1391262	Acropterygium	"(Diels) Nakai"	13	ACRAPTIRIGIM	ACROPTERYGIUM	A	Ac	Acr	m	um	ium
+1391263	Acrorchis	Dressler	9	ACRARCIS	ACRORCHIS	A	Ac	Acr	s	is	his
+1391264	Acrorumohra	"(H.Ito) H.Ito in Nakai & Honda"	11	ACRARIMARA	ACRORUMOHRA	A	Ac	Acr	a	ra	hra
+1391265	Acrosanthes	"Eckl. & Zeyh."	11	ACRASANTIS	ACROSANTHES	A	Ac	Acr	s	es	hes
+1391266	Acroschisma	Lindl.	11	ACRASISMA	ACROSCHISMA	A	Ac	Acr	a	ma	sma
+1391267	Acroschizocarpus	GombÃ³cz	16	ACRASISACARPIS	ACROSCHIZOCARPUS	A	Ac	Acr	s	us	pus
+1391268	Acroscyphella	"N.Kitag. & Grolle"	13	ACRASIPILA	ACROSCYPHELLA	A	Ac	Acr	a	la	lla
+1391269	Acroscyphus	N.Kitag.	11	ACRASIPIS	ACROSCYPHUS	A	Ac	Acr	s	us	hus
+1391270	Acrosepalum	Pierre	11	ACRASIPALIM	ACROSEPALUM	A	Ac	Acr	m	um	lum
+1391271	Acrosorus	Copel.	9	ACRASARIS	ACROSORUS	A	Ac	Acr	s	us	rus
+1391272	Acrospira	"Welw. ex Baker"	9	ACRASPIRA	ACROSPIRA	A	Ac	Acr	a	ra	ira
+1391273	Acrostachys	Tiegh.	11	ACRASTACIS	ACROSTACHYS	A	Ac	Acr	s	ys	hys
+1391274	Acrostemon	Klotzsch	10	ACRASTIMAN	ACROSTEMON	A	Ac	Acr	n	on	mon
+1391275	Acrostephanus	Tiegh.	13	ACRASTIPANIS	ACROSTEPHANUS	A	Ac	Acr	s	us	nus
+1391276	Acrostichum	L.	11	ACRASTICIM	ACROSTICHUM	A	Ac	Acr	m	um	hum
+1391277	Acrostigma	"O.F.Cook & Doyle"	10	ACRASTIGMA	ACROSTIGMA	A	Ac	Acr	a	ma	gma
+1391278	Acrostolia	Dumort.	10	ACRASTALA	ACROSTOLIA	A	Ac	Acr	a	ia	lia
+1391279	Acrosynanthus	Urb.	13	ACRASINANTIS	ACROSYNANTHUS	A	Ac	Acr	s	us	hus
+1391280	Acrotome	Benth.	8	ACRATAMI	ACROTOME	A	Ac	Acr	e	me	ome
+1391281	Acrotrema	Jack	9	ACRATRIMA	ACROTREMA	A	Ac	Acr	a	ma	ema
+1391282	Acrotriche	R.Br.	10	ACRATRICI	ACROTRICHE	A	Ac	Acr	e	he	che
+1391283	Acrymia	Prain	7	ACRIMA	ACRYMIA	A	Ac	Acr	a	ia	mia
+1391284	Acsmithia	Hoogland	9	ACSMITA	ACSMITHIA	A	Ac	Acs	a	ia	hia
+1391285	Actaea	L.	6	ACTA	ACTAEA	A	Ac	Act	a	ea	aea
+1391286	Actephila	Blume	9	ACTIPILA	ACTEPHILA	A	Ac	Act	a	la	ila
+1391287	Actephila	Blume	9	ACTIPILA	ACTEPHILA	A	Ac	Act	a	la	ila
+1391288	Actephilopsis	Ridl.	13	ACTIPILAPSIS	ACTEPHILOPSIS	A	Ac	Act	s	is	sis
+1391289	Actinanthella	Balle	13	ACTINANTILA	ACTINANTHELLA	A	Ac	Act	a	la	lla
+1391290	Actinanthus	Ehrenb.	11	ACTINANTIS	ACTINANTHUS	A	Ac	Act	s	us	hus
+1391291	Actinea	Juss.	7	ACTINIA	ACTINEA	A	Ac	Act	a	ea	nea
+1391292	Actinella	Pers.	9	ACTINILA	ACTINELLA	A	Ac	Act	a	la	lla
+1391293	Actinidia	Lindl.	9	ACTINIDA	ACTINIDIA	A	Ac	Act	a	ia	dia
+1391294	Actiniopteris	Link	13	ACTINIAPTIRIS	ACTINIOPTERIS	A	Ac	Act	s	is	ris
+1391295	Actinobole	Endl.	10	ACTINABALI	ACTINOBOLE	A	Ac	Act	e	le	ole
+1391296	Actinocarya	Benth.	11	ACTINACARIA	ACTINOCARYA	A	Ac	Act	a	ya	rya
+1391297	Actinocephalus	"(KÃ¶rn.) Sano"	14	ACTINACIPALIS	ACTINOCEPHALUS	A	Ac	Act	s	us	lus
+1391298	Actinocheita	F.A.Barkley	12	ACTINACITA	ACTINOCHEITA	A	Ac	Act	a	ta	ita
+1391299	Actinocladum	"McClure ex Soderstr."	12	ACTINACLADIM	ACTINOCLADUM	A	Ac	Act	m	um	dum
+1391300	Actinodaphne	Nees	12	ACTINADAPNI	ACTINODAPHNE	A	Ac	Act	e	ne	hne
+1391301	Actinodium	"Schauer ex Schltdl."	10	ACTINADIM	ACTINODIUM	A	Ac	Act	m	um	ium
+1391302	Actinodontium	SchwÃ¤gr.	13	ACTINADANTIM	ACTINODONTIUM	A	Ac	Act	m	um	ium
+1391303	Actinokentia	Dammer	12	ACTINACINTA	ACTINOKENTIA	A	Ac	Act	a	ia	tia
+1391304	Actinolema	Fenzl	10	ACTINALIMA	ACTINOLEMA	A	Ac	Act	a	ma	ema
+1391305	Actinolepis	DC.	11	ACTINALIPIS	ACTINOLEPIS	A	Ac	Act	s	is	pis
+1391306	Actinomeris	Nutt.	11	ACTINAMIRIS	ACTINOMERIS	A	Ac	Act	s	is	ris
+1391307	Actinophlebia	C.Presl	13	ACTINAPLIBA	ACTINOPHLEBIA	A	Ac	Act	a	ia	bia
+1391308	Actinophloeus	Becc.	13	ACTINAPLIS	ACTINOPHLOEUS	A	Ac	Act	s	us	eus
+1391309	Actinorhytis	"H.Wendl. & Drude"	12	ACTINARITIS	ACTINORHYTIS	A	Ac	Act	s	is	tis
+1391310	Actinoschoenus	Benth.	14	ACTINASINIS	ACTINOSCHOENUS	A	Ac	Act	s	us	nus
+1391311	Actinoscirpus	"(Ohwi) R.W.Haines & Lye"	13	ACTINASIRPIS	ACTINOSCIRPUS	A	Ac	Act	s	us	pus
+1391312	Actinoseris	"(Endl.) Cabrera"	11	ACTINASIRIS	ACTINOSERIS	A	Ac	Act	s	is	ris
+1391313	Actinospermum	Elliott	13	ACTINASPIRMIM	ACTINOSPERMUM	A	Ac	Act	m	um	mum
+1391314	Actinospora	Turcz.	11	ACTINASPARA	ACTINOSPORA	A	Ac	Act	a	ra	ora
+1391315	Actinostachys	Wall.	13	ACTINASTACIS	ACTINOSTACHYS	A	Ac	Act	s	ys	hys
+1391316	Actinostemma	Griff.	12	ACTINASTIMA	ACTINOSTEMMA	A	Ac	Act	a	ma	mma
+1391317	Actinostemon	"Mart. ex Klotzsch"	12	ACTINASTIMAN	ACTINOSTEMON	A	Ac	Act	n	on	mon
+1391318	Actinostrobus	Miq.	13	ACTINASTRABIS	ACTINOSTROBUS	A	Ac	Act	s	us	bus
+1391319	Actinothuidium	Broth.	14	ACTINATIDIM	ACTINOTHUIDIUM	A	Ac	Act	m	um	ium
+1391320	Actinotus	Labill.	9	ACTINATIS	ACTINOTUS	A	Ac	Act	s	us	tus
+1391321	Acuan	Medik.	5	ACIAN	ACUAN	A	Ac	Acu	n	an	uan
+1391322	Acuania	Kuntze	7	ACIANA	ACUANIA	A	Ac	Acu	a	ia	nia
+1391323	Acuba	Link	5	ACIBA	ACUBA	A	Ac	Acu	a	ba	uba
+1391324	Acunaeanthus	"Borhidi, Jarai-Koml. & Moncada"	12	ACINANTIS	ACUNAEANTHUS	A	Ac	Acu	s	us	hus
+1391325	Acustelma	Baill.	9	ACISTILMA	ACUSTELMA	A	Ac	Acu	a	ma	lma
+1391326	Acuston	Raf.	7	ACISTAN	ACUSTON	A	Ac	Acu	n	on	ton
+1391327	Acystopteris	Nakai	12	ACISTAPTIRIS	ACYSTOPTERIS	A	Ac	Acy	s	is	ris
+1391328	Ada	Lindl.	3	ADA	ADA	A	Ad	Ada	a	da	Ada
+1391329	Adamantinia	"Van den Berg & C.N.GonÃ§."	11	ADAMANTINA	ADAMANTINIA	A	Ad	Ada	a	ia	nia
+1391330	Adamea	Jacq.-FÃ©l.	6	ADAMIA	ADAMEA	A	Ad	Ada	a	ea	mea
+1391331	Adamia	Wall.	6	ADAMA	ADAMIA	A	Ad	Ada	a	ia	mia
+1391332	Adansonia	L.	9	ADANSANA	ADANSONIA	A	Ad	Ada	a	ia	nia
+1391333	Addisonia	Rusby	9	ADISANA	ADDISONIA	A	Ad	Add	a	ia	nia
+1391334	Adectum	Link	7	ADICTIM	ADECTUM	A	Ad	Ade	m	um	tum
+1391335	Adelanthus	Endl.	10	ADILANTIS	ADELANTHUS	A	Ad	Ade	s	us	hus
+1391336	Adelbertia	Meisn.	10	ADILBIRTA	ADELBERTIA	A	Ad	Ade	a	ia	tia
+1391337	Adelia	L.	6	ADILA	ADELIA	A	Ad	Ade	a	ia	lia
+1391338	Adelmeria	Ridl.	9	ADILMIRA	ADELMERIA	A	Ad	Ade	a	ia	ria
+1391339	Adelobotrys	DC.	11	ADILABATRIS	ADELOBOTRYS	A	Ad	Ade	s	ys	rys
+1391340	Adelocaryum	Brand	11	ADILACARIM	ADELOCARYUM	A	Ad	Ade	m	um	yum
+1391341	Adelocolia	Mitt.	10	ADILACALA	ADELOCOLIA	A	Ad	Ade	a	ia	lia
+1391342	Adeloda	Raf.	7	ADILADA	ADELODA	A	Ad	Ade	a	da	oda
+1391343	Adelodypsis	Becc.	11	ADILADIPSIS	ADELODYPSIS	A	Ad	Ade	s	is	sis
+1391344	Adelonema	Schott	9	ADILANIMA	ADELONEMA	A	Ad	Ade	a	ma	ema
+1391345	Adelonenga	"(Becc.) Hook.f."	10	ADILANINGA	ADELONENGA	A	Ad	Ade	a	ga	nga
+1391346	Adelostemma	Hook.f.	11	ADILASTIMA	ADELOSTEMMA	A	Ad	Ade	a	ma	mma
+1391347	Adelostigma	Steetz	11	ADILASTIGMA	ADELOSTIGMA	A	Ad	Ade	a	ma	gma
+1391348	Adelothecium	Mitt.	12	ADILATICIM	ADELOTHECIUM	A	Ad	Ade	m	um	ium
+1391349	Adelphia	W.R.Anderson	8	ADILPA	ADELPHIA	A	Ad	Ade	a	ia	hia
+1391350	Adenacanthus	Nees	12	ADINACANTIS	ADENACANTHUS	A	Ad	Ade	s	us	hus
+1391351	Adenachaena	DC.	11	ADINACINA	ADENACHAENA	A	Ad	Ade	a	na	ena
+1391352	Adenandra	Willd.	9	ADINANDRA	ADENANDRA	A	Ad	Ade	a	ra	dra
+1391353	Adenanthe	"Maguire, Steyerm. & Wurdack"	9	ADINANTI	ADENANTHE	A	Ad	Ade	e	he	the
+1391354	Adenanthellum	B.Nord.	13	ADINANTILIM	ADENANTHELLUM	A	Ad	Ade	m	um	lum
+1391355	Adenanthera	L.	11	ADINANTIRA	ADENANTHERA	A	Ad	Ade	a	ra	era
+1391356	Adenanthos	Labill.	10	ADINANTAS	ADENANTHOS	A	Ad	Ade	s	os	hos
+1391357	Adenarake	"Maguire & Wurdack"	9	ADINARACI	ADENARAKE	A	Ad	Ade	e	ke	ake
+1391358	Adenaria	Kunth	8	ADINARA	ADENARIA	A	Ad	Ade	a	ia	ria
+1391359	Adenarium	Raf.	9	ADINARIM	ADENARIUM	A	Ad	Ade	m	um	ium
+1391360	Adeneleuterophora	Barb.Rodr.	17	ADINILITIRAPARA	ADENELEUTEROPHORA	A	Ad	Ade	a	ra	ora
+1391361	Adenema	G.Don	7	ADINIMA	ADENEMA	A	Ad	Ade	a	ma	ema
+1391362	Adenia	Forssk.	6	ADINA	ADENIA	A	Ad	Ade	a	ia	nia
+1391363	Adenium	"Roem. & Schult."	7	ADINIM	ADENIUM	A	Ad	Ade	m	um	ium
+1391364	Adenoa	Arbo	6	ADINA	ADENOA	A	Ad	Ade	a	oa	noa
+1391365	Adenobasium	C.Presl	11	ADINABASIM	ADENOBASIUM	A	Ad	Ade	m	um	ium
+1391366	Adenocalymma	"Mart. ex Meisn."	12	ADINACALIMA	ADENOCALYMMA	A	Ad	Ade	a	ma	mma
+1391367	Adenocalyx	"Bertero ex Kunth"	10	ADINACALIX	ADENOCALYX	A	Ad	Ade	x	yx	lyx
+1391368	Adenocarpus	DC.	11	ADINACARPIS	ADENOCARPUS	A	Ad	Ade	s	us	pus
+1391369	Adenocaulon	Hook.	11	ADINACAILAN	ADENOCAULON	A	Ad	Ade	n	on	lon
+1391370	Adenochilus	Hook.f.	11	ADINACILIS	ADENOCHILUS	A	Ad	Ade	s	us	lus
+1391371	Adenochlaena	"Boiss. ex Baill."	12	ADINACLINA	ADENOCHLAENA	A	Ad	Ade	a	na	ena
+1391372	Adenocline	Turcz.	10	ADINACLINI	ADENOCLINE	A	Ad	Ade	e	ne	ine
+1391373	Adenocritonia	"R.M.King & H.Rob."	13	ADINACRITANA	ADENOCRITONIA	A	Ad	Ade	a	ia	nia
+1391374	Adenodaphne	S.Moore	11	ADINADAPNI	ADENODAPHNE	A	Ad	Ade	e	ne	hne
+1391375	Adenoderris	J.Sm.	11	ADINADIRIS	ADENODERRIS	A	Ad	Ade	s	is	ris
+1391376	Adenodolichos	Harms	13	ADINADALICAS	ADENODOLICHOS	A	Ad	Ade	s	os	hos
+1391377	Adenoglossa	B.Nord.	11	ADINAGLASA	ADENOGLOSSA	A	Ad	Ade	a	sa	ssa
+1391378	Adenogramma	Rchb.	11	ADINAGRAMA	ADENOGRAMMA	A	Ad	Ade	a	ma	mma
+1391379	Adenola	Raf.	7	ADINALA	ADENOLA	A	Ad	Ade	a	la	ola
+1391380	Adenolinum	Rchb.	10	ADINALINIM	ADENOLINUM	A	Ad	Ade	m	um	num
+1391381	Adenolisianthus	Gilg	15	ADINALISANTIS	ADENOLISIANTHUS	A	Ad	Ade	s	us	hus
+1391382	Adenolobus	"(Harv. ex Benth.) Torre & Hillc."	10	ADINALABIS	ADENOLOBUS	A	Ad	Ade	s	us	bus
+1391383	Adenoncos	Blume	9	ADINANCAS	ADENONCOS	A	Ad	Ade	s	os	cos
+1391384	Adenonema	Bunge	9	ADINANIMA	ADENONEMA	A	Ad	Ade	a	ma	ema
+1391385	Adenoon	Dalzell	7	ADINAN	ADENOON	A	Ad	Ade	n	on	oon
+1391386	Adenopappus	Benth.	11	ADINAPAPIS	ADENOPAPPUS	A	Ad	Ade	s	us	pus
+1391387	Adenopeltis	Bertero	11	ADINAPILTIS	ADENOPELTIS	A	Ad	Ade	s	is	tis
+1391388	Adenophaedra	MÃ¼ll.Arg.	12	ADINAPIDRA	ADENOPHAEDRA	A	Ad	Ade	a	ra	dra
+1391389	Adenophora	Fisch.	10	ADINAPARA	ADENOPHORA	A	Ad	Ade	a	ra	ora
+1391390	Adenophorus	Gaudich.	11	ADINAPARIS	ADENOPHORUS	A	Ad	Ade	s	us	rus
+1391391	Adenophyllum	Pers.	12	ADINAPILIM	ADENOPHYLLUM	A	Ad	Ade	m	um	lum
+1391392	Adenoplea	Radlk.	9	ADINAPLIA	ADENOPLEA	A	Ad	Ade	a	ea	lea
+1391393	Adenoplusia	Radlk.	11	ADINAPLISA	ADENOPLUSIA	A	Ad	Ade	a	ia	sia
+1391394	Adenopodia	C.Presl	10	ADINAPADA	ADENOPODIA	A	Ad	Ade	a	ia	dia
+1391395	Adenopogon	Welw.	10	ADINAPAGAN	ADENOPOGON	A	Ad	Ade	n	on	gon
+1391396	Adenoporces	Small	11	ADINAPARCIS	ADENOPORCES	A	Ad	Ade	s	es	ces
+1391397	Adenopus	Benth.	8	ADINAPIS	ADENOPUS	A	Ad	Ade	s	us	pus
+1391398	Adenorachis	"(DC.) Nieuwl."	11	ADINARACIS	ADENORACHIS	A	Ad	Ade	s	is	his
+1391399	Adenorandia	C.Vermoesen	11	ADINARANDA	ADENORANDIA	A	Ad	Ade	a	ia	dia
+1391400	Adenosacme	"Wall. ex Miq."	10	ADINASACMI	ADENOSACME	A	Ad	Ade	e	me	cme
+1391401	Adenosciadium	H.Wolff	13	ADINASADIM	ADENOSCIADIUM	A	Ad	Ade	m	um	ium
+1391402	Adenosma	R.Br.	8	ADINASMA	ADENOSMA	A	Ad	Ade	a	ma	sma
+1391403	Adenosolen	DC.	10	ADINASALIN	ADENOSOLEN	A	Ad	Ade	n	en	len
+1391404	Adenostachya	Bremek.	12	ADINASTACIA	ADENOSTACHYA	A	Ad	Ade	a	ya	hya
+1391405	Adenostegia	Benth.	11	ADINASTIGA	ADENOSTEGIA	A	Ad	Ade	a	ia	gia
+1391406	Adenostemma	"J.R.Forst. & G.Forst."	11	ADINASTIMA	ADENOSTEMMA	A	Ad	Ade	a	ma	mma
+1391407	Adenostephanus	Klotzsch	14	ADINASTIPANIS	ADENOSTEPHANUS	A	Ad	Ade	s	us	nus
+1391408	Adenostoma	"Hook. & Arn."	10	ADINASTAMA	ADENOSTOMA	A	Ad	Ade	a	ma	oma
+1391409	Adenostyles	Cass.	11	ADINASTILIS	ADENOSTYLES	A	Ad	Ade	s	es	les
+1391410	Adenostylis	Blume	11	ADINASTILIS	ADENOSTYLIS	A	Ad	Ade	s	is	lis
+1391411	Adenostylium	Rchb.f.	12	ADINASTILIM	ADENOSTYLIUM	A	Ad	Ade	m	um	ium
+1391412	Adenothamnus	D.D.Keck	12	ADINATAMNIS	ADENOTHAMNUS	A	Ad	Ade	s	us	nus
+1391413	Adesmia	DC.	7	ADISMA	ADESMIA	A	Ad	Ade	a	ia	mia
+1391414	Adatoda	Mill.	7	ADATADA	ADATODA	A	Ad	Ada	a	da	oda
+1391415	Adianthum	Burm.f.	9	ADANTIM	ADIANTHUM	A	Ad	Adi	m	um	hum
+1391416	Adiantopsis	FÃ©e	11	ADANTAPSIS	ADIANTOPSIS	A	Ad	Adi	s	is	sis
+1391417	Adiantum	L.	8	ADANTIM	ADIANTUM	A	Ad	Adi	m	um	tum
+1391418	Adicea	Raf.	6	ADICIA	ADICEA	A	Ad	Adi	a	ea	cea
+1391419	Adike	Raf.	5	ADICI	ADIKE	A	Ad	Adi	e	ke	ike
+1391420	Adina	Salisb.	5	ADINA	ADINA	A	Ad	Adi	a	na	ina
+1391421	Adinandra	Jack	9	ADINANDRA	ADINANDRA	A	Ad	Adi	a	ra	dra
+1391422	Adinandrella	Exell	12	ADINANDRILA	ADINANDRELLA	A	Ad	Adi	a	la	lla
+1391423	Adinauclea	Ridsdale	10	ADINAICLIA	ADINAUCLEA	A	Ad	Adi	a	ea	lea
+1391424	Adipera	Raf.	7	ADIPIRA	ADIPERA	A	Ad	Adi	a	ra	era
+1391425	Adiscanthus	Ducke	11	ADISANTIS	ADISCANTHUS	A	Ad	Adi	s	us	hus
+1391426	Adlumia	"Raf. ex DC."	7	ADLIMA	ADLUMIA	A	Ad	Adl	a	ia	mia
+1391427	Adnaria	Raf.	7	ADNARA	ADNARIA	A	Ad	Adn	a	ia	ria
+1391428	Adoketon	Raf.	8	ADACITAN	ADOKETON	A	Ad	Ado	n	on	ton
+1391429	Adolia	Lam.	6	ADALA	ADOLIA	A	Ad	Ado	a	ia	lia
+1391430	Adolphia	Meisn.	8	ADALPA	ADOLPHIA	A	Ad	Ado	a	ia	hia
+1391431	Adonanthe	Spach	9	ADANANTI	ADONANTHE	A	Ad	Ado	e	he	the
+1391432	Adonidia	Becc.	8	ADANIDA	ADONIDIA	A	Ad	Ado	a	ia	dia
+1391433	Adonis	L.	6	ADANIS	ADONIS	A	Ad	Ado	s	is	nis
+1391434	Adopogon	Neck.	8	ADAPAGAN	ADOPOGON	A	Ad	Ado	n	on	gon
+1391435	Adorium	Raf.	7	ADARIM	ADORIUM	A	Ad	Ado	m	um	ium
+1391436	Adoxa	L.	5	ADAXA	ADOXA	A	Ad	Ado	a	xa	oxa
+1391437	Adrastaea	DC.	9	ADRASTA	ADRASTAEA	A	Ad	Adr	a	ea	aea
+1391438	Adriana	Gaudich.	7	ADRANA	ADRIANA	A	Ad	Adr	a	na	ana
+1391439	Adromischus	Lem.	11	ADRAMISIS	ADROMISCHUS	A	Ad	Adr	s	us	hus
+1391440	Adrorhizon	Hook.f.	10	ADRARISAN	ADRORHIZON	A	Ad	Adr	n	on	zon
+1391441	Adyseton	Adans.	8	ADISITAN	ADYSETON	A	Ad	Ady	n	on	ton
+1391442	Aechmandra	Arn.	10	ECMANDRA	AECHMANDRA	A	Ae	Aec	a	ra	dra
+1391443	Aechmea	"Ruiz & Pav."	7	ECMIA	AECHMEA	A	Ae	Aec	a	ea	mea
+1391444	Aechmophora	"Spreng. ex Steud."	11	ECMAPARA	AECHMOPHORA	A	Ae	Aec	a	ra	ora
+1391445	"x Aechopsis"	D.Butcher	11	"Z ECAPSA"	"X AECHOPSIS"	x	"x "	"x A"	s	is	sis
+1391446	Aedesia	O.Hoffm.	7	EDISA	AEDESIA	A	Ae	Aed	a	ia	sia
+1391447	Aegialina	Schult.	9	EGALINA	AEGIALINA	A	Ae	Aeg	a	na	ina
+1391448	Aegialitis	R.Br.	10	EGALITIS	AEGIALITIS	A	Ae	Aeg	s	is	tis
+1391449	Aegialophila	"Boiss. & Heldr."	12	EGALAPILA	AEGIALOPHILA	A	Ae	Aeg	a	la	ila
+1391450	Aegiceras	Gaertn.	9	EGICIRAS	AEGICERAS	A	Ae	Aeg	s	as	ras
+1391451	Aegilops	L.	8	EGILAPS	AEGILOPS	A	Ae	Aeg	s	ps	ops
+1391452	Aegilotrichum	"R.Wagner ex Tscherm.-Seys."	13	EGILATRICIM	AEGILOTRICHUM	A	Ae	Aeg	m	um	hum
+1391453	Aegilotriticum	P.Fourn.	14	EGILATRITICIM	AEGILOTRITICUM	A	Ae	Aeg	m	um	cum
+1391454	Aeginetia	L.	9	EGINITA	AEGINETIA	A	Ae	Aeg	a	ia	tia
+1391455	Aegiphila	Jacq.	9	EGIPILA	AEGIPHILA	A	Ae	Aeg	a	la	ila
+1391456	Aegle	CorrÃªa	5	EGLI	AEGLE	A	Ae	Aeg	e	le	gle
+1391457	Aeglopsis	Swingle	9	EGLAPSIS	AEGLOPSIS	A	Ae	Aeg	s	is	sis
+1391458	Aegochloa	Benth.	9	EGACLA	AEGOCHLOA	A	Ae	Aeg	a	oa	loa
+1391459	Aegokeras	Raf.	9	EGACIRAS	AEGOKERAS	A	Ae	Aeg	s	as	ras
+1391460	Aegonychon	Gray	10	EGANICAN	AEGONYCHON	A	Ae	Aeg	n	on	hon
+1391461	Aegopodium	L.	10	EGAPADIM	AEGOPODIUM	A	Ae	Aeg	m	um	ium
+1391462	Aegopogon	"Humb. & Bonpl. ex Willd."	9	EGAPAGAN	AEGOPOGON	A	Ae	Aeg	n	on	gon
+1391463	Aegopordon	Boiss.	10	EGAPARDAN	AEGOPORDON	A	Ae	Aeg	n	on	don
+1391464	Aelbroeckia	"De Moor"	11	ELBRICA	AELBROECKIA	A	Ae	Ael	a	ia	kia
+1391465	Aellenia	Ulbr.	8	ELINA	AELLENIA	A	Ae	Ael	a	ia	nia
+1391466	Aeluropus	Trin.	9	ELIRAPIS	AELUROPUS	A	Ae	Ael	s	us	pus
+1391467	Aenhenrya	Gopalan	9	ENINRIA	AENHENRYA	A	Ae	Aen	a	ya	rya
+1391468	Aenictophyton	A.T.Lee	13	ENICTAPITAN	AENICTOPHYTON	A	Ae	Aen	n	on	ton
+1391469	Aenigmatanthera	W.R.Anderson	15	ENIGMATANTIRA	AENIGMATANTHERA	A	Ae	Aen	a	ra	era
+1391470	Aenigmopteris	Holttum	13	ENIGMAPTIRIS	AENIGMOPTERIS	A	Ae	Aen	s	is	ris
+1391471	Aeolanthus	Mart.	10	EALANTIS	AEOLANTHUS	A	Ae	Aeo	s	us	hus
+1391472	Aeollanthus	"Mart. ex Spreng."	11	EALANTIS	AEOLLANTHUS	A	Ae	Aeo	s	us	hus
+1391473	Aeonia	Lindl.	6	EANA	AEONIA	A	Ae	Aeo	a	ia	nia
+1391474	Aeonichryson	NULL	12	EANICRISAN	AEONICHRYSON	A	Ae	Aeo	n	on	son
+1391475	Aeoniopsis	Rech.f.	10	EANIAPSIS	AEONIOPSIS	A	Ae	Aeo	s	is	sis
+1391476	Aeonium	"Webb & Berthel."	7	EANIM	AEONIUM	A	Ae	Aeo	m	um	ium
+1391477	Aequatoriella	Touw	13	EQIATARILA	AEQUATORIELLA	A	Ae	Aeq	a	la	lla
+1391478	Aequatorium	B.Nord.	11	EQIATARIM	AEQUATORIUM	A	Ae	Aeq	m	um	ium
+1391479	Aerangis	"Rchb. f."	8	ERANGIS	AERANGIS	A	Ae	Aer	s	is	gis
+1391480	Aeranthes	Lindl.	9	ERANTIS	AERANTHES	A	Ae	Aer	s	es	hes
+1391481	Aeranthus	Rchb.f.	9	ERANTIS	AERANTHUS	A	Ae	Aer	s	us	hus
+1391482	Aeria	O.F.Cook	5	ERA	AERIA	A	Ae	Aer	a	ia	ria
+1391483	Aerides	Lour.	7	ERIDIS	AERIDES	A	Ae	Aer	s	es	des
+1391484	Aeridostachya	"(Hook.f.) Brieger"	13	ERIDASTACIA	AERIDOSTACHYA	A	Ae	Aer	a	ya	hya
+1391485	Aeridovanda	Coleman	11	ERIDAVANDA	AERIDOVANDA	A	Ae	Aer	a	da	nda
+1391486	Aerobryidium	"M.Fleisch. ex Broth."	12	ERABRIDIM	AEROBRYIDIUM	A	Ae	Aer	m	um	ium
+1391487	Aerobryopsis	M.Fleisch.	12	ERABRIAPSIS	AEROBRYOPSIS	A	Ae	Aer	s	is	sis
+1391488	Aerobryum	"Dozy & Molk."	9	ERABRIM	AEROBRYUM	A	Ae	Aer	m	um	yum
+1391489	Aerolindigia	M.Menzel	12	ERALINDIGA	AEROLINDIGIA	A	Ae	Aer	a	ia	gia
+1391490	Aerva	Forssk.	5	ERVA	AERVA	A	Ae	Aer	a	va	rva
+1391491	Aeschrion	Vell.	9	ESRIAN	AESCHRION	A	Ae	Aes	n	on	ion
+1391492	Aeschynanthus	Jack	13	ESINANTIS	AESCHYNANTHUS	A	Ae	Aes	s	us	hus
+1391493	Aeschynomene	L.	12	ESINAMINI	AESCHYNOMENE	A	Ae	Aes	e	ne	ene
+1391494	Aesculus	L.	8	ESILIS	AESCULUS	A	Ae	Aes	s	us	lus
+1391495	Aetanthus	"(Eichler) Engl."	9	ETANTIS	AETANTHUS	A	Ae	Aet	s	us	hus
+1391496	Aetheilema	R.Br.	10	ETILIMA	AETHEILEMA	A	Ae	Aet	a	ma	ema
+1391497	Aetheolaena	Cass.	11	ETIALINA	AETHEOLAENA	A	Ae	Aet	a	na	ena
+1391498	Aetheolirion	Forman	12	ETIALIRIAN	AETHEOLIRION	A	Ae	Aet	n	on	ion
+1391499	Aetheopappus	Cass.	12	ETIAPAPIS	AETHEOPAPPUS	A	Ae	Aet	s	us	pus
+1391500	Aetheorhiza	Cass.	11	ETIARISA	AETHEORHIZA	A	Ae	Aet	a	za	iza
+1391501	Aetheorhyncha	Dressler	13	ETIARINCA	AETHEORHYNCHA	A	Ae	Aet	a	ha	cha
+1391502	Aethephyllum	N.E.Br.	12	ETIPILIM	AETHEPHYLLUM	A	Ae	Aet	m	um	lum
+1391503	Aetheria	Endl.	8	ETIRA	AETHERIA	A	Ae	Aet	a	ia	ria
+1391504	Aethionema	W.T.Aiton	10	ETIANIMA	AETHIONEMA	A	Ae	Aet	a	ma	ema
+1391505	Aethusa	L.	7	ETISA	AETHUSA	A	Ae	Aet	a	sa	usa
+1391506	Aetopteron	"Ehrh. ex House"	10	ETAPTIRAN	AETOPTERON	A	Ae	Aet	n	on	ron
+1391507	Aetoxylon	"(Airy Shaw) Airy Shaw"	9	ETAXILAN	AETOXYLON	A	Ae	Aet	n	on	lon
+1391508	Aextoxicon	"Ruiz & Pav."	10	EXTAXICAN	AEXTOXICON	A	Ae	Aex	n	on	con
+1391509	Affonsea	A.St.-Hil.	8	AFANSIA	AFFONSEA	A	Af	Aff	a	ea	sea
+1391510	Afgekia	Craib	7	AFGICA	AFGEKIA	A	Af	Afg	a	ia	kia
+1391511	Afraegle	Engl.	8	AFRIGLI	AFRAEGLE	A	Af	Afr	e	le	gle
+1391512	Afrafzelia	Pierre	10	AFRAFSILA	AFRAFZELIA	A	Af	Afr	a	ia	lia
+1391513	Aframmi	C.Norman	7	AFRAMI	AFRAMMI	A	Af	Afr	i	mi	mmi
+1391514	Aframomum	K.Schum.	9	AFRAMAMIM	AFRAMOMUM	A	Af	Afr	m	um	mum
+1391515	Afraurantium	A.Chev.	12	AFRAIRANTIM	AFRAURANTIUM	A	Af	Afr	m	um	ium
+1391516	Afrobrunnichia	"Hutch. & Dalziel"	14	AFRABRINICA	AFROBRUNNICHIA	A	Af	Afr	a	ia	hia
+1391517	Afrocalathea	K.Schum.	12	AFRACALATIA	AFROCALATHEA	A	Af	Afr	a	ea	hea
+1391518	Afrocanthium	"(Bridson) Lantz & B.Bremer"	12	AFRACANTIM	AFROCANTHIUM	A	Af	Afr	m	um	ium
+1391519	Afrocarpus	"(J.Buchholz & N.E.Gray) C.N.Page"	10	AFRACARPIS	AFROCARPUS	A	Af	Afr	s	us	pus
+1391520	Afrodaphne	Stapf	10	AFRADAPNI	AFRODAPHNE	A	Af	Afr	e	ne	hne
+1391521	Afrofittonia	Lindau	12	AFRAFITANA	AFROFITTONIA	A	Af	Afr	a	ia	nia
+1391522	Afroguatteria	Boutique	13	AFRAGIATIRA	AFROGUATTERIA	A	Af	Afr	a	ia	ria
+1391523	Afrolicania	Mildbr.	11	AFRALICANA	AFROLICANIA	A	Af	Afr	a	ia	nia
+1391524	Afroligusticum	C.Norman	14	AFRALIGISTICIM	AFROLIGUSTICUM	A	Af	Afr	m	um	cum
+1391525	Afrolimon	Lincz.	9	AFRALIMAN	AFROLIMON	A	Af	Afr	n	on	mon
+1391526	Afromendoncia	"Gilg ex Lindau"	13	AFRAMINDANCA	AFROMENDONCIA	A	Af	Afr	a	ia	cia
+1391527	Afropteris	Alston	10	AFRAPTIRIS	AFROPTERIS	A	Af	Afr	s	is	ris
+1391528	Afrormosia	Harms	10	AFRARMASA	AFRORMOSIA	A	Af	Afr	a	ia	sia
+1391529	Afrosciadium	P.J.D.Winter	12	AFRASADIM	AFROSCIADIUM	A	Af	Afr	m	um	ium
+1391530	Afrosersalisia	A.Chev.	14	AFRASIRSALISA	AFROSERSALISIA	A	Af	Afr	a	ia	sia
+1391531	Afrosison	H.Wolff	9	AFRASISAN	AFROSISON	A	Af	Afr	n	on	son
+1391532	Afrostyrax	"Perkins & Gilg"	10	AFRASTIRAX	AFROSTYRAX	A	Af	Afr	x	ax	rax
+1391533	Afrothismia	Schltr.	11	AFRATISMA	AFROTHISMIA	A	Af	Afr	a	ia	mia
+1391534	Afrotrewia	"Pax & K.Hoffm."	10	AFRATRIWA	AFROTREWIA	A	Af	Afr	a	ia	wia
+1391535	Afrotrichloris	Chiov.	14	AFRATRICLARIS	AFROTRICHLORIS	A	Af	Afr	s	is	ris
+1391536	Afrotrilepis	"(Gilly) J.Raynal"	12	AFRATRILIPIS	AFROTRILEPIS	A	Af	Afr	s	is	pis
+1391537	Afrotysonia	Rauschert	11	AFRATISANA	AFROTYSONIA	A	Af	Afr	a	ia	nia
+1391538	Afrovivella	A.Berger	11	AFRAVIVILA	AFROVIVELLA	A	Af	Afr	a	la	lla
+1391539	Afzelia	Sm.	7	AFSILA	AFZELIA	A	Af	Afz	a	ia	lia
+1391540	Agalinis	Raf.	8	AGALINIS	AGALINIS	A	Ag	Aga	s	is	nis
+1391541	Agallochum	Lam.	10	AGALACIM	AGALLOCHUM	A	Ag	Aga	m	um	hum
+1391542	Agalma	Miq.	6	AGALMA	AGALMA	A	Ag	Aga	a	ma	lma
+1391543	Agalmyla	Blume	8	AGALMILA	AGALMYLA	A	Ag	Aga	a	la	yla
+1391544	Agaloma	Raf.	7	AGALAMA	AGALOMA	A	Ag	Aga	a	ma	oma
+1391545	Aganippea	"Moc. & SessÃ© ex DC."	9	AGANIPIA	AGANIPPEA	A	Ag	Aga	a	ea	pea
+1391546	Aganisia	Lindl.	8	AGANISA	AGANISIA	A	Ag	Aga	a	ia	sia
+1391547	Aganonerion	"Pierre & Spire"	11	AGANANIRIAN	AGANONERION	A	Ag	Aga	n	on	ion
+1391548	Aganope	Miq.	7	AGANAPI	AGANOPE	A	Ag	Aga	e	pe	ope
+1391549	Aganosma	G.Don	8	AGANASMA	AGANOSMA	A	Ag	Aga	a	ma	sma
+1391550	Agapanthus	L'HÃ©r.	10	AGAPANTIS	AGAPANTHUS	A	Ag	Aga	s	us	hus
+1391551	Agapetes	G.Don	8	AGAPITIS	AGAPETES	A	Ag	Aga	s	es	tes
+1391552	Agarista	D.Don	8	AGARISTA	AGARISTA	A	Ag	Aga	a	ta	sta
+1391553	Agastache	"Clayton ex Gronov."	9	AGASTACI	AGASTACHE	A	Ag	Aga	e	he	che
+1391554	Agastachys	R.Br.	10	AGASTACIS	AGASTACHYS	A	Ag	Aga	s	ys	hys
+1391555	Agasthiyamalaia	"S.Rajkumar & Janarth."	15	AGASTIAMALA	AGASTHIYAMALAIA	A	Ag	Aga	a	ia	aia
+1391556	Agasyllis	Spreng.	9	AGASILIS	AGASYLLIS	A	Ag	Aga	s	is	lis
+1391557	Agatea	A.Gray	6	AGATIA	AGATEA	A	Ag	Aga	a	ea	tea
+1391558	Agathaea	Cass.	8	AGATA	AGATHAEA	A	Ag	Aga	a	ea	aea
+1391559	Agathelpis	Choisy	10	AGATILPIS	AGATHELPIS	A	Ag	Aga	s	is	pis
+1391560	Agathis	Salisb.	7	AGATIS	AGATHIS	A	Ag	Aga	s	is	his
+1391561	Agathisanthemum	Klotzsch	15	AGATISANTIMIM	AGATHISANTHEMUM	A	Ag	Aga	m	um	mum
+1391562	Agathophora	"(Fenzl) Bunge"	11	AGATAPARA	AGATHOPHORA	A	Ag	Aga	a	ra	ora
+1391563	Agathophyllum	Juss.	13	AGATAPILIM	AGATHOPHYLLUM	A	Ag	Aga	m	um	lum
+1391564	Agathosma	Willd.	9	AGATASMA	AGATHOSMA	A	Ag	Aga	a	ma	sma
+1391565	Agathotes	D.Don	9	AGATATIS	AGATHOTES	A	Ag	Aga	s	es	tes
+1391566	Agathyrsus	D.Don	10	AGATIRSIS	AGATHYRSUS	A	Ag	Aga	s	us	sus
+1391567	Agati	Adans.	5	AGATI	AGATI	A	Ag	Aga	i	ti	ati
+1391568	Agation	Brongn.	7	AGATIAN	AGATION	A	Ag	Aga	n	on	ion
+1391569	Agauria	"Benth. & Hook.f."	7	AGAIRA	AGAURIA	A	Ag	Aga	a	ia	ria
+1391570	Agave	L.	5	AGAVI	AGAVE	A	Ag	Aga	e	ve	ave
+1391571	Agdestis	"Moc. & SessÃ© ex DC."	8	AGDISTIS	AGDESTIS	A	Ag	Agd	s	is	tis
+1391572	Agelaea	"Sol. ex Planch."	7	AGILA	AGELAEA	A	Ag	Age	a	ea	aea
+1391573	Agelanthus	Tiegh.	10	AGILANTIS	AGELANTHUS	A	Ag	Age	s	us	hus
+1391574	Agenium	Nees	7	AGINIM	AGENIUM	A	Ag	Age	m	um	ium
+1391575	Ageratella	"A.Gray ex S.Watson"	10	AGIRATILA	AGERATELLA	A	Ag	Age	a	la	lla
+1391576	Ageratina	Spach	9	AGIRATINA	AGERATINA	A	Ag	Age	a	na	ina
+1391577	Ageratinastrum	Mattf.	14	AGIRATINASTRIM	AGERATINASTRUM	A	Ag	Age	m	um	rum
+1391578	Ageratum	L.	8	AGIRATIM	AGERATUM	A	Ag	Age	m	um	tum
+1391579	Ageria	Raf.	6	AGIRA	AGERIA	A	Ag	Age	a	ia	ria
+1391580	Agiabampoa	"Rose ex O.Hoffm."	10	AGABAMPA	AGIABAMPOA	A	Ag	Agi	a	oa	poa
+1391581	Agialida	Kuntze	8	AGALIDA	AGIALIDA	A	Ag	Agi	a	da	ida
+1391582	Agianthus	Greene	9	AGANTIS	AGIANTHUS	A	Ag	Agi	s	us	hus
+1391583	Aglaia	Lour.	6	AGLA	AGLAIA	A	Ag	Agl	a	ia	aia
+1391584	Aglaodorum	Schott	10	AGLADARIM	AGLAODORUM	A	Ag	Agl	m	um	rum
+1391585	Aglaomorpha	Schott	11	AGLAMARPA	AGLAOMORPHA	A	Ag	Agl	a	ha	pha
+1391586	Aglaonaria	NULL	10	AGLANARA	AGLAONARIA	A	Ag	Agl	a	ia	ria
+1391587	Aglaonema	Schott	9	AGLANIMA	AGLAONEMA	A	Ag	Agl	a	ma	ema
+1391588	Aglitheis	Raf.	9	AGLITIS	AGLITHEIS	A	Ag	Agl	s	is	eis
+1391589	Aglossorrhyncha	Schltr.	15	AGLASARINCA	AGLOSSORRHYNCHA	A	Ag	Agl	a	ha	cha
+1391590	Agnesia	"Zuloaga & Judz."	7	AGNISA	AGNESIA	A	Ag	Agn	a	ia	sia
+1391591	Agnirictus	Schwantes	10	AGNIRICTIS	AGNIRICTUS	A	Ag	Agn	s	us	tus
+1391592	Agnistus	G.Don	8	AGNISTIS	AGNISTUS	A	Ag	Agn	s	us	tus
+1391593	Agnorhiza	"(Jeps.) W.A.Weber"	9	AGNARISA	AGNORHIZA	A	Ag	Agn	a	za	iza
+1391594	Agonandra	"Miers ex Benth. & Hook.f."	9	AGANANDRA	AGONANDRA	A	Ag	Ago	a	ra	dra
+1391595	Agonis	"(DC.) Sweet"	6	AGANIS	AGONIS	A	Ag	Ago	s	is	nis
+1391596	Agoseris	Raf.	8	AGASIRIS	AGOSERIS	A	Ag	Ago	s	is	ris
+1391597	Agouticarpa	C.H.Perss.	11	AGAITICARPA	AGOUTICARPA	A	Ag	Ago	a	pa	rpa
+1391598	Agraulus	P.Beauv.	8	AGRAILIS	AGRAULUS	A	Ag	Agr	s	us	lus
+1391599	Agretta	Eckl.	7	AGRITA	AGRETTA	A	Ag	Agr	a	ta	tta
+1391600	Agrianthus	"Mart. ex DC."	10	AGRANTIS	AGRIANTHUS	A	Ag	Agr	s	us	hus
+1391601	Agrimonia	L.	9	AGRIMANA	AGRIMONIA	A	Ag	Agr	a	ia	nia
+1391602	Agriophyllum	"M.Bieb. ex C.A.Mey."	12	AGRIAPILIM	AGRIOPHYLLUM	A	Ag	Agr	m	um	lum
+1391603	Agriphyllum	Juss.	11	AGRIPILIM	AGRIPHYLLUM	A	Ag	Agr	m	um	lum
+1391604	Agrocharis	Hochst.	10	AGRACARIS	AGROCHARIS	A	Ag	Agr	s	is	ris
+1391605	Agroelymus	NULL	10	AGRILIMIS	AGROELYMUS	A	Ag	Agr	s	us	mus
+1391606	Agrohordeum	NULL	11	AGRARDIM	AGROHORDEUM	A	Ag	Agr	m	um	eum
+1391607	Agropogon	P.Fourn.	9	AGRAPAGAN	AGROPOGON	A	Ag	Agr	n	on	gon
+1391608	Agropyrohordeum	NULL	15	AGRAPIRARDIM	AGROPYROHORDEUM	A	Ag	Agr	m	um	eum
+1391609	Agropyron	Gaertn.	9	AGRAPIRAN	AGROPYRON	A	Ag	Agr	n	on	ron
+1391610	Agropyropsis	A.Camus	12	AGRAPIRAPSIS	AGROPYROPSIS	A	Ag	Agr	s	is	sis
+1391611	Agrositanion	NULL	12	AGRASITANIAN	AGROSITANION	A	Ag	Agr	n	on	ion
+1391612	Agrostemma	L.	10	AGRASTIMA	AGROSTEMMA	A	Ag	Agr	a	ma	mma
+1391613	Agrostis	L.	8	AGRASTIS	AGROSTIS	A	Ag	Agr	s	is	tis
+1391614	Agrostistachys	Dalzell	14	AGRASTISTACIS	AGROSTISTACHYS	A	Ag	Agr	s	ys	hys
+1391615	Agrostocrinum	F.Muell.	13	AGRASTACRINIM	AGROSTOCRINUM	A	Ag	Agr	m	um	num
+1391616	Agrostophyllum	Blume	14	AGRASTAPILIM	AGROSTOPHYLLUM	A	Ag	Agr	m	um	lum
+1391617	Agrostopoa	"Davidse, Soreng & P.M.Peterson"	10	AGRASTAPA	AGROSTOPOA	A	Ag	Agr	a	oa	poa
+1391618	Agrotrigia	NULL	10	AGRATRIGA	AGROTRIGIA	A	Ag	Agr	a	ia	gia
+1391619	"x Agrotriticum"	"Cif. & Giacom."	14	"Z AGRATRITICA"	"X AGROTRITICUM"	x	"x "	"x A"	m	um	cum
+1391620	Aguiaria	Ducke	8	AGIARA	AGUIARIA	A	Ag	Agu	a	ia	ria
+1391621	Agyneia	L.	7	AGINIA	AGYNEIA	A	Ag	Agy	a	ia	eia
+1391622	Ahernia	Merr.	7	AIRNA	AHERNIA	A	Ah	Ahe	a	ia	nia
+1391623	Ahouai	Mill.	6	AIAI	AHOUAI	A	Ah	Aho	i	ai	uai
+1391624	Ahzolia	"Standl. & Steyerm."	7	ASALA	AHZOLIA	A	Ah	Ahz	a	ia	lia
+1391625	Aichryson	"Webb & Berthel."	9	AICRISAN	AICHRYSON	A	Ai	Aic	n	on	son
+1391626	Aidema	Ravenna	6	AIDIMA	AIDEMA	A	Ai	Aid	a	ma	ema
+1391627	Aidia	Lour.	5	AIDA	AIDIA	A	Ai	Aid	a	ia	dia
+1391628	Aidiopsis	Tirveng.	9	AIDIAPSIS	AIDIOPSIS	A	Ai	Aid	s	is	sis
+1391629	Aigeiros	Tidestr.	8	AIGIRAS	AIGEIROS	A	Ai	Aig	s	os	ros
+1391630	Ailanthus	Desf.	9	AILANTIS	AILANTHUS	A	Ai	Ail	s	us	hus
+1391631	Ailantopsis	Gagnep.	11	AILANTAPSIS	AILANTOPSIS	A	Ai	Ail	s	is	sis
+1391632	Ailuroschia	Steven	11	AILIRASA	AILUROSCHIA	A	Ai	Ail	a	ia	hia
+1391633	Aimorra	Raf.	7	AIMARA	AIMORRA	A	Ai	Aim	a	ra	rra
+1391634	Ainsliaea	DC.	9	AINSLIA	AINSLIAEA	A	Ai	Ain	a	ea	aea
+1391635	Ainsliea	Kuntze	8	AINSLIA	AINSLIEA	A	Ai	Ain	a	ea	iea
+1391636	Ainsworthia	Boiss.	11	AINSWARTA	AINSWORTHIA	A	Ai	Ain	a	ia	hia
+1391637	Aiouea	Aubl.	6	AIAIA	AIOUEA	A	Ai	Aio	a	ea	uea
+1391638	Aiphanes	Willd.	8	AIPANIS	AIPHANES	A	Ai	Aip	s	es	nes
+1391639	Aira	L.	4	AIRA	AIRA	A	Ai	Air	a	ra	ira
+1391640	Airampoa	FriÄ

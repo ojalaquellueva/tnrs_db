@@ -29,7 +29,7 @@ $sql="
 	parentNameID,
 	scientificName,
 	scientificNameAuthorship,
-	rank,
+	`rank`,
 	nameID_char,
 	taxonUri,
 	lsid,

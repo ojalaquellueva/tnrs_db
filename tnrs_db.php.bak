@@ -90,7 +90,7 @@ if ($use_db_backup) {
 
 // Check basic dependencies are present: directories, files
 // This is currently pretty basic, but can be expanded as needed
-include_once "check_dependencies.inc";
+include_once "check/check_dependencies.inc";
 
 // Checks completed
 // Start timer and connect to mysql
@@ -120,17 +120,32 @@ $dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
 if (!$dbh) die("\r\nCould not connect to database!\r\n");
 
 // Directory of import scripts for this source
-$src_dir = "import_wcvp/";
+$src = "wfo";
+$src_dir = "import_".$src."/";
+$src_suffix = "_".$src;
+$tbl_names_raw = $src . "_raw";
+$tbl_names_raw_dwc = $tbl_names_raw . "_dwc";
 
 // reset the clock for this source
 include $timer_off;
 $resettime = $endtime;
 
+
 include_once $src_dir."import.php";
+exit("STOPPING...\r\nb");
+
 
 ///// END FOR TESTING ONLY
 */
 
+/*
+////// TEMPORARY FOR RESTART ONLY!!!
+// Connect to database
+echo "WARNING: Start of script tnrs_db.php commmented out!\r\n";
+$dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
+if (!$dbh) die("\r\nCould not connect to database!\r\n");
+////// END TEMPORARY FOR RESTART ONLY!!!
+*/
 
 if ($replace_db) {
 	// Open generic connection to MySQL (no database)
@@ -173,7 +188,7 @@ if ($replace_db) {
 // Check that required functions present in target db
 // Install them if missing
 // This step is obviously essential if database has been replaced
-include_once "check_functions.inc";
+include_once "check/check_functions.inc";
 
 ////////////////////////////////////////////////////////////
 // Create/replace backup database if requested
@@ -209,7 +224,6 @@ foreach ($src_array as $src) {
 	$resettime = $endtime;
 
 	include_once $src_dir."import.php";
-		
 	include "prepare_staging/prepare_staging.php";
 	include "load_core_db/load_core_db.php";	
 			
@@ -303,18 +317,20 @@ echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
 // if one or both of these options selected in global_params
 ////////////////////////////////////////////////////////////
 
-if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) {
-	include $timer_off;
-	$resettime = $endtime;
+if ( in_array( "tropicos" ,$src_array ) ) {
+	if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) {
+		include $timer_off;
+		$resettime = $endtime;
 
-	echo "\r\n#############################################\r\n";
+		echo "\r\n#############################################\r\n";
 	
-	include_once "tropicos_fixes/tropicos_fixes.php";
+		include_once "tropicos_fixes/tropicos_fixes.php";
 
-	include $timer_off;
-	$elapsedtime = $endtime - $resettime;
-	$tsecs = round($elapsedtime,2);	
-	echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
+		include $timer_off;
+		$elapsedtime = $endtime - $resettime;
+		$tsecs = round($elapsedtime,2);	
+		echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
+	}
 }
 
 //////////////////////////////////////////////////////////////////

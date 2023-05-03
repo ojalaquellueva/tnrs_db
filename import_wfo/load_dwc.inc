@@ -14,7 +14,7 @@ $sql="
 INSERT INTO `$tbl_names_raw_dwc` (
 nameID_char,
 parentNameID_char,
-rank,
+`rank`,
 family,
 scientificName,
 scientificNameAuthorship,

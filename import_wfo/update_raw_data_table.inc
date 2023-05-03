@@ -32,7 +32,7 @@ echo "Standardizing rank names:\r\n";
 echo "  Setting lower case...";
 $sql="
 UPDATE `$tbl_names_raw` 
-SET rank=LOWER(rank)
+SET `rank`=LOWER(`rank`)
 ;
 ";
 sql_execute_multiple($dbh, $sql);
@@ -41,14 +41,14 @@ echo $done;
 echo "  Standardizing names...";
 $sql="
 UPDATE `$tbl_names_raw` 
-SET rank=
+SET `rank`=
 CASE
-WHEN rank='sp.' THEN 'species'
-WHEN rank='subsp.' OR rank='subsp' THEN 'subspecies'
-WHEN rank='var.' OR rank='var' THEN 'variety'
-WHEN rank='f.' OR rank='form' THEN 'forma'
-WHEN rank='subform' THEN 'subforma'
-ELSE rank
+WHEN `rank`='sp.' THEN 'species'
+WHEN `rank`='subsp.' OR `rank`='subsp' THEN 'subspecies'
+WHEN `rank`='var.' OR `rank`='var' THEN 'variety'
+WHEN `rank`='f.' OR `rank`='form' THEN 'forma'
+WHEN `rank`='subform' THEN 'subforma'
+ELSE `rank`
 END
 ;	
 ";
@@ -78,7 +78,7 @@ END
 -- Next one catches special cases such as species 'Orobanche mutelii f.'
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=NULL
-WHERE rank IN (
+WHERE `rank` IN (
 'family','genus','nothospecies','order','phylum','section','species','subgenus'
 )
 ;
@@ -118,19 +118,19 @@ echo "  Populating missing infraspecificRank...";
 $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='subsp.'
-WHERE rank='subspecies' and infraspecificRank is null
+WHERE `rank`='subspecies' and infraspecificRank is null
 ;
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='fo.'
-WHERE rank='forma' and infraspecificRank is null
+WHERE `rank`='forma' and infraspecificRank is null
 ;
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='var.'
-WHERE rank='variety' and infraspecificRank is null
+WHERE `rank`='variety' and infraspecificRank is null
 ;
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='subvar.'
-WHERE rank='subvariety' and infraspecificRank is null
+WHERE `rank`='subvariety' and infraspecificRank is null
 ;
 
 ";

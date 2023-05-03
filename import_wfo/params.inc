@@ -56,24 +56,24 @@ $base_url_general_search = "http://www.worldfloraonline.org/search?query=";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2021-07-07";	
+$dateAccessed="2022-11-17";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
-$sourceVersion="v.2019.05";
+$sourceVersion="v.2022.07";
 
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2019-05-17";
+$sourceReleaseDate="2022-07-12";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
 // Use as default classification for building taxamatch tables
 // If you set this to true, all other sources will be
 // set to false
-$is_default=false;	
+$is_default=true;	
 
 // Set to 1 if there are any issues/warnings associated with this database
 // For now the further details of the warning are handled by the ui; may
@@ -122,7 +122,7 @@ $replace=true;
 // classification.txt: UTF-8 Unicode text, with very long lines, with CRLF line terminators
 // However, accents are not being rendered correctly in MySQL UTF-8
 // tables. Investigate...
-$fix_chars=true;
+$fix_chars=FALSE;
 
 // set true to delete raw data tables when finished
 $remove_raw_tables=false;
@@ -133,7 +133,7 @@ $remove_raw_tables=false;
 // Setting this param to false will turn off conversion in staging table
 // Corrections are performed on DWC-format raw data table
 // See script 'fix_character_set.inc'
-$fix_chars_curr_source=true;
+$fix_chars_curr_source=FALSE;
 
 // IMPORTANT!
 // Set to TRUE to infer immediate parent taxon of names with no parentID
@@ -169,7 +169,6 @@ $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 // Name of raw data files you will be importing
 $namesfile = "classification.txt";
 //$namesfile = "classification_sample.txt";
-//$namesfile = "classification_sample_big.txt";
 
 // path + file
 $namesfileandpath = $filepath.$namesfile;

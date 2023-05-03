@@ -175,7 +175,7 @@ $sql = "
 	SET
 	ts.infra1=t.infra1,
 	ts.infra1_norank=t.infra1_norank,
-	ts.rank=t.rank,
+	ts.`rank`=t.`rank`,
 	ts.species_infra1=TRIM(CONCAT_WS(' ',t.species_orig,t.infra1)),
 	ts.species_infra1_norank=TRIM(CONCAT_WS(' ',t.species_orig,t.infra1_norank)),
 	ts.species=t.species_orig;

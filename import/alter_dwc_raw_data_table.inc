@@ -23,7 +23,7 @@ $sql="
 	ADD INDEX `".$tbl_names_raw."_acceptedNameID`(acceptedNameID),
 	ADD INDEX (nameID_char),
 	ADD INDEX (parentNameID_char),
-	ADD INDEX (rank),
+	ADD INDEX (`rank`),
 	ADD INDEX (family),
 	ADD INDEX (scientificName),
 	ADD INDEX (scientificNameAuthorship),

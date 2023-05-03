@@ -7,6 +7,6 @@
 
 //$dataDir = "data/";
 $dataDir = $DATA_DIR . "/" . "tropicosFixes";
-$noOpNamesFile="noOpNamesResults.txt";
+$noOpNamesFile="noOpNamesResults_utf8.txt";
 
 ?>

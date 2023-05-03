@@ -5,7 +5,7 @@
 
 echo "  Standardizing trinomial rank indicators:";
 $sql="
-	SELECT DISTINCT `$rank_ind_fld` as rank
+	SELECT DISTINCT `$rank_ind_fld` as `rank`
 	FROM `$tbl_staging`
 	WHERE `$rank_ind_fld` IS NOT NULL;
 ";
@@ -39,7 +39,7 @@ echo "  \r  Standardizing trinomial rank indicators...done\r\n";
 
 echo "  Standardizing quadrinomial rank indicators:";
 $sql="
-	SELECT DISTINCT `$rank_ind_fld2` as rank
+	SELECT DISTINCT `$rank_ind_fld2` as `rank`
 	FROM `$tbl_staging`
 	WHERE `$rank_ind_fld2` IS NOT NULL;
 ";

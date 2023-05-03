@@ -8,7 +8,7 @@ $sql = "INSERT INTO `infra2list`(
 	infra1_orig,
 	infra2,
 	infra2_norank,
-	rank,
+	`rank`,
 	authority
 	)
 	SELECT 

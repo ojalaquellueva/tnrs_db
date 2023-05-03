@@ -20,7 +20,7 @@ $sql="
 	INSERT INTO `$tbl_names_raw` (
 	family,
 	scientificName,
-	rank,
+	`rank`,
 	taxonomicStatus,
 	name_added
 	)
@@ -41,7 +41,7 @@ $sql="
 	UPDATE `$tbl_names_raw` g JOIN `$tbl_names_raw` f
 	ON g.family=f.scientificName
 	SET g.parentNameID=f.nameID
-	WHERE g.rank='genus' AND f.rank='family' 
+	WHERE g.`rank`='genus' AND f.`rank`='family' 
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;	

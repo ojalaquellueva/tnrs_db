@@ -7,6 +7,10 @@
 echo "Correcting source-specific errors...";
 $sql="
 
+DELETE FROM $tbl_names_raw
+WHERE TRIM(taxonID)=''
+;
+
 -- Update conserved families
 -- e.g., 'Compositae' --> 'Asteraceae'
 -- In family field only, scientificName is correct

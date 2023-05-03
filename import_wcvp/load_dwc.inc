@@ -14,7 +14,7 @@ $sql="
 INSERT INTO `$tbl_names_raw_dwc` (
 nameID_char,
 parentNameID_char,
-rank,
+`rank`,
 family,
 scientificName,
 scientificNameAuthorship,
@@ -32,23 +32,23 @@ taxonUri,
 lsid
 )
 SELECT
-`kew_id`,
-`parent_kew_id`,
+`plant_name_id`,
+`parent_plant_name_id`,
 `rank`,
 `family`,
 `taxon_name`,
-`authors`,
-NULL,
+`taxon_authors`,
+`genus_hybrid`,
 `genus`,
-NULL,
+`species_hybrid`,
 `species`,
-NULL,
+`infraspecific_rank`,
 `infraspecies`,
 NULL,
 NULL,
 `taxonomic_status`,
-`accepted_kew_id`,
-CONCAT('$base_url_species',IFNULL(`kew_id`,'')),
+`accepted_plant_name_id`,
+CONCAT('$base_url_species',IFNULL(`powo_id`,'')),
 NULL
 FROM $tbl_names_raw
 ;

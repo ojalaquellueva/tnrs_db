@@ -19,7 +19,7 @@ CREATE TABLE source (
   INDEX source_isHigherClassification(isHigherClassification),
   INDEX source_warning(warning)
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE name (
   nameID INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -69,7 +69,7 @@ CREATE TABLE name (
   INDEX name_infraspecificEpithet2(infraspecificEpithet2),
   INDEX name_defaultFamily(defaultFamily)
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE name_source (
   nameSourceID INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -79,7 +79,7 @@ CREATE TABLE name_source (
   lsid VARCHAR(500) DEFAULT NULL,
   nameSourceOriginalID VARCHAR(250) DEFAULT NULL,
   dateAccessed DATE DEFAULT NULL,
-  dateCreated TIMESTAMP NOT NULL,
+  dateCreated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY(nameSourceID),
   INDEX nameSource_nameSourceOriginalID(nameSourceOriginalID),
   INDEX nameSource_FKIndex1(nameID),
@@ -87,7 +87,7 @@ CREATE TABLE name_source (
   FOREIGN KEY(nameID) REFERENCES name(nameID) ON DELETE CASCADE ON UPDATE CASCADE,
   FOREIGN KEY(sourceID) REFERENCES source(sourceID) ON DELETE RESTRICT ON UPDATE CASCADE
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE classification (
   classificationID INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -109,7 +109,7 @@ CREATE TABLE classification (
   FOREIGN KEY(nameID) REFERENCES name(nameID) ON DELETE CASCADE ON UPDATE CASCADE,
   FOREIGN KEY(sourceID) REFERENCES source(sourceID) ON DELETE RESTRICT ON UPDATE CASCADE
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 CREATE TABLE `synonym` (
@@ -132,7 +132,7 @@ CREATE TABLE `synonym` (
   FOREIGN KEY(nameID) REFERENCES name(nameID) ON DELETE CASCADE ON UPDATE CASCADE,
   FOREIGN KEY(sourceID) REFERENCES source(sourceID) ON DELETE RESTRICT ON UPDATE CASCADE
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE `meta` (
   meta_id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -145,7 +145,7 @@ CREATE TABLE `meta` (
   logo_path VARCHAR(500) DEFAULT NULL,
   PRIMARY KEY(meta_id)
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 DROP TABLE IF EXISTS collaborator;
 CREATE TABLE collaborator (
@@ -158,7 +158,7 @@ CREATE TABLE collaborator (
   PRIMARY KEY(collaboratorID),
   INDEX collaborator_collaboratorName(collaboratorName)
 )
-ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 

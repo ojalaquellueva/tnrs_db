@@ -24,6 +24,17 @@ if ($error=sql_check_import_errors($dbh,$namesfile,$filepath,$tbl_names_raw)) {
 	echo $done;
 }
 
+// Hack so the next step doesn't fail
+if ($src=='wfo') {
+	echo "Deleting rows where PK is empty string...";
+	$sql = "
+		DELETE FROM $tbl_names_raw 
+		WHERE TRIM(taxonID)=''
+		;
+	";
+	if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
+}
+
 //die("\r\n\r\nExiting...\r\n\r\n");
 
 // Standardize NULLS

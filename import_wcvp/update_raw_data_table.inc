@@ -34,7 +34,7 @@ echo "Standardizing rank names:\r\n";
 echo "  Setting lower case...";
 $sql="
 UPDATE `$tbl_names_raw` 
-SET rank=LOWER(rank)
+SET `rank`=LOWER(`rank`)
 ;
 ";
 sql_execute_multiple($dbh, $sql);
@@ -43,16 +43,16 @@ echo $done;
 echo "  Standardizing rank names...";
 $sql="
 UPDATE `$tbl_names_raw` 
-SET rank=
+SET `rank`=
 CASE
-WHEN rank='sp.' THEN 'species'
-WHEN rank='subsp.' OR rank='subsp' THEN 'subspecies'
-WHEN rank='var.' OR rank='var' THEN 'variety'
-WHEN rank='f.' OR rank='form' THEN 'forma'
-WHEN rank='subform' THEN 'subforma'
-WHEN rank='notoform' THEN 'notoforma'
-WHEN rank='infraspecificname' THEN 'other infraspecific'
-ELSE rank
+WHEN `rank`='sp.' THEN 'species'
+WHEN `rank`='subsp.' OR `rank`='subsp' THEN 'subspecies'
+WHEN `rank`='var.' OR `rank`='var' THEN 'variety'
+WHEN `rank`='f.' OR `rank`='form' THEN 'forma'
+WHEN `rank`='subform' THEN 'subforma'
+WHEN `rank`='notoform' THEN 'notoforma'
+WHEN `rank`='infraspecificname' THEN 'other infraspecific'
+ELSE `rank`
 END
 ;	
 ";
@@ -65,12 +65,12 @@ $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=
 CASE
-WHEN rank='species' OR rank='genus' THEN NULL
-WHEN rank='subspecies' THEN 'subsp.'
-WHEN rank='variety' THEN 'var.'
-WHEN rank='subvariety' THEN 'subvar.'
-WHEN rank='forma' THEN 'fo.'
-WHEN rank='subforma' THEN 'subfo.'
+WHEN `rank`='species' OR `rank`='genus' THEN NULL
+WHEN `rank`='subspecies' THEN 'subsp.'
+WHEN `rank`='variety' THEN 'var.'
+WHEN `rank`='subvariety' THEN 'subvar.'
+WHEN `rank`='forma' THEN 'fo.'
+WHEN `rank`='subforma' THEN 'subfo.'
 END
 ;	
 ";
@@ -83,7 +83,7 @@ echo "  Hybrids...";
 $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=strSplit(scientificName, ' ', 4)
-WHERE rank='other infraspecific'
+WHERE `rank`='other infraspecific'
 AND (
 speciesHybridMarker IS NOT NULL OR genusHybridMarker IS NOT NULL
 )
@@ -96,7 +96,7 @@ echo "  Non-hybrids...";
 $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=strSplit(scientificName, ' ', 3)
-WHERE rank='other infraspecific' 
+WHERE `rank`='other infraspecific' 
 AND infraspecificRank IS NULL
 ;
 ";
@@ -125,7 +125,7 @@ ELSE infraspecificRank
 END
 ;	
 UPDATE `$tbl_names_raw` 
-SET rank='nothospecies',
+SET `rank`='nothospecies',
 infraspecificRank=NULL
 WHERE infraspecificRank='nothospecies'
 ;
@@ -133,7 +133,7 @@ WHERE infraspecificRank='nothospecies'
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank=NULL,
 infraspecificEpithet=NULL
-WHERE rank IN (
+WHERE `rank` IN (
 'family','genus','nothospecies','order','phylum','section','species','subgenus'
 )
 ;
@@ -178,19 +178,19 @@ echo "  Populating missing infraspecificRank...";
 $sql="
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='subsp.'
-WHERE rank='subspecies' and infraspecificRank is null
+WHERE `rank`='subspecies' and infraspecificRank is null
 ;
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='fo.'
-WHERE rank='forma' and infraspecificRank is null
+WHERE `rank`='forma' and infraspecificRank is null
 ;
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='var.'
-WHERE rank='variety' and infraspecificRank is null
+WHERE `rank`='variety' and infraspecificRank is null
 ;
 UPDATE `$tbl_names_raw` 
 SET infraspecificRank='subvar.'
-WHERE rank='subvariety' and infraspecificRank is null
+WHERE `rank`='subvariety' and infraspecificRank is null
 ;
 
 ";

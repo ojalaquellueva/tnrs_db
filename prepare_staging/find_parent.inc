@@ -14,11 +14,11 @@ echo "  Updating missing parent taxa...";
 
 // Get taxa with at least one space in name and no parentID
 $sql="
-SELECT `$id_fld` AS ID, `$name_fld` AS taxon, $rank_fld AS rank 
+SELECT `$id_fld` AS ID, `$name_fld` AS taxon, $rank_fld AS `rank` 
 FROM `$tbl_staging`
 WHERE `$parent_id_fld` IS NULL AND `$name_fld` LIKE '% %';
 ";
-//echo "  \r  \nSQL='$sql'\r\n";
+//echo "\r            \nfind_parent.inc SQL='$sql'\r\n";
 $rows = mysqli_query($dbh, $sql);
 $num_rows = mysqli_num_rows($rows);
 

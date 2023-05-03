@@ -151,7 +151,7 @@ $sql = "
 	SET
 	qt.infra2=q.infra2,
 	qt.infra2_norank=q.infra2_norank,
-	qt.rank2=q.rank,
+	qt.rank2=q.`rank`,
 	qt.infra1_infra2=TRIM(CONCAT_WS(' ',q.infra1_orig,q.infra2)),
 	qt.infra1_infra2_norank=TRIM(CONCAT_WS(' ',strSplit(q.infra1_orig,' ',1),strSplit(q.infra1_orig,' ',2),strSplit(q.infra1_orig,' ',4),q.infra2_norank)),
 	qt.infra1=q.infra1_orig;

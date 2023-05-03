@@ -88,7 +88,7 @@ $remove_raw_tables=true;
 // Setting this param to false will turn off conversion in staging table
 // Corrections are performed on DWC-format raw data table
 // See script 'fix_character_set.inc'
-$fix_chars_curr_source=false;
+$fix_chars_curr_source=true;
 
 /////////////////////////////////////////////////////////////////////////////
 // Path and name(s) of raw data file(s)

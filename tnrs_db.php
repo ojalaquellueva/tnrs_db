@@ -138,6 +138,7 @@ exit("STOPPING...\r\nb");
 ///// END FOR TESTING ONLY
 */
 
+
 ////// TEMPORARY FOR RESTART ONLY!!!
 // Connect to database
 echo "WARNING: Start of script tnrs_db.php commmented out!\r\n";
@@ -145,8 +146,8 @@ $dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
 if (!$dbh) die("\r\nCould not connect to database!\r\n");
 ////// END TEMPORARY FOR RESTART ONLY!!!
 
-
 /*
+
 if ($replace_db) {
 	// Open generic connection to MySQL (no database)
 	$dbh = mysqli_connect($HOST, $USER, $PWD, FALSE, 128);
@@ -280,6 +281,12 @@ $elapsedtime = $endtime - $resettime;
 $tsecs = round($elapsedtime,2);	
 echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
 
+
+
+*/
+
+
+
 ////////////////////////////////////////////////////////////
 // Create and populate taxamatch tables
 ////////////////////////////////////////////////////////////
@@ -295,11 +302,6 @@ include $timer_off;
 $elapsedtime = $endtime - $resettime;
 $tsecs = round($elapsedtime,2);	
 echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
-
-
-*/ 
-
-
 
 ////////////////////////////////////////////////////////////
 // For all taxonomic sources marked $isHigherClassification=1
@@ -322,18 +324,20 @@ echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
 // if one or both of these options selected in global_params
 ////////////////////////////////////////////////////////////
 
-if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) {
-	include $timer_off;
-	$resettime = $endtime;
+if ( in_array( "tropicos" ,$src_array ) ) {
+	if ($apply_tropicos_fix_noOpNames || $apply_tropicos_fix_link_to_acceptedNames) {
+		include $timer_off;
+		$resettime = $endtime;
 
-	echo "\r\n#############################################\r\n";
+		echo "\r\n#############################################\r\n";
 	
-	include_once "tropicos_fixes/tropicos_fixes.php";
+		include_once "tropicos_fixes/tropicos_fixes.php";
 
-	include $timer_off;
-	$elapsedtime = $endtime - $resettime;
-	$tsecs = round($elapsedtime,2);	
-	echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
+		include $timer_off;
+		$elapsedtime = $endtime - $resettime;
+		$tsecs = round($elapsedtime,2);	
+		echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
+	}
 }
 
 //////////////////////////////////////////////////////////////////

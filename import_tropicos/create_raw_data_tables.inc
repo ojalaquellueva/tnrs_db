@@ -45,7 +45,7 @@ INDEX ".$tbl."_$acceptance_fld($acceptance_fld),
 INDEX ".$tbl."_NomenclatureStatusID(NomenclatureStatusID),
 INDEX ".$tbl."_NomenclatureStatusName(NomenclatureStatusName),
 INDEX ".$tbl."_Symbol(Symbol)
-)  ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+)  ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
 	
