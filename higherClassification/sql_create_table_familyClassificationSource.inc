@@ -26,7 +26,7 @@ INDEX (leftIndex),
 INDEX (rightIndex),
 INDEX (hasHomonyms),
 INDEX (isOnlyAccepted)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 ";
 

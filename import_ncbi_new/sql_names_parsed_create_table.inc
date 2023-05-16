@@ -16,7 +16,7 @@ CREATE TABLE $names_parsed (
 	Annotation VARCHAR(25) DEFAULT NULL,
 	Unmatched_terms VARCHAR(255) DEFAULT NULL, 
 	INDEX `".$names_parsed."_ScientificName_submitted`(`ScientificName_submitted`)
-) ENGINE=MYISAM DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 "
 
 ?>

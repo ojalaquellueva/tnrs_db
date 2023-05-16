@@ -17,7 +17,7 @@ CREATE TABLE `famlist` (
   KEY `famlist_SGN_HEAD1` (`sgn_head1`),
   KEY `famlist_SGN_HEAD2` (`sgn_head2`),
   KEY `famlist_SGN_HEAD3` (`sgn_head3`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `genlist` (
   `GENUS_ID` int(11) unsigned NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `genlist` (
   KEY `SGN_TAIL1` (`sgn_tail1`),
   KEY `SGN_TAIL2` (`sgn_tail2`),
   KEY `SGN_TAIL3` (`sgn_tail3`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `splist` (
   `SPECIES_ID` int(11) NOT NULL,
@@ -58,7 +58,7 @@ CREATE TABLE `splist` (
   KEY `splist_SPECIES`(`SPECIES`),
   KEY `splist_SP_LENGTH`(`SP_LENGTH`),
   KEY `splist_NEAR_MATCH_SPECIES` (`NEAR_MATCH_SPECIES`)
-  ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `infra1list` (
   `infra1_id` int(11) NOT NULL,
@@ -76,7 +76,7 @@ CREATE TABLE `infra1list` (
   KEY `infra1list_infra1_length` (`infra1_length`),
   KEY `infra1list_near_match_infra1` (`near_match_infra1`),
   KEY `infra1list_infra1_id` (`infra1_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `infra2list` (
   `infra2_id` int(11) NOT NULL,
@@ -94,7 +94,7 @@ CREATE TABLE `infra2list` (
   KEY `infra2list_infra2_length` (`infra2_length`),
   KEY `infra2list_near_match_infra2` (`near_match_infra2`),
   KEY `infra2list_infra2_id` (`infra2_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `genlist_famlist_combined` (
   `arbitrary_id` int(11) NOT NULL auto_increment,
@@ -118,7 +118,7 @@ CREATE TABLE `genlist_famlist_combined` (
   KEY `GEN_LENGTH` (`gen_length`),
   KEY `FAM_LENGTH` (`fam_length`),
   KEY `NEAR_MATCH_FAMILY` (`near_match_family`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `splist_genlist_combined` (
   `arbitrary_id` int(11) NOT NULL auto_increment,
@@ -142,7 +142,7 @@ CREATE TABLE `splist_genlist_combined` (
   KEY `SP_LENGTH` (`sp_length`),
   KEY `GEN_LENGTH` (`gen_length`),
   KEY `NEAR_MATCH_GENUS` (`near_match_genus`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `infra1list_splist_combined` (
   `arbitrary_id` int(11) NOT NULL auto_increment,
@@ -172,7 +172,7 @@ CREATE TABLE `infra1list_splist_combined` (
   KEY `infra1list_splist_combined_infra1_length` (`infra1_length`),
   KEY `infra1list_splist_combined_sp_length` (`sp_length`),
   KEY `infra1list_splist_combined_near_match_species` (`near_match_species`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `infra2list_infra1list_combined` (
   `arbitrary_id` int(11) NOT NULL auto_increment,
@@ -203,4 +203,4 @@ CREATE TABLE `infra2list_infra1list_combined` (
   KEY `infra2list_infra1list_combined_infra2_length` (`infra2_length`),
   KEY `infra2list_infra1list_combined_infra1_length` (`infra1_length`),
   KEY `infra2list_infra1list_combined_near_match_infra1` (`near_match_infra1`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

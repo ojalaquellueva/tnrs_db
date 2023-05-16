@@ -40,7 +40,7 @@ CREATE TABLE `$tbl_names_raw` (
 `source`  VARCHAR(250) DEFAULT NULL,
 `majorGroup`  VARCHAR(250) DEFAULT NULL,
 `tplId`  VARCHAR(250) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 ;
 ";
 sql_execute_multiple($dbh, $sql);

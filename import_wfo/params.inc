@@ -56,17 +56,17 @@ $base_url_general_search = "http://www.worldfloraonline.org/search?query=";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2022-11-17";	
+$dateAccessed="2023-05-03";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
-$sourceVersion="v.2022.07";
+$sourceVersion="v.2023.02";
 
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2022-07-12";
+$sourceReleaseDate="2023-02-28";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
@@ -167,7 +167,7 @@ $filepath = $src_dir."data/";	// old version; data inside app/repo directory
 $filepath = $DATA_DIR."/".$src."/";	// data outside app/repo directory
 
 // Name of raw data files you will be importing
-$namesfile = "classification.txt";
+$namesfile = "classification.csv";
 //$namesfile = "classification_sample.txt";
 
 // path + file
@@ -189,16 +189,16 @@ $local = " LOCAL ";
 $fields_terminated_by = " FIELDS TERMINATED BY '\t' ";
 
 // Is text optional surrounded by quotes, etc?
-//$optionally_enclosed_by = " OPTIONALLY ENCLOSED BY '\"' ";  
-$optionally_enclosed_by = "";
+$optionally_enclosed_by = " OPTIONALLY ENCLOSED BY '\"' ";  
+//$optionally_enclosed_by = "";
 
 $escaped_by = '';	// Generally this is what you want if CSV
 //$escaped_by = " ESCAPED BY '' ";	// double quotes indicated by doubled-double quotes
 
 // Line terminator
-//$lines_terminated_by = " LINES TERMINATED BY '\n' ";		// unix
+$lines_terminated_by = " LINES TERMINATED BY '\n' ";		// unix
 //$lines_terminated_by = " LINES TERMINATED BY '\r' ";		// legacy mac
-$lines_terminated_by = " LINES TERMINATED BY '\r\n' ";	// windows
+//$lines_terminated_by = " LINES TERMINATED BY '\r\n' ";	// windows
 
 // Set to ignore header line if present
 $ignore_lines = " IGNORE 1 LINES ";	// Ignore header line?

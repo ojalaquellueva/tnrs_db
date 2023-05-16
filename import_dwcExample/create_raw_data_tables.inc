@@ -47,7 +47,7 @@ INDEX (infraspecificRank2),
 INDEX (infraspecificEpithet2),
 INDEX (taxonomicStatus),
 INDEX (acceptedNameID_char)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
 	

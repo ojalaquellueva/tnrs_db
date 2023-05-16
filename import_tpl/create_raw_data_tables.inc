@@ -45,7 +45,7 @@ ranknameAlt VARCHAR(250) DEFAULT NULL,
 fullAuthor VARCHAR(250) DEFAULT NULL,
 field0 VARCHAR(250) DEFAULT NULL,
 field1 VARCHAR(250) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
@@ -74,7 +74,7 @@ taxonomicStatus VARCHAR(25) DEFAULT NULL,
 acceptedNameID_char VARCHAR(250) DEFAULT NULL,
 taxonUri VARCHAR(500) DEFAULT NULL,
 lsid VARCHAR(500) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;

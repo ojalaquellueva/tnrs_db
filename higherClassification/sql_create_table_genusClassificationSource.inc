@@ -32,7 +32,7 @@ INDEX (family),
 INDEX (hasHomonyms),
 INDEX (isOnlyAccepted),
 INDEX (genusFamilyUnique)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 ";
 

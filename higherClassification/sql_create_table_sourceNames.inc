@@ -52,7 +52,7 @@ INDEX newFamilyID(newFamilyID),
 INDEX sourceNames_newFamily(newFamily),
 INDEX sourceNames_inSource(inSource),
 INDEX sourceNames_joinMethod(joinMethod)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 ";
 ?>

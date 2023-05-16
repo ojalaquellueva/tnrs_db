@@ -42,7 +42,7 @@ CREATE TABLE `$tbl_names_raw` (
 `powo_id` VARCHAR(100) DEFAULT NULL,
 `hybrid_formula` VARCHAR(500) DEFAULT NULL,
 `reviewed` VARCHAR(100) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;

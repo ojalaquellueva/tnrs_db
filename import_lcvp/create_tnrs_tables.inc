@@ -21,7 +21,7 @@ $sql="
 CREATE TABLE `$tnrs_submitted` (
 nameID INTEGER NOT NULL,
 nameSubmitted VARCHAR(250) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
 
@@ -45,7 +45,7 @@ infraspecificEpithet2 VARCHAR(50) DEFAULT NULL,
 author VARCHAR(250) DEFAULT NULL,
 annotations VARCHAR(50) DEFAULT NULL,
 unmatchedTerms VARCHAR(250) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ";
 if (sql_execute($dbh, $sql,$die_on_fail,$echo_on,$msg_success,$msg_error));
 	

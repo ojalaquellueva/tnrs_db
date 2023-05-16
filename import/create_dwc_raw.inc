@@ -29,7 +29,7 @@ taxonomicStatus VARCHAR(25) DEFAULT NULL,
 acceptedNameID_char VARCHAR(250) DEFAULT NULL,
 taxonUri VARCHAR(500) DEFAULT NULL,
 lsid VARCHAR(500) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;

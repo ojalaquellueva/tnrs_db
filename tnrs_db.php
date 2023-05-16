@@ -139,6 +139,7 @@ exit("STOPPING...\r\nb");
 */
 
 
+
 ////// TEMPORARY FOR RESTART ONLY!!!
 // Connect to database
 echo "WARNING: Start of script tnrs_db.php commmented out!\r\n";
@@ -146,6 +147,8 @@ $dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
 if (!$dbh) die("\r\nCould not connect to database!\r\n");
 ////// END TEMPORARY FOR RESTART ONLY!!!
 
+ 
+ 
 /*
 
 if ($replace_db) {
@@ -265,7 +268,7 @@ foreach ($src_array as $src) {
 
 echo "\r\n#############################################\r\n";
 include_once "cleanup/tnrs_core_cleanup.inc";
-
+*/
 ////////////////////////////////////////////////////////////
 // Produce new genus-in-family lookup tables
 // based on GRIN genus-family taxonomy
@@ -280,11 +283,6 @@ include $timer_off;
 $elapsedtime = $endtime - $resettime;
 $tsecs = round($elapsedtime,2);	
 echo "\r\nProcessing time this step: " .$tsecs . " seconds\r\n\r\n";
-
-
-
-*/
-
 
 
 ////////////////////////////////////////////////////////////

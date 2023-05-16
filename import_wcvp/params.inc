@@ -38,7 +38,7 @@ $dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/";
 
 // The full data url, including fill if applicable
 // Not currently displayed
-$dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/wcvp_v5_jun_2021.zip";	
+$dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip";	
 
 // Url where logo for this source can be directly accessed
 // For display on TNRS website
@@ -56,17 +56,17 @@ $base_url_general_search = "https://wcvp.science.kew.org/search?q=";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2022-11-17";	
+$dateAccessed="2023-05-03";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
-$sourceVersion="10";
+$sourceVersion="11";
 
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2022-11-15";
+$sourceReleaseDate="2023-04-27";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB

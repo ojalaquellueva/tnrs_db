@@ -31,7 +31,7 @@ $sql="
 		INDEX `".$error_tbl."_".$is_orphan_synonym_nameID."`(`$is_orphan_synonym_nameID`),
 		INDEX `".$error_tbl."_".$errmsg."`(`$errmsg`)
 		) 
-		ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+		ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 	";
 $msg_error="Failed to create table `$error_tbl`!\r\n";
 if (sql_execute($dbh, $sql,FALSE,$echo_on,"",$msg_error));

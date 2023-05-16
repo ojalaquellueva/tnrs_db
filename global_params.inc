@@ -23,6 +23,11 @@
 // after DB build complete
 //////////////////////////////////////////////////
 
+// Full application version
+// Encompasses base code, api code, db code, db content, web app code
+// Version number is incremented whenever any of these change
+$APP_VERSION="5.1";
+
 // Database version
 $DB_VERSION="4.3";
 
