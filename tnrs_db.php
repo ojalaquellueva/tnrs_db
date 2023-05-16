@@ -139,17 +139,21 @@ exit("STOPPING...\r\nb");
 */
 
 
+/*
+//////////////////////////////////////////////////
+// Start RESUME block 
+// FOR RESUME ONLY!!!
+// Connects to exising database. Comment out start 
+// of operation and activate this block to continue 
+// process without creating new database. 
 
-////// TEMPORARY FOR RESTART ONLY!!!
-// Connect to database
 echo "WARNING: Start of script tnrs_db.php commmented out!\r\n";
 $dbh = mysqli_connect('localhost', $USER, $PWD, $DB);
 if (!$dbh) die("\r\nCould not connect to database!\r\n");
-////// END TEMPORARY FOR RESTART ONLY!!!
 
- 
- 
-/*
+// End RESUME block
+//////////////////////////////////////////////////
+*/
 
 if ($replace_db) {
 	// Open generic connection to MySQL (no database)
@@ -268,7 +272,7 @@ foreach ($src_array as $src) {
 
 echo "\r\n#############################################\r\n";
 include_once "cleanup/tnrs_core_cleanup.inc";
-*/
+
 ////////////////////////////////////////////////////////////
 // Produce new genus-in-family lookup tables
 // based on GRIN genus-family taxonomy
