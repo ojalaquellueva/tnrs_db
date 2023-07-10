@@ -14,4 +14,11 @@ $command = "mysql --login-path=$LOGINPATH -D $DB < $sql";
 system($command);
 echo $msg_success;
 
+echo "Creating data dictionary...";
+$sql = "create_tnrs_core/data_dictionary.sql";
+$command = "mysql --login-path=$LOGINPATH -D $DB < $sql";
+system($command);
+echo $msg_success;
+
+
 ?>
