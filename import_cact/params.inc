@@ -42,7 +42,7 @@ $logoUrlFull="";
 
 // base url for accepted taxon ("acc") searches
 // Append taxon ID
-$base_url_taxon="https://caryophyllales.org/cdm_dataportal/taxon/";
+$base_url_species="https://caryophyllales.org/cdm_dataportal/taxon/";
 
 # Url components for synonym taxon
 # Begin with full URL of accepted taxon, then append the following 3 with the
@@ -144,13 +144,14 @@ $infer_parent_this_source=TRUE;
 // and begin with " AND ". For example:
 // " AND taxonomicStatus='synonym' "
 // Only used if $infer_parent_this_source=TRUE;
+$SQL_WHERE_INFER_PARENT_POLICY="";
+// As above, but table to be updated has alias 'a'
+$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS="";
+
 $SQL_WHERE_INFER_PARENT_POLICY=" AND taxonomicStatus NOT IN ('Unplaced', 'Synonym', 'Illegitimate', 'Invalid') ";
 // As above, but table to be updated has alias 'a'
 $SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS=" AND a.taxonomicStatus NOT IN ('Unplaced', 'Synonym', 'Illegitimate', 'Invalid') ";
 
-$SQL_WHERE_INFER_PARENT_POLICY="";
-// As above, but table to be updated has alias 'a'
-$SQL_WHERE_INFER_PARENT_POLICY_WITH_ALIAS="";
 
 
 /////////////////////////////////////////////////////////////////////////////

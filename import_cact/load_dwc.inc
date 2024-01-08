@@ -46,14 +46,7 @@ NULL,
 NULL,
 `taxonomicStatus`,
 `accNameID`,
-CASE
-WHEN `taxonomicStatus`='accepted' THEN CONCAT('$base_url_taxon', `nameID`)
-WHEN `taxonomicStatus`='synonym' THEN CONCAT('$base_url_taxon', `accNameID`, 
-	'$base_url_syn_pt1', `nameID`, '$base_url_syn_pt2', `nameID`, 
-	'$base_url_syn_pt3', `nameID`)
-	WHEN `taxonomicStatus`='accepted' THEN 'ACCEPTED!'
-ELSE NULL
-END,
+NULL, -- updated later in make.url.inc
 NULL
 FROM $tbl_names_raw
 ;

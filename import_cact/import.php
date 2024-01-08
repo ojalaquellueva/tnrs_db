@@ -83,12 +83,6 @@ if ($extract_families==TRUE) {
 // Species method this source only: all Cactaceae!
 include "populate_family.inc";
 
-
-die("Stopping...");
-
-
-
-
 // Extract families and genera from lower taxa
 if ($infer_parent_this_source==TRUE) {
 	include "import/infer_parent.inc";
