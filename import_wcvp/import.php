@@ -26,7 +26,7 @@ include "load_dwc.inc";
 
 // add fields to raw names table to support
 // integer nameID, parentNameID and acceptedNameID
-include "import/alter_dwc_raw_data_table.inc";
+include "import/alter_dwc_raw.inc";
 
 // Update non-ascii characters to UTF-8
 include "import/fix_character_set.inc";

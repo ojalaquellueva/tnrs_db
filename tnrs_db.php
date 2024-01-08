@@ -69,7 +69,7 @@ exec($cmd,$output,$exitcode);
 $dbexists=$exitcode;
 
 // Confirm replacement of database if requested
-if ($replace_db & !$dbexists) {
+if ($replace_db & $dbexists) {
 	$msg_conf_replace_db="\r\nPrevious database `$DB` will be deleted! Are you sure you want to proceed? (Y/N): ";
 	$replace_db=responseYesNoDie($msg_conf_replace_db);
 	if ($replace_db===false) die ("\r\nOperation cancelled\r\n");
@@ -82,7 +82,7 @@ if ($use_db_backup) {
 	$dbexists=$exitcode;
 	$msg_confirm_delete_db_backup="\r\nAlso replace previous backup database '".$DB_BACKUP."'? (Y/N): ";
 	$delete_db_backup=true;
-	if (!$dbexists) {
+	if ($dbexists) {
 		$delete_db_backup=responseYesNoDie($msg_confirm_delete_db_backup);
 		if ($delete_db_backup===false) die ("\r\nOperation cancelled\r\n");		
 	}
@@ -159,7 +159,7 @@ if ($replace_db) {
 	// Open generic connection to MySQL (no database)
 	$dbh = mysqli_connect($HOST, $USER, $PWD, FALSE, 128);
 	if (!$dbh) die("\r\nCould not connect to MySQL!\r\n");
-
+	
 	echo "\r\n#############################################\r\n";
 	echo "Creating new database:\r\n\r\n";	
 	

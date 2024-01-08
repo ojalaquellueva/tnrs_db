@@ -29,7 +29,7 @@
 $APP_VERSION="5.1";
 
 // Database version
-$DB_VERSION="4.3";
+$DB_VERSION="4.4";
 
 // TNRS application code version
 $CODE_VERSION="5.1";
@@ -77,6 +77,9 @@ $src_array=array(
 $src_array=array(
 	"wfo",
 	"wcvp"
+);
+$src_array=array(
+	"cact"
 );
 
 //////////////////////////////////////////////////
