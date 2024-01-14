@@ -34,11 +34,11 @@ $description="The World Flora Online will be an open-access, Web-based compendiu
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
 // Do not include filename if this is a single file, just the directory
-$dataUrl="http://104.198.143.165/files/WFO_Backbone/_WFOCompleteBackbone/";	
+$dataUrl="https://files.worldfloraonline.org/files/WFO_Backbone/_WFOCompleteBackbone/";	
 
 // The full data url, including fill if applicable
 // Not currently displayed
-$dataUrlFull="http://104.198.143.165/files/WFO_Backbone/_WFOCompleteBackbone/WFO_Backbone.zip";	
+$dataUrlFull="https://files.worldfloraonline.org/files/WFO_Backbone/_WFOCompleteBackbone/WFO_Backbone.zip";	
 
 // Url where logo for this source can be directly accessed
 // For display on TNRS website
@@ -46,34 +46,34 @@ $logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2021/07/wfo_logo.j
 $logoUrlFull="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2021/07/wfo_logo_full.png";
 
 // base url for species and infraspecies
-$base_url_species="http://www.worldfloraonline.org/taxon/";
+$base_url_species="https://www.worldfloraonline.org/taxon/";
 
 // base url for families and genera with known families
-$base_url_gen_fam = "http://www.worldfloraonline.org/taxon/";
+$base_url_gen_fam = "https://www.worldfloraonline.org/taxon/";
 
 // base url for general searches and unassessed genera without families
-$base_url_general_search = "http://www.worldfloraonline.org/search?query=";
+$base_url_general_search = "https://www.worldfloraonline.org/search?query=";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2023-05-03";	
+$dateAccessed="2024-01-10";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
-$sourceVersion="v.2023.02";
+$sourceVersion="v.2023.06";
 
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2023-02-28";
+$sourceReleaseDate="2023-06";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
 // Use as default classification for building taxamatch tables
 // If you set this to true, all other sources will be
 // set to false
-$is_default=true;	
+$is_default=false;	
 
 // Set to 1 if there are any issues/warnings associated with this database
 // For now the further details of the warning are handled by the ui; may

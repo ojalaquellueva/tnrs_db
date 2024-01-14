@@ -34,7 +34,7 @@ $description="The World Checklist of Vascular Plants aims to deliver a sustainab
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
 // Do not include filename if this is a single file, just the directory
-$dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/";	
+$dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP";	
 
 // The full data url, including fill if applicable
 // Not currently displayed
@@ -56,17 +56,17 @@ $base_url_general_search = "https://wcvp.science.kew.org/search?q=";
 
 // date of access of raw data
 // MUST by MySQL format date: yyyy-mm-dd
-$dateAccessed="2023-05-03";	
+$dateAccessed="2024-01-08";	
 
 // Version for this data source, as assigned by original data provider
 // Set to empty string ("") if unavailable or not applicable
-$sourceVersion="11";
+$sourceVersion="12";
 
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2023-04-27";
+$sourceReleaseDate="2023-09-28";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB
@@ -85,7 +85,7 @@ $source_warning=0;
 // to higher taxonomic categories (genus and above) for this source
 // Core database can hold multiple higher classifications;
 // therefore will not affect existing classification systems.
-$is_higher_classification=false;
+$is_higher_classification=true;
 
 // If true, for infraspecific taxa without a parent species,
 // will extract distinct species names from genus 

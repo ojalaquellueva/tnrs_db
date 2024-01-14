@@ -9,3 +9,6 @@ All parameters set in local params.inc file in this directory and global_params.
 
 STILL TO BE DONE:
 rename load_default_taxa.inc to add_denormalized_higherTaxa.inc, and modify to add default taxon columns for EACH classification source.
+
+NOTE:
+* under development. Currenty not sourced by any script in pipeline.

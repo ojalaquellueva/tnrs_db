@@ -72,15 +72,18 @@ $APP_LOGO_PATH="";
 $src_array=array(
 	"wfo",
 	"wcvp",
-	"usda"
-);
-$src_array=array(
-	"wfo",
-	"wcvp"
-);
-$src_array=array(
 	"cact"
 );
+
+//////////////////////////////////////////////////
+// Populate left and right tree traversal indices?
+// Set to true for production. Set to false as
+// a temporary measure for troubleshooting only. 
+// If false, classification table will be empty
+// and some higher taxa may be missing
+//////////////////////////////////////////////////
+
+$use_lr_indexes=false;
 
 //////////////////////////////////////////////////
 // Paths to required functions and utilities

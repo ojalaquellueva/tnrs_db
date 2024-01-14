@@ -5,6 +5,8 @@
 //////////////////////////////////////////////
 
 echo "Populating name urls...";
+
+/*
 $sql="
 UPDATE `$tbl_names_raw` 
 SET taxonUri=
@@ -14,5 +16,7 @@ WHERE nameID_char IS NOT NULL
 ";
 sql_execute_multiple($dbh, $sql);
 echo $done;
+*/
+echo "...already done by load_dwc.inc"
 
 ?>

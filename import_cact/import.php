@@ -10,7 +10,7 @@ include "import/create_dwc_raw.inc";
 
 // replaces 'NULL' with '\N' in the raw data files
 // This version updated to support separate acc & syn files
-include "import/fix_nulls_raw.inc";
+include "import/fix_nulls_raw_acc_syn.inc";
 
 // Import raw data
 // This version adapted to import separate files for accepted names and synonyms
