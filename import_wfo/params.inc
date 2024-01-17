@@ -43,7 +43,6 @@ $dataUrlFull="https://files.worldfloraonline.org/files/WFO_Backbone/_WFOComplete
 // Url where logo for this source can be directly accessed
 // For display on TNRS website
 $logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2021/07/wfo_logo.jpeg";	
-$logoUrlFull="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2021/07/wfo_logo_full.png";
 
 // base url for species and infraspecies
 $base_url_species="https://www.worldfloraonline.org/taxon/";
@@ -65,8 +64,9 @@ $sourceVersion="v.2023.06";
 // Version release date
 // Date of release of this source by the original provider
 // MUST by MySQL format date: yyyy-mm-dd
+// If day unknown, set to "01", e.g., 2022-09-01
 // Set to empty string ("") if unavailable or not applicable
-$sourceReleaseDate="2023-06";
+$sourceReleaseDate="2023-06-01";
 
 // NO LONGER USED
 // KEEP FOR NOW UNTIL I REMOVE THIS COLUMN AND ALL REFERENCES FROM DB

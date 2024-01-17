@@ -1,7 +1,9 @@
 <?php
 // Imports raw text file to mysql
-// $local, $fields_terminated_by, $optionally_enclosed_by, $lines_terminated_by and $ignore_lines
-// are set in parameters file
+// Parameters $namesfile, $namesfileandpath, $tbl_names_raw
+// $local, $fields_terminated_by, $optionally_enclosed_by, 
+// $lines_terminated_by, $ignore_lines
+// are set in local parameters file (params.inc)
 
 // Import names
 echo "Importing file '$namesfile'...";

@@ -36,7 +36,7 @@ if ($records>1) {
 			sourceUrl,
 			description,
 			dataUrl,
-			logoUrl,
+			logo_path,
 			sourceVersion,
 			sourceReleaseDate,
 			dateAccessed,

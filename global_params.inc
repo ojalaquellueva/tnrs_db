@@ -37,11 +37,13 @@ $CODE_VERSION="5.1";
 // API code git version
 $API_VERSION="5.0.4";
 
+/* Load from bibtex file in tnrs data directory instead
 // Bibtex-formatted citation of application url
 $APP_CITATION="@misc{tnrs, author = {Boyle, B. L. and Matasci, N. and Mozzherin, D. and Rees, T. and Barbosa, G. C. and Kumar Sajja, R. and Enquist, B. J.}, journal = {Botanical Information and Ecology Network}, title = {Taxonomic Name Resolution Service, version " . $CODE_VERSION . "}, year = {2021}, url = {https://tnrs.biendata.org/}, note = {Accessed <date_of_access>} }";
 
 // Bibtex-formatted citation of application publication, if any
 $APP_PUBLICATION="@article{tnrspub, author = {Boyle, B. and Hopkins, N. and Lu, Z. and Garay, J. A. R. and Mozzherin, D. and Rees, T. and Matasci, N. and Narro, M. L. and Piel, W. H. and McKay, S. J. and Lowry, S. and Freeland, C. and Peet, R. K. and Enquist, B. J.}, journal = {BMC Bioinformatics}, number = {1}, pages = {16}, title = {The taxonomic name resolution service: an online tool for automated standardization of plant names}, volume = {14}, year = {2013}, doi = {10.1186/1471-2105-14-16} ";
+ */
 
 // Location of main app url on filesystem, if any
 $APP_LOGO_PATH="";
@@ -117,6 +119,15 @@ $DB_CONFIG_FILE="../config/db_config_tnrs_db.php";
 //////////////////////////////////////////////////
 
 $DATA_DIR="../data/db";
+
+// Full path to TNRS data directory
+// Contains bibtex files with citations for TNRS:
+// TNRS_publication.bib, TNRS_website.bib
+$TNRS_DATA_DIR = $DATA_DIR . "/tnrs/";
+
+// Full path to collaborators data directory
+// Only contents should be file "collaborators.csv"
+$COLLABORATORS_DATA_DIR = $DATA_DIR . "/collaborators/";
 
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////

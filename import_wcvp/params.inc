@@ -30,7 +30,7 @@ $sourceUrl="https://wcvp.science.kew.org/";
 // TNRS website on Source page.
 // No quotes! If you must include apostrophes (plain single quote) then 
 // double them up to avoid crashing the api (e.g., world''s)
-$description="The World Checklist of Vascular Plants aims to deliver a sustainable and curated resource. It is based on Kew’s names and taxonomic backbone which has been created by reconciling the names from the International Plant Names Index (IPNI) with the taxonomy from the World Checklist of Selected Plant Families (WCSP). This Beta version therefore only displays names that are in both IPNI and WCVP. It contains both families that have been completed and peer reviewed by both external and internal experts on the relevant families as well as families that are in the process of being edited and reviewed. Some of the original data which WCSP built upon came from our generous collaborators listed in the acknowledgements. WCVP aims to represent a global consensus view of current plant taxonomy by reflecting the latest published taxonomies while incorporating the opinions of taxonomists based around the world";
+$description="The World Checklist of Vascular Plants is based on Kew’s names and taxonomic backbone which has been created by reconciling the names from the International Plant Names Index (IPNI) with the taxonomy from the World Checklist of Selected Plant Families (WCSP). This Beta version therefore only displays names that are in both IPNI and WCVP. It contains both families that have been completed and peer reviewed by both external and internal experts on the relevant families as well as families that are in the process of being edited and reviewed. Some of the original data which WCSP built upon came from our generous collaborators listed in the acknowledgements. WCVP aims to represent a global consensus view of current plant taxonomy by reflecting the latest published taxonomies while incorporating the opinions of taxonomists based around the world.";
 
 // Url where data was obtained, if applicable (e.g., download or api base url)
 // Do not include filename if this is a single file, just the directory
@@ -43,7 +43,6 @@ $dataUrl="http://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip";
 // Url where logo for this source can be directly accessed
 // For display on TNRS website
 $logoUrl="https://bien.nceas.ucsb.edu/bien/wp-content/uploads/2021/07/kew_logo.png";	
-$logoUrlFull="";
 
 // base url for species and infraspecies
 $base_url_species="https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:";
@@ -64,7 +63,7 @@ $sourceVersion="12";
 
 // Version release date
 // Date of release of this source by the original provider
-// MUST by MySQL format date: yyyy-mm-dd
+// MUST use MySQL date format: yyyy-mm-dd
 // Set to empty string ("") if unavailable or not applicable
 $sourceReleaseDate="2023-09-28";
 

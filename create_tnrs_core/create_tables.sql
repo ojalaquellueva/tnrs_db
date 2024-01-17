@@ -4,12 +4,12 @@ CREATE TABLE source (
   sourceNameFull VARCHAR(250) DEFAULT NULL,
   sourceUrl VARCHAR(500) DEFAULT NULL,
   description text,
-  logoUrl VARCHAR(500) DEFAULT NULL,    
+  logo_path VARCHAR(500) DEFAULT NULL,    
   dataUrl VARCHAR(500) DEFAULT NULL,   
   sourceVersion VARCHAR(100) DEFAULT NULL,
   sourceReleaseDate DATE DEFAULT NULL,
   dateAccessed DATE DEFAULT NULL,
-  logo_url VARCHAR(500) DEFAULT NULL,
+  citation TEXT DEFAULT NULL, 
   isDefault  INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
   isHigherClassification INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
   warning INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
@@ -155,7 +155,7 @@ CREATE TABLE collaborator (
   collaboratorNameFull VARCHAR(250) DEFAULT NULL,
   collaboratorUrl VARCHAR(500) DEFAULT NULL,
   description text,
-  logo_url VARCHAR(500) DEFAULT NULL,
+  logo_path VARCHAR(500) DEFAULT NULL,
   PRIMARY KEY(collaboratorID),
   INDEX collaborator_collaboratorName(collaboratorName)
 )

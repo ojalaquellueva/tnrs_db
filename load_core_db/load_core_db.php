@@ -19,8 +19,11 @@ if ($fuzzy_match==true) {
 
 ////////////// Load staging table to core db //////////////////////
 
-// Update source information and get sourceID (needed for later steps)
+// Load source information and get sourceID (needed for later steps)
 include 'load_source.inc';
+
+// Populate source citation from bibtex file, if provided
+include 'add_source_citation.inc';
 
 // Delete previous records
 // Tag records linked ONLY to current source, then delete those records
