@@ -16,8 +16,10 @@ if (sql_execute($dbh, $sql,TRUE,$echo_on,$msg_success,$msg_error));
 echo "  Inserting verision information...";
 $sql="
 INSERT INTO meta (
+app_version,
 db_version,
 build_date,
+db_code_version,
 code_version,
 api_version,
 citation,
@@ -25,8 +27,10 @@ publication,
 logo_path
 )
 VALUES (
+'$APP_VERSION',
 '$DB_VERSION',
 CURRENT_DATE(),
+'$DB_CODE_VERSION',
 '$CODE_VERSION',
 '$API_VERSION',
 NULL,

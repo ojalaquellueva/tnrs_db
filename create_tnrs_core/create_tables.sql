@@ -139,6 +139,7 @@ CREATE TABLE `meta` (
   app_version VARCHAR(50) DEFAULT NULL,
   db_version VARCHAR(50) DEFAULT NULL,
   build_date DATE NOT NULL,
+  db_code_version VARCHAR(50) DEFAULT NULL,
   code_version VARCHAR(50) DEFAULT NULL,
   api_version VARCHAR(50) DEFAULT NULL,
   citation TEXT DEFAULT NULL, 

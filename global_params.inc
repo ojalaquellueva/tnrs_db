@@ -26,16 +26,25 @@
 // Full application version
 // Encompasses base code, api code, db code, db content, web app code
 // Version number is incremented whenever any of these change
-$APP_VERSION="5.1";
+// This is version number displayed on TNRS website
+// Assigned manually
+$APP_VERSION="5.2";
 
-// Database version
+// Database content version
+// Assigned manually
 $DB_VERSION="4.4";
 
+// Database code version
+// From git
+$DB_CODE_VERSION="4.4";
+
 // TNRS application code version
+// From git
 $CODE_VERSION="5.1";
 
 // API code git version
-$API_VERSION="5.0.4";
+// From git
+$API_VERSION="5.1";
 
 /* Load from bibtex file in tnrs data directory instead
 // Bibtex-formatted citation of application url
