@@ -26,6 +26,19 @@ $sourceNameFull="World Flora Online";
 // Primary url for this source (optional)
 $sourceUrl="http://www.worldfloraonline.org/";	
 
+// Geographic scope of this source
+// Values: global|regional
+$geographic_scope="global";	
+
+// Taxonomic scope of this source
+// Value: APGIV name of lowest phylogenetic node of this source
+$taxonomic_scope="Embryophyta";	
+
+// General designation of scope
+// Values: global|limited
+// Limited is <global scope OR higher node than Vascular plants (e.g., a family)
+$scope="global"
+
 // Short single paragraph description of this source, for display on 
 // TNRS website on Source page.
 // No quotes! If you must include apostrophes (plain single quote) then 

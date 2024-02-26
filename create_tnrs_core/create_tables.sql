@@ -4,6 +4,9 @@ CREATE TABLE source (
   sourceNameFull VARCHAR(250) DEFAULT NULL,
   sourceUrl VARCHAR(500) DEFAULT NULL,
   description text,
+  geographic_scope VARCHAR(50) DEFAULT NULL, 
+  taxonomic_scope VARCHAR(50) DEFAULT NULL, 
+  `scope` VARCHAR(50) DEFAULT NULL, ` 
   logo_path VARCHAR(500) DEFAULT NULL,    
   dataUrl VARCHAR(500) DEFAULT NULL,   
   sourceVersion VARCHAR(100) DEFAULT NULL,
@@ -16,6 +19,9 @@ CREATE TABLE source (
   PRIMARY KEY(sourceID),
   INDEX source_sourceName(sourceName),
   INDEX source_isDefault(isDefault),
+  INDEX source_geographic_scope(geographic_scope),
+  INDEX source_taxonomic_scope(taxonomic_scope),
+  INDEX source_scope(`scope`),
   INDEX source_isHigherClassification(isHigherClassification),
   INDEX source_warning(warning)
 )
